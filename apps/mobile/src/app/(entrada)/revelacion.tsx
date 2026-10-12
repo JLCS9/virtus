@@ -53,7 +53,7 @@ export default function Revelacion() {
       <Card accent style={{ gap: space.s }}>
         <Eyebrow>{t('revelacion.desafioEyebrow')}</Eyebrow>
         <H1>{tipo?.challenge ?? t(`virtudes.${r.challengeVirtue}`)}</H1>
-        <Body>{d.claveDesafio}</Body>
+        <Body>{tipo?.reto ?? d.claveDesafio}</Body>
         <Caption>{t('revelacion.desafioIntro')}</Caption>
       </Card>
 
@@ -67,8 +67,7 @@ export default function Revelacion() {
               <Body>{tipo.fortaleza}</Body>
               <H3>{t('revelacion.riesgo')}</H3>
               <Body>{tipo.debilidad}</Body>
-              <H3>{t('revelacion.retoTipo')}</H3>
-              <Body>{tipo.reto}</Body>
+
             </Stack>
           ) : null}
           <Caption>{t('revelacion.reactividad', { r: d.reactividad.toLowerCase() })}</Caption>
