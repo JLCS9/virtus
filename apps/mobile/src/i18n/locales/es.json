@@ -64,17 +64,18 @@
     "eyebrow": "Test de temperamento",
     "pregunta": "Pregunta {{n}} de {{total}}",
     "ver": "Ver mi temperamento",
-    "anterior": "Anterior"
+    "anterior": "Anterior",
+    "titulo": "Descubre tu temperamento"
   },
   "revelacion": {
     "eyebrow": "Tu temperamento",
     "dominante": "Dominante",
     "secundario": "Secundario",
-    "puro": "Sin secundario relevante (por debajo del 10 %)",
+    "puro": "Perfil puro",
     "naturaleza": "Lo que es natural en ti",
     "fortalezas": "Tus puntos fuertes",
     "riesgo": "Lo que te costará",
-    "desafioEyebrow": "Tu virtud-desafío",
+    "desafioEyebrow": "Tu reto",
     "desafioIntro": "La virtud que siempre te costará y la puerta por la que entran las demás.",
     "nota": "El temperamento no cambia y no es virtud ni vicio. El carácter lo construyes tú, libremente.",
     "empate": "Dos temperamentos pesan casi lo mismo en ti. Es frecuente; dentro de unas semanas te propondremos confirmar el resultado.",
@@ -84,7 +85,9 @@
     "retoTipo": "El reto de tu tipo",
     "reactividad": "Tu reacción natural es {{r}}.",
     "modelo": "Alguien con tu temperamento",
-    "fuente": "Basado en «Crecer con tu temperamento», de Alexandre Havard."
+    "fuente": "Basado en «Crecer con tu temperamento», de Alexandre Havard.",
+    "intensidad": "Intensidad del secundario: {{i}}",
+    "fuenteOficial": "Test de temperamento oficial de Virtuous Leadership · «Crecer con tu temperamento», de Alexandre Havard."
   },
   "rolesPantalla": {
     "eyebrow": "Tu vida concreta",
@@ -311,7 +314,12 @@
     "cuenta": "Cuenta y sincronización",
     "analitica": "Compartir datos de uso anónimos",
     "analiticaNota": "Nos ayuda a mejorar Virtus. Nunca incluye tu diario, tu misión, tus roles ni tus resultados.",
-    "suscripcion": "Suscripción"
+    "suscripcion": "Suscripción",
+    "corazon": "Mi corazón",
+    "corazonVacio": "Descubre qué le impide crecer a tu corazón.",
+    "corazonHacer": "Hacer el test Corazón libre",
+    "corazonEquilibrado": "Equilibrado",
+    "corazonTendencias": "{{n}} tendencias a trabajar"
   },
   "notif": {
     "mananaTitulo": "Tu reto de hoy",
@@ -321,7 +329,13 @@
   },
   "caracter": {
     "eyebrow": "Test de carácter",
-    "guardar": "Ver mi perfil"
+    "guardar": "Ver mi resultado",
+    "titulo": "¿Qué virtudes has construido?",
+    "resultado": "Tu carácter hoy",
+    "resultadoIntro": "Pulsa cada virtud para ver los consejos de Alex Havard.",
+    "verConsejos": "Ver consejos para crecer",
+    "humildadNota": "Responde pensando en las últimas semanas. Quien crece en humildad se conoce con más verdad y a veces se puntúa más bajo.",
+    "fuente": "Test de carácter oficial de Virtuous Leadership."
   },
   "cuenta": {
     "eyebrow": "Cuenta",
@@ -343,7 +357,7 @@
     "eyebrow": "Invitación · Virtus",
     "tituloTest": "Descubre tu temperamento",
     "tituloMirada": "Tu mirada sobre una persona de confianza",
-    "introTest": "Una persona de tu confianza te invita a hacer el test de temperamento. Responde con tu primera reacción, la espontánea. Al terminar, tu tipo se compartirá con quien te invitó.",
+    "introTest": "Una persona de tu confianza te invita a descubrir tu temperamento con el test oficial de Virtuous Leadership. Responde con tu primera reacción. Al terminar, tu tipo se compartirá con quien te invitó.",
     "introMirada": "Una persona que confía en ti trabaja su carácter y te pide tu mirada sincera. Piensa en cómo ha actuado en las últimas semanas. Tus respuestas le ayudan a conocerse con verdad.",
     "consentimientoTest": "Acepto compartir mi tipo de temperamento con la persona que me invitó.",
     "consentimientoMirada": "Acepto que mis respuestas se compartan, sin mi nombre, con la persona que me invitó.",
@@ -352,7 +366,8 @@
     "gracias": "Gracias",
     "graciasTexto": "Tu respuesta se ha enviado. Crecer haciendo crecer a los demás también es esto.",
     "noDisponible": "Invitación no disponible",
-    "noDisponibleTexto": "El enlace ha caducado, ya se usó o no es válido. Pide a quien te invitó un enlace nuevo."
+    "noDisponibleTexto": "El enlace ha caducado, ya se usó o no es válido. Pide a quien te invitó un enlace nuevo.",
+    "instruccionMirada": "Piensa en la persona que te ha invitado. Para cada afirmación, ¿describe bien su forma de actuar en las últimas semanas?"
   },
   "ciclo": {
     "eyebrow": "Cierre de ciclo · {{virtud}}",
@@ -401,5 +416,33 @@
   "lectura": {
     "empezar": "Empezar",
     "siguiente": "Siguiente"
+  },
+  "corazon": {
+    "eyebrow": "Corazón libre",
+    "titulo": "¿Qué le impide crecer a tu corazón?",
+    "intro": "Si corazón, inteligencia y voluntad no están en armonía, el corazón pierde su libertad. Este test, basado en «Corazón libre» de Alexandre Havard, te ayuda a ver hacia qué tendencias te inclinas y cuál es su remedio.",
+    "queMide": "Lo que mide",
+    "resultado": "Tu corazón hoy",
+    "resultadoIntro": "No es un diagnóstico: son tendencias. Pulsa cada una para leer su descripción y su remedio.",
+    "ver": "Ver mi resultado",
+    "verRemedio": "Ver diagnóstico y remedio",
+    "enElLibro": "En el libro: {{nombre}}",
+    "libro": "Leer «Corazón libre»",
+    "ayuda": "Virtus no trata heridas ni traumas. Si estás pasando por un momento difícil, busca la ayuda de un profesional o de alguien de confianza.",
+    "stage": {
+      "none": "Sin inclinación",
+      "stage1": "Inclinación ligera",
+      "stage2": "Inclinación fuerte"
+    },
+    "tendencias": {
+      "R": "Vivir solo desde la cabeza",
+      "VR": "Silenciar el corazón por deber",
+      "VM": "Endurecerse para no sentir",
+      "VI": "Dejar que las ideas aplasten la realidad",
+      "VC": "Vivir según lo que se lleva",
+      "SV": "Buscar la emoción por sí misma",
+      "SI": "Dejarse guiar solo por el sentimiento",
+      "SC": "Huir del conflicto en nombre del corazón"
+    }
   }
 }

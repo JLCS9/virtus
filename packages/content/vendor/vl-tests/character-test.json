@@ -1,0 +1,1710 @@
+{
+  "meta": {
+    "source": "TRAD Character test 4.xlsx",
+    "questions_count": 68,
+    "facets_count": 12,
+    "virtues_count": 6
+  },
+  "facets": [
+    {
+      "key": "deliberation",
+      "virtue": "P",
+      "role": "passive",
+      "label_key": "chResultP1",
+      "denominator": 5.1
+    },
+    {
+      "key": "decision",
+      "virtue": "P",
+      "role": "active",
+      "label_key": "chResultP2",
+      "denominator": 3.0
+    },
+    {
+      "key": "endurance",
+      "virtue": "C",
+      "role": "passive",
+      "label_key": "chResultC1",
+      "denominator": 9.0
+    },
+    {
+      "key": "audacity",
+      "virtue": "C",
+      "role": "active",
+      "label_key": "chResultC2",
+      "denominator": 5.0
+    },
+    {
+      "key": "subduing",
+      "virtue": "S",
+      "role": "passive",
+      "label_key": "chResultS1",
+      "denominator": 6.0
+    },
+    {
+      "key": "energizing",
+      "virtue": "S",
+      "role": "active",
+      "label_key": "chResultS2",
+      "denominator": 3.0
+    },
+    {
+      "key": "communion",
+      "virtue": "J",
+      "role": "passive",
+      "label_key": "chResultJ1",
+      "denominator": 4.0
+    },
+    {
+      "key": "common_good",
+      "virtue": "J",
+      "role": "active",
+      "label_key": "chResultJ2",
+      "denominator": 5.0
+    },
+    {
+      "key": "contemplation",
+      "virtue": "M",
+      "role": "passive",
+      "label_key": "chResultM1",
+      "denominator": 6.0
+    },
+    {
+      "key": "action",
+      "virtue": "M",
+      "role": "active",
+      "label_key": "chResultM2",
+      "denominator": 12.0
+    },
+    {
+      "key": "self_knowledge",
+      "virtue": "H",
+      "role": "passive",
+      "label_key": "chResultH1",
+      "denominator": 9.0
+    },
+    {
+      "key": "service",
+      "virtue": "H",
+      "role": "active",
+      "label_key": "chResultH2",
+      "denominator": 6.0
+    }
+  ],
+  "virtues": [
+    {
+      "code": "P",
+      "label_key": "chResultP",
+      "html_key": "1-prudence.html",
+      "denominator": 8.1,
+      "passive_facet": "deliberation",
+      "active_facet": "decision"
+    },
+    {
+      "code": "C",
+      "label_key": "chResultC",
+      "html_key": "2-courage.html",
+      "denominator": 14,
+      "passive_facet": "endurance",
+      "active_facet": "audacity"
+    },
+    {
+      "code": "S",
+      "label_key": "chResultS",
+      "html_key": "3-selfmastery.html",
+      "denominator": 9,
+      "passive_facet": "subduing",
+      "active_facet": "energizing"
+    },
+    {
+      "code": "J",
+      "label_key": "chResultJ",
+      "html_key": "4-justice.html",
+      "denominator": 9,
+      "passive_facet": "communion",
+      "active_facet": "common_good"
+    },
+    {
+      "code": "M",
+      "label_key": "chResultM",
+      "html_key": "5-magnanimity.html",
+      "denominator": 18,
+      "passive_facet": "contemplation",
+      "active_facet": "action"
+    },
+    {
+      "code": "H",
+      "label_key": "chResultH",
+      "html_key": "6-humility.html",
+      "denominator": 15,
+      "passive_facet": "self_knowledge",
+      "active_facet": "service"
+    }
+  ],
+  "questions": [
+    {
+      "code": "P1",
+      "text": {
+        "ru": "Как правило, я разделяю факты и мнения перед принятием решений.",
+        "en": "Discerning facts from opinions is a disciplined habit in my decision-making process.",
+        "fr": "En général, je sépare les faits et les opinions avant de prendre des décisions.",
+        "es": "En general, separo los hechos y las opiniones antes de tomar decisiones."
+      },
+      "weights": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "code": "P2",
+      "text": {
+        "ru": "Я не извращаю факты с целью привести их в соответствие с моими интересами, эмоциями и желаниями.",
+        "en": "I refuse to distort facts to align them with my personal interests, emotions and desires.",
+        "fr": "Je ne déforme pas les faits afin de les rendre conformes à mes intérêts, mes passions et mes désirs.",
+        "es": "No distorsiono los hechos para adaptarlos a mis propios intereses, pasiones y deseos."
+      },
+      "weights": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "code": "P3",
+      "text": {
+        "ru": "Я не закрываю глаза на неудобные истины.",
+        "en": "I confront uncomfortable truths head-on, refusing to indulge in selective perception.",
+        "fr": "Je ne ferme pas les yeux sur les vérités que j’ai du mal à accepter.",
+        "es": "No hago la vista gorda ante verdades que me cuesta aceptar."
+      },
+      "weights": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "code": "P4",
+      "text": {
+        "ru": "Я постоянно стараюсь распознавать свои личные предубеждения и отстраняться от них — это помогает мне принимать более верные решения.",
+        "en": "I constantly strive to identify my personal biases and set them aside - this allows me to make better decisions.",
+        "fr": "Je m'efforce constamment d'identifier mes préjugés personnels et de les mettre de côté - cela me permet de prendre de meilleures décisions.",
+        "es": "Me esfuerzo constantemente por identificar mis prejuicios personales y dejarlos de lado; esto me permite tomar mejores decisiones."
+      },
+      "weights": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "code": "P5",
+      "text": {
+        "ru": "Я без колебаний обращаюсь за советом к мудрым и компетентным людям.",
+        "en": "I do not hesitate to seek advice from wise and competent people.",
+        "fr": "Je n'hésite pas à demander conseil auprès de personnes sages et compétentes.",
+        "es": "No dudo en pedir consejo a personas sabias y competentes."
+      },
+      "weights": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "code": "P6",
+      "text": {
+        "ru": "Я принимаю решения вовремя, никогда не позволяя страху ошибки вызывать задержки.",
+        "en": "I decide on time, never allowing the fear of error to delay things.",
+        "fr": "Je décide à temps, sans permettre à la crainte de l'erreur de ralentir le processus.",
+        "es": "Decido a tiempo, sin permitir que el temor al error ralentice el proceso."
+      },
+      "weights": [
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "code": "P7",
+      "text": {
+        "ru": "Я довожу свои решения до конца, какие бы трудности ни возникали.",
+        "en": "I follow through on my decisions, no matter how tough it gets.",
+        "fr": "Je vais au bout de mes décisions, peu importe les obstacles.",
+        "es": "Llevo mis decisiones hasta el final, sin importar los obstáculos."
+      },
+      "weights": [
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "code": "P8",
+      "text": {
+        "ru": "Я несу полную ответственность за свои решения — когда результаты оказываются ниже ожиданий, я никогда не виню своих советников.",
+        "en": "When outcomes fall short, I never fault my advisors—the ultimate responsibility for all my decisions rests solely with me.",
+        "fr": "Lorsque les résultats sont insatisfaisants, je ne rejette jamais la faute sur mes conseillers — la responsabilité ultime de mes décisions m'incombe exclusivement.",
+        "es": "Cuando los resultados son insatisfactorios, nunca culpo a mis asesores — la responsabilidad última de todas mis decisiones recae exclusivamente en mí."
+      },
+      "weights": [
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "code": "C1",
+      "text": {
+        "ru": "Воспитываю свою совесть посредством искренних и систематических поисков истины.",
+        "en": "I educate my conscience through a sincere and systematic search for truth.",
+        "fr": "J’éduque ma conscience dans une quête sincère et systématique de vérité.",
+        "es": "Formo mi conciencia mediante una búsqueda sincera y sistemática de la verdad."
+      },
+      "weights": [
+        0.1,
+        0.0,
+        1.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "code": "C2",
+      "text": {
+        "ru": "Я не следую культурной или политической корректности — мои действия подлинно отражают мои ценности и принципы.",
+        "en": "I do not indulge in cultural or political correctness—my actions authentically reflect my values and core principles.",
+        "fr": "Je ne succombe pas au culturellement ou politiquement correct — mes actions reflètent authentiquement mes valeurs et mes principes.",
+        "es": "No sucumbo a lo cultural o políticamente correcto — mis acciones reflejan auténticamente mis valores y principios."
+      },
+      "weights": [
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "code": "C3",
+      "text": {
+        "ru": "Мои принципы абсолютно прозрачны — мои коллеги знают, во что я верю и каковы мои ценности.",
+        "en": "I’m transparent about my beliefs—it is clear for the people I work with what ideals I stand for.",
+        "fr": "Je ne cache pas mes idéaux ; les personnes avec qui je travaille connaissent parfaitement les valeurs que je défends.",
+        "es": "No oculto mis ideales; las personas con las que trabajo conocen perfectamente los valores que defiendo."
+      },
+      "weights": [
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "code": "C4",
+      "text": {
+        "ru": "Меня не заботит «что скажут люди».",
+        "en": "I don't care about \"what people will say\".",
+        "fr": "Je ne me préoccupe pas du « qu’en dira-t-on ».",
+        "es": "No me preocupa el «qué dirán»."
+      },
+      "weights": [
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "code": "C5",
+      "text": {
+        "ru": "Я верен своей совести, даже под угрозой смерти.",
+        "en": "I maintain the integrity of my conscience—even under threat of death.",
+        "fr": "Je suis fidèle à ma conscience, même sous la menace de la mort.",
+        "es": "Mantengo mi conciencia íntegra incluso bajo amenaza de muerte."
+      },
+      "weights": [
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "code": "C6",
+      "text": {
+        "ru": "Я отказываюсь поступать безнравственно и оправдывать свою безнравственность всеобщей безнравственностью (классический аргумент «все так делают»).",
+        "en": "I do not compromise my principles, justifying it by pointing to the general immorality around me (the notorious “everybody does it” argument).",
+        "fr": "Je n’agis pas de manière immorale en me réfugiant derrière l’immoralité générale (le fameux argument : « Tout le monde le fait ! »).",
+        "es": "No actúo inmoralmente escudándome en la inmoralidad general (el famoso argumento: “¡Todo el mundo lo hace!”)"
+      },
+      "weights": [
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "code": "C7",
+      "text": {
+        "ru": "Я смело иду на риск и не даю страху провала остановить меня.",
+        "en": "I dare to take risks and refuse to let fear of failure hold me back.",
+        "fr": "J'ose prendre des risques et refuse de laisser la peur de l'échec me paralyser.",
+        "es": "Me atrevo a tomar riesgos y me niego a que el miedo al fracaso me paralice."
+      },
+      "weights": [
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "code": "C8",
+      "text": {
+        "ru": "Держусь избранного курса, даже перед лицом противостояний.",
+        "en": "I stay the course and maintain my focus even in the face of opposition and contradiction.",
+        "fr": "Je maintiens le cap, même en face d’oppositions et de contradictions.",
+        "es": "Mantengo el rumbo, también en las contradicciones."
+      },
+      "weights": [
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "code": "C9",
+      "text": {
+        "ru": "Я всегда завершаю начатое, не упуская ни одной мелочи.",
+        "en": "I complete my projects thoroughly, minding every detail.",
+        "fr": "Je mène à bien mes projets en soignant tous les détails.",
+        "es": "Llevo mis proyectos a buen término cuidando cada detalle."
+      },
+      "weights": [
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "code": "C10",
+      "text": {
+        "ru": "Моё упорство – не ослиное упрямство, а принципиальная непоколебимость.",
+        "en": "My perseverance is not the result of misplaced stubbornness, but the fruit of a well-considered principled stance.",
+        "fr": "Ma persévérance n’est pas le résultat d’un entêtement déplacé, mais le fruit d’une position de principe réfléchie.",
+        "es": "Mi perseverancia no es el resultado de una obstinación fuera de lugar, sino el fruto de una posición de principios ponderada."
+      },
+      "weights": [
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "code": "S1",
+      "text": {
+        "ru": "Я обычно делаю то, что должно, а не то, что приятно.",
+        "en": "I tend to do what I should be doing, not what I like to do.",
+        "fr": "Je fais ce que je dois faire, et non ce qui est agréable à faire.",
+        "es": "Hago lo que debo hacer, no lo que me resulta agradable."
+      },
+      "weights": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "code": "S2",
+      "text": {
+        "ru": "Я фокусируюсь на важном, а не на срочном.",
+        "en": "I focus on what’s important, not what’s urgent.",
+        "fr": "Je priorise ce qui est important plutôt que ce qui est urgent.",
+        "es": "Priorizo lo importante sobre lo urgente."
+      },
+      "weights": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "code": "S3",
+      "text": {
+        "ru": "Посвящаю время важным вопросам, таким, как моё личностное развитие, развитие других, долгосрочное планирование.",
+        "en": "I devote time to what matters most—my personal development, the development of others, long-term planning.",
+        "fr": "Je consacre du temps à ce qui est important : mon développement personnel, le développement des autres, la planification à long terme.",
+        "es": "Dedico tiempo a lo que más importa: mi desarrollo personal, el desarrollo de los demás, la gestión a largo plazo."
+      },
+      "weights": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "code": "S4",
+      "text": {
+        "ru": "Я сохраняю самообладание даже в трудных обстоятельствах.",
+        "en": "I maintain my composure even in trying circumstances.",
+        "fr": "Je garde mon sang-froid, même dans les circonstances difficiles.",
+        "es": "Mantengo la calma (la cabeza fría) incluso en circunstancias difíciles."
+      },
+      "weights": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "code": "S5",
+      "text": {
+        "ru": "Даже в спорах я сохраняю уважение — никаких криков и грубостей.",
+        "en": "In debates, I never raise my voice or use vulgar language.",
+        "fr": "Dans les débats, je n’utilise pas d’expressions vulgaires et je n’élève pas la voix.",
+        "es": "En los debates, no uso expresiones vulgares ni alzo la voz."
+      },
+      "weights": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "code": "S6",
+      "text": {
+        "ru": "Я постиг искусство владеть (материальными благами), не привязываясь.",
+        "en": "I've learned the art of possession (of material things) without attachment.",
+        "fr": "J'ai appris l'art de posséder (les biens matériels) sans attachement.",
+        "es": "He aprendido el arte de poseer (bienes materiales) sin apego."
+      },
+      "weights": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "code": "S7",
+      "text": {
+        "ru": "Чистота для меня — не запрет, а любовь в её высшей мощи.",
+        "en": "My commitment to purity isn't restriction - it's love's highest vibration.",
+        "fr": "Mon engagement envers la pureté n'est pas une restriction — c'est la plus haute vibration de l'amour.",
+        "es": "Mi compromiso con la pureza no es una restricción — es la vibración más elevada del amor."
+      },
+      "weights": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "code": "S8",
+      "text": {
+        "ru": "Я не марионетка в театре славы.",
+        "en": "I refuse to be fame's puppet.",
+        "fr": "Je refuse d'être la marionnette de la célébrité.",
+        "es": "Me niego a ser un títere de la fama."
+      },
+      "weights": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "code": "S9",
+      "text": {
+        "ru": "Перед лицом несправедливости мой ответ — огонь праведный, а не молчание раба.",
+        "en": "When injustice strikes, I answer with righteous fire—never with silent submission.",
+        "fr": "Quand l'injustice frappe, je réponds par le feu de la justice — jamais par une soumission silencieuse.",
+        "es": "Cuando la injusticia golpea, respondo con el fuego de la justicia, nunca con sumisión silenciosa."
+      },
+      "weights": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "code": "J1",
+      "text": {
+        "ru": "Стремлюсь к совершенству в своей профессиональной работе.",
+        "en": "I strive for excellence in my work.",
+        "fr": "Je cherche l’excellence dans mon travail professionnel.",
+        "es": "Busco la excelencia en mi trabajo profesional."
+      },
+      "weights": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "code": "J2",
+      "text": {
+        "ru": "Моя работа – не средство самоутверждения, а путь к служению.",
+        "en": "My work is not a means of self-assertion, but a service to all.",
+        "fr": "Mon travail n’est pas un moyen de m’affirmer égoïstement, mais un service aux autres.",
+        "es": "Mi trabajo no es un medio de autoafirmación, sino un servicio a los otros."
+      },
+      "weights": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "code": "J3",
+      "text": {
+        "ru": "Я не трудоголик.",
+        "en": "I am not a workaholic.",
+        "fr": "Je ne suis pas un « bourreau de travail ».",
+        "es": "No soy adicto al trabajo."
+      },
+      "weights": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "code": "J4",
+      "text": {
+        "ru": "Я предан семейной жизни.",
+        "en": "I am devoted to family life.",
+        "fr": "Je passe du temps en famille.",
+        "es": "Paso tiempo con la familia."
+      },
+      "weights": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "code": "J5",
+      "text": {
+        "ru": "Я не индивидуалист: я активно участвую в созидании общего блага",
+        "en": "I am not an individualist: I actively contribute to the common good.",
+        "fr": "Je ne suis pas individualiste : je participe activement à l’édification du bien commun. ",
+        "es": "No soy individualista: trabajo activamente por el bien común."
+      },
+      "weights": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "code": "J6",
+      "text": {
+        "ru": "Я искренен и прозрачен. Я говорю правду.",
+        "en": "I am sincere and transparent. I always tell the truth.",
+        "fr": "Je suis sincère et transparent. Je dis toujours la vérité.",
+        "es": "Soy sincero y transparente. Digo siempre la verdad."
+      },
+      "weights": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "code": "J7",
+      "text": {
+        "ru": "Поступаю так, чтобы люди знали меня таким, какой я есть на самом деле.",
+        "en": "I make sure that people know me as I really am.",
+        "fr": "Je fais en sorte que les gens me connaissent tel que je suis en réalité.",
+        "es": "Hago lo necesario para que la gente me conozca como realmente soy."
+      },
+      "weights": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "code": "J8",
+      "text": {
+        "ru": "Держусь нравственной истины, даже если она «политически некорректна».",
+        "en": "I stand for moral truth, even if this means contradicting political correctness.",
+        "fr": "Je défends la vérité morale, même si elle est politiquement incorrecte.",
+        "es": "Defiendo la verdad moral, incluso si ello implica contradecir lo políticamente correcto."
+      },
+      "weights": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "code": "J9",
+      "text": {
+        "ru": "Я охотно прощаю и быстро забываю обиды.",
+        "en": "I forgive easily, and quickly forget offenses.",
+        "fr": "Je pardonne facilement et j’oublie rapidement les offenses.",
+        "es": "Perdono fácilmente y olvido rápidamente las ofensas."
+      },
+      "weights": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "code": "M1",
+      "text": {
+        "ru": "Я осознаю своё достоинство как духовного существа, обладающего разумом, свободной волей и сердцем, способным на глубокие, судьбоносные решения.",
+        "en": "I am aware of my dignity as a spiritual being with a rational mind, a free will, and a heart capable of making deep fundamental choices.",
+        "fr": "Je suis conscient(e) de ma dignité en tant qu'être spirituel, doté d'une raison, d'une volonté libre et d'un cœur capable de choix profonds et fondamentaux.",
+        "es": "Soy consciente de mi dignidad como ser espiritual, dotado de razón, voluntad libre y un corazón capaz de elecciones profundas y fundamentales."
+      },
+      "weights": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "code": "M2",
+      "text": {
+        "ru": "Я верю, что призван совершать великие дела, и величайшее из них – моё духовное развитие и духовное развитие окружающих меня людей.",
+        "en": "I believe I have been called to do great things, above all, to develop my personality and that of others.",
+        "fr": "Je suis conscient d'être appelé à réaliser de grandes choses, parmi lesquelles la plus importante est le développement de ma personnalité et de la personnalité des autres.",
+        "es": "Soy consciente de estar llamado(a) a realizar grandes cosas, entre las cuales la más importante es el desarrollo de mi personalidad y de la personalidad de los demás."
+      },
+      "weights": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "code": "M3",
+      "text": {
+        "ru": "Ищу общения великих людей (людей глубоких и деятельных), вдохновляющих меня своим примером.",
+        "en": "I seek the company of great people (dreamers and doers), who can inspire me.",
+        "fr": "Je recherche la compagnie de grands esprits – à la fois rêveurs et hommes/femmes d'action – capables de m'inspirer.",
+        "es": "Busco la compañía de aquellos que sueñan en grande y actúan con determinación para que me motiven con su ejemplo."
+      },
+      "weights": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "code": "M4",
+      "text": {
+        "ru": "Я ежедневно стремлюсь улучшать свой характер и достигать личного совершенства.",
+        "en": "I strive, daily, to improve my character and achieve personal excellence.",
+        "fr": "Je m’efforce, chaque jour, d’améliorer mon caractère et d’atteindre l’excellence personnelle.",
+        "es": "Cada día me aplico en perfeccionar mi carácter y lograr la excelencia personal."
+      },
+      "weights": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "code": "M5",
+      "text": {
+        "ru": "Я четко понимаю свои сильные стороны.",
+        "en": "I have a clear understanding of my strengths.",
+        "fr": "J'ai une conscience claire de mes forces.",
+        "es": "Tengo plena conciencia de mis fortalezas."
+      },
+      "weights": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "code": "M6",
+      "text": {
+        "ru": "Мне очень важно преодолевать свои слабости, но куда важнее развивать свои силы.",
+        "en": "As important as it is to struggle against my defects, I am more concerned to develop my strengths.",
+        "fr": "Je consacre mon énergie à multiplier mes talents plus encore qu’à lutter contre mes faiblesses.",
+        "es": "Dedico mi energía a multiplicar mis talentos mucho más que a combatir mis debilidades."
+      },
+      "weights": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "code": "M7",
+      "text": {
+        "ru": "Верю в себя, в свои таланты и способности.",
+        "en": "I have confidence in myself, and in my talents and abilities.",
+        "fr": "J’ai confiance en moi-même, en mes talents et capacités.",
+        "es": "Tengo confianza en mí mismo/a, en mis talentos y habilidades."
+      },
+      "weights": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "code": "M8",
+      "text": {
+        "ru": "Я посвящаю должное время осознанию своего высшего предназначения (своей жизненной миссии).",
+        "en": "I devote the necessary time to considering my mission in life.",
+        "fr": "Je consacre le temps nécessaire à la considération de ma mission vitale.",
+        "es": "Dedico el tiempo necesario a la consideración de mi misión vital."
+      },
+      "weights": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "code": "M9",
+      "text": {
+        "ru": "Я сосредоточен на выполнении своей миссии и не отвлекаюсь на второстепенные вопросы.",
+        "en": "I focus on accomplishing my mission, I do not become distracted by peripheral matters.",
+        "fr": "Je me concentre sur ma mission. Je ne me laisse pas facilement distraire par des choses accessoires.",
+        "es": "Estoy centrado en cumplir mi misión, y no me distraigo en asuntos de menor importancia."
+      },
+      "weights": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "code": "M10",
+      "text": {
+        "ru": "Передаю чувство миссии своим друзьям и коллегам.",
+        "en": "I inspire a sense of mission in my friends and colleagues.",
+        "fr": "Je communique à mes amis et à mes collègues un sens de la mission.",
+        "es": "Inspiro sentido de misión en mis amigos y colegas."
+      },
+      "weights": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "code": "M11",
+      "text": {
+        "ru": "Я неустанно питаю и расширяю границы своего воображения — чтобы оно давало более богатые плоды.",
+        "en": "I constantly feed and stretch my imagination—so it produces richer results.",
+        "fr": "J’alimente sans cesse mon imagination, je la pousse dans ses retranchements — afin qu’elle accouche d’idées plus fécondes.",
+        "es": "Alimento sin cesar mi imaginación, la llevo hasta sus límites — para que dé a luz ideas más fértiles."
+      },
+      "weights": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "code": "M12",
+      "text": {
+        "ru": "Я не боюсь неудач.",
+        "en": "I am not afraid of failure.",
+        "fr": "Je ne crains pas l’échec.",
+        "es": "No tengo miedo al fracaso."
+      },
+      "weights": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "code": "M13",
+      "text": {
+        "ru": "Я принимаю смелые решения, я умею рисковать.",
+        "en": "I make bold decisions; I am not risk-averse.",
+        "fr": "Je prends des décisions audacieuses. Je n’ai pas peur de prendre des risques.",
+        "es": "Tomo decisiones audaces. No tengo miedo a asumir riesgos."
+      },
+      "weights": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "code": "M14",
+      "text": {
+        "ru": "Боюсь не зла, которое совершают другие, а добра, которое я лично не совершаю.",
+        "en": "I do not fear the evil that others do, but the good I fail to do.",
+        "fr": "Je ne crains pas le mal que font les autres, mais le bien que je ne fais pas.",
+        "es": "No tengo miedo del mal que hacen los demás, sino del bien que yo no hago."
+      },
+      "weights": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "code": "M15",
+      "text": {
+        "ru": "Я превращаю препятствия в возможности.",
+        "en": "I transform obstacles into opportunities.",
+        "fr": "Je transforme les obstacles en opportunités.",
+        "es": "Transformo los obstáculos en oportunidades."
+      },
+      "weights": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "code": "M16",
+      "text": {
+        "ru": "Я завожу друзей и подбираю коллег, заставляющих меня выйти из зоны комфорта.",
+        "en": "I choose friends and associates who can challenge me.",
+        "fr": "Je choisis des amis et collaborateurs qui me poussent à me dépasser.",
+        "es": "Elijo amigos y colaboradores que me impulsen a superarme."
+      },
+      "weights": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "code": "M17",
+      "text": {
+        "ru": "Я не сравниваю себя ни с кем.",
+        "en": "I do not compare myself to anyone.",
+        "fr": "Je ne me compare à personne.",
+        "es": "No me comparo con nadie."
+      },
+      "weights": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "code": "H1",
+      "text": {
+        "ru": "Ценю чужую точку зрения. Не навязываю другим своё мнение.",
+        "en": "I value the point of view of others. I do not try to impose my opinions.",
+        "fr": "Je considère le point de vue des autres. Je ne cherche pas à imposer mes opinions.",
+        "es": "Valoro el punto de vista de los demás. No trato de imponer mis opiniones."
+      },
+      "weights": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ]
+    },
+    {
+      "code": "H2",
+      "text": {
+        "ru": "Не спорю, когда знаю, что неправ.",
+        "en": "I do not argue when I am not right.",
+        "fr": "Je ne discute pas lorsque j’ai tort.",
+        "es": "No discuto si no tengo la razón."
+      },
+      "weights": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ]
+    },
+    {
+      "code": "H3",
+      "text": {
+        "ru": "Когда я прав – я не настаиваю упрямо и сердито.",
+        "en": "I do not stubbornly insist when I am right.",
+        "fr": "Je n’insiste pas obstinément lorsque j’ai raison.",
+        "es": "No insisto obstinadamente cuando tengo razón."
+      },
+      "weights": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ]
+    },
+    {
+      "code": "H4",
+      "text": {
+        "ru": "Спору предпочитаю диалог.",
+        "en": "I delight in dialogue more than in debate.",
+        "fr": "Je préfère le dialogue à la confrontation.",
+        "es": "Prefiero el diálogo a la confrontación."
+      },
+      "weights": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ]
+    },
+    {
+      "code": "H5",
+      "text": {
+        "ru": "Осознаю, что мои таланты – это дары.",
+        "en": "I am aware that my talents are gifts.",
+        "fr": "J’ai conscience de ce que mes talents sont des dons.",
+        "es": "Soy consciente de que mis talentos son dones."
+      },
+      "weights": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ]
+    },
+    {
+      "code": "H6",
+      "text": {
+        "ru": "Принимаю замечания без оправданий.",
+        "en": "I do not make excuses when rebuked.",
+        "fr": "Je ne cherche pas à me justifier lorsqu’on me réprimande.",
+        "es": "No trato de justificarme cuando me reprenden."
+      },
+      "weights": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ]
+    },
+    {
+      "code": "H7",
+      "text": {
+        "ru": "Я не скрываю своих недостатков.",
+        "en": "I do not hide my faults.",
+        "fr": "Je ne cache pas mes fautes.",
+        "es": "No oculto mis fallos."
+      },
+      "weights": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ]
+    },
+    {
+      "code": "H8",
+      "text": {
+        "ru": "Я искренне радуюсь за других, когда они получают награды.",
+        "en": "I share the joy of others when they are rewarded.",
+        "fr": "Je partage la joie de ceux que l’on récompense.",
+        "es": "Comparto la alegría de los demás cuando son recompensados."
+      },
+      "weights": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ]
+    },
+    {
+      "code": "H9",
+      "text": {
+        "ru": "Умею смеяться над собой, когда надо мной шутят.",
+        "en": "I laugh at myself when others tell jokes at my expense.",
+        "fr": "Je rigole volontiers lorsqu’on fait des plaisanteries sur mon compte.",
+        "es": "Me gusta reírme cuando la gente hace bromas sobre mí."
+      },
+      "weights": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ]
+    },
+    {
+      "code": "H10",
+      "text": {
+        "ru": "Мне приятно служить.",
+        "en": "I take pleasure in being of service.",
+        "fr": "Je prends plaisir à servir les autres.",
+        "es": "Me agrada servir a los otros."
+      },
+      "weights": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "code": "H11",
+      "text": {
+        "ru": "Помогаю другим осознать их достоинство, раскрыть и умножить их таланты.",
+        "en": "I help people to acknowledge their dignity, and discover and increase their talents.",
+        "fr": "J’aide les autres à prendre conscience de leur dignité et à découvrir et à multiplier leurs talents.",
+        "es": "Ayudo a otros a tomar conciencia de su dignidad y a descubrir y multiplicar sus talentos."
+      },
+      "weights": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "code": "H12",
+      "text": {
+        "ru": "Я веду людей, вдохновляя их двигаться вперёд, а не подталкивая сзади.",
+        "en": "I lead people by pulling rather than pushing.",
+        "fr": "Je tire les personnes plutôt que je ne les pousse.",
+        "es": "Arrastro a las personas en lugar de empujarlas."
+      },
+      "weights": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "code": "H13",
+      "text": {
+        "ru": "Не приказываю, а вдохновляю.",
+        "en": "I inspire rather than command.",
+        "fr": "J’inspire plutôt que je ne commande.",
+        "es": "Inspiro en lugar de mandar."
+      },
+      "weights": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "code": "H14",
+      "text": {
+        "ru": "Не наказываю – учу.",
+        "en": "I teach rather than punish.",
+        "fr": "J’enseigne plutôt que je ne réprimande.",
+        "es": "Enseño en lugar de regañar."
+      },
+      "weights": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "code": "H15",
+      "text": {
+        "ru": "Я раскрываю потенциал людей, помогая проявить их внутренние ресурсы.",
+        "en": "I empower people and “draw out” that which lies within.",
+        "fr": "Je révèle le potentiel des personnes en les aidant à mobiliser leurs ressources intérieures.",
+        "es": "Facilito que cada persona descubra y active su potencial oculto."
+      },
+      "weights": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    }
+  ]
+}

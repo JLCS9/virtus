@@ -8,7 +8,6 @@ import { typeCopy } from '@virtus/content';
 import { Body, Button, Caption, Card, Chip, Display, Eyebrow, H1, H3, Row, Screen, Stack } from '@/components/ui';
 import { Hero } from '@/components/Hero';
 import { ModelCard } from '@/components/ModelCard';
-import { TemperamentBars } from '@/components/TemperamentBars';
 import { TemperamentWheel } from '@/components/TemperamentWheel';
 import { useContent } from '@/features/content';
 import { typeName } from '@/features/labels';
@@ -32,10 +31,12 @@ export default function Revelacion() {
       footer={<Button label={onboarded ? t('comun.volver') : t('revelacion.seguir')} onPress={() => (onboarded ? router.back() : router.push('/roles'))} />}>
       <Stack gap={space.xs} style={{ alignItems: 'center', marginTop: space.m }}>
         <Eyebrow>{t('revelacion.eyebrow')}</Eyebrow>
-        <Display center>{tipo?.nombre ?? d.arquetipo}</Display>
+        <Display center>{tipo ? tipo.name.charAt(0) + tipo.name.slice(1).toLowerCase() : d.arquetipo}</Display>
         <Body center>
-          {typeName(t, r)} · {r.percent[r.dominant]} %{r.secondary ? ` / ${r.percent[r.secondary]} %` : ''}
+          {typeName(t, r)}
+          {r.isPure ? ` · ${t('revelacion.puro')}` : ''}
         </Body>
+        {r.secondaryStrength ? <Caption>{t('revelacion.intensidad', { i: r.secondaryStrength })}</Caption> : null}
       </Stack>
 
       <View style={{ alignItems: 'center', paddingVertical: space.s }}>
@@ -51,12 +52,10 @@ export default function Revelacion() {
 
       <Card accent style={{ gap: space.s }}>
         <Eyebrow>{t('revelacion.desafioEyebrow')}</Eyebrow>
-        <H1>{t(`virtudes.${r.challengeVirtue}`)}</H1>
+        <H1>{tipo?.challenge ?? t(`virtudes.${r.challengeVirtue}`)}</H1>
         <Body>{d.claveDesafio}</Body>
         <Caption>{t('revelacion.desafioIntro')}</Caption>
       </Card>
-
-      {(r.tie || r.inconsistent) ? <Caption>{r.tie ? t('revelacion.empate') : t('revelacion.inconsistente')}</Caption> : null}
 
       {!more ? (
         <Button variant="ghost" label={t('revelacion.verMas')} onPress={() => setMore(true)} />
@@ -69,13 +68,9 @@ export default function Revelacion() {
               <H3>{t('revelacion.riesgo')}</H3>
               <Body>{tipo.debilidad}</Body>
               <H3>{t('revelacion.retoTipo')}</H3>
-              <Body>
-                {t(`virtudes.${tipo.reto.virtud}`)}
-                {tipo.reto.faceta ? ` ${tipo.reto.faceta}` : ''}
-              </Body>
+              <Body>{tipo.reto}</Body>
             </Stack>
           ) : null}
-          <TemperamentBars result={r} />
           <Caption>{t('revelacion.reactividad', { r: d.reactividad.toLowerCase() })}</Caption>
         </Stack>
       )}
@@ -90,7 +85,7 @@ export default function Revelacion() {
       <Hero flat style={{ marginHorizontal: -space.l, paddingVertical: space.m }}>
         <Body>{t('revelacion.nota')}</Body>
       </Hero>
-      <Caption>{t('revelacion.fuente')}</Caption>
+      <Caption>{t('revelacion.fuenteOficial')}</Caption>
     </Screen>
   );
 }

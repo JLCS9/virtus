@@ -2,21 +2,20 @@
  * Invitaciones: la persona invitada responde sin cuenta (token) y quien invita
  * incorpora después los resultados. Todo pasa por el backend; sin él no hay invitaciones.
  */
-import type { TestDefinition, TypeCode, Virtue } from '@virtus/method';
+import type { TypeCode, Virtue } from '@virtus/method';
 
 import { supabase } from '@/lib/supabase';
 import { useVirtus } from '@/store/virtus';
 
 export type InvitationKind = 'temperament' | 'character_view';
 
-export async function fetchInvitation(token: string): Promise<{ kind: InvitationKind; test: TestDefinition } | { error: string }> {
-  if (!supabase) return { error: 'sin_backend' };
-  const { data, error } = await supabase.functions.invoke<{ kind: InvitationKind; test: TestDefinition | null }>(
-    `invitation?token=${encodeURIComponent(token)}`,
-    { method: 'GET' },
-  );
-  if (error || !data?.test) return { error: 'no_disponible' };
-  return { kind: data.kind, test: data.test };
+/** Comprueba que el enlace es válido y devuelve el tipo de invitación. Los tests vienen en la app. */
+export async function validateInvitation(token: string): Promise<InvitationKind | null> {
+  if (!supabase) return null;
+  const { data, error } = await supabase.functions.invoke<{ kind: InvitationKind }>(`invitation?token=${encodeURIComponent(token)}`, {
+    method: 'GET',
+  });
+  return error || !data?.kind ? null : data.kind;
 }
 
 export async function submitInvitation(token: string, result: unknown): Promise<boolean> {

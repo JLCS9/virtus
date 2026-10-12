@@ -1,6 +1,6 @@
 /**
  * Flujo de la persona invitada (sin cuenta), autorizado solo por el token.
- *  GET  ?token=…  → tipo de invitación y definición del test a responder.
+ *  GET  ?token=…  → tipo de invitación (los tests oficiales están en la app).
  *  POST { token, consent, result } → guarda la respuesta una sola vez.
  * No se devuelve ningún dato de quien invita.
  */
@@ -30,16 +30,17 @@ function validCharacter(r: unknown): r is Record<string, number> {
   });
 }
 
-function validTemperament(r: unknown): r is { percent: Record<string, number>; dominant: string; secondary: string | null; type: string } {
+const TYPES = new Set(['COL', 'COL-MEL', 'COL-SAN', 'MEL', 'MEL-COL', 'MEL-FLE', 'SAN', 'SAN-COL', 'SAN-FLE', 'FLE', 'FLE-MEL', 'FLE-SAN']);
+
+function validTemperament(r: unknown): r is { type: string; dominant: string; secondary: string | null; isPure: boolean } {
   if (!r || typeof r !== 'object') return false;
   const t = r as Record<string, unknown>;
-  const p = t.percent as Record<string, unknown> | undefined;
   return (
-    TEMPERAMENTS.includes(t.dominant as string) &&
-    (t.secondary === null || TEMPERAMENTS.includes(t.secondary as string)) &&
     typeof t.type === 'string' &&
-    !!p &&
-    TEMPERAMENTS.every((k) => typeof p[k] === 'number')
+    TYPES.has(t.type) &&
+    t.dominant === t.type.split('-')[0] &&
+    (t.secondary ?? null) === (t.type.split('-')[1] ?? null) &&
+    typeof t.isPure === 'boolean'
   );
 }
 
@@ -51,16 +52,8 @@ Deno.serve(async (req) => {
     const inv = await load(new URL(req.url).searchParams.get('token'));
     if (!inv) return json({ error: 'not_found' }, 404);
     if (inv.completed_at) return json({ error: 'already_completed' }, 409);
-    const kind = inv.kind === 'temperament' ? 'temperament' : 'character';
-    const { data: def } = await admin
-      .from('test_definitions')
-      .select('definition')
-      .eq('kind', kind)
-      .eq('locale', 'es')
-      .order('created_at', { ascending: false })
-      .limit(1)
-      .maybeSingle();
-    return json({ kind: inv.kind, test: def?.definition ?? null });
+    // Los tests oficiales viajan dentro de la app; aquí solo se confirma el tipo de invitación.
+    return json({ kind: inv.kind });
   }
 
   if (req.method !== 'POST') return json({ error: 'method' }, 405);
@@ -78,10 +71,10 @@ Deno.serve(async (req) => {
     await admin.from('invitations').update({ completed_at: now, consent_at: now }).eq('id', inv.id);
   } else {
     if (!validTemperament(body.result)) return json({ error: 'bad_result' }, 400);
-    const { percent, dominant, secondary, type } = body.result;
+    const { type, dominant, secondary, isPure } = body.result;
     await admin
       .from('invitations')
-      .update({ completed_at: now, consent_at: now, result: { percent, dominant, secondary, type } })
+      .update({ completed_at: now, consent_at: now, result: { type, dominant, secondary, isPure } })
       .eq('id', inv.id);
   }
   return json({ ok: true });

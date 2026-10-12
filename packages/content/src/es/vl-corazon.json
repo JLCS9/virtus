@@ -1,0 +1,307 @@
+{
+  "id": "vl-corazon",
+  "version": "1.0.0",
+  "locale": "es",
+  "status": "approved",
+  "source": "TRAD Test Corazon libre 4 languages.ods",
+  "thresholds": {
+    "LOW_PCT": 33,
+    "HIGH_PCT": 66
+  },
+  "ui": {
+    "strongly_agree": "Totalmente de acuerdo",
+    "agree": "De acuerdo",
+    "neutral": "Neutro",
+    "disagree": "En desacuerdo",
+    "strongly_disagree": "Totalmente en desacuerdo"
+  },
+  "welcome": {
+    "eyebrow": "Test Corazón Libre",
+    "title": "",
+    "duration_label": "Duración",
+    "duration_text": "Unos 15 minutos · 32 preguntas",
+    "button": "Empezar"
+  },
+  "disorders": [
+    {
+      "code": "R",
+      "label_key": "hResultR",
+      "html_key": "1-R.html",
+      "question_codes": [
+        "hQuestionR1",
+        "hQuestionR2",
+        "hQuestionR3",
+        "hQuestionR4"
+      ]
+    },
+    {
+      "code": "VR",
+      "label_key": "hResultVR",
+      "html_key": "2-VR.html",
+      "question_codes": [
+        "hQuestionVR1",
+        "hQuestionVR2",
+        "hQuestionVR3",
+        "hQuestionVR4"
+      ]
+    },
+    {
+      "code": "VM",
+      "label_key": "hResultVM",
+      "html_key": "3-VM.html",
+      "question_codes": [
+        "hQuestionVM1",
+        "hQuestionVM2",
+        "hQuestionVM3",
+        "hQuestionVM4"
+      ]
+    },
+    {
+      "code": "VI",
+      "label_key": "hResultVI",
+      "html_key": "4-VI.html",
+      "question_codes": [
+        "hQuestionVI1",
+        "hQuestionVI2",
+        "hQuestionVI3",
+        "hQuestionVI4"
+      ]
+    },
+    {
+      "code": "VC",
+      "label_key": "hResultVC",
+      "html_key": "5-VC.html",
+      "question_codes": [
+        "hQuestionVC1",
+        "hQuestionVC2",
+        "hQuestionVC3",
+        "hQuestionVC4"
+      ]
+    },
+    {
+      "code": "SV",
+      "label_key": "hResultSV",
+      "html_key": "6-SV.html",
+      "question_codes": [
+        "hQuestionSV1",
+        "hQuestionSV2",
+        "hQuestionSV3",
+        "hQuestionSV4"
+      ]
+    },
+    {
+      "code": "SI",
+      "label_key": "hResultSI",
+      "html_key": "7-SI.html",
+      "question_codes": [
+        "hQuestionSI1",
+        "hQuestionSI2",
+        "hQuestionSI3",
+        "hQuestionSI4"
+      ]
+    },
+    {
+      "code": "SC",
+      "label_key": "hResultSC",
+      "html_key": "8-SC.html",
+      "question_codes": [
+        "hQuestionSC1",
+        "hQuestionSC2",
+        "hQuestionSC3",
+        "hQuestionSC4"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "code": "hQuestionR1",
+      "disorder": "R",
+      "text": "Cuando aprendo algo nuevo, mi motivación proviene únicamente de la curiosidad intelectual, y no del impacto que estos conocimientos puedan tener en mi desarrollo personal."
+    },
+    {
+      "code": "hQuestionR2",
+      "disorder": "R",
+      "text": "No acepto las ideas que no pueden ser probadas por ciencias exactas como las matemáticas o la física."
+    },
+    {
+      "code": "hQuestionR3",
+      "disorder": "R",
+      "text": "Tengo tendencia a retrasar las decisiones hasta estar matemáticamente seguro de que son las correctas."
+    },
+    {
+      "code": "hQuestionR4",
+      "disorder": "R",
+      "text": "No dejo que la bondad o la belleza me conmuevan."
+    },
+    {
+      "code": "hQuestionVR1",
+      "disorder": "VR",
+      "text": "Estoy convencido de que debo dejar mi corazón (mis sentimentos) de lado para agradar a Dios."
+    },
+    {
+      "code": "hQuestionVR2",
+      "disorder": "VR",
+      "text": "Hablo del deber mucho más a menudo que del amor."
+    },
+    {
+      "code": "hQuestionVR3",
+      "disorder": "VR",
+      "text": "No necesito la alegría en esta vida; la alegría es para la vida después de la muerte."
+    },
+    {
+      "code": "hQuestionVR4",
+      "disorder": "VR",
+      "text": "Si algo me da placer, mi primer pensamiento es que esa cosa debe ser mala."
+    },
+    {
+      "code": "hQuestionVM1",
+      "disorder": "VM",
+      "text": "Temo que si muestro demasiada amabilidad o demasiada sensibilidad, la gente me vea como débil o excesivamente sentimental."
+    },
+    {
+      "code": "hQuestionVM2",
+      "disorder": "VM",
+      "text": "Estar rodeado de personas \"emocionales\" o \"sentimentales\" me pone incómodo."
+    },
+    {
+      "code": "hQuestionVM3",
+      "disorder": "VM",
+      "text": "Para mí, ser un hombre viril o una mujer fuerte y ser emocionalmente abierto son cosas que no van de la mano."
+    },
+    {
+      "code": "hQuestionVM4",
+      "disorder": "VM",
+      "text": "Pienso que es mucho más importante fortalecer la voluntad que desarrollar un corazón sensible."
+    },
+    {
+      "code": "hQuestionVI1",
+      "disorder": "VI",
+      "text": "Estoy convencido de que el mal en el mundo proviene de los disfuncionamientos de la sociedad. Si solo pudiéramos establecer el sistema político adecuado y la ideología correcta, todos nuestros problemas desaparecerían."
+    },
+    {
+      "code": "hQuestionVI2",
+      "disorder": "VI",
+      "text": "Creo que es más importante cambiar el mundo a mi alrededor que trabajar en mí mismo y en mi desarrollo personal."
+    },
+    {
+      "code": "hQuestionVI3",
+      "disorder": "VI",
+      "text": "No creo en los principios universales de la naturaleza humana."
+    },
+    {
+      "code": "hQuestionVI4",
+      "disorder": "VI",
+      "text": "No creo en los Diez Mandamientos. Creo que cada nueva experiencia moral es buena, y que todo lo que obstaculiza este tipo de progreso es malo."
+    },
+    {
+      "code": "hQuestionVC1",
+      "disorder": "VC",
+      "text": "Me gustan mucho las reglas, como las leyes o los códigos de conducta de las empresas, porque me indican cómo debo actuar en cualquier situación, ya sea en el trabajo o en mi vida personal. ¡No hace falta pensar!"
+    },
+    {
+      "code": "hQuestionVC2",
+      "disorder": "VC",
+      "text": "En mi opinión, seguir las reglas —ya sean de la religión, la política o la sociedad en general— es la clave de la perfección humana. Si una acción cumple con las reglas, es buena. Si no lo hace, es mala. Así de simple."
+    },
+    {
+      "code": "hQuestionVC3",
+      "disorder": "VC",
+      "text": "Creo que debería existir un conjunto de reglas predefinidas para cubrir todas las situaciones comunes de la vida. De esta manera, siempre sabríamos exactamente qué hacer."
+    },
+    {
+      "code": "hQuestionVC4",
+      "disorder": "VC",
+      "text": "Estoy convencido de que existe un conjunto de normas éticas para el trabajo y otro para nuestra vida personal. Lo que es moralmente inaceptable en la oficina puede ser aceptable en casa."
+    },
+    {
+      "code": "hQuestionSV1",
+      "disorder": "SV",
+      "text": "Hago el bien porque me proporciona la sensación agradable de ser una buena persona."
+    },
+    {
+      "code": "hQuestionSV2",
+      "disorder": "SV",
+      "text": "Cuando no recibo ninguna recompensa emocional o retroalimentación positiva de las personas a las que ayudo, pierdo rápidamente el deseo de seguir ayudándolas y dejo de hacerlo."
+    },
+    {
+      "code": "hQuestionSV3",
+      "disorder": "SV",
+      "text": "Cuando rezo, busco sobre todo consolaciones y consuelo. Si no siento nada durante la oración, dejo de rezar, porque rezar en esos momentos no sirve de nada."
+    },
+    {
+      "code": "hQuestionSV4",
+      "disorder": "SV",
+      "text": "Priorizo las acciones intensas y emocionalmente estimulantes. Me gusta estar activo y experimentar todo tipo de emociones a través de la acción. La acción por el placer de la acción es algo que experimento todos los días."
+    },
+    {
+      "code": "hQuestionSI1",
+      "disorder": "SI",
+      "text": "Siempre me dejo guiar por mi instinto y por mi corazón, pase lo que pase."
+    },
+    {
+      "code": "hQuestionSI2",
+      "disorder": "SI",
+      "text": "Confío completamente en mi corazón. No necesito reflexionar ni dudar de mí mismo cuando tomo decisiones."
+    },
+    {
+      "code": "hQuestionSI3",
+      "disorder": "SI",
+      "text": "Mi reacción inicial a los estímulos externos siempre es la correcta. No necesito dudar ni ajustar."
+    },
+    {
+      "code": "hQuestionSI4",
+      "disorder": "SI",
+      "text": "La clave de la vida es vivir plenamente todo tipo de emociones."
+    },
+    {
+      "code": "hQuestionSC1",
+      "disorder": "SC",
+      "text": "Cuando las personas de las que soy responsable (mis hijos, mis alumnos, mis empleados, mis amigos) hacen algo mal, evito confrontarlas sobre el tema. Me digo a mí mismo que no debo hacerles sentir que están equivocados y que es mejor simplemente intentar comprenderlas y amarlas."
+    },
+    {
+      "code": "hQuestionSC2",
+      "disorder": "SC",
+      "text": "Tengo la tendencia a ceder ante las exigencias de mi conciencia por temor a molestar a mis padres, amigos, colegas."
+    },
+    {
+      "code": "hQuestionSC3",
+      "disorder": "SC",
+      "text": "Por miedo a los conflictos, me cuesta mucho ofrecer a los demás una crítica constructiva, incluso cuando claramente la necesitan."
+    },
+    {
+      "code": "hQuestionSC4",
+      "disorder": "SC",
+      "text": "No tengo ningún problema en adoptar una actitud políticamente o culturalmente correcta, incluso si va en contra de mis convicciones, para evitar molestar a los demás con mis valores."
+    }
+  ],
+  "labels": {
+    "heartTest": "Test \"Corazón libre\"",
+    "heartTestIntro": "Bienvenido al Test \"Corazón libre\"! Basada en el libro de Alexandre Havard \"Corazón libre\", esta prueba está diseñada para ayudarte a identificar cualquier tendencia que puedas tener hacia las 8 enfermedades espirituales descritas a continuación. Para cada enfermedad, ofreceremos un diagnóstico y un remedio. La prueba dura aproximadamente 15 minutos y consta de un total de 32 preguntas. ¡Empecemos!",
+    "hResultNoDecease": "Parece que no estás inclinado al",
+    "hResultDeceaseStage1": "Parece que estás ligeramente inclinado al",
+    "hResultDeceaseStage2": "Parece que estás fuertemente inclinado al",
+    "hResultInBalance": "Parece que estás espiritualmente equilibrado",
+    "после 4 вопросов": "Diagnóstico y remedio",
+    "в конце": "Resultados: Haz clic en las imágenes abajo para ver los diagnósticos y remedios",
+    "hResultR": "Racionalismo",
+    "hResultVR": "Voluntarismo religioso",
+    "hResultVM": "Voluntarismo machista",
+    "hResultVI": "Voluntarismo ideólogico",
+    "hResultVC": "Voluntarismo conformista",
+    "hResultSV": "Sentimentalismo voluptuoso",
+    "hResultSI": "Sentimentalismo demente",
+    "hResultSC": "Sentimentalismo cobarde"
+  },
+  "texts": {
+    "about-heart.html": "8 enfermedades espirituales\nSi nuestro corazón, nuestra voluntad y nuestro intelecto no están en armonía, corremos el riesgo de caer en una de las siguientes 8 enfermedades:\n\n1. El racionalismo\n2. El voluntarismo religioso\n3. El voluntarismo machista\n4. El voluntarismo ideólogico\n5. El voluntarismo conformista\n6. El sentimentalismo voluptuoso\n7. El sentimentalismo demente\n8. El sentimentalismo cobarde",
+    "1-R.html": "Tu corazón está asfixiado por tu razón. Las situaciones de la vida no son más que ocasiones para ampliar el montón de tus conocimientos. Nada te toca, nada te afecta en lo más profundo de ti mismo. Eres un eterno espectador. Es la curiosidad intelectual lo que te estimula. Eres incapaz de responder a los valores de la existencia, ni con alegría, ni con tristeza, ni con compasión, ni con amor. Lo que te interesa es el análisis intelectual. En realidad, la distancia que tomas con el objeto de tu análisis es tan grande que eres incapaz de penetrarlo y contemplarlo, y por lo tanto, de conocerlo. No tienes acceso a los misterios de la vida.Déjate tocar por aquello que es bello y por aquello que es bueno, sin tratar de reducir a tu pobre entendimiento las realidades que te superan. No comprenderás la realidad hasta el día en que dejes de querer «comprenderla», contenerla, poseerla. Déjate sorprender, invadir, abrazar, transportar por lo que es más grande que tú.",
+    "2-VR.html": "Tu corazón está asfixiado por tu voluntad. Estás convencido de la necesidad de silenciar tu corazón para aumentar el valor moral de tu voluntad. Te gusta desterrar de tu comportamiento cualquier tipo de afectividad, para que solo subsista la voluntad. Incluso estás dispuesto a actuar \"a regañadientes\". No necesitas sentimientos. Solo necesitas un \"imperativo categórico\".Cuando se silencia el corazón, la voluntad tarde o temprano se quiebra. Tu voluntad humana no es ni un turbojet ni un tanque. Está arraigada en el corazón, que es el centro de la personalidad y el lugar sagrado de la intimidad. El corazón le da a la voluntad una dirección originaria y principal. Sin esta dirección fundamental, todo acto de voluntad no es más que una huida hacia adelante, un vuelo sobre un precipicio. \"El deber por el deber\" es una máxima inhumana que con frecuencia lleva a duplicidades de personalidad. Hazte la pregunta: \"Finalmente, en lo más profundo de mí mismo, ¿qué es lo que me atrae? ¿Qué es lo que más deseo?\" No puedes basar tu existencia en algo que no eres tú, en nombre de un deber o una obligación moral que solo existe en tu imaginación. Aprende a hacer lo que realmente quieres hacer. Aprende a ser feliz. La felicidad, créelo, ¡no es un pecado! Tal enfoque no tiene nada que ver con el sentimentalismo.",
+    "3-VM.html": "Tu voluntarismo tiene un origen \"machista\". Es el fruto de una percepción exclusivamente \"masculina\" de la existencia. Silencias tu corazón – el tuyo y el de los demás – porque te da vergüenza. Te avergüenzas de tener sentimientos y te incomodan quienes los expresan. Tienes miedo de ser percibido como un \"sentimental\". Y a quienes consideras \"sentimentales afeminados\", los corriges. Más allá del problema que representa confundir \"tener sentimientos\" con \"ser afeminado\", el peligro de tu enfoque es evidente: para ti, la formación del corazón no es una prioridad. La prioridad es la formación de la voluntad.\n\nDeja atrás la idea de que ser un hombre viril o una mujer fuerte es incompatible con estar en sintonía con tus emociones. La sensibilidad y la fuerza no se excluyen mutuamente; de hecho, ser capaz de conectar con tus emociones y expresarlas de manera saludable es una señal de verdadero coraje y madurez. Practica permitirte sentir plenamente tus emociones, sin rechazarlas de inmediato ni intentar parecer duro/a o insensible. Esto puede significar llorar cuando te sientas triste, en lugar de reprimirlo todo, o decirles a tus seres queridos cuánto los aprecias, incluso si al principio te hace sentir un poco incómodo/a.",
+    "4-VI.html": "Tu adhesión a los eslóganes ideológicos es tan fuerte que aplasta tu razonamiento lógico (intelecto). Ya no tienes en cuenta ni el orden natural de las cosas, ni tu propio sentido interior del bien y del mal.\n\nRenuncia a la ideología. Distingue entre la verdad parcial que contiene y la mentira global que representa. Contempla los millones de víctimas inocentes que producen inexorablemente las ideologías. Redescubre la naturaleza de las cosas. Maravíllate ante la dignidad del ser humano. Aun consciente de tus errores pasados, no caigas en la desesperanza, ni quieras recluirte en el laberinto infernal de la amargura. Vuelve a ponerte en camino sobre las bases nuevas de un corazón resucitado.",
+    "5-VC.html": "Tu comportamiento está condicionado no por los principios inmutables de la naturaleza humana (la conciencia, la virtud), sino por reglas sociales más o menos estables. Para ti, no existen acciones buenas (aquellas que favorecen la virtud, la excelencia, la perfección humana) ni malas (aquellas que las dificultan): solo existen acciones correctas (aquellas que están conformes a la regla) o incorrectas (aquellas que son contrarias a ella). Estás convencido de tu perfección moral: al observar la regla, cumples con tu \"deber\". Tu problema fundamental es que no amas. Esta ausencia de amor te hace ciego. Te aferras a las reglas, porque para ti son el único punto de apoyo, el único punto de referencia en esta vida.\nAprende a querer a los hombres más que a las reglas, más que a las tradiciones, más que lo religiosamente, lo culturalmente o lo políticamente correcto. Aprende a descubrir en cada ser humano a una persona. Aprende luego a sacrificarte con alegría por aquellos que amas.",
+    "6-SV.html": "Tienes cierta tendencia a disfrutar de la emoción más que de los valores que la provocan. Buscas la emoción por el placer que te proporciona. Separas la emoción del bien que la produce. Tu sentimentalismo es una forma de voluptuosidad, de sensualidad.\n\nAprende a amar el bien por sí mismo y no por el placer que te proporciona. En lugar de correr tras emociones intensas, busca conectar con los valores profundos que están detrás de tus experiencias. Cuando esos sentimientos agradables empiecen a desvanecerse, mantente firme. Sigue actuando según lo que sabes que es justo, no porque te brinde sensaciones agradables, sino porque crees en el valor intrínseco de esas acciones. Persevera en el bien, incluso cuando no te brinde ninguna recompensa emocional.",
+    "7-SI.html": "Tu corazón reemplaza a tu razón. La asfixia. Consideras tu corazón como tu único guía. Tal corazón es, en realidad, un corazón arbitrario que llama « intuición » a lo que no es más que el puro producto de la imaginación y la fantasía. Siempre haces lo que te dice tu corazón, ¡incluso lo malo! Sometes tu conciencia a tu corazón. No eres un hombre o una mujer de corazón: eres un loco, manipulado por tu egoísmo y tu orgullo.\n\nAprende a escuchar tu conciencia antes de escuchar a lo que llamas «tu corazón». La voz de tu conciencia, que es la voz de Dios, tiene prioridad sobre la voz de tu «yo». Un corazón emancipado de la conciencia no es un corazón libre. Es un corazón egoísta, hipócrita, pervertido.",
+    "8-SC.html": "Tu voluntad está absorbida por tu corazón. Tu sentimentalismo es cobardía. \"En nombre del corazón\", rechazas toda confrontación con los demás, especialmente aquellas que son necesarias para ponerles en el camino correcto. No corregirás a tu hijo, a tu alumno, a tu empleado, a tu amigo, bajo el pretexto de que no hay que hacer sufrir a las personas. En realidad, temes el enfrentamiento, aunque sea constructivo. Careces de coraje. Tienes un corazón demasiado \"bueno\" para hacer el bien, un corazón demasiado \"amoroso\" para poder amar.\n\nFortalece tu voluntad. No renuncies al bien bajo el pretexto de que pueda generar conflictos. No seas cobarde. Aprende a gestionar las contradicciones con sinceridad y firmeza. Aprende a comunicarte de manera clara, respetuosa y con convicción. Aprende a tolerar la incomodidad temporal de una conversación o situación difícil, sabiendo que actúas con integridad y benevolencia."
+  },
+  "bookUrl": "https://www.eunsa.es/libro/corazon-libre_99703/"
+}

@@ -4,11 +4,9 @@ import {
   CHALLENGE_VIRTUE,
   rankChallenges,
   renderBase,
-  resolveTemperament,
   roleOfDay,
   scoreTest,
   summarizeWeek,
-  toPercent,
   validateChallenge,
   type BaseChallenge,
   type TestDefinition,
@@ -21,33 +19,8 @@ describe('temperamento', () => {
     expect(ALL_TYPES).toHaveLength(12);
     for (const bad of ['COL-FLE', 'FLE-COL', 'MEL-SAN', 'SAN-MEL']) expect(ALL_TYPES).not.toContain(bad);
   });
-
-  it('los porcentajes suman 100', () => {
-    const p = toPercent({ COL: 7, MEL: 3, SAN: 5, FLE: 1 });
-    expect(Object.values(p).reduce((a, b) => a + b, 0)).toBe(100);
-  });
-
-  it('el secundario nunca es el incompatible con el dominante', () => {
-    const r = resolveTemperament({ COL: 10, FLE: 8, SAN: 4, MEL: 2 }, meta);
-    expect(r.dominant).toBe('COL');
-    expect(r.secondary).toBe('SAN');
-    expect(r.type).toBe('COL-SAN');
-    expect(r.inconsistent).toBe(true);
-  });
-
-  it('secundario por debajo del 10 % → tipo puro', () => {
-    const r = resolveTemperament({ MEL: 20, FLE: 2, COL: 1, SAN: 0 }, meta);
-    expect(r.secondary).toBeNull();
-    expect(r.type).toBe('MEL');
-  });
-
   it('virtud-desafío por dominante', () => {
     expect(CHALLENGE_VIRTUE).toEqual({ COL: 'humildad', MEL: 'audacia', SAN: 'resistencia', FLE: 'magnanimidad' });
-    expect(resolveTemperament({ FLE: 9, MEL: 5, COL: 0, SAN: 1 }, meta).challengeVirtue).toBe('magnanimidad');
-  });
-
-  it('marca empate cuando dominante y secundario casi coinciden', () => {
-    expect(resolveTemperament({ SAN: 10, COL: 10, MEL: 0, FLE: 1 }, meta).tie).toBe(true);
   });
 });
 

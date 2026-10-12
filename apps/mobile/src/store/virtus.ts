@@ -76,7 +76,17 @@ export interface CharacterResult {
   takenAt: string;
   testVersion: string;
   self: Record<Virtue, number>;
+  /** Aspecto pasivo y activo de cada virtud (test oficial). */
+  facets?: Record<Virtue, { passive: number; active: number }>;
   others: Record<Virtue, number>[];
+}
+
+export interface HeartRecord {
+  takenAt: string;
+  testVersion: string;
+  pct: Record<string, number>;
+  stage: Record<string, 'none' | 'stage1' | 'stage2'>;
+  verdict: 'balanced' | 'has_stages';
 }
 
 export interface VirtusState {
@@ -93,6 +103,7 @@ export interface VirtusState {
   records: Record<string, DayRecord>;
   recentChallenges: string[];
   character: CharacterResult[];
+  heart: HeartRecord[];
   /** Última sincronización correcta con el servidor. */
   syncedAt: string | null;
   cycleHistory: ClosedCycle[];
@@ -115,6 +126,7 @@ export interface VirtusState {
   saveExam: (date: string, exam: ExamEntry) => void;
   toggleHabit: (date: string, habitId: string) => void;
   addCharacter: (r: CharacterResult) => void;
+  addHeart: (r: HeartRecord) => void;
   markSynced: (at: string) => void;
   closeCycle: (next: WorkVirtue) => void;
   addOthersView: (view: Record<Virtue, number>) => void;
@@ -151,6 +163,7 @@ const initial = {
   records: {},
   recentChallenges: [],
   character: [],
+  heart: [],
   syncedAt: null,
   cycleHistory: [],
   invites: [],
@@ -202,6 +215,7 @@ export const useVirtus = create<VirtusState>()(
           return { records: { ...s.records, [date]: { ...r, habitsDone: done } } };
         }),
       addCharacter: (r) => set((s) => ({ character: [...s.character, r] })),
+      addHeart: (r) => set((s) => ({ heart: [...s.heart, r] })),
       markSynced: (syncedAt) => set({ syncedAt }),
       closeCycle: (next) =>
         set((s) => {
@@ -232,7 +246,7 @@ export const useVirtus = create<VirtusState>()(
     }),
     {
       name: 'virtus-v1',
-      version: 2,
+      version: 3,
       storage: createJSONStorage(() => AsyncStorage),
       // v1 → v2: nuevos campos del plan y del ciclo.
       migrate: (persisted, version) => {
@@ -243,6 +257,13 @@ export const useVirtus = create<VirtusState>()(
           p.invites ??= [];
           p.temperamentConfirmDismissedAt ??= null;
           p.processedRemote ??= [];
+        }
+        if (version < 3) {
+          // El test de temperamento pasa al motor oficial: se conservan los resultados antiguos como historial.
+          p.heart ??= [];
+          const fix = (r: TemperamentResult) => ({ ...r, isPure: r.secondary === null, secondaryStrength: null }) as TemperamentResult;
+          if (p.temperament) p.temperament = fix(p.temperament);
+          p.temperamentHistory = (p.temperamentHistory ?? []).map(fix);
         }
         return p as VirtusState;
       },

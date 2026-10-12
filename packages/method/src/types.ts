@@ -23,16 +23,15 @@ export interface TemperamentResult {
   testId: string;
   testVersion: string;
   takenAt: string;
+  /** Puntuación de la etapa 1 (más desempate) por temperamento. */
   scores: Record<Temperament, number>;
-  /** Porcentajes sobre el total, redondeados, suman 100. */
-  percent: Record<Temperament, number>;
   dominant: Temperament;
   secondary: Temperament | null;
   type: TypeCode;
+  /** Perfil puro: el secundario apenas influye (estadísticamente menos frecuente). */
+  isPure: boolean;
+  /** Intensidad del secundario según la etapa 2. */
+  secondaryStrength: 'marcada' | 'ligera' | null;
   challengeVirtue: WorkVirtue;
-  /** Dominante y secundario casi empatados: el resultado puede no ser definitivo. */
-  tie: boolean;
-  /** El temperamento incompatible con el dominante puntuó alto: conviene repetir el test. */
-  inconsistent: boolean;
-  source: 'self' | 'estimated';
+  source: 'self' | 'estimated' | 'invitation';
 }

@@ -1,4 +1,4 @@
-import type { BaseChallenge, Locale, TestDefinition, Temperament, TypeCode, ValidationRules, WorkVirtue } from '@virtus/method';
+import type { BaseChallenge, CharacterTestData, HeartTestData, Locale, Temperament, TypeCode, ValidationRules, WorkVirtue } from '@virtus/method';
 
 import retosEs from './es/retos.json';
 import habitosEs from './es/habitos.json';
@@ -8,8 +8,9 @@ import videosEs from './es/videos.json';
 import modelosEs from './es/modelos.json';
 import entornoEs from './es/entorno.json';
 import lecturasEs from './es/lecturas.json';
-import testTemperamentoEs from './es/test-temperamento.json';
-import testCaracterEs from './es/test-caracter.json';
+import vlTemperamentoEs from './es/vl-temperamento.json';
+import vlCaracterEs from './es/vl-caracter.json';
+import vlCorazonEs from './es/vl-corazon.json';
 
 /** Uno de los cuatro temperamentos: arquetipo, valor y claves. */
 export interface TemperamentCopy {
@@ -25,12 +26,62 @@ export interface TemperamentCopy {
   modelos: string[];
 }
 
-/** Uno de los 12 tipos (guía de Crecer con tu temperamento). */
+/** Uno de los 12 perfiles oficiales (virtuousleadership.com / Crecer con tu temperamento). */
 export interface TypeCopy {
-  nombre: string;
+  name: string;
+  label: string;
+  challenge: string;
   fortaleza: string;
   debilidad: string;
-  reto: { virtud: WorkVirtue; faceta: string | null };
+  reto: string;
+}
+
+type Likert5 = Record<'strongly_disagree' | 'disagree' | 'neutral' | 'agree' | 'strongly_agree', string>;
+
+export interface VlTemperamentTest {
+  id: string;
+  version: string;
+  status: 'approved';
+  source: string;
+  items: Record<string, string>;
+  ui: {
+    welcome: { intro: string; notice: string; byline: string; duration_label: string; duration_text: string; button: string };
+    question: { progress: string; yes: string; no: string; back: string };
+    transition: { eyebrow: string; title_template: string; title_template_suffix: string; text: string; button: string };
+  };
+  temperaments: Record<Temperament, { name: string; focus: string; archetype: string }>;
+  result: {
+    pureNote: string;
+    challengeLabel: string;
+    intensityLabel: string;
+    intensityMarked: string;
+    intensityLight: string;
+    virtues: Record<Temperament, { name: string; detail: string }>;
+    profiles: Record<TypeCode, TypeCopy>;
+  };
+}
+
+export interface VlCharacterTest extends CharacterTestData {
+  id: string;
+  version: string;
+  source: string;
+  ui: Likert5;
+  welcome: { intro_line1: string; intro_line2: string; duration_text: string; button: string };
+  questions: { code: string; text: string; weights: number[] }[];
+  labels: Record<string, string>;
+  texts: Record<string, string>;
+}
+
+export interface VlHeartTest extends HeartTestData {
+  id: string;
+  version: string;
+  source: string;
+  ui: Likert5;
+  welcome?: { duration_text: string; button: string };
+  questions: { code: string; disorder: string; text: string }[];
+  labels: Record<string, string>;
+  texts: Record<string, string>;
+  bookUrl: string;
 }
 
 export interface Video {
@@ -82,7 +133,8 @@ export interface ContentBundle {
   models: Model[];
   environment: Environment;
   readings: Reading[];
-  tests: { temperament: TestDefinition; character: TestDefinition };
+  /** Los tres tests oficiales de virtuousleadership.com. */
+  vlTests: { temperament: VlTemperamentTest; character: VlCharacterTest; heart: VlHeartTest };
 }
 
 const es: ContentBundle = {
@@ -90,15 +142,16 @@ const es: ContentBundle = {
   challenges: retosEs as unknown as BaseChallenge[],
   habits: habitosEs,
   temperaments: temperamentosEs.temperamentos as unknown as Record<Temperament, TemperamentCopy>,
-  types: temperamentosEs.tipos as unknown as Record<TypeCode, TypeCopy>,
+  types: vlTemperamentoEs.result.profiles as unknown as Record<TypeCode, TypeCopy>,
   lexicon: lexicoEs,
   videos: videosEs,
   models: modelosEs.modelos as unknown as Model[],
   environment: entornoEs as unknown as Environment,
   readings: lecturasEs,
-  tests: {
-    temperament: testTemperamentoEs as unknown as TestDefinition,
-    character: testCaracterEs as unknown as TestDefinition,
+  vlTests: {
+    temperament: vlTemperamentoEs as unknown as VlTemperamentTest,
+    character: vlCaracterEs as unknown as VlCharacterTest,
+    heart: vlCorazonEs as unknown as VlHeartTest,
   },
 };
 

@@ -7,6 +7,7 @@ import { averageProfiles } from '@virtus/method';
 
 import { Body, BodyStrong, Button, Caption, Card, Divider, Eyebrow, H2, H3, Row, Screen, Stack, Titular } from '@/components/ui';
 import { CharacterBars } from '@/components/CharacterBars';
+import { HeartReport } from '@/components/HeartReport';
 import { TemperamentWheel } from '@/components/TemperamentWheel';
 import { Toggle } from '@/components/PlanForm';
 import { deleteEverything, exportLocal } from '@/features/account';
@@ -30,6 +31,7 @@ export default function Yo() {
   const copy = useContent().temperaments;
   const [confirm, setConfirm] = useState(false);
   const last = s.character[s.character.length - 1];
+  const lastHeart = s.heart[s.heart.length - 1];
   const others = last ? averageProfiles(last.others) : null;
 
   return (
@@ -77,6 +79,21 @@ export default function Yo() {
             <Body>{t('yo.caracterVacio')}</Body>
           )}
           <Button variant="secondary" label={t('yo.hacerCaracter')} onPress={() => router.push('/caracter')} />
+        </Card>
+
+        <Card>
+          <Eyebrow>{t('yo.corazon')}</Eyebrow>
+          {lastHeart ? (
+            <H3>
+              {lastHeart.verdict === 'balanced'
+                ? t('yo.corazonEquilibrado')
+                : t('yo.corazonTendencias', { n: Object.values(lastHeart.stage).filter((x) => x !== 'none').length })}
+            </H3>
+          ) : (
+            <Body>{t('yo.corazonVacio')}</Body>
+          )}
+          {lastHeart ? <HeartReport record={lastHeart} /> : null}
+          <Button variant="secondary" label={t('yo.corazonHacer')} onPress={() => router.push('/corazon')} />
         </Card>
       </View>
 

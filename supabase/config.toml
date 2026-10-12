@@ -11,6 +11,17 @@ enable_signup = true
 
 [auth.email]
 enable_confirmations = true
+otp_length = 6
+otp_expiry = 3600
+
+# La app entra con un código de 6 dígitos (no con enlace).
+[auth.email.template.magic_link]
+subject = "Tu código de Virtus"
+content_path = "./supabase/templates/codigo.html"
+
+[auth.email.template.confirmation]
+subject = "Tu código de Virtus"
+content_path = "./supabase/templates/codigo.html"
 
 [functions.adapt-challenge]
 verify_jwt = true
