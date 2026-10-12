@@ -17,13 +17,14 @@ for (const locale of readdirSync(contentDir).filter((d) => /^[a-z]{2}$/.test(d))
       ].join(', ')}) on conflict (id) do update set text = excluded.text, with_person = excluded.with_person, roles = excluded.roles, status = excluded.status;`,
     );
   }
-  for (const f of read('fragmentos.json')) {
-    out.push(
-      `insert into content_pieces (id, kind, locale, author, body, virtues, source, status) values (${[
-        q(f.id), q('fragment'), q(locale), q(f.author), q(f.body ?? f.text), arr(f.virtues), q(f.source), q(f.status),
-      ].join(', ')}) on conflict (id) do update set body = excluded.body, status = excluded.status;`,
-    );
-  }
+  const piece = (id, kind, author, body, mediaUrl, virtues, temperaments, source) =>
+    `insert into content_pieces (id, kind, locale, author, body, media_url, virtues, temperaments, source, status) values (${[
+      q(id), q(kind), q(locale), q(author), q(body), q(mediaUrl), arr(virtues), arr(temperaments), q(source), q('draft'),
+    ].join(', ')}) on conflict (id) do update set body = excluded.body, media_url = excluded.media_url;`;
+  for (const v of read('videos.json')) out.push(piece(v.id, 'clip', v.canal, v.titulo, `https://www.youtube.com/watch?v=${v.youtubeId}`, v.virtudes, [], 'YouTube'));
+  for (const m of read('modelos.json').modelos)
+    out.push(piece(m.id, 'portrait', m.nombre, JSON.stringify({ lema: m.lema, resumen: m.resumen, años: m.años, ambito: m.ambito }), null, m.virtudes, m.temperamento ? [m.temperamento] : [], 'Virtuous Leadership Models'));
+  for (const r of read('lecturas.json')) out.push(piece(r.id, 'lesson', r.autor, JSON.stringify(r), null, r.virtudes, [], r.fuente));
   for (const file of ['test-temperamento.json', 'test-caracter.json']) {
     const t = read(file);
     out.push(

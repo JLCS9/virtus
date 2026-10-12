@@ -4,9 +4,10 @@ import { useTranslation } from 'react-i18next';
 import { Text } from 'react-native';
 
 import { dayIndex, summarizeWeek } from '@virtus/method';
-import { fragmentFor } from '@virtus/content';
+import { videosFor } from '@virtus/content';
 
-import { Body, BodyStrong, Button, Caption, Cita, Divider, Eyebrow, H2, Screen, Stack, Titular } from '@/components/ui';
+import { Body, BodyStrong, Button, Caption, Divider, Eyebrow, H2, Screen, Stack, Titular } from '@/components/ui';
+import { VideoCard } from '@/components/VideoCard';
 import { useEffect } from 'react';
 
 import { track } from '@/features/analytics';
@@ -31,7 +32,8 @@ export default function Semana() {
   useEffect(() => track('weekly_opened', {}), []);
   const w = summarizeWeek(s.records, now);
   const virtue = s.cycle?.virtue ?? 'humildad';
-  const reading = fragmentFor(content, virtue, dayIndex(now) + 3);
+  const videos = videosFor(content, virtue);
+  const video = videos[Math.floor(dayIndex(now) / 7) % videos.length];
 
   return (
     <Screen footer={<Button label={t('ritual.volverHoy')} onPress={goBackOrHome} />}>
@@ -71,7 +73,7 @@ export default function Semana() {
       <Divider />
       <Stack gap={space.s}>
         <H2>{t('semana.lectura')}</H2>
-        <Cita author={reading.author}>{reading.text}</Cita>
+        <VideoCard video={video} width={300} />
       </Stack>
     </Screen>
   );

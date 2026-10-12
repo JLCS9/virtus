@@ -10,7 +10,7 @@ import {
   roleOfDay,
   type DailyChallenge,
 } from '@virtus/method';
-import { fragmentFor } from '@virtus/content';
+import { modelOfDay, videosFor } from '@virtus/content';
 
 import { useVirtus } from '@/store/virtus';
 import { INCLUDE_DRAFTS, useContent } from './content';
@@ -25,7 +25,11 @@ export function useToday(date = new Date()) {
   const virtue = s.cycle?.virtue ?? s.temperament?.challengeVirtue ?? 'humildad';
   const role = roleOfDay(s.roles.map((r) => r.role), date);
   const practiceDay = isPracticeDay(s.plan.rhythm, date);
-  const fragment = useMemo(() => fragmentFor(content, virtue, dayIndex(date)), [content, virtue, key]);
+  const model = useMemo(() => modelOfDay(content, virtue, dayIndex(date), s.temperament?.dominant), [content, virtue, key, s.temperament?.dominant]);
+  const video = useMemo(() => {
+    const list = videosFor(content, virtue);
+    return list[Math.floor(dayIndex(date) / 7) % list.length];
+  }, [content, virtue, key]);
 
   const build = useCallback(
     (exclude: string[]): DailyChallenge | null => {
@@ -76,7 +80,7 @@ export function useToday(date = new Date()) {
     return true;
   }, [record?.challenge, s.recentChallenges, build, assign]);
 
-  return { key, record, virtue, role, practiceDay, fragment, reroll, accept: () => {
+  return { key, record, virtue, role, practiceDay, model, video, reroll, accept: () => {
       s.acceptChallenge(key);
       track('challenge_accepted', { rerolls: record?.challenge?.rerolls ?? 0, adapted: false });
     },

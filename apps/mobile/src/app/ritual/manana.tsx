@@ -3,7 +3,8 @@ import { useState } from 'react';
 import { View } from 'react-native';
 import { useTranslation } from 'react-i18next';
 
-import { Body, Button, Caption, Card, Cita, Eyebrow, Filete, H2, Lectura, Screen, Stack } from '@/components/ui';
+import { Body, Button, Caption, Card, Eyebrow, Filete, H2, Lectura, Screen, Stack } from '@/components/ui';
+import { ModelCard } from '@/components/ModelCard';
 import { useToday } from '@/features/today';
 import { useVirtus } from '@/store/virtus';
 import { space } from '@/theme';
@@ -33,10 +34,7 @@ export default function RitualManana() {
         <Filete />
       </Stack>
 
-      <Stack gap={space.s}>
-        <Caption>{t('ritual.lectura')}</Caption>
-        <Cita author={today.fragment.author}>{today.fragment.text}</Cita>
-      </Stack>
+      <ModelCard model={today.model} width={280} />
 
       {mission ? (
         <View style={{ gap: space.xs }}>

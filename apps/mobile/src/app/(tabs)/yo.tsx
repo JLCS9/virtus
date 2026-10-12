@@ -7,6 +7,7 @@ import { averageProfiles } from '@virtus/method';
 
 import { Body, BodyStrong, Button, Caption, Card, Divider, Eyebrow, H2, H3, Row, Screen, Stack, Titular } from '@/components/ui';
 import { CharacterBars } from '@/components/CharacterBars';
+import { TemperamentWheel } from '@/components/TemperamentWheel';
 import { Toggle } from '@/components/PlanForm';
 import { deleteEverything, exportLocal } from '@/features/account';
 import { setAnalyticsConsent } from '@/features/analytics';
@@ -42,7 +43,13 @@ export default function Yo() {
           <Caption>{t('yo.temperamentoNota')}</Caption>
           {s.temperament ? (
             <>
-              <Body>{copy[s.temperament.dominant].rasgos}</Body>
+              <View style={{ flexDirection: 'row', alignItems: 'center', gap: space.m }}>
+                <TemperamentWheel size={96} dominant={s.temperament.dominant} secondary={s.temperament.secondary} />
+                <Stack gap={space.xs} style={{ flex: 1 }}>
+                  <BodyStrong>{copy[s.temperament.dominant].arquetipo}</BodyStrong>
+                  <Body>{copy[s.temperament.dominant].valor}</Body>
+                </Stack>
+              </View>
               <Row gap={space.m}>
                 {copy[s.temperament.dominant].fortalezas.map((f) => (
                   <BodyStrong key={f}>{f}</BodyStrong>

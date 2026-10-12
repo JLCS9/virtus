@@ -52,7 +52,13 @@
     "paso1": "Descubres tu temperamento: con qué naturaleza naciste.",
     "paso2": "Recibes tu virtud-desafío: la puerta por la que entran las demás.",
     "paso3": "Cada día, un reto por la mañana y un examen breve por la noche. Unos cinco minutos.",
-    "empezar": "Empezar"
+    "empezar": "Descubrir mi temperamento",
+    "s1": "El liderazgo no es un cargo: es un llamado abierto a todos. Virtus te acompaña cada día para formar tu carácter.",
+    "s2titulo": "Naces con un temperamento",
+    "s2": "Colérico, melancólico, sanguíneo o flemático. No lo eliges y no cambia. Tu carácter, en cambio, lo construyes tú.",
+    "s3titulo": "Cinco minutos al día",
+    "s3": "Un reto por la mañana, un examen breve por la noche y la virtud que más te cuesta, en el centro.",
+    "antropologiaCorta": "El método de Alexandre Havard parte de una antropología cristiana. Las prácticas espirituales añadidas son opcionales."
   },
   "test": {
     "eyebrow": "Test de temperamento",
@@ -70,10 +76,15 @@
     "riesgo": "Lo que te costará",
     "desafioEyebrow": "Tu virtud-desafío",
     "desafioIntro": "La virtud que siempre te costará y la puerta por la que entran las demás.",
-    "nota": "El temperamento no cambia y no es virtud ni vicio: es la materia prima. El carácter lo construyes tú, libremente, con las virtudes. Ni excusa ni culpa.",
+    "nota": "El temperamento no cambia y no es virtud ni vicio. El carácter lo construyes tú, libremente.",
     "empate": "Dos temperamentos pesan casi lo mismo en ti. Es frecuente; dentro de unas semanas te propondremos confirmar el resultado.",
     "inconsistente": "Tus respuestas mezclan temperamentos que no se combinan. Te propondremos repetir el test con calma dentro de unas semanas.",
-    "seguir": "Seguir: mi vida concreta"
+    "seguir": "Seguir: mi vida concreta",
+    "verMas": "Ver más sobre tu tipo",
+    "retoTipo": "El reto de tu tipo",
+    "reactividad": "Tu reacción natural es {{r}}.",
+    "modelo": "Alguien con tu temperamento",
+    "fuente": "Basado en «Crecer con tu temperamento», de Alexandre Havard."
   },
   "rolesPantalla": {
     "eyebrow": "Tu vida concreta",
@@ -162,7 +173,13 @@
     "cicloCierreTexto": "Diez minutos para mirar lo vivido, medir tu carácter con la mirada de otros y elegir el siguiente ciclo.",
     "confirmarTitulo": "Confirma tu temperamento",
     "confirmarTexto": "La medición puede fallar. Ahora que te conoces algo más, repite el test con calma.",
-    "confirmar": "Repetir el test"
+    "confirmar": "Repetir el test",
+    "retoDe": "Tu reto de hoy · {{virtud}}",
+    "aceptadoNoche": "Aceptado. Esta noche lo miras con calma.",
+    "nocheCorto": "Tres minutos para mirar el día",
+    "cicloCorto": "Tu ciclo",
+    "diaDe": "Día {{n}} de {{total}}",
+    "inspiracion": "Inspiración de hoy"
   },
   "ritual": {
     "eyebrow": "Mañana · {{virtud}}",
@@ -216,7 +233,7 @@
     "segunda": "segunda",
     "habitos": "Tus hábitos",
     "veces": "{{n}} de 7 días",
-    "lectura": "Lectura de la semana"
+    "lectura": "Para esta semana"
   },
   "camino": {
     "eyebrow": "Camino",
@@ -232,9 +249,21 @@
   },
   "biblioteca": {
     "eyebrow": "Biblioteca",
-    "titulo": "Para tu temperamento y tu ciclo",
+    "titulo": "Aprende del método",
     "fragmentos": "Fragmentos",
-    "todos": "Todo"
+    "todos": "Todo",
+    "videos": "Vídeos de Alex",
+    "modelos": "Modelos de liderazgo virtuoso",
+    "entorno": "Entorno magnánimo",
+    "entornoTexto": "Libros, música, películas y pintura que Alex recomienda",
+    "lecturas": "Lecturas breves",
+    "verTodos": "Ver todos",
+    "videoNota": "Vídeo de YouTube en modo de privacidad mejorada.",
+    "virtudesVividas": "Virtudes que encarnó",
+    "temperamentoModelo": "Temperamento {{t}}, según Alex Havard.",
+    "fuenteModelos": "Fuente: Virtuous Leadership Models (resumen del equipo).",
+    "favoritaAlex": "su favorita",
+    "paraTi": "Para tu temperamento"
   },
   "circulo": {
     "eyebrow": "Círculo",
@@ -250,7 +279,9 @@
     "anadir": "Añadir colaborador",
     "sinCuenta": "Las invitaciones estarán disponibles cuando actives tu cuenta.",
     "estimadoCorto": "estimado, solo en este dispositivo",
-    "quitar": "Quitar del círculo"
+    "quitar": "Quitar del círculo",
+    "confirmado": "confirmado por su propio test",
+    "comunicar": "Cómo comunicarte:"
   },
   "yo": {
     "eyebrow": "Yo",
@@ -366,5 +397,9 @@
     "noCompletada": "La compra no se ha completado.",
     "sinCompras": "No hay compras que restaurar.",
     "legal": "La suscripción se renueva automáticamente hasta que la canceles desde los ajustes de tu tienda."
+  },
+  "lectura": {
+    "empezar": "Empezar",
+    "siguiente": "Siguiente"
   }
 }

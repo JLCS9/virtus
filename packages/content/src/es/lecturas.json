@@ -1,0 +1,66 @@
+[
+  {
+    "id": "l-ia",
+    "titulo": "4 principios para seguir siendo humano con la IA",
+    "autor": "Alexandre Havard",
+    "virtudes": [
+      "prudencia"
+    ],
+    "intro": "La IA da respuestas en segundos, pero no puede deliberar, juzgar ni decidir por ti.",
+    "tarjetas": [
+      {
+        "titulo": "Verifica la información",
+        "texto": "Lo que te da la IA es lo estadísticamente probable, no la verdad. Antes de decidir, comprueba las fuentes."
+      },
+      {
+        "titulo": "Escucha tu conciencia",
+        "texto": "Cada respuesta trae una lógica detrás. Tu conciencia ilumina el valor moral de cada opción, y puede sugerirte otras."
+      },
+      {
+        "titulo": "Pide consejo",
+        "texto": "La IA no es un amigo que sabe y que siente. Pregunta a personas con experiencia y buen juicio."
+      },
+      {
+        "titulo": "Asume la responsabilidad",
+        "texto": "Tus decisiones son tuyas. No las delegues en una máquina."
+      }
+    ],
+    "cierre": "No es un método: es una escuela de prudencia.",
+    "fuente": "Virtuous Leadership · 4 principios (resumen)"
+  },
+  {
+    "id": "l-metodo",
+    "titulo": "El método en seis ideas",
+    "autor": "Virtuous Leadership",
+    "virtudes": [],
+    "intro": "Lo esencial del sistema de Liderazgo Virtuoso.",
+    "tarjetas": [
+      {
+        "titulo": "Liderar es educar",
+        "texto": "Crecer haciendo crecer a los demás: sacar fuera la grandeza que hay en cada persona."
+      },
+      {
+        "titulo": "Un llamado universal",
+        "texto": "No depende del cargo ni del temperamento. Está abierto a todos."
+      },
+      {
+        "titulo": "Vocación y misión",
+        "texto": "La vocación es un llamado a ser; la misión, un llamado a hacer."
+      },
+      {
+        "titulo": "Temperamento y carácter",
+        "texto": "Naces con tu temperamento; el carácter lo construyes libremente con las virtudes."
+      },
+      {
+        "titulo": "Las virtudes del corazón",
+        "texto": "Magnanimidad y humildad son la esencia; prudencia, fortaleza, dominio de sí y justicia, el fundamento."
+      },
+      {
+        "titulo": "Primero el corazón",
+        "texto": "Se crece contemplando la belleza de la virtud, discerniendo y actuando. Por eso importan los modelos."
+      }
+    ],
+    "cierre": "",
+    "fuente": "La contribución del sistema de Liderazgo Virtuoso (resumen)"
+  }
+]

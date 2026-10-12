@@ -1,47 +1,208 @@
 {
-  "COL": {
-    "nombre": "Colérico",
-    "rasgos": "Reacción rápida, intensa y duradera. Tiende a la acción, a la decisión y a la conquista.",
-    "fortalezas": [
-      "Decisión",
-      "Iniciativa",
-      "Tenacidad"
-    ],
-    "riesgo": "Imponerse, impacientarse, no escuchar.",
-    "desafio": "La humildad es tu puerta: servir, escuchar y hacer crecer a los demás."
+  "temperamentos": {
+    "COL": {
+      "nombre": "Colérico",
+      "arquetipo": "El ejecutor",
+      "valor": "La acción",
+      "reactividad": "Rápida, fuerte y duradera",
+      "fortalezas": [
+        "Energía",
+        "Decisión",
+        "Iniciativa"
+      ],
+      "riesgos": [
+        "Orgullo",
+        "Ira",
+        "Activismo"
+      ],
+      "comunicar": "Desafíale: plantéale un reto.",
+      "desafio": "humildad",
+      "claveDesafio": "Escuchar, delegar y hacer crecer a los demás en lugar de empujarlos.",
+      "modelos": [
+        "juana-de-arco",
+        "suvorov",
+        "kelleher"
+      ]
+    },
+    "MEL": {
+      "nombre": "Melancólico",
+      "arquetipo": "El soñador",
+      "valor": "Las ideas",
+      "reactividad": "Lenta, fuerte y duradera",
+      "fortalezas": [
+        "Profundidad",
+        "Perfección",
+        "Constancia"
+      ],
+      "riesgos": [
+        "Miedo a actuar",
+        "Pesimismo",
+        "Crítica"
+      ],
+      "comunicar": "Hazle soñar: muéstrale el sentido.",
+      "desafio": "audacia",
+      "claveDesafio": "Dar el paso aunque no todo sea perfecto y perder el miedo al fracaso.",
+      "modelos": [
+        "martin-luther-king",
+        "madre-teresa",
+        "corazon-aquino"
+      ]
+    },
+    "SAN": {
+      "nombre": "Sanguíneo",
+      "arquetipo": "El comunicador",
+      "valor": "Las personas",
+      "reactividad": "Rápida, fuerte y breve",
+      "fortalezas": [
+        "Cercanía",
+        "Entusiasmo",
+        "Atención al detalle"
+      ],
+      "riesgos": [
+        "Dispersión",
+        "Inconstancia",
+        "Querer agradar"
+      ],
+      "comunicar": "Sonríele: con calidez y buen humor.",
+      "desafio": "resistencia",
+      "claveDesafio": "Terminar lo que empieza y poner la última piedra.",
+      "modelos": [
+        "thomas-more"
+      ]
+    },
+    "FLE": {
+      "nombre": "Flemático",
+      "arquetipo": "El mediador",
+      "valor": "La paz",
+      "reactividad": "Lenta, suave y breve",
+      "fortalezas": [
+        "Serenidad",
+        "Objetividad",
+        "Sentido del deber"
+      ],
+      "riesgos": [
+        "Conformismo",
+        "Evitar conflictos",
+        "Miedo a equivocarse"
+      ],
+      "comunicar": "Razona con él, con serenidad.",
+      "desafio": "magnanimidad",
+      "claveDesafio": "Atreverse a soñar y convertir el sueño en una misión.",
+      "modelos": [
+        "jerome-lejeune",
+        "darwin-smith"
+      ]
+    }
   },
-  "MEL": {
-    "nombre": "Melancólico",
-    "rasgos": "Reacción lenta, profunda y duradera. Tiende a la reflexión, a la sensibilidad y a la búsqueda de sentido.",
-    "fortalezas": [
-      "Profundidad",
-      "Fidelidad",
-      "Sentido del detalle"
-    ],
-    "riesgo": "Dudar, posponer, juzgarse con dureza.",
-    "desafio": "La audacia es tu puerta: dar el paso sin esperar a la certeza."
+  "tipos": {
+    "COL": {
+      "nombre": "El ejecutor",
+      "fortaleza": "Energía, entusiasmo y gusto por los resultados.",
+      "debilidad": "Atribuirte a ti lo que es un don y descuidar a las personas.",
+      "reto": {
+        "virtud": "humildad",
+        "faceta": "fundamental y fraterna"
+      }
+    },
+    "COL-MEL": {
+      "nombre": "El ejecutor contemplativo",
+      "fortaleza": "Acción con hondura y creatividad.",
+      "debilidad": "Usar a las personas en lugar de servirlas; encerrarte en ti.",
+      "reto": {
+        "virtud": "humildad",
+        "faceta": "fraterna"
+      }
+    },
+    "COL-SAN": {
+      "nombre": "El ejecutor amable",
+      "fortaleza": "Eficacia con afecto por las personas.",
+      "debilidad": "Activismo y poco conocimiento de ti mismo.",
+      "reto": {
+        "virtud": "humildad",
+        "faceta": "fundamental"
+      }
+    },
+    "MEL": {
+      "nombre": "El soñador",
+      "fortaleza": "Contemplación, creatividad y sed de perfección.",
+      "debilidad": "Miedo a la acción, a la incertidumbre y al riesgo.",
+      "reto": {
+        "virtud": "audacia",
+        "faceta": null
+      }
+    },
+    "MEL-COL": {
+      "nombre": "El soñador ejecutor",
+      "fortaleza": "Sueñas en grande y sabes convertirlo en misión.",
+      "debilidad": "Ensimismamiento y tendencia a usar a los demás.",
+      "reto": {
+        "virtud": "humildad",
+        "faceta": "fraterna"
+      }
+    },
+    "MEL-FLE": {
+      "nombre": "El soñador pragmático",
+      "fortaleza": "Sensibilidad creativa con racionalidad.",
+      "debilidad": "Tardas en actuar por miedo a equivocarte.",
+      "reto": {
+        "virtud": "audacia",
+        "faceta": null
+      }
+    },
+    "SAN": {
+      "nombre": "El comunicador",
+      "fortaleza": "Relación, calidez y alegría de vivir.",
+      "debilidad": "Empiezas mucho y terminas poco.",
+      "reto": {
+        "virtud": "resistencia",
+        "faceta": null
+      }
+    },
+    "SAN-COL": {
+      "nombre": "El comunicador atento",
+      "fortaleza": "Relación con las personas y eficacia en la tarea.",
+      "debilidad": "Conoces mejor a los demás que a ti mismo.",
+      "reto": {
+        "virtud": "humildad",
+        "faceta": "fundamental"
+      }
+    },
+    "SAN-FLE": {
+      "nombre": "El comunicador reservado",
+      "fortaleza": "Buenas relaciones y coherencia de vida.",
+      "debilidad": "Vivir el presente te cuesta soñar a lo grande.",
+      "reto": {
+        "virtud": "magnanimidad",
+        "faceta": null
+      }
+    },
+    "FLE": {
+      "nombre": "El mediador",
+      "fortaleza": "Serenidad, realismo y talento para resolver.",
+      "debilidad": "Buscar seguridad y no ir nunca contracorriente.",
+      "reto": {
+        "virtud": "magnanimidad",
+        "faceta": null
+      }
+    },
+    "FLE-MEL": {
+      "nombre": "El mediador contemplativo",
+      "fortaleza": "Realismo con profundidad y deseo de perfección.",
+      "debilidad": "Doble temor a la acción y al error.",
+      "reto": {
+        "virtud": "audacia",
+        "faceta": null
+      }
+    },
+    "FLE-SAN": {
+      "nombre": "El mediador amable",
+      "fortaleza": "Serenidad y don para las relaciones.",
+      "debilidad": "Miedo a soñar y mirada corta.",
+      "reto": {
+        "virtud": "magnanimidad",
+        "faceta": null
+      }
+    }
   },
-  "SAN": {
-    "nombre": "Sanguíneo",
-    "rasgos": "Reacción rápida, viva y pasajera. Tiende a la relación, al entusiasmo y a la novedad.",
-    "fortalezas": [
-      "Cercanía",
-      "Entusiasmo",
-      "Facilidad para comunicar"
-    ],
-    "riesgo": "Dispersarse, abandonar, buscar la aprobación.",
-    "desafio": "La resistencia es tu puerta: sostener lo comenzado cuando pasa el entusiasmo."
-  },
-  "FLE": {
-    "nombre": "Flemático",
-    "rasgos": "Reacción lenta, serena y poco intensa. Tiende a la calma, la objetividad y la paz.",
-    "fortalezas": [
-      "Serenidad",
-      "Paciencia",
-      "Objetividad"
-    ],
-    "riesgo": "Acomodarse, conformarse, no aspirar a más.",
-    "desafio": "La magnanimidad es tu puerta: aspirar a cosas grandes y sacar lo mejor de tus talentos."
-  },
-  "_fuente": "BORRADOR. Sustituir por las descripciones de Crecer con tu temperamento."
+  "fuente": "Crecer con tu temperamento (A. Havard, 2024) · resumen del equipo, pendiente de validar"
 }

@@ -32,3 +32,19 @@ describe('contenido es', () => {
     expect(ALL_TYPES).toHaveLength(12);
   });
 });
+
+describe('biblioteca', () => {
+  it('hay 12 tipos con nombre y reto', () => {
+    for (const code of ALL_TYPES) {
+      expect(c.types[code], code).toBeDefined();
+      expect(c.types[code].nombre.length).toBeGreaterThan(3);
+    }
+  });
+  it('los modelos de cada temperamento existen', () => {
+    for (const t of Object.values(c.temperaments)) for (const id of t.modelos) expect(c.models.some((m) => m.id === id), id).toBe(true);
+  });
+  it('vídeos sin duplicados', () => {
+    const ids = c.videos.map((v) => v.youtubeId);
+    expect(new Set(ids).size).toBe(ids.length);
+  });
+});
