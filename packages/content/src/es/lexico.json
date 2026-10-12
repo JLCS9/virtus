@@ -1,0 +1,29 @@
+{
+  "banned": [
+    "mindset",
+    "empoderar",
+    "empoderamiento",
+    "kpi",
+    "kpis",
+    "soft skills",
+    "coach",
+    "coaching",
+    "zona de confort",
+    "oferta",
+    "descuento",
+    "urgente",
+    "solo hoy"
+  ],
+  "notToday": [
+    "esta semana",
+    "este mes",
+    "la próxima semana",
+    "el próximo mes"
+  ],
+  "formal": [
+    "usted",
+    "ustedes"
+  ],
+  "minLength": 25,
+  "maxLength": 200
+}

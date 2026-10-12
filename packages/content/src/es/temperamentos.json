@@ -1,0 +1,47 @@
+{
+  "COL": {
+    "nombre": "Colérico",
+    "rasgos": "Reacción rápida, intensa y duradera. Tiende a la acción, a la decisión y a la conquista.",
+    "fortalezas": [
+      "Decisión",
+      "Iniciativa",
+      "Tenacidad"
+    ],
+    "riesgo": "Imponerse, impacientarse, no escuchar.",
+    "desafio": "La humildad es tu puerta: servir, escuchar y hacer crecer a los demás."
+  },
+  "MEL": {
+    "nombre": "Melancólico",
+    "rasgos": "Reacción lenta, profunda y duradera. Tiende a la reflexión, a la sensibilidad y a la búsqueda de sentido.",
+    "fortalezas": [
+      "Profundidad",
+      "Fidelidad",
+      "Sentido del detalle"
+    ],
+    "riesgo": "Dudar, posponer, juzgarse con dureza.",
+    "desafio": "La audacia es tu puerta: dar el paso sin esperar a la certeza."
+  },
+  "SAN": {
+    "nombre": "Sanguíneo",
+    "rasgos": "Reacción rápida, viva y pasajera. Tiende a la relación, al entusiasmo y a la novedad.",
+    "fortalezas": [
+      "Cercanía",
+      "Entusiasmo",
+      "Facilidad para comunicar"
+    ],
+    "riesgo": "Dispersarse, abandonar, buscar la aprobación.",
+    "desafio": "La resistencia es tu puerta: sostener lo comenzado cuando pasa el entusiasmo."
+  },
+  "FLE": {
+    "nombre": "Flemático",
+    "rasgos": "Reacción lenta, serena y poco intensa. Tiende a la calma, la objetividad y la paz.",
+    "fortalezas": [
+      "Serenidad",
+      "Paciencia",
+      "Objetividad"
+    ],
+    "riesgo": "Acomodarse, conformarse, no aspirar a más.",
+    "desafio": "La magnanimidad es tu puerta: aspirar a cosas grandes y sacar lo mejor de tus talentos."
+  },
+  "_fuente": "BORRADOR. Sustituir por las descripciones de Crecer con tu temperamento."
+}

@@ -1,0 +1,163 @@
+{
+  "id": "caracter-borrador",
+  "kind": "character",
+  "version": "0.1.0",
+  "locale": "es",
+  "status": "draft",
+  "title": "Test de carácter",
+  "intro": "Piensa en las últimas semanas, no en cómo te gustaría ser. Quien crece en humildad se conoce con más verdad y a veces se puntúa más bajo: es buena señal.",
+  "dimensions": [
+    "magnanimidad",
+    "humildad",
+    "prudencia",
+    "fortaleza",
+    "dominio",
+    "justicia"
+  ],
+  "likertScale": {
+    "min": 1,
+    "max": 5,
+    "labels": [
+      "Nunca",
+      "Pocas veces",
+      "A veces",
+      "A menudo",
+      "Siempre"
+    ]
+  },
+  "items": [
+    {
+      "id": "mag1",
+      "type": "likert",
+      "prompt": "Me propongo metas grandes, a la medida de mis talentos.",
+      "promptOther": "Se propone metas grandes, a la medida de sus talentos.",
+      "dimension": "magnanimidad"
+    },
+    {
+      "id": "mag2",
+      "type": "likert",
+      "prompt": "Me conformo con hacer lo justo.",
+      "promptOther": "Se conforma con hacer lo justo.",
+      "dimension": "magnanimidad",
+      "reverse": true
+    },
+    {
+      "id": "mag3",
+      "type": "likert",
+      "prompt": "Pienso en cómo mi trabajo puede servir a algo más grande que yo.",
+      "promptOther": "Piensa en cómo su trabajo puede servir a algo más grande que él o ella.",
+      "dimension": "magnanimidad"
+    },
+    {
+      "id": "hum1",
+      "type": "likert",
+      "prompt": "Reconozco mis errores sin justificarme.",
+      "promptOther": "Reconoce sus errores sin justificarse.",
+      "dimension": "humildad"
+    },
+    {
+      "id": "hum2",
+      "type": "likert",
+      "prompt": "Busco que los demás crezcan, aunque no se note mi papel.",
+      "promptOther": "Busca que los demás crezcan, aunque no se note su papel.",
+      "dimension": "humildad"
+    },
+    {
+      "id": "hum3",
+      "type": "likert",
+      "prompt": "Me molesta que otros reciban el mérito.",
+      "promptOther": "Le molesta que otros reciban el mérito.",
+      "dimension": "humildad",
+      "reverse": true
+    },
+    {
+      "id": "pru1",
+      "type": "likert",
+      "prompt": "Antes de decidir, me informo y pido consejo.",
+      "promptOther": "Antes de decidir, se informa y pide consejo.",
+      "dimension": "prudencia"
+    },
+    {
+      "id": "pru2",
+      "type": "likert",
+      "prompt": "Una vez deliberado, decido sin demorarme.",
+      "promptOther": "Una vez deliberado, decide sin demorarse.",
+      "dimension": "prudencia"
+    },
+    {
+      "id": "pru3",
+      "type": "likert",
+      "prompt": "Decido según mi primera impresión.",
+      "promptOther": "Decide según su primera impresión.",
+      "dimension": "prudencia",
+      "reverse": true
+    },
+    {
+      "id": "for1",
+      "type": "likert",
+      "prompt": "Me atrevo a hacer lo que debo aunque me dé miedo.",
+      "promptOther": "Se atreve a hacer lo que debe aunque le dé miedo.",
+      "dimension": "fortaleza"
+    },
+    {
+      "id": "for2",
+      "type": "likert",
+      "prompt": "Mantengo mis compromisos aunque cueste.",
+      "promptOther": "Mantiene sus compromisos aunque cueste.",
+      "dimension": "fortaleza"
+    },
+    {
+      "id": "for3",
+      "type": "likert",
+      "prompt": "Abandono cuando aparecen dificultades.",
+      "promptOther": "Abandona cuando aparecen dificultades.",
+      "dimension": "fortaleza",
+      "reverse": true
+    },
+    {
+      "id": "dom1",
+      "type": "likert",
+      "prompt": "Sé decir que no a lo que me apetece cuando no conviene.",
+      "promptOther": "Sabe decir que no a lo que le apetece cuando no conviene.",
+      "dimension": "dominio"
+    },
+    {
+      "id": "dom2",
+      "type": "likert",
+      "prompt": "Mi estado de ánimo marca mi manera de tratar a los demás.",
+      "promptOther": "Su estado de ánimo marca su manera de tratar a los demás.",
+      "dimension": "dominio",
+      "reverse": true
+    },
+    {
+      "id": "dom3",
+      "type": "likert",
+      "prompt": "Pongo mis emociones al servicio de lo que es bueno.",
+      "promptOther": "Pone sus emociones al servicio de lo que es bueno.",
+      "dimension": "dominio"
+    },
+    {
+      "id": "jus1",
+      "type": "likert",
+      "prompt": "Doy a cada uno lo que le corresponde, también a quien no me cae bien.",
+      "promptOther": "Da a cada uno lo que le corresponde, también a quien no le cae bien.",
+      "dimension": "justicia"
+    },
+    {
+      "id": "jus2",
+      "type": "likert",
+      "prompt": "Cumplo mi palabra.",
+      "promptOther": "Cumple su palabra.",
+      "dimension": "justicia"
+    },
+    {
+      "id": "jus3",
+      "type": "likert",
+      "prompt": "Trato mejor a quien me puede beneficiar.",
+      "promptOther": "Trata mejor a quien le puede beneficiar.",
+      "dimension": "justicia",
+      "reverse": true
+    }
+  ],
+  "source": "BORRADOR de desarrollo. Base definitiva: preguntas por virtud de Creados para la grandeza."
+}

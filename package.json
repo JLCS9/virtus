@@ -1,0 +1,12 @@
+{
+  "name": "virtus",
+  "private": true,
+  "scripts": {
+    "typecheck": "pnpm -r typecheck",
+    "test": "pnpm -r test",
+    "mobile": "pnpm --filter mobile start"
+  },
+  "devDependencies": {
+    "typescript": "~6.0.3"
+  }
+}
