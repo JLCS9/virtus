@@ -20,7 +20,7 @@ export default function Circulo() {
   const userRoles = s.roles.length > 0 ? s.roles.map((r) => r.role) : [...ROLES];
 
   const doInvite = async (c: CollaboratorBox) => {
-    const ok = await invite('temperament', c.alias);
+    const ok = await invite('temperament', c.remoteId ?? undefined);
     if (ok) s.upsertCollaborator({ ...c, invitedAt: new Date().toISOString() });
     else setNote(t('circulo.sinCuenta'));
   };

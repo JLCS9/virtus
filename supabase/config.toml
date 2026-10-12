@@ -1,0 +1,22 @@
+# Proyecto Supabase de Virtus (región UE). `supabase link --project-ref <ref>` para enlazarlo.
+project_id = "virtus"
+
+[api]
+schemas = ["public"]
+
+[auth]
+site_url = "virtus://"
+additional_redirect_urls = ["virtus://auth"]
+enable_signup = true
+
+[auth.email]
+enable_confirmations = true
+
+[functions.adapt-challenge]
+verify_jwt = true
+[functions.invite]
+verify_jwt = true
+[functions.export-data]
+verify_jwt = true
+[functions.delete-account]
+verify_jwt = true

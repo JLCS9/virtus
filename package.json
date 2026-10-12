@@ -4,7 +4,8 @@
   "scripts": {
     "typecheck": "pnpm -r typecheck",
     "test": "pnpm -r test",
-    "mobile": "pnpm --filter mobile start"
+    "mobile": "pnpm --filter mobile start",
+    "seed:build": "node scripts/build-seed.mjs"
   },
   "devDependencies": {
     "typescript": "~6.0.3"

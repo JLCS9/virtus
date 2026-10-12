@@ -258,7 +258,8 @@
     "miradaOtros": "Mirada de los otros",
     "sinFecha": "—",
     "temperamentoNota": "Lo que es natural en ti: no cambia.",
-    "caracterNota": "Lo que has conquistado: crece con las virtudes."
+    "caracterNota": "Lo que has conquistado: crece con las virtudes.",
+    "cuenta": "Cuenta y sincronización"
   },
   "notif": {
     "mananaTitulo": "Tu reto de hoy",
@@ -269,5 +270,21 @@
   "caracter": {
     "eyebrow": "Test de carácter",
     "guardar": "Ver mi perfil"
+  },
+  "cuenta": {
+    "eyebrow": "Cuenta",
+    "titulo": "Guarda tu camino",
+    "intro": "Con una cuenta, tu progreso se guarda cifrado y puedes invitar a otras personas. Sin cuenta, todo sigue funcionando en este dispositivo.",
+    "sinBackend": "Las cuentas aún no están activas en esta versión. Todo lo que haces se guarda en este dispositivo.",
+    "email": "Email",
+    "enviar": "Enviarme un código",
+    "codigo": "Código recibido por email",
+    "verificar": "Entrar",
+    "conectado": "Conectado como {{email}}",
+    "sincronizar": "Sincronizar ahora",
+    "sincronizado": "Sincronizado.",
+    "salir": "Cerrar sesión",
+    "error": "No se ha podido completar. Inténtalo de nuevo.",
+    "codigoMal": "El código no es correcto o ha caducado."
   }
 }

@@ -10,9 +10,10 @@ import { useVirtus } from '@/store/virtus';
 export const backendEnabled = () => supabase !== null;
 
 /** Crea un enlace de invitación (test de temperamento o mirada de los otros) y abre el menú de compartir. */
-export async function invite(kind: 'temperament' | 'character_view', collaboratorAlias: string): Promise<boolean> {
+export async function invite(kind: 'temperament' | 'character_view', remoteCollaboratorId?: string): Promise<boolean> {
   if (!supabase) return false;
-  const { data, error } = await supabase.functions.invoke<{ url: string }>('invite', { body: { kind, alias: collaboratorAlias } });
+  // Solo viaja el tipo de invitación y, si existe, el id remoto del colaborador; nunca su temperamento estimado.
+  const { data, error } = await supabase.functions.invoke<{ url: string }>('invite', { body: { kind, collaboratorId: remoteCollaboratorId } });
   if (error || !data?.url) return false;
   await Share.share({ message: data.url });
   return true;

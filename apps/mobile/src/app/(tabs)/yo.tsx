@@ -79,6 +79,7 @@ export default function Yo() {
         <LinkRow label={t('yo.diario')} onPress={() => router.push('/diario')} />
         <LinkRow label={t('yo.plan')} onPress={() => router.push('/plan')} />
         <LinkRow label={t('yo.repetirTest')} onPress={() => router.push('/test')} />
+        <LinkRow label={t('yo.cuenta')} onPress={() => router.push('/cuenta')} />
       </Stack>
 
       <Divider />

@@ -29,6 +29,8 @@ export interface CollaboratorBox extends Collaborator {
   /** Temperamento estimado de un tercero: SOLO en el dispositivo, nunca se sincroniza. */
   estimated: TypeCode | null;
   invitedAt: string | null;
+  /** Id en el servidor tras sincronizar. */
+  remoteId?: string | null;
 }
 
 export interface Habit {
@@ -74,6 +76,8 @@ export interface VirtusState {
   records: Record<string, DayRecord>;
   recentChallenges: string[];
   character: CharacterResult[];
+  /** Última sincronización correcta con el servidor. */
+  syncedAt: string | null;
 
   setTemperament: (r: TemperamentResult) => void;
   setRoles: (roles: RoleBox[]) => void;
@@ -88,6 +92,7 @@ export interface VirtusState {
   saveExam: (date: string, exam: ExamEntry) => void;
   toggleHabit: (date: string, habitId: string) => void;
   addCharacter: (r: CharacterResult) => void;
+  markSynced: (at: string) => void;
   reset: () => void;
 }
 
@@ -116,6 +121,7 @@ const initial = {
   records: {},
   recentChallenges: [],
   character: [],
+  syncedAt: null,
 };
 
 const emptyDay = (date: string): DayRecord => ({ date, habitsDone: [] });
@@ -162,6 +168,7 @@ export const useVirtus = create<VirtusState>()(
           return { records: { ...s.records, [date]: { ...r, habitsDone: done } } };
         }),
       addCharacter: (r) => set((s) => ({ character: [...s.character, r] })),
+      markSynced: (syncedAt) => set({ syncedAt }),
       reset: () => set({ ...initial }),
     }),
     {
