@@ -3,6 +3,8 @@ import { useTranslation } from 'react-i18next';
 
 import { Body, Button, Caption, Field, Screen, Stack, Titular } from '@/components/ui';
 import { goBackOrHome } from '@/features/nav';
+import { pullInvitationResults } from '@/features/invitations';
+import { linkPurchasesUser } from '@/features/subscription';
 import { pushAll } from '@/features/sync';
 import { supabase } from '@/lib/supabase';
 import { space } from '@/theme';
@@ -41,8 +43,10 @@ export default function Cuenta() {
   };
   const verify = async () => {
     setMsg(null);
-    const { error } = await supabase!.auth.verifyOtp({ email: email.trim(), token: code.trim(), type: 'email' });
+    const { data, error } = await supabase!.auth.verifyOtp({ email: email.trim(), token: code.trim(), type: 'email' });
     if (error) return setMsg(t('cuenta.codigoMal'));
+    if (data.user) await linkPurchasesUser(data.user.id);
+    await pullInvitationResults();
     setStep('in');
     setMsg((await pushAll()) ? t('cuenta.sincronizado') : t('cuenta.error'));
   };

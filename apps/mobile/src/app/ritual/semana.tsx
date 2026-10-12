@@ -7,6 +7,9 @@ import { dayIndex, summarizeWeek } from '@virtus/method';
 import { fragmentFor } from '@virtus/content';
 
 import { Body, BodyStrong, Button, Caption, Cita, Divider, Eyebrow, H2, Screen, Stack, Titular } from '@/components/ui';
+import { useEffect } from 'react';
+
+import { track } from '@/features/analytics';
 import { useContent } from '@/features/content';
 import { useVirtus } from '@/store/virtus';
 import { color, space, type } from '@/theme';
@@ -25,6 +28,7 @@ export default function Semana() {
   const s = useVirtus();
   const content = useContent();
   const now = new Date();
+  useEffect(() => track('weekly_opened', {}), []);
   const w = summarizeWeek(s.records, now);
   const virtue = s.cycle?.virtue ?? 'humildad';
   const reading = fragmentFor(content, virtue, dayIndex(now) + 3);

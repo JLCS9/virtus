@@ -6,6 +6,7 @@ import { useTranslation } from 'react-i18next';
 import { isComplete, likertMax, normalizeScores, scoreTest, type Answers, type Virtue } from '@virtus/method';
 
 import { Body, BodyStrong, Button, Caption, Chip, Divider, Row, Screen, Titular } from '@/components/ui';
+import { track } from '@/features/analytics';
 import { useContent } from '@/features/content';
 import { useVirtus } from '@/store/virtus';
 import { space } from '@/theme';
@@ -20,6 +21,7 @@ export default function TestCaracter() {
 
   const save = () => {
     const self = normalizeScores(scoreTest(test, answers), likertMax(test)) as Record<Virtue, number>;
+    track('test_completed', { kind: 'character', repeat: useVirtus.getState().character.length > 0 });
     addCharacter({ takenAt: new Date().toISOString(), testVersion: test.version, self, others: [] });
     goBackOrHome();
   };

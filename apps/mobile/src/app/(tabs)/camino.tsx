@@ -65,7 +65,8 @@ export default function Camino() {
         <Eyebrow>{t('camino.ciclo')}</Eyebrow>
         <H3>{t(`virtudes.${cycle}`)}</H3>
         <Body>{t('camino.cicloDias', { n: day })}</Body>
-        <Button variant="secondary" label={t('camino.cambiarCiclo')} onPress={() => router.push('/plan')} />
+        <Button variant="secondary" label={t('camino.cerrarCiclo')} onPress={() => router.push('/ciclo')} />
+        <Button variant="ghost" label={t('camino.cambiarCiclo')} onPress={() => router.push('/plan')} />
       </Card>
 
       <Pressable accessibilityRole="button" onPress={() => router.push('/mision')}>

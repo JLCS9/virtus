@@ -7,7 +7,9 @@ import { averageProfiles } from '@virtus/method';
 
 import { Body, BodyStrong, Button, Caption, Card, Divider, Eyebrow, H2, H3, Row, Screen, Stack, Titular } from '@/components/ui';
 import { CharacterBars } from '@/components/CharacterBars';
+import { Toggle } from '@/components/PlanForm';
 import { deleteEverything, exportLocal } from '@/features/account';
+import { setAnalyticsConsent } from '@/features/analytics';
 import { useContent } from '@/features/content';
 import { typeName } from '@/features/labels';
 import { useVirtus } from '@/store/virtus';
@@ -80,11 +82,13 @@ export default function Yo() {
         <LinkRow label={t('yo.plan')} onPress={() => router.push('/plan')} />
         <LinkRow label={t('yo.repetirTest')} onPress={() => router.push('/test')} />
         <LinkRow label={t('yo.cuenta')} onPress={() => router.push('/cuenta')} />
+        <LinkRow label={t('yo.suscripcion')} onPress={() => router.push('/suscripcion')} />
       </Stack>
 
       <Divider />
       <Stack gap={space.s}>
         <H2>{t('yo.privacidad')}</H2>
+        <Toggle label={t('yo.analitica')} note={t('yo.analiticaNota')} value={s.plan.analytics} onChange={setAnalyticsConsent} />
         <Button variant="secondary" label={t('yo.exportar')} onPress={exportLocal} />
         {!confirm ? (
           <Button variant="ghost" label={t('yo.borrar')} onPress={() => setConfirm(true)} />

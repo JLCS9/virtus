@@ -3,6 +3,11 @@ import { router } from 'expo-router';
 import { useTranslation } from 'react-i18next';
 
 import { Body, Button, Caption, Card, Eyebrow, H1, H2, Lectura, Screen, Stack, Wordmark, useSurface } from '@/components/ui';
+import { useEffect } from 'react';
+
+import { isCycleDue, shouldConfirmTemperament } from '@virtus/method';
+
+import { pullInvitationResults } from '@/features/invitations';
 import { useToday } from '@/features/today';
 import { useVirtus } from '@/store/virtus';
 import { color, radius, space, type } from '@/theme';
@@ -47,6 +52,11 @@ export default function Hoy() {
   const today = useToday();
   const date = new Date().toLocaleDateString(i18n.language, { weekday: 'long', day: 'numeric', month: 'long' });
   const isSunday = new Date().getDay() === 0;
+  const cycleDue = !!s.cycle && isCycleDue(s.cycle.startedAt, s.plan.cycleWeeks, new Date());
+  const confirmTemperament = shouldConfirmTemperament(s.temperamentHistory, s.temperamentConfirmDismissedAt, new Date());
+  useEffect(() => {
+    void pullInvitationResults();
+  }, []);
 
   return (
     <Screen>
@@ -64,6 +74,22 @@ export default function Hoy() {
       </Pressable>
 
       {!today.practiceDay ? <Caption>{t('hoy.descanso')}</Caption> : null}
+
+      {cycleDue ? (
+        <Card accent>
+          <H2>{t('hoy.cicloCierre')}</H2>
+          <Body>{t('hoy.cicloCierreTexto')}</Body>
+          <Button label={t('hoy.abrir')} onPress={() => router.push('/ciclo')} />
+        </Card>
+      ) : null}
+      {confirmTemperament ? (
+        <Card>
+          <H2>{t('hoy.confirmarTitulo')}</H2>
+          <Body>{t('hoy.confirmarTexto')}</Body>
+          <Button variant="secondary" label={t('hoy.confirmar')} onPress={() => router.push('/test')} />
+          <Button variant="ghost" label={t('comun.omitir')} onPress={s.dismissTemperamentConfirm} />
+        </Card>
+      ) : null}
 
       <MomentCard
         eyebrow={t('hoy.manana')}

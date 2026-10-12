@@ -20,3 +20,9 @@ verify_jwt = true
 verify_jwt = true
 [functions.delete-account]
 verify_jwt = true
+# Públicas: la persona invitada no tiene cuenta; el acceso lo da el token de la invitación.
+[functions.invitation]
+verify_jwt = false
+# Autenticada con un secreto compartido en la cabecera Authorization.
+[functions.revenuecat-webhook]
+verify_jwt = false

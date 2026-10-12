@@ -78,9 +78,19 @@
   "rolesPantalla": {
     "eyebrow": "Tu vida concreta",
     "titulo": "¿Dónde se juega tu carácter?",
-    "intro": "Elige tus roles. Los retos se repartirán entre ellos. Puedes cambiarlos cuando quieras.",
-    "detalle": "Una línea sobre este rol (opcional)",
-    "detallePlaceholder": "Ej.: dos hijos, de 8 y 12 años"
+    "intro": "Marca los roles que vives hoy. Los retos se repartirán entre ellos. Puedes cambiarlos cuando quieras.",
+    "detalle": "En una línea (opcional)",
+    "cualOtro": "¿Cuál? En una línea",
+    "ejemplos": {
+      "padre_madre": "Ej.: dos hijos, de 8 y 12 años",
+      "hijo_hermano": "Ej.: cuido de mi madre; tengo dos hermanas",
+      "conyuge": "Ej.: casado desde hace diez años",
+      "educador": "Ej.: tutor de 3.º de ESO",
+      "trabajo": "Ej.: dirijo un equipo de cinco personas",
+      "comunidad": "Ej.: voluntario en mi parroquia",
+      "otro": "Ej.: entrenador de un equipo de fútbol infantil"
+    },
+    "privacidad": "Lo que escribas aquí se guarda cifrado y solo sirve para adaptar tus retos."
   },
   "mision": {
     "eyebrow": "Tu misión",
@@ -119,7 +129,9 @@
     "espiritualNota": "Oración y lecturas espirituales opcionales. Los textos de Alex se muestran siempre íntegros.",
     "notificaciones": "Recordatorios",
     "terminar": "Empezar mi camino",
-    "horaInvalida": "Revisa las horas (formato 07:30) y marca al menos un día de práctica."
+    "horaInvalida": "Revisa las horas (formato 07:30) y marca al menos un día de práctica.",
+    "cicloSemanas": "Duración del ciclo",
+    "semanas": "{{n}} semanas"
   },
   "dias": [
     "D",
@@ -145,7 +157,12 @@
     "descanso": "Hoy es día de descanso en tu plan.",
     "habitos": "Hábitos de hoy",
     "abrir": "Abrir",
-    "ciclo": "Ciclo: {{virtud}}"
+    "ciclo": "Ciclo: {{virtud}}",
+    "cicloCierre": "Tu ciclo ha llegado a su fin",
+    "cicloCierreTexto": "Diez minutos para mirar lo vivido, medir tu carácter con la mirada de otros y elegir el siguiente ciclo.",
+    "confirmarTitulo": "Confirma tu temperamento",
+    "confirmarTexto": "La medición puede fallar. Ahora que te conoces algo más, repite el test con calma.",
+    "confirmar": "Repetir el test"
   },
   "ritual": {
     "eyebrow": "Mañana · {{virtud}}",
@@ -210,7 +227,8 @@
     "ciclo": "Ciclo actual",
     "cicloDias": "Día {{n}} del ciclo",
     "itinerario": "Itinerario de misión",
-    "cambiarCiclo": "Cambiar la virtud del ciclo"
+    "cambiarCiclo": "Cambiar la virtud del ciclo",
+    "cerrarCiclo": "Cerrar el ciclo"
   },
   "biblioteca": {
     "eyebrow": "Biblioteca",
@@ -259,7 +277,10 @@
     "sinFecha": "—",
     "temperamentoNota": "Lo que es natural en ti: no cambia.",
     "caracterNota": "Lo que has conquistado: crece con las virtudes.",
-    "cuenta": "Cuenta y sincronización"
+    "cuenta": "Cuenta y sincronización",
+    "analitica": "Compartir datos de uso anónimos",
+    "analiticaNota": "Nos ayuda a mejorar Virtus. Nunca incluye tu diario, tu misión, tus roles ni tus resultados.",
+    "suscripcion": "Suscripción"
   },
   "notif": {
     "mananaTitulo": "Tu reto de hoy",
@@ -286,5 +307,64 @@
     "salir": "Cerrar sesión",
     "error": "No se ha podido completar. Inténtalo de nuevo.",
     "codigoMal": "El código no es correcto o ha caducado."
+  },
+  "invitado": {
+    "eyebrow": "Invitación · Virtus",
+    "tituloTest": "Descubre tu temperamento",
+    "tituloMirada": "Tu mirada sobre una persona de confianza",
+    "introTest": "Una persona de tu confianza te invita a hacer el test de temperamento. Responde con tu primera reacción, la espontánea. Al terminar, tu tipo se compartirá con quien te invitó.",
+    "introMirada": "Una persona que confía en ti trabaja su carácter y te pide tu mirada sincera. Piensa en cómo ha actuado en las últimas semanas. Tus respuestas le ayudan a conocerse con verdad.",
+    "consentimientoTest": "Acepto compartir mi tipo de temperamento con la persona que me invitó.",
+    "consentimientoMirada": "Acepto que mis respuestas se compartan, sin mi nombre, con la persona que me invitó.",
+    "privacidad": "No necesitas cuenta. No guardamos tu nombre ni tu email. Solo se comparte el resultado.",
+    "enviar": "Enviar",
+    "gracias": "Gracias",
+    "graciasTexto": "Tu respuesta se ha enviado. Crecer haciendo crecer a los demás también es esto.",
+    "noDisponible": "Invitación no disponible",
+    "noDisponibleTexto": "El enlace ha caducado, ya se usó o no es válido. Pide a quien te invitó un enlace nuevo."
+  },
+  "ciclo": {
+    "eyebrow": "Cierre de ciclo · {{virtud}}",
+    "titulo": "Mira el camino recorrido",
+    "vivido": "Lo vivido",
+    "dias": "Días del ciclo",
+    "aceptados": "Retos aceptados",
+    "cumplidos": "Retos cumplidos",
+    "reacciones": "La segunda reacción prevaleció {{segunda}} veces; la primera, {{primera}}.",
+    "autoevaluacion": "Tu autoevaluación",
+    "autoHecha": "Ya has hecho tu autoevaluación en este ciclo.",
+    "autoPendiente": "Responde con verdad, pensando en las últimas semanas.",
+    "repetirAuto": "Repetirla",
+    "mirada": "La mirada de los otros",
+    "miradaTexto": "La autoevaluación sola mide mal lo que el método busca. Pide a al menos una persona de confianza que responda sobre ti.",
+    "pedirMirada": "Pedir su mirada",
+    "comprobar": "Comprobar respuestas",
+    "invitacionCreada": "Enlace creado. Cuando responda, pulsa «Comprobar respuestas».",
+    "miradasNuevas": "Se han incorporado {{n}} respuestas.",
+    "sinMiradas": "Todavía no ha respondido nadie.",
+    "evolucion": "Tu carácter",
+    "respectoAnterior": "Respecto al ciclo anterior",
+    "humildadNota": "Puntuarte más bajo puede ser señal de que te conoces con más verdad.",
+    "siguiente": "Tu siguiente ciclo",
+    "siguienteNota": "Por defecto, tu virtud-desafío: la que siempre te costará.",
+    "cerrar": "Empezar ciclo de {{virtud}}"
+  },
+  "suscripcion": {
+    "eyebrow": "Suscripción",
+    "titulo": "Virtus completo",
+    "intro": "Virtus acompaña cada día la formación del carácter según el método de Alexandre Havard.",
+    "incluye": [
+      "Reto diario adaptado a tu vida concreta",
+      "Examen de noche y revisión semanal",
+      "Ciclos con test de carácter y la mirada de los otros",
+      "Biblioteca de fragmentos y lecciones"
+    ],
+    "noDisponible": "La suscripción está disponible en la app para iOS y Android.",
+    "suscribirme": "Suscribirme",
+    "restaurar": "Restaurar compras",
+    "activa": "Tu suscripción está activa.",
+    "noCompletada": "La compra no se ha completado.",
+    "sinCompras": "No hay compras que restaurar.",
+    "legal": "La suscripción se renueva automáticamente hasta que la canceles desde los ajustes de tu tienda."
   }
 }

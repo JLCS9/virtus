@@ -13,10 +13,12 @@ import { RobotoSlab_500Medium } from '@expo-google-fonts/roboto-slab/500Medium';
 import { RobotoSlab_700Bold } from '@expo-google-fonts/roboto-slab/700Bold';
 
 import { listenRitualTaps } from '@/features/notifications';
+import { configurePurchases } from '@/features/subscription';
 import { useHydrated } from '@/store/virtus';
 import { color, motion } from '@/theme';
 
 SplashScreen.preventAutoHideAsync();
+configurePurchases();
 SplashScreen.setOptions({ duration: motion.lenta, fade: true });
 
 export default function RootLayout() {

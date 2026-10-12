@@ -6,6 +6,7 @@ import { useTranslation } from 'react-i18next';
 import { isComplete, resolveTemperament, scoreTest, type Answers, type Temperament } from '@virtus/method';
 
 import { Body, Button, Caption, Choice, Eyebrow, H2, Progress, Screen, Stack } from '@/components/ui';
+import { track } from '@/features/analytics';
 import { useContent } from '@/features/content';
 import { useVirtus } from '@/store/virtus';
 import { space } from '@/theme';
@@ -23,6 +24,7 @@ export default function TestTemperamento() {
 
   const finish = () => {
     const scores = scoreTest(test, answers) as Record<Temperament, number>;
+    track('test_completed', { kind: 'temperament', repeat: useVirtus.getState().temperamentHistory.length > 0 });
     setTemperament(resolveTemperament(scores, { testId: test.id, testVersion: test.version }));
     router.replace('/revelacion');
   };

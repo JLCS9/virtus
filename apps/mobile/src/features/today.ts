@@ -15,6 +15,7 @@ import { fragmentFor } from '@virtus/content';
 import { useVirtus } from '@/store/virtus';
 import { INCLUDE_DRAFTS, useContent } from './content';
 import { adaptChallenge } from './adapt';
+import { track } from './analytics';
 
 export function useToday(date = new Date()) {
   const content = useContent();
@@ -71,8 +72,13 @@ export function useToday(date = new Date()) {
     const daily = build(exclude);
     if (!daily || daily.baseId === current?.baseId) return false;
     void assign(daily, (current?.rerolls ?? 0) + 1);
+    track('challenge_rerolled', {});
     return true;
   }, [record?.challenge, s.recentChallenges, build, assign]);
 
-  return { key, record, virtue, role, practiceDay, fragment, reroll, accept: () => s.acceptChallenge(key) };
+  return { key, record, virtue, role, practiceDay, fragment, reroll, accept: () => {
+      s.acceptChallenge(key);
+      track('challenge_accepted', { rerolls: record?.challenge?.rerolls ?? 0, adapted: false });
+    },
+  };
 }
