@@ -255,7 +255,7 @@
     "titulo": "Aprende del método",
     "fragmentos": "Fragmentos",
     "todos": "Todo",
-    "videos": "Vídeos de Alex",
+    "videos": "Conferencias de Alex",
     "modelos": "Modelos de liderazgo virtuoso",
     "entorno": "Entorno magnánimo",
     "entornoTexto": "Libros, música, películas y pintura que Alex recomienda",
@@ -444,5 +444,29 @@
       "SI": "Dejarse guiar solo por el sentimiento",
       "SC": "Huir del conflicto en nombre del corazón"
     }
+  },
+  "cursos": {
+    "eyebrow": "Cursos de Alex",
+    "curso": "Curso {{n}}",
+    "paraTuCiclo": "Para tu ciclo",
+    "lecciones_one": "{{count}} lección",
+    "lecciones_other": "{{count}} lecciones",
+    "minutos": "{{m}} min",
+    "horas": "{{h}} h {{m}} min",
+    "vistas": "{{done}} de {{total}} vistas",
+    "completado": "Curso completado",
+    "empezar": "Empezar el curso",
+    "continuar": "Continuar · {{n}}",
+    "verDeNuevo": "Volver a verlo",
+    "continua": "Continúa donde lo dejaste",
+    "siguienteEtiqueta": "Siguiente",
+    "tuTemperamento": "Tu temperamento",
+    "leccionDe": "Lección {{n}} de {{total}}",
+    "siguiente": "Siguiente lección",
+    "aContinuacion": "A continuación",
+    "volverCurso": "Volver al curso",
+    "vista": "Vista",
+    "marcarVista": "Marcar como vista",
+    "finCurso": "Has llegado al final del curso. Lo que has visto cobra vida en el reto de cada día."
   }
 }

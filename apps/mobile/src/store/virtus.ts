@@ -112,6 +112,9 @@ export interface VirtusState {
   temperamentConfirmDismissedAt: string | null;
   /** Invitaciones y miradas ya incorporadas desde el servidor. */
   processedRemote: string[];
+  /** Lecciones de los cursos en vídeo vistas (id → fecha) y la última abierta. */
+  watched: Record<string, string>;
+  lastLesson: string | null;
 
   setTemperament: (r: TemperamentResult) => void;
   setRoles: (roles: RoleBox[]) => void;
@@ -133,6 +136,8 @@ export interface VirtusState {
   addInvite: (i: LocalInvite) => void;
   dismissTemperamentConfirm: () => void;
   markProcessed: (ids: string[]) => void;
+  openLesson: (id: string) => void;
+  markWatched: (id: string) => void;
   reset: () => void;
 }
 
@@ -169,6 +174,8 @@ const initial = {
   invites: [],
   temperamentConfirmDismissedAt: null,
   processedRemote: [],
+  watched: {},
+  lastLesson: null,
 };
 
 const emptyDay = (date: string): DayRecord => ({ date, habitsDone: [] });
@@ -242,11 +249,13 @@ export const useVirtus = create<VirtusState>()(
       addInvite: (i) => set((s) => ({ invites: [...s.invites, i] })),
       dismissTemperamentConfirm: () => set({ temperamentConfirmDismissedAt: new Date().toISOString() }),
       markProcessed: (ids) => set((s) => ({ processedRemote: [...new Set([...s.processedRemote, ...ids])] })),
+      openLesson: (id) => set({ lastLesson: id }),
+      markWatched: (id) => set((s) => (s.watched[id] ? {} : { watched: { ...s.watched, [id]: new Date().toISOString() } })),
       reset: () => set({ ...initial }),
     }),
     {
       name: 'virtus-v1',
-      version: 3,
+      version: 4,
       storage: createJSONStorage(() => AsyncStorage),
       // v1 → v2: nuevos campos del plan y del ciclo.
       migrate: (persisted, version) => {
@@ -264,6 +273,10 @@ export const useVirtus = create<VirtusState>()(
           const fix = (r: TemperamentResult) => ({ ...r, isPure: r.secondary === null, secondaryStrength: null }) as TemperamentResult;
           if (p.temperament) p.temperament = fix(p.temperament);
           p.temperamentHistory = (p.temperamentHistory ?? []).map(fix);
+        }
+        if (version < 4) {
+          p.watched ??= {};
+          p.lastLesson ??= null;
         }
         return p as VirtusState;
       },

@@ -8,6 +8,7 @@ import videosEs from './es/videos.json';
 import modelosEs from './es/modelos.json';
 import entornoEs from './es/entorno.json';
 import lecturasEs from './es/lecturas.json';
+import cursosEs from './es/cursos.json';
 import vlTemperamentoEs from './es/vl-temperamento.json';
 import vlCaracterEs from './es/vl-caracter.json';
 import vlCorazonEs from './es/vl-corazon.json';
@@ -93,6 +94,27 @@ export interface Video {
   virtudes: string[];
 }
 
+/** Una lección de un curso en vídeo de Alex (Vimeo). duracion en segundos. */
+export interface Lesson {
+  id: string;
+  titulo: string;
+  vimeoId: string;
+  duracion: number;
+  miniatura: string | null;
+  virtudes: string[];
+  temperamentos: string[];
+}
+
+/** Curso en vídeo de Alex: la lección x.0 es la introducción. */
+export interface Course {
+  id: string;
+  numero: number;
+  titulo: string;
+  virtudes: string[];
+  temas: string[];
+  lecciones: Lesson[];
+}
+
 export interface Model {
   id: string;
   nombre: string;
@@ -133,6 +155,7 @@ export interface ContentBundle {
   models: Model[];
   environment: Environment;
   readings: Reading[];
+  courses: Course[];
   /** Los tres tests oficiales de virtuousleadership.com. */
   vlTests: { temperament: VlTemperamentTest; character: VlCharacterTest; heart: VlHeartTest };
 }
@@ -148,6 +171,7 @@ const es: ContentBundle = {
   models: modelosEs.modelos as unknown as Model[],
   environment: entornoEs as unknown as Environment,
   readings: lecturasEs,
+  courses: cursosEs as Course[],
   vlTests: {
     temperament: vlTemperamentoEs as unknown as VlTemperamentTest,
     character: vlCaracterEs as unknown as VlCharacterTest,
@@ -188,6 +212,24 @@ export function modelOfDay(content: ContentBundle, virtue: WorkVirtue, dayIndex:
 export function videosFor(content: ContentBundle, virtue: WorkVirtue): Video[] {
   const list = content.videos.filter((v) => matches(v.virtudes, virtue));
   return list.length > 0 ? list : content.videos;
+}
+
+/** Cursos, primero los que trabajan la virtud del ciclo. */
+export function coursesFor(content: ContentBundle, virtue: WorkVirtue): Course[] {
+  return [...content.courses].sort((a, b) => Number(matches(b.virtudes, virtue)) - Number(matches(a.virtudes, virtue)));
+}
+
+export function courseMatches(course: Course, virtue: WorkVirtue): boolean {
+  return matches(course.virtudes, virtue);
+}
+
+/** Lección por id, con su curso y su posición. */
+export function findLesson(content: ContentBundle, id: string): { course: Course; lesson: Lesson; index: number } | null {
+  for (const course of content.courses) {
+    const index = course.lecciones.findIndex((l) => l.id === id);
+    if (index >= 0) return { course, lesson: course.lecciones[index], index };
+  }
+  return null;
 }
 
 export function typeCopy(content: ContentBundle, code: TypeCode): TypeCopy {
