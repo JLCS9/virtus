@@ -1,0 +1,51 @@
+[
+  {
+    "id": "v-temperamento-caracter",
+    "youtubeId": "Ei3UP1Rp7ZE",
+    "titulo": "Del temperamento al carácter",
+    "canal": "Universidad de Navarra",
+    "temas": [
+      "temperamento",
+      "caracter"
+    ],
+    "virtudes": []
+  },
+  {
+    "id": "v-magnanimidad",
+    "youtubeId": "5LxM4-JtaEE",
+    "titulo": "Liderazgo virtuoso: el poder de la magnanimidad",
+    "canal": "Fundación Ibercaja",
+    "temas": [
+      "virtudes"
+    ],
+    "virtudes": [
+      "magnanimidad",
+      "humildad"
+    ]
+  },
+  {
+    "id": "v-creados-grandeza",
+    "youtubeId": "KNUaWp7Wfpo",
+    "titulo": "Creados para la grandeza",
+    "canal": "Alegra School",
+    "temas": [
+      "virtudes",
+      "educacion"
+    ],
+    "virtudes": [
+      "magnanimidad"
+    ]
+  },
+  {
+    "id": "v-mision",
+    "youtubeId": "7K5qyj1GuzM",
+    "titulo": "¿Cuál es mi misión en la vida?",
+    "canal": "Dirección por Misiones",
+    "temas": [
+      "mision"
+    ],
+    "virtudes": [
+      "magnanimidad"
+    ]
+  }
+]

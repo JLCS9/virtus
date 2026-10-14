@@ -1,0 +1,293 @@
+{
+  "modelos": [
+    {
+      "id": "thomas-more",
+      "nombre": "Tomás Moro",
+      "años": "1478–1535",
+      "ambito": "Política",
+      "lema": "La claridad de mi conciencia ha hecho saltar de alegría mi corazón",
+      "resumen": "Canciller de Inglaterra que lo perdió todo, hasta la vida, antes que actuar contra su conciencia.",
+      "virtudes": [
+        "magnanimidad",
+        "humildad",
+        "justicia"
+      ],
+      "temperamento": "SAN"
+    },
+    {
+      "id": "solzhenitsyn",
+      "nombre": "Aleksandr Solzhenitsyn",
+      "años": "1918–2008",
+      "ambito": "Literatura",
+      "lema": "Quise ser la memoria de un pueblo",
+      "resumen": "Dio voz a los millones de víctimas del comunismo frente a todo un régimen.",
+      "virtudes": [
+        "magnanimidad",
+        "audacia"
+      ],
+      "temperamento": "COL"
+    },
+    {
+      "id": "eric-liddell",
+      "nombre": "Eric Liddell",
+      "años": "1902–1945",
+      "ambito": "Deporte",
+      "lema": "Dios me hizo rápido",
+      "resumen": "Campeón olímpico que vivió su talento como un don y murió como misionero en China.",
+      "virtudes": [
+        "magnanimidad",
+        "humildad"
+      ],
+      "temperamento": null
+    },
+    {
+      "id": "juana-de-arco",
+      "nombre": "Juana de Arco",
+      "años": "1412–1431",
+      "ambito": "Misión",
+      "lema": "Ayúdate y Dios te ayudará",
+      "resumen": "A los 17 años transformó un ejército temeroso y despertó la grandeza de todo un pueblo.",
+      "virtudes": [
+        "magnanimidad",
+        "humildad",
+        "audacia"
+      ],
+      "temperamento": "COL"
+    },
+    {
+      "id": "martin-luther-king",
+      "nombre": "Martin Luther King",
+      "años": "1929–1968",
+      "ambito": "Derechos civiles",
+      "lema": "Tengo un sueño",
+      "resumen": "Melancólico audaz: venció sus miedos y convirtió su sueño de dignidad en acción.",
+      "virtudes": [
+        "magnanimidad",
+        "audacia"
+      ],
+      "temperamento": "MEL"
+    },
+    {
+      "id": "stolypin",
+      "nombre": "Piotr Stolypin",
+      "años": "1862–1911",
+      "ambito": "Política",
+      "lema": "Enterradme donde me maten",
+      "resumen": "Reformador ruso que sobrevivió a once atentados y siguió fiel a su misión hasta el final.",
+      "virtudes": [
+        "magnanimidad",
+        "resistencia"
+      ],
+      "temperamento": null
+    },
+    {
+      "id": "jerome-lejeune",
+      "nombre": "Jérôme Lejeune",
+      "años": "1926–1994",
+      "ambito": "Ciencia",
+      "lema": "Defender la verdad científica y la verdad moral que de ella se sigue",
+      "resumen": "Descubrió la causa del síndrome de Down y lo arriesgó todo por defender la dignidad de toda vida.",
+      "virtudes": [
+        "magnanimidad",
+        "audacia"
+      ],
+      "temperamento": "FLE"
+    },
+    {
+      "id": "michelin",
+      "nombre": "Édouard Michelin",
+      "años": "1859–1940",
+      "ambito": "Empresa",
+      "lema": "Hay que romper la piedra para encontrar el diamante",
+      "resumen": "Descubrió el talento de un obrero sin estudios que acabó inventando el neumático radial.",
+      "virtudes": [
+        "magnanimidad",
+        "justicia"
+      ],
+      "temperamento": null
+    },
+    {
+      "id": "madre-teresa",
+      "nombre": "Madre Teresa de Calcuta",
+      "años": "1910–1997",
+      "ambito": "Servicio",
+      "lema": "Quise ser madre de los más pobres",
+      "resumen": "Melancólica magnánima y humilde: nunca perdió de vista su misión al servicio de los pobres.",
+      "virtudes": [
+        "magnanimidad",
+        "humildad"
+      ],
+      "temperamento": "MEL"
+    },
+    {
+      "id": "corazon-aquino",
+      "nombre": "Corazón Aquino",
+      "años": "1933–2009",
+      "ambito": "Política",
+      "lema": "Sin valores, una democracia es una confederación de necios",
+      "resumen": "Tuvo poder absoluto y lo usó solo para devolverlo: creó tribunales y un parlamento que la limitaran.",
+      "virtudes": [
+        "justicia",
+        "humildad"
+      ],
+      "temperamento": "MEL"
+    },
+    {
+      "id": "kelleher",
+      "nombre": "Herb Kelleher",
+      "años": "1931–2019",
+      "ambito": "Empresa",
+      "lema": "Tenemos un departamento de personas, no de recursos humanos",
+      "resumen": "Puso a sus empleados primero; vendió un avión antes que despedir a nadie.",
+      "virtudes": [
+        "justicia",
+        "humildad"
+      ],
+      "temperamento": "COL"
+    },
+    {
+      "id": "chehab",
+      "nombre": "Fouad Chehab",
+      "años": "1902–1973",
+      "ambito": "Política",
+      "lema": "Proteger la unidad del país",
+      "resumen": "Presidente del Líbano que gobernó con prudencia, murió pobre y vivió el cargo como servicio.",
+      "virtudes": [
+        "justicia",
+        "prudencia"
+      ],
+      "temperamento": null
+    },
+    {
+      "id": "darwin-smith",
+      "nombre": "Darwin Smith",
+      "años": "1926–1995",
+      "ambito": "Empresa",
+      "lema": "Alcanzaremos la grandeza o pereceremos",
+      "resumen": "Flemático y reservado, apostó todo en una decisión audaz que transformó Kimberly-Clark.",
+      "virtudes": [
+        "magnanimidad",
+        "audacia"
+      ],
+      "temperamento": "FLE"
+    },
+    {
+      "id": "yuan-longping",
+      "nombre": "Yuan Longping",
+      "años": "1929–2021",
+      "ambito": "Ciencia",
+      "lema": "Que más gente tenga qué comer",
+      "resumen": "Agrónomo que fue contracorriente y desarrolló el arroz híbrido para vencer el hambre.",
+      "virtudes": [
+        "magnanimidad",
+        "resistencia"
+      ],
+      "temperamento": null
+    },
+    {
+      "id": "charles-malik",
+      "nombre": "Charles Malik",
+      "años": "1906–1987",
+      "ambito": "Diplomacia",
+      "lema": "La dignidad del hombre es la gran cuestión",
+      "resumen": "Uno de los redactores de la Declaración Universal de los Derechos Humanos.",
+      "virtudes": [
+        "magnanimidad",
+        "justicia"
+      ],
+      "temperamento": null
+    },
+    {
+      "id": "escriva",
+      "nombre": "Josemaría Escrivá",
+      "años": "1902–1975",
+      "ambito": "Espiritualidad",
+      "lema": "Todo cristiano está llamado a la santidad",
+      "resumen": "Enseñó que el trabajo y la vida ordinaria son camino de santidad para todos.",
+      "virtudes": [
+        "magnanimidad",
+        "humildad"
+      ],
+      "temperamento": null
+    },
+    {
+      "id": "suvorov",
+      "nombre": "Alexandr Suvórov",
+      "años": "1730–1800",
+      "ambito": "Mando",
+      "lema": "Amé a mis soldados más que a mí mismo",
+      "resumen": "Colérico humilde: cuidaba de sus hombres como nadie y nunca perdió una batalla.",
+      "virtudes": [
+        "humildad",
+        "prudencia"
+      ],
+      "temperamento": "COL"
+    },
+    {
+      "id": "juan-pablo-ii",
+      "nombre": "Juan Pablo II",
+      "años": "1920–2005",
+      "ambito": "Espiritualidad",
+      "lema": "No tengáis miedo",
+      "resumen": "Devolvió la esperanza y el orgullo de su fe a millones de personas, sobre todo jóvenes.",
+      "virtudes": [
+        "magnanimidad",
+        "audacia"
+      ],
+      "temperamento": null
+    },
+    {
+      "id": "enrique-shaw",
+      "nombre": "Enrique Shaw",
+      "años": "1921–1962",
+      "ambito": "Empresa",
+      "lema": "La empresa también es misión",
+      "resumen": "Empresario argentino; 260 trabajadores donaron sangre cuando enfermó.",
+      "virtudes": [
+        "justicia",
+        "humildad"
+      ],
+      "temperamento": null
+    },
+    {
+      "id": "fakhreddin",
+      "nombre": "Fakhreddin II",
+      "años": "1572–1635",
+      "ambito": "Política",
+      "lema": "No vine a reinar, vine a proteger el Líbano",
+      "resumen": "Emir que unió a comunidades distintas y perdonó al enemigo vencido.",
+      "virtudes": [
+        "magnanimidad",
+        "justicia"
+      ],
+      "temperamento": null
+    },
+    {
+      "id": "shackleton",
+      "nombre": "Ernest Shackleton",
+      "años": "1874–1922",
+      "ambito": "Exploración",
+      "lema": "El barco se ha ido; ahora volvemos a casa",
+      "resumen": "Atrapado en el hielo antártico, devolvió con vida a toda su tripulación.",
+      "virtudes": [
+        "resistencia",
+        "audacia"
+      ],
+      "temperamento": null
+    },
+    {
+      "id": "sheikh-zayed",
+      "nombre": "Jeque Zayed",
+      "años": "1918–2004",
+      "ambito": "Política",
+      "lema": "La riqueza no es el dinero, son las personas",
+      "resumen": "Convirtió el desierto en un país y puso su riqueza al servicio de la educación de su pueblo.",
+      "virtudes": [
+        "magnanimidad",
+        "prudencia"
+      ],
+      "temperamento": null
+    }
+  ],
+  "fuente": "Virtuous Leadership Models · resumen del equipo"
+}

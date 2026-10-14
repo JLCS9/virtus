@@ -23,6 +23,7 @@ import { color, filete, radius, space, surface, type, type Surface, type Surface
 
 const SurfaceContext = createContext<Surface>(surface.claro);
 export const useSurface = () => useContext(SurfaceContext);
+export const SurfaceProvider = SurfaceContext.Provider;
 
 export function Screen({
   children,

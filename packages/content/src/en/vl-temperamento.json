@@ -1,0 +1,227 @@
+{
+  "id": "vl-temperamento",
+  "version": "1.0.0",
+  "locale": "en",
+  "status": "approved",
+  "source": "virtuousleadership.com · test de temperamento adulto (tbp-test)",
+  "items": {
+    "COL1": "When a group is stuck standing around, I'm usually the one who pushes to get it moving, rather than waiting for someone else to do it.",
+    "COL2": "Once I know what needs to be done, I have little patience for those who are still debating it.",
+    "COL3": "When something bothers me, others can tell from my face or tone before I even say a word.",
+    "COL4": "I'd rather voice a disagreement openly, even if it causes friction, than let it slide just to keep the peace.",
+    "SAN1": "With strangers, I'm usually the one who breaks the ice and starts talking.",
+    "SAN2": "When something goes wrong, I move on quickly and find it easy to get back into a good mood.",
+    "SAN3": "By default, I expect things to turn out well, and I focus more on the good than the bad.",
+    "SAN4": "I think better when talking with others than when mulling things over by myself.",
+    "MEL1": "After an important conversation, I keep replaying it in my mind for hours or days.",
+    "MEL2": "Comments that others might see as minor can affect me for several days.",
+    "MEL3": "If a task doesn't turn out the way I think it should, I have trouble letting go and moving on.",
+    "MEL4": "I prefer a deep conversation with one person over a lively gathering with several.",
+    "FLE1": "In tense situations, I tend to stay calm even when others get upset.",
+    "FLE2": "Before diving into something new, I prefer to observe how it plays out for a while.",
+    "FLE3": "If I can achieve what matters without getting into a confrontation, I'll take that route.",
+    "FLE4": "When a routine works for me, I don't feel much need to change it just to try something else.",
+    "TCOL1": "When someone confronts me, my first instinct is to stand my ground, not to de-escalate.",
+    "TCOL2": "I prefer to decide quickly with incomplete information rather than wait until everything is perfectly clear.",
+    "TSAN1": "I especially enjoy what's new and unknown, even without knowing how it will turn out.",
+    "TSAN2": "After months on the same project, I find it hard to keep the same enthusiasm I had at the start.",
+    "TMEL1": "When something deeply affects me, I only talk about it with people I know will truly understand me.",
+    "TMEL2": "Details others don't even notice—a tone, a glance, a passing comment—can stay with me for quite a while.",
+    "TFLE1": "When everyone else is rushing, I keep my own pace without getting swept along.",
+    "TFLE2": "I prefer to stick with what I already know rather than jump into something different just for the sake of it.",
+    "S2_C1": "When something important goes well for me, the good mood lasts a long time.",
+    "S2_C2": "Worries rarely keep me awake at night.",
+    "S2_C3": "When something goes wrong, I process it quickly and move on without delay.",
+    "S2_C4": "After making an important decision, I keep mentally going over it even though it's already been made.",
+    "S2_C5": "There are people or situations that still weigh on me, even when I know they shouldn't.",
+    "S2_C6": "Before important events, I usually feel internal tension or anticipatory worry.",
+    "S2_S1": "When something outrages me, I find it hard to hide it even if I try.",
+    "S2_S2": "My emotional intensity can go up and down quite a bit within a single day.",
+    "S2_S3": "When something really matters to me, my reaction tends to be intense.",
+    "S2_S4": "When there's tension in a group, I tend to be one of those who stays calm.",
+    "S2_S5": "New situations don't usually make me nervous.",
+    "S2_S6": "My mood stays fairly steady throughout the day.",
+    "S2_M1": "When I know what I think, I say it even if it's not well received.",
+    "S2_M2": "I find it hard to let an injustice pass without reacting.",
+    "S2_M3": "If something matters to me, I don't find it hard to defend it in public.",
+    "S2_M4": "Even if I have a very clear opinion, I don't feel tense about leaving it unexpressed.",
+    "S2_M5": "When I can avoid getting into an argument, I do so.",
+    "S2_M6": "I prefer to observe the situation first and take a position later.",
+    "S2_F1": "I usually find it easy to strike up a conversation with anyone.",
+    "S2_F2": "I enjoy social encounters even if they're brief.",
+    "S2_F3": "With new people, I find it easy to fit in.",
+    "S2_F4": "I need quite a bit of time alone to recharge my energy.",
+    "S2_F5": "In large gatherings, I prefer to stay in the background.",
+    "S2_F6": "Environmental tensions affect me more than it seems."
+  },
+  "ui": {
+    "welcome": {
+      "eyebrow": "Temperament Test",
+      "title": "",
+      "byline": "Based on Alexandre Havard's Virtuous Leadership theory.",
+      "intro": "Before you begin: this test does not measure your character, it measures your temperament — that first reaction that appears before thinking. Answer with what comes to you, not with what you think you should answer. The more spontaneous you are, the more accurate the result will be. At the end you will discover your dominant and secondary temperaments.",
+      "notice": "No temperament is better than another. Each one has its greatness and its virtue-challenge.",
+      "duration_label": "22 to 30 questions",
+      "duration_text": "about 5 minutes",
+      "button": "Begin"
+    },
+    "question": {
+      "progress": "Question {n} of {total}",
+      "yes": "TRUE",
+      "no": "FALSE",
+      "back": "← Back"
+    },
+    "transition": {
+      "eyebrow": "Stage 2 — Nuance",
+      "title_template": "Your dominant temperament is ",
+      "title_template_suffix": ".",
+      "text": "Let us refine your secondary temperament.",
+      "button": "Continue"
+    }
+  },
+  "temperaments": {
+    "COL": {
+      "name": "Choleric",
+      "focus": "action",
+      "archetype": "the executor"
+    },
+    "MEL": {
+      "name": "Melancholic",
+      "focus": "ideas",
+      "archetype": "the dreamer"
+    },
+    "SAN": {
+      "name": "Sanguine",
+      "focus": "people",
+      "archetype": "the communicator"
+    },
+    "FLE": {
+      "name": "Phlegmatic",
+      "focus": "peace",
+      "archetype": "the mediator"
+    }
+  },
+  "result": {
+    "pureNote": "· pure profile · statistically less frequent",
+    "challengeLabel": "Virtue-challenge",
+    "intensityLabel": "Intensity of the secondary temperament",
+    "intensityMarked": "marked",
+    "intensityLight": "light",
+    "virtues": {
+      "COL": {
+        "name": "Humility",
+        "detail": "Fundamental (self-knowledge) and fraternal (service)."
+      },
+      "MEL": {
+        "name": "Boldness",
+        "detail": "The active aspect of the virtue of fortitude."
+      },
+      "SAN": {
+        "name": "Resistance and persistence",
+        "detail": "The passive aspects of the virtue of fortitude."
+      },
+      "FLE": {
+        "name": "Magnanimity",
+        "detail": "The virtue of greatness, of those who dream big."
+      }
+    },
+    "profiles": {
+      "COL": {
+        "name": "THE DOER",
+        "label": "choleric",
+        "challenge": "Humility (fundamental + fraternal)",
+        "fortaleza": "You are turbocharged. You crave action and results. You love to compete and to win. You're a great manager.",
+        "debilidad": "You are prone to believe that your talent is the result of your activity and your work, when in fact it is a natural gift. You may spend more time on activity and results rather than your own self-management. You are prone to value people's skills and actions instead of serving or caring for them.",
+        "reto": "You're challenged by humility which is the virtue of both self-knowledge (fundamental humility) and service to others (fraternal humility)."
+      },
+      "COL-MEL": {
+        "name": "THE CONTEMPLATIVE DOER",
+        "label": "choleric-melancholic",
+        "challenge": "Fraternal humility",
+        "fortaleza": "As a choleric you crave action and results. As a melancholic you have a deep sensitivity, a powerful creative mind, and you are carried towards idealistic perfection. Your primary temperament as a choleric will help you get things done. Your secondary temperament as a melancholic will help you do meaningful work and prevent you fall into blind activism.",
+        "debilidad": "As a choleric you are prone to value people's skills and actions instead of serving or caring for them. As a melancholic, you are prone to be introspective and forget about others.",
+        "reto": "You're a contemplative doer, but you neglect to develop meaningful relationships. You are challenged by fraternal humility which is the aspect of the virtue of humility which helps us to care for others and serve them."
+      },
+      "COL-SAN": {
+        "name": "THE LOVING DOER",
+        "label": "choleric-sanguine",
+        "challenge": "Fundamental humility",
+        "fortaleza": "As a choleric you crave action and results. As a sanguine you're a deeply relational being, you love people and want to make them happy. Your primary temperament as a choleric will help you get things done. Your secondary temperament as a sanguine will help you develop meaningful relationships with others.",
+        "debilidad": "As a choleric you are prone to blind activism. As a sanguine you are prone to know others better than yourself. You may spend more time on activity and relationships rather than your own self-management. Your focus on action may limit relationships to be more transactional and less about serving others.",
+        "reto": "You're a loving doer, but you do not know yourself well. You need to dedicate time to self-examination. You're challenged by fundamental humility which is the aspect of the virtue of humility related to self-knowledge."
+      },
+      "MEL": {
+        "name": "THE DREAMER",
+        "label": "melancholic",
+        "challenge": "Audacity (boldness)",
+        "fortaleza": "You are inclined to contemplation. You are an artist, an original and creative spirit. You are carried towards perfection. Perfection is the background of your existence. You're a great dreamer.",
+        "debilidad": "You fear action in which the imperfection due to the limitations of human nature irremediably becomes manifest. You fear the unknown and do not like to run risks.",
+        "reto": "You are a dreamer, but you can be slow to or don't take action. You're challenged by audacity (boldness) which is the active aspect of the virtue of courage."
+      },
+      "MEL-COL": {
+        "name": "THE EXECUTIVE DREAMER",
+        "label": "melancholic-choleric",
+        "challenge": "Fraternal humility",
+        "fortaleza": "As a melancholic you have a deep sensitivity, a creative mind, and you are carried towards idealistic perfection. As a choleric you crave action and results. Your primary temperament as a melancholic will help you dream of great things. Your secondary temperament as a choleric will help you achieve your dream and transform it into a mission.",
+        "debilidad": "As a melancholic, you are prone to introspection and forget about the others. As a choleric you are prone to value people's skills and actions instead of serving or caring for them.",
+        "reto": "You're an executive dreamer, but you neglect to develop meaningful relationships. You are challenged by fraternal humility which is the aspect of the virtue of humility which helps us to care for others and serve them."
+      },
+      "MEL-FLE": {
+        "name": "THE PRAGMATIC DREAMER",
+        "label": "melancholic-phlegmatic",
+        "challenge": "Audacity (boldness)",
+        "fortaleza": "As a melancholic you have a deep sensitivity, a creative mind, and you are carried towards idealistic perfection. As a phlegmatic you are rational and pragmatic. Your primary temperament as a melancholic will help you dream of great things. Your secondary temperament as a phlegmatic will help you be concrete, realistic and pragmatic.",
+        "debilidad": "As a melancholic you fear action in which the imperfection due to the limitations of human nature irremediably becomes manifest. As a phlegmatic you are afraid of making mistakes.",
+        "reto": "You're a pragmatic dreamer, but you don't take action or are slow to act. You're challenged by audacity (boldness) which is the active aspect of the virtue of courage."
+      },
+      "SAN": {
+        "name": "THE COMMUNICATOR",
+        "label": "sanguine",
+        "challenge": "Endurance (persistence)",
+        "fortaleza": "You're a deeply relational being, you are naturally communicative, smiling, friendly, warm and affectionate. You like to laugh, to joke, to have fun. Your whole being exudes joie de vivre. You're a great communicator.",
+        "debilidad": "Because you live in the present exclusively, the virtues related to time—endurance, persistence, patience and fidelity—are virtues you practice with difficulty. You begin, but do not finish. You constantly need to fix your attention on something new, curious, and fun. You are prone to inconsistency.",
+        "reto": "You're challenged by endurance (persistence) which is the passive aspect of the virtue of courage."
+      },
+      "SAN-COL": {
+        "name": "THE FOCUSED COMMUNICATOR",
+        "label": "sanguine-choleric",
+        "challenge": "Fundamental humility",
+        "fortaleza": "As a sanguine you're a deeply relational being, you love people and want to make them happy. As a choleric you crave action and results. Your primary temperament as a sanguine will help you develop meaningful relationships with others. Your secondary temperament as a choleric will help you be focused and get things done.",
+        "debilidad": "As a sanguine you are prone to know others better than yourself. As a choleric you are prone to blind activism.",
+        "reto": "You're a focused communicator, but you do not know yourself well. You need to dedicate time to self-examination. You're challenged by fundamental humility which is the aspect of the virtue of humility related to self-knowledge."
+      },
+      "SAN-FLE": {
+        "name": "THE QUIET COMMUNICATOR",
+        "label": "sanguine-phlegmatic",
+        "challenge": "Magnanimity",
+        "fortaleza": "As a sanguine you're a deeply relational being, you love people and want to make them happy. As a phlegmatic you are dispassionate, rational, and pragmatic. Your primary temperament as a sanguine will help you develop meaningful relationships with others. Your secondary temperament as a phlegmatic will give consistency to your life.",
+        "debilidad": "As a sanguine you are prone to live exclusively in the present. As a phlegmatic you are afraid of dreaming.",
+        "reto": "You're a quiet communicator, but you are challenged to have a big dream in your life. You are challenged by the virtue of magnanimity which is the virtue of greatness."
+      },
+      "FLE": {
+        "name": "THE MEDIATOR",
+        "label": "phlegmatic",
+        "challenge": "Magnanimity",
+        "fortaleza": "You are dispassionate and serene. You are rational. Your approach to reality is scientific. You are pragmatic, realistic, precise. You have your feet firmly on the ground. You love peace. You are a great mediator.",
+        "debilidad": "You are inclined to swim with the current. You crave security.",
+        "reto": "You love peace, but there is not much place for a dream in your life. You are challenged by the virtue of magnanimity which is the virtue of dreamers who transform their dream into a mission."
+      },
+      "FLE-MEL": {
+        "name": "THE CONTEMPLATIVE MEDIATOR",
+        "label": "phlegmatic-melancholic",
+        "challenge": "Audacity (boldness)",
+        "fortaleza": "As a phlegmatic you are dispassionate, rational, and pragmatic. As a melancholic you have a deep sensitivity, a creative mind, and you are carried towards idealistic perfection. Your primary temperament as a phlegmatic will help you be concrete, realistic, and precise. Your secondary temperament as a melancholic will help you elevate your heart and dream of great things.",
+        "debilidad": "As a phlegmatic you fear action because you are afraid of making mistakes. As a melancholic you fear action in which the imperfection due to the limitations of human nature irremediably becomes manifest.",
+        "reto": "You're a contemplative mediator, but you don't take action or are slow to act. You're challenged by audacity (boldness) which is the active aspect of the virtue of courage."
+      },
+      "FLE-SAN": {
+        "name": "THE DEMONSTRATIVE MEDIATOR",
+        "label": "phlegmatic-sanguine",
+        "challenge": "Magnanimity",
+        "fortaleza": "As a phlegmatic you are dispassionate, serene, rational, and pragmatic. As a sanguine you're a deeply relational being, you love people and want to make them happy. Your primary temperament as a phlegmatic will give consistency to your life. Your secondary temperament as a sanguine will help you develop meaningful relationships with others.",
+        "debilidad": "As a phlegmatic you are afraid of dreaming. As a sanguine you are prone to live exclusively in the present.",
+        "reto": "You're a demonstrative mediator, but you do not strive for great things. You are challenged by the virtue of magnanimity which is the virtue of greatness."
+      }
+    }
+  }
+}

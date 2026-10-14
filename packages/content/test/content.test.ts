@@ -23,12 +23,20 @@ describe('contenido es', () => {
     const ids = c.challenges.map((r) => r.id);
     expect(new Set(ids).size).toBe(ids.length);
   });
-  it('cada pregunta del test de temperamento cubre los cuatro temperamentos', () => {
-    for (const item of c.tests.temperament.items) {
-      if (item.type !== 'choice') throw new Error('se esperaba choice');
-      const dims = item.options.flatMap((o) => Object.keys(o.weights)).sort();
-      expect(dims).toEqual(['COL', 'FLE', 'MEL', 'SAN']);
+});
+
+describe('biblioteca', () => {
+  it('hay 12 tipos con nombre y reto', () => {
+    for (const code of ALL_TYPES) {
+      expect(c.types[code], code).toBeDefined();
+      expect(c.types[code].name.length).toBeGreaterThan(3);
     }
-    expect(ALL_TYPES).toHaveLength(12);
+  });
+  it('los modelos de cada temperamento existen', () => {
+    for (const t of Object.values(c.temperaments)) for (const id of t.modelos) expect(c.models.some((m) => m.id === id), id).toBe(true);
+  });
+  it('vídeos sin duplicados', () => {
+    const ids = c.videos.map((v) => v.youtubeId);
+    expect(new Set(ids).size).toBe(ids.length);
   });
 });

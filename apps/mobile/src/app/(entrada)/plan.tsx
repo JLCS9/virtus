@@ -4,6 +4,7 @@ import { useTranslation } from 'react-i18next';
 
 import { Button, Screen, Titular } from '@/components/ui';
 import { PlanForm, isValidPlan } from '@/components/PlanForm';
+import { track } from '@/features/analytics';
 import { scheduleRitual } from '@/features/notifications';
 import { useVirtus } from '@/store/virtus';
 
@@ -21,6 +22,7 @@ export default function PlanScreen() {
       router.back();
     } else {
       s.completeOnboarding();
+      track('onboarding_completed', { roles: s.roles.length, habits: plan.habits.length });
       router.replace('/hoy');
     }
   };

@@ -1,0 +1,307 @@
+{
+  "id": "vl-corazon",
+  "version": "1.0.0",
+  "locale": "fr",
+  "status": "approved",
+  "source": "TRAD Test Corazon libre 4 languages.ods",
+  "thresholds": {
+    "LOW_PCT": 33,
+    "HIGH_PCT": 66
+  },
+  "ui": {
+    "strongly_agree": "Tout à fait d'accord",
+    "agree": "D'accord",
+    "neutral": "Neutre",
+    "disagree": "Pas d'accord",
+    "strongly_disagree": "Pas du tout d'accord"
+  },
+  "welcome": {
+    "eyebrow": "Test Cœur Libre",
+    "title": "",
+    "duration_label": "Durée",
+    "duration_text": "Environ 15 minutes · 32 questions",
+    "button": "Commencer"
+  },
+  "disorders": [
+    {
+      "code": "R",
+      "label_key": "hResultR",
+      "html_key": "1-R.html",
+      "question_codes": [
+        "hQuestionR1",
+        "hQuestionR2",
+        "hQuestionR3",
+        "hQuestionR4"
+      ]
+    },
+    {
+      "code": "VR",
+      "label_key": "hResultVR",
+      "html_key": "2-VR.html",
+      "question_codes": [
+        "hQuestionVR1",
+        "hQuestionVR2",
+        "hQuestionVR3",
+        "hQuestionVR4"
+      ]
+    },
+    {
+      "code": "VM",
+      "label_key": "hResultVM",
+      "html_key": "3-VM.html",
+      "question_codes": [
+        "hQuestionVM1",
+        "hQuestionVM2",
+        "hQuestionVM3",
+        "hQuestionVM4"
+      ]
+    },
+    {
+      "code": "VI",
+      "label_key": "hResultVI",
+      "html_key": "4-VI.html",
+      "question_codes": [
+        "hQuestionVI1",
+        "hQuestionVI2",
+        "hQuestionVI3",
+        "hQuestionVI4"
+      ]
+    },
+    {
+      "code": "VC",
+      "label_key": "hResultVC",
+      "html_key": "5-VC.html",
+      "question_codes": [
+        "hQuestionVC1",
+        "hQuestionVC2",
+        "hQuestionVC3",
+        "hQuestionVC4"
+      ]
+    },
+    {
+      "code": "SV",
+      "label_key": "hResultSV",
+      "html_key": "6-SV.html",
+      "question_codes": [
+        "hQuestionSV1",
+        "hQuestionSV2",
+        "hQuestionSV3",
+        "hQuestionSV4"
+      ]
+    },
+    {
+      "code": "SI",
+      "label_key": "hResultSI",
+      "html_key": "7-SI.html",
+      "question_codes": [
+        "hQuestionSI1",
+        "hQuestionSI2",
+        "hQuestionSI3",
+        "hQuestionSI4"
+      ]
+    },
+    {
+      "code": "SC",
+      "label_key": "hResultSC",
+      "html_key": "8-SC.html",
+      "question_codes": [
+        "hQuestionSC1",
+        "hQuestionSC2",
+        "hQuestionSC3",
+        "hQuestionSC4"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "code": "hQuestionR1",
+      "disorder": "R",
+      "text": "Lorsque j'apprends quelque chose de nouveau, je suis motivé uniquement par la curiosité intellectuelle, et non par l'impact potentiel de ces connaissances sur mon développement personnel."
+    },
+    {
+      "code": "hQuestionR2",
+      "disorder": "R",
+      "text": "Je n'accepte pas les idées qui ne peuvent pas être prouvées par des sciences exactes telles que les mathématiques ou la physique."
+    },
+    {
+      "code": "hQuestionR3",
+      "disorder": "R",
+      "text": "J'ai tendance à retarder mes décisions jusqu'à ce que je sois mathématiquement certain qu'elles sont les bonnes."
+    },
+    {
+      "code": "hQuestionR4",
+      "disorder": "R",
+      "text": "Je ne laisse pas la bonté ou la beauté m'émouvoir."
+    },
+    {
+      "code": "hQuestionVR1",
+      "disorder": "VR",
+      "text": "Je suis convaincu de devoir mettre mon cœur (mes sentiments) de côté pour plaire à Dieu."
+    },
+    {
+      "code": "hQuestionVR2",
+      "disorder": "VR",
+      "text": "Je parle du devoir beaucoup plus souvent que de l'amour."
+    },
+    {
+      "code": "hQuestionVR3",
+      "disorder": "VR",
+      "text": "Je n'ai pas besoin de joie dans cette vie ; la joie est pour l'au-delà."
+    },
+    {
+      "code": "hQuestionVR4",
+      "disorder": "VR",
+      "text": "Si quelque chose me donne du plaisir, ma première pensée est que cette chose doit être mauvaise."
+    },
+    {
+      "code": "hQuestionVM1",
+      "disorder": "VM",
+      "text": "Je crains que si je montre trop de gentillesse ou trop de sensibilité, les gens ne me perçoivent comme étant faible ou trop sentimental."
+    },
+    {
+      "code": "hQuestionVM2",
+      "disorder": "VM",
+      "text": "Être entouré de personnes « émotionnelles » ou « sentimentales » me met mal à l'aise."
+    },
+    {
+      "code": "hQuestionVM3",
+      "disorder": "VM",
+      "text": "Pour moi, être un homme viril ou une femme forte et être émotionnellement ouvert sont des choses qui ne vont pas ensemble."
+    },
+    {
+      "code": "hQuestionVM4",
+      "disorder": "VM",
+      "text": "Je pense qu'il est bien plus important d’affermir sa volonté que de développer un cœur sensible."
+    },
+    {
+      "code": "hQuestionVI1",
+      "disorder": "VI",
+      "text": "Je suis convincu que le mal dans le monde provient des dysfonctionnements de la société. Si nous pouvions seulement établir le bon système politique et la bonne idéologie, tous nos problèmes disparaîtraient."
+    },
+    {
+      "code": "hQuestionVI2",
+      "disorder": "VI",
+      "text": "Je pense qu’il est plus important de changer le monde autour de moi plutôt que de travailler sur moi-même et mon développement personnel."
+    },
+    {
+      "code": "hQuestionVI3",
+      "disorder": "VI",
+      "text": "Je ne crois pas aux principes universels de la nature humaine."
+    },
+    {
+      "code": "hQuestionVI4",
+      "disorder": "VI",
+      "text": "Je ne crois pas aux Dix Commandements. Je crois que chaque nouvelle expérience morale est bonne, et que tout ce qui entrave ce type de progrès est mauvais."
+    },
+    {
+      "code": "hQuestionVC1",
+      "disorder": "VC",
+      "text": "J'aime beaucoup les règles, telles que les lois ou les codes de conduite des entreprises car elles m’indiquent comment je dois agir dans toutes les situations, que ce soit au travail ou dans ma vie personnelle. Pas besoin de réfléchir !"
+    },
+    {
+      "code": "hQuestionVC2",
+      "disorder": "VC",
+      "text": "À mon avis, suivre les règles – qu'elles viennent de la religion, de la politique ou de la société en général – est la clé de la perfection humaine. Si une action est conforme aux règles, elle est bonne. Si elle ne l’est pas, elle est mauvaise. C’est aussi simple que ça."
+    },
+    {
+      "code": "hQuestionVC3",
+      "disorder": "VC",
+      "text": "Je pense qu'il devrait y avoir un ensemble de règles prédéfinies pour couvrir toutes les situations courantes de la vie. Ainsi, on saurait toujours exactement quoi faire."
+    },
+    {
+      "code": "hQuestionVC4",
+      "disorder": "VC",
+      "text": "Je suis convaincu qu'il existe un ensemble de normes éthiques pour le travail et un autre pour notre vie personnelle. Ce qui est moralement inacceptable au bureau peut être acceptable à la maison."
+    },
+    {
+      "code": "hQuestionSV1",
+      "disorder": "SV",
+      "text": "Je fais le bien parce que cela me procure la sensation agréable d'être une bonne personne."
+    },
+    {
+      "code": "hQuestionSV2",
+      "disorder": "SV",
+      "text": "Quand je ne reçois aucune récompense émotionnelle ou retour positif des personnes que j’aide, je perds rapidement le désir de continuer à les aider et j'arrête de le faire."
+    },
+    {
+      "code": "hQuestionSV3",
+      "disorder": "SV",
+      "text": "Quand je prie, je cherche surtout des consolations et du réconfort. Si je ne ressens rien pendant la prière, je cesse de prier, car prier dans ces moments-là ne sert à rien."
+    },
+    {
+      "code": "hQuestionSV4",
+      "disorder": "SV",
+      "text": "Je privilégie les actions intenses et stimulantes émotionnellement. J'aime être actif et éprouver dans l’action toutes sortes d'émotions. L’action pour le plaisir de l’action est quelque chose que j’expérimente tous les jours."
+    },
+    {
+      "code": "hQuestionSI1",
+      "disorder": "SI",
+      "text": "Je me laisse toujours guider par mon instinct et par mon cœur, quoi qu'il arrive."
+    },
+    {
+      "code": "hQuestionSI2",
+      "disorder": "SI",
+      "text": "Je fais entièrement confiance à mon cœur. Je n'ai pas besoin de réfléchir ni de douter de moi-même lorsque je prends des décisions."
+    },
+    {
+      "code": "hQuestionSI3",
+      "disorder": "SI",
+      "text": "Ma réaction initiale aux stimuli extérieurs est toujours la bonne. Pas besoin de douter ou d'ajuster."
+    },
+    {
+      "code": "hQuestionSI4",
+      "disorder": "SI",
+      "text": "La clave de la vida es vivir plenamente todo tipo de emociones."
+    },
+    {
+      "code": "hQuestionSC1",
+      "disorder": "SC",
+      "text": "Lorsque les personnes dont je suis responsable (mes enfants, mes élèves, mes employés, mes amis) font quelque chose de mal, j'évite de les confronter à ce sujet. Je me dis qu'il ne faut pas leur faire sentir qu'ils ont tort et qu'il vaut mieux simplement essayer de les comprendre et de les aimer."
+    },
+    {
+      "code": "hQuestionSC2",
+      "disorder": "SC",
+      "text": "J'ai tendance à reculer devant les exigences de ma conscience par crainte de faire souffrir mes parents, mes amis, mes collègues."
+    },
+    {
+      "code": "hQuestionSC3",
+      "disorder": "SC",
+      "text": "Par peur des conflits, j’ai beaucoup de mal à offrir aux autres une critique constructive, même lorsqu’ils en ont clairement besoin."
+    },
+    {
+      "code": "hQuestionSC4",
+      "disorder": "SC",
+      "text": "Je n’ai aucun mal à adopter une attitude politiquement ou culturellement correcte, même si cela va à l’encontre de mes convictions, afin d’éviter de froisser les autres avec mes valeurs."
+    }
+  ],
+  "labels": {
+    "heartTest": "Test « Cœur Libre »",
+    "heartTestIntro": "Bienvenue au Test « Cœur Libre » ! Basé sur le livre d'Alexandre Havard \"Cœurs Libres\", ce test est conçu pour vous aider à identifier toute tendance que vous pourriez avoir envers l'une des 8 maladies spirituelles décrites ci-dessous. Pour chaque maladie nous offrirons un diagnostic et un remède. Le test dure environ 15 minutes et comporte un total de 32 questions. Commençons!",
+    "hResultNoDecease": "Il semble que tu ne sois pas enclin au",
+    "hResultDeceaseStage1": "Il semble que tu sois légèrement enclin au",
+    "hResultDeceaseStage2": "Il semble que tu sois fortement enclin au",
+    "hResultInBalance": "Il semble que tu sois spirituellement équilibré",
+    "после 4 вопросов": "Diagnostic et remède",
+    "в конце": "Résultats : Cliquez sur les images ci-dessous pour voir les diagnostics et remèdes",
+    "hResultR": "Rationalisme",
+    "hResultVR": "Volontarisme religieux",
+    "hResultVM": "Volontarisme machiste",
+    "hResultVI": "Volontarisme idéologique",
+    "hResultVC": "Volontarisme conformiste",
+    "hResultSV": "Sentimentalisme voluptueux",
+    "hResultSI": "Sentimentalisme dément",
+    "hResultSC": "Sentimentalisme lâche"
+  },
+  "texts": {
+    "about-heart.html": "8 maladies spirituelles\nSi notre cœur, notre volonté et notre intellect ne sont pas en harmonie, nous risquons de contracter l'une des 8 maladies suivantes:\n\n1. Le rationalisme\n2. Le volontarisme religieux\n3. Le volontarisme machiste\n4. Le volontarisme idéologique\n5. Le volontarisme conformiste\n6. Le sentimentalisme voluptueux\n7. Le sentimentalisme dément\n8. Le sentimentalisme lâche",
+    "1-R.html": "Ton cœur est asphyxié par ta raison. Les situations de la vie ne sont pour toi que des occasions d’élargir le ramassis de tes connaissances. Rien ne te touche, rien ne t’affecte au fond de toi-même. Tu es un éternel spectateur. C’est la curiosité intellectuelle qui te stimule. Tu es incapable de répondre aux valeurs de l’existence, ni par la joie, ni par la tristesse, ni par la compassion, ni par l’amour. Ce qui t’intéresse, c’est l’analyse intellectuelle. En réalité, la distance que tu prends avec l’objet de ton analyse est si grande que tu es incapable de le pénétrer et de le contempler, et donc de le connaître. Tu n’as pas accès aux mystères de la vie.Laisse-toi toucher par ce qui est beau et ce qui est bon, sans essayer de réduire à ton pauvre entendement les réalités qui te dépassent. Tu ne comprendras la réalité que le jour où tu cesseras de vouloir la « comprendre », la contenir, la posséder. Laisse-toi étonner, saisir, embrasser, ravir par ce qui est plus grand que toi.",
+    "2-VR.html": "Ton cœur est asphyxié par ta volonté. Tu es convaincu de la nécessité de faire taire ton cœur afin d’augmenter la valeur morale de ta volonté. Tu aimes bannir de ton comportement toute sorte d’affectivité, afin que seule la volonté subsiste. Tu es même disposé à agir « à contrecœur ». Tu n’as pas besoin de sentiments. Tu n’as besoin que d’un « impératif catégorique ».Quand on fait taire le cœur, la volonté tôt ou tard se brise. Ta volonté humaine n’est ni un turboréacteur, ni un char d’assaut. Elle s’enracine dans le cœur, qui est le centre de la personnalité et le lieu sacré de l’intimité. Le cœur donne à la volonté une direction originelle et principale. Sans cette direction fondamentale tout acte de volonté n’est que fuite en avant, un vol au-dessus d’un précipice. « Le devoir pour le devoir » est une maxime inhumaine qui entraîne souvent des dédoublements de personnalité. Pose-toi la question : « Finalement, au fond de moi-même, qu’est ce qui m’attire ? Qu’est-ce qui me fait plus que tout envie ?» Tu ne peux pas fonder ton existence sur quelque chose qui n’est pas toi, au nom d’un devoir ou d’une obligation morale qui n’existe que dans ton imagination. Apprends à faire ce que tu as envie de faire. Apprends à être heureux. Le bonheur, sois-en convaincu, n’est pas un péché ! Une telle approche n'a rien à voir avec le sentimentalisme.",
+    "3-VM.html": "Ton volontarisme est d’origine « machiste ». Il est le fruit d’une perception exclusivement « masculine » de l’existence. Tu fais taire ton cœur – le tien et celui des autres – parce que tu en as honte. Tu as honte d’avoir des sentiments et tu éprouves du malaise auprès de ceux qui en ont. Tu as peur de passer pour un « sentimental ». Et ceux que tu perçois comme des « sentimentaux efféminés », tu les corriges. Au-delà du problème que pose la confusion entre « éprouver des sentiments » et « être efféminé », le danger de ton approche est évident : la formation du cœur n’est pas une priorité pour toi. La priorité est la formation de la volonté.Abandonne l'idée que le fait d'être un homme viril ou une femme forte est incompatible avec le fait d'être en phase avec tes émotions. La sensibilité et la force ne s'excluent pas mutuellement – en réalité, être capable de se connecter à ses émotions et de les exprimer de manière saine est un signe de véritable courage et de maturité. Exerce-toi à ressentir pleinement tes émotions, sans les repousser immédiatement ou essayer de paraître dur(e) et insensible. Cela peut signifier pleurer lorsque tu es triste, au lieu de tout garder en toi, ou dire à tes proches combien tu tiens à eux, même si cela te met un peu mal à l’aise au début.",
+    "4-VI.html": "Ton adhesion aux slogans idéologiques est si forte qu'elle écrase ton raisonnement logique (intellect). Tu ne tiens plus compte ni de l'ordre naturel des choses, ni de ton propre sens intérieur du bien et du mal.\nRenonce à l’idéologie. Distingue entre la vérité partielle qu’elle contient et le mensonge global qu’elle représente. Contemple les millions de victimes innocentes que produisent inexorablement les idéologies. Redécouvre la nature des choses. Émerveille-toi devant la dignité de l’être humain. Conscient de tes erreurs passées, ne sombre pas dans le désespoir, ne t’enferme pas dans le labyrinthe infernal de l’amertume. Remets-toi en chemin sur des bases nouvelles avec un cœur ressuscité.",
+    "5-VC.html": "Ton comportement est conditionné, non par les principes immuables de la nature humaine (la conscience, la vertu), mais par des règles sociales plus ou moins stables. Pour toi, il n’y a pas d’actions bonnes (celles qui favorisent la vertu, l’excellence, la perfection humaine) ou mauvaises (celles qui y font obstacle) : il n’y a que des actions correctes (celles qui sont conformes à la règle) ou incorrectes (celles qui y sont contraires). Tu es convaincu de ta perfection morale : en observant la règle tu accomplis son « devoir ». Ton problème fondamental est que tu n’aimes pas. Cette absence d’amour te rend aveugle. Tu t’accroches aux règles, car elles sont pour toi le seul point d’appui, le seul point de référence en cette vie.Apprends à aimer les êtres humains plus que les règles, plus que les traditions, plus que le religieusement, le culturellement ou le politiquement correct. Apprends à découvrir en chaque être humain une personne. Apprends ensuite à te sacrifier avec joie pour ceux que tu aimes.",
+    "6-SV.html": "Tu as tendance à jouir de l’émotion plus que des valeurs qui la provoquent. Tu recherches l’émotion pour la jouissance qu’elle procure. Tu sépares l’émotion du bien qui la produit. Ton sentimentalisme est une forme de volupté, de sensualité.Apprends à aimer le bien pour lui-même et non pas pour le plaisir qu’il te procure. Plutôt que de courir après des émotions intenses, cherche à te connecter aux valeurs profondes cachées derrière tes expériences. Lorsque ces sensations agréables finiront par s'estomper, reste ferme. Continue à agir selon ce que tu sais être juste, non pas parce que cela te procure des sensations agréables, mais parce que tu crois en la valeur intrinsèque de ces actions. Persévère dans le bien, même lorsque cela ne t'apporte aucune récompense émotionnelle.",
+    "7-SI.html": "Ton cœur se substitue à ta raison. Il l'asphyxie. Tu considères ton cœur comme ton unique guide. Un tel cœur est en fait un cœur arbitraire qui appelle « intuition » ce qui n’est que le pur produit de l’imagination et de la fantaisie. Tu fais toujours ce que te dit ton cœur – même le mal ! Tu soumets ta conscience à ton cœur. Tu n’es pas un homme ou une femme de cœur : tu es un fou, manipulé par ton égoïsme et par ton orgueil.Apprends à écouter ta conscience avant d’écouter ce que tu appelles « ton cœur ». La voix de ta conscience, qui est la voix de Dieu, a priorité sur la voix de ton « moi ». Un cœur affranchi de la conscience n’est pas un cœur libre. C’est un cœur égoïste, hypocrite, perverti.",
+    "8-SC.html": "Ta volonté est absorbée par son cœur. Ton sentimentalisme est lâcheté. « Au nom du cœur » tu refuses toute confrontation avec autrui, en particulier celles qui sont nécessaires pour les remettre sur le droit chemin. Tu ne corrigeras pas son enfant, ton élève, ton employé, ton ami, sous prétexte qu’il ne faut pas faire souffrir les gens. En réalité tu crains l’affrontement, même constructif. Tu es dépourvu de courage. Tu as un cœur trop « bon » pour pouvoir faire le bien, un cœur trop « aimant » pour pouvoir aimer.Virilise ta volonté. Ne renonce pas au bien sous prétexte qu’il puisse devenir source de conflits. Ne sois pas lâche. Apprends à gérer les contradictions avec sincérité et fermeté. Apprends à communiquer de manière claire, respectueuse et avec conviction. Apprends à tolérer l'inconfort temporaire d'une conversation ou d'une situation difficile, en sachant que tu agis avec intégrité et bienveillance."
+  },
+  "bookUrl": "https://www.eunsa.es/libro/corazon-libre_99703/"
+}

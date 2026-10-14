@@ -25,7 +25,7 @@ export async function pushAll(): Promise<boolean> {
         test_id: r.testId,
         test_version: r.testVersion,
         kind: 'temperament',
-        result: { percent: r.percent, dominant: r.dominant, secondary: r.secondary, type: r.type, tie: r.tie, inconsistent: r.inconsistent },
+        result: { type: r.type, dominant: r.dominant, secondary: r.secondary, isPure: r.isPure, secondaryStrength: r.secondaryStrength, scores: r.scores },
         taken_at: r.takenAt,
       }),
     );
@@ -34,11 +34,23 @@ export async function pushAll(): Promise<boolean> {
     calls.push(
       supabase.from('test_results').insert({
         user_id: data.session.user.id,
-        test_id: 'caracter',
+        test_id: 'vl-caracter',
         test_version: r.testVersion,
         kind: 'character',
-        result: { self: r.self },
+        result: { self: r.self, facets: r.facets ?? null },
         taken_at: r.takenAt,
+      }),
+    );
+  }
+  for (const h of s.heart.filter((x) => x.takenAt > since)) {
+    calls.push(
+      supabase.from('test_results').insert({
+        user_id: data.session.user.id,
+        test_id: 'vl-corazon',
+        test_version: h.testVersion,
+        kind: 'heart',
+        result: { pct: h.pct, stage: h.stage, verdict: h.verdict },
+        taken_at: h.takenAt,
       }),
     );
   }

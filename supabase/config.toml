@@ -11,6 +11,17 @@ enable_signup = true
 
 [auth.email]
 enable_confirmations = true
+otp_length = 6
+otp_expiry = 3600
+
+# La app entra con un código de 6 dígitos (no con enlace).
+[auth.email.template.magic_link]
+subject = "Tu código de Virtus"
+content_path = "./supabase/templates/codigo.html"
+
+[auth.email.template.confirmation]
+subject = "Tu código de Virtus"
+content_path = "./supabase/templates/codigo.html"
 
 [functions.adapt-challenge]
 verify_jwt = true
@@ -20,3 +31,9 @@ verify_jwt = true
 verify_jwt = true
 [functions.delete-account]
 verify_jwt = true
+# Públicas: la persona invitada no tiene cuenta; el acceso lo da el token de la invitación.
+[functions.invitation]
+verify_jwt = false
+# Autenticada con un secreto compartido en la cabecera Authorization.
+[functions.revenuecat-webhook]
+verify_jwt = false

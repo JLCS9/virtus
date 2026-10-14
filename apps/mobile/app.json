@@ -10,7 +10,9 @@
     "ios": {
       "bundleIdentifier": "com.virtuousleadership.virtus",
       "supportsTablet": true,
-      "infoPlist": { "ITSAppUsesNonExemptEncryption": false }
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      }
     },
     "android": {
       "package": "com.virtuousleadership.virtus",
@@ -42,13 +44,21 @@
       "expo-secure-store",
       [
         "expo-notifications",
-        { "color": "#1A304F" }
+        {
+          "color": "#1A304F"
+        }
       ],
       "expo-font"
     ],
     "experiments": {
       "typedRoutes": true,
       "reactCompiler": true
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "96ae0b37-74cd-492f-9adb-b442b7884da8"
+      }
     }
   }
 }

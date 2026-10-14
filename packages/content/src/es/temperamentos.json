@@ -1,47 +1,98 @@
 {
-  "COL": {
-    "nombre": "Colérico",
-    "rasgos": "Reacción rápida, intensa y duradera. Tiende a la acción, a la decisión y a la conquista.",
-    "fortalezas": [
-      "Decisión",
-      "Iniciativa",
-      "Tenacidad"
-    ],
-    "riesgo": "Imponerse, impacientarse, no escuchar.",
-    "desafio": "La humildad es tu puerta: servir, escuchar y hacer crecer a los demás."
+  "temperamentos": {
+    "COL": {
+      "nombre": "Colérico",
+      "arquetipo": "El ejecutor",
+      "valor": "La acción",
+      "reactividad": "Rápida, fuerte y duradera",
+      "fortalezas": [
+        "Energía",
+        "Decisión",
+        "Iniciativa"
+      ],
+      "riesgos": [
+        "Orgullo",
+        "Ira",
+        "Activismo"
+      ],
+      "comunicar": "Desafíale: plantéale un reto.",
+      "desafio": "humildad",
+      "claveDesafio": "Escuchar, delegar y hacer crecer a los demás en lugar de empujarlos.",
+      "modelos": [
+        "juana-de-arco",
+        "suvorov",
+        "kelleher"
+      ]
+    },
+    "MEL": {
+      "nombre": "Melancólico",
+      "arquetipo": "El soñador",
+      "valor": "Las ideas",
+      "reactividad": "Lenta, fuerte y duradera",
+      "fortalezas": [
+        "Profundidad",
+        "Perfección",
+        "Constancia"
+      ],
+      "riesgos": [
+        "Miedo a actuar",
+        "Pesimismo",
+        "Crítica"
+      ],
+      "comunicar": "Hazle soñar: muéstrale el sentido.",
+      "desafio": "audacia",
+      "claveDesafio": "Dar el paso aunque no todo sea perfecto y perder el miedo al fracaso.",
+      "modelos": [
+        "martin-luther-king",
+        "madre-teresa",
+        "corazon-aquino"
+      ]
+    },
+    "SAN": {
+      "nombre": "Sanguíneo",
+      "arquetipo": "El comunicador",
+      "valor": "Las personas",
+      "reactividad": "Rápida, fuerte y breve",
+      "fortalezas": [
+        "Cercanía",
+        "Entusiasmo",
+        "Atención al detalle"
+      ],
+      "riesgos": [
+        "Dispersión",
+        "Inconstancia",
+        "Querer agradar"
+      ],
+      "comunicar": "Sonríele: con calidez y buen humor.",
+      "desafio": "resistencia",
+      "claveDesafio": "Terminar lo que empieza y poner la última piedra.",
+      "modelos": [
+        "thomas-more"
+      ]
+    },
+    "FLE": {
+      "nombre": "Flemático",
+      "arquetipo": "El mediador",
+      "valor": "La paz",
+      "reactividad": "Lenta, suave y breve",
+      "fortalezas": [
+        "Serenidad",
+        "Objetividad",
+        "Sentido del deber"
+      ],
+      "riesgos": [
+        "Conformismo",
+        "Evitar conflictos",
+        "Miedo a equivocarse"
+      ],
+      "comunicar": "Razona con él, con serenidad.",
+      "desafio": "magnanimidad",
+      "claveDesafio": "Atreverse a soñar y convertir el sueño en una misión.",
+      "modelos": [
+        "jerome-lejeune",
+        "darwin-smith"
+      ]
+    }
   },
-  "MEL": {
-    "nombre": "Melancólico",
-    "rasgos": "Reacción lenta, profunda y duradera. Tiende a la reflexión, a la sensibilidad y a la búsqueda de sentido.",
-    "fortalezas": [
-      "Profundidad",
-      "Fidelidad",
-      "Sentido del detalle"
-    ],
-    "riesgo": "Dudar, posponer, juzgarse con dureza.",
-    "desafio": "La audacia es tu puerta: dar el paso sin esperar a la certeza."
-  },
-  "SAN": {
-    "nombre": "Sanguíneo",
-    "rasgos": "Reacción rápida, viva y pasajera. Tiende a la relación, al entusiasmo y a la novedad.",
-    "fortalezas": [
-      "Cercanía",
-      "Entusiasmo",
-      "Facilidad para comunicar"
-    ],
-    "riesgo": "Dispersarse, abandonar, buscar la aprobación.",
-    "desafio": "La resistencia es tu puerta: sostener lo comenzado cuando pasa el entusiasmo."
-  },
-  "FLE": {
-    "nombre": "Flemático",
-    "rasgos": "Reacción lenta, serena y poco intensa. Tiende a la calma, la objetividad y la paz.",
-    "fortalezas": [
-      "Serenidad",
-      "Paciencia",
-      "Objetividad"
-    ],
-    "riesgo": "Acomodarse, conformarse, no aspirar a más.",
-    "desafio": "La magnanimidad es tu puerta: aspirar a cosas grandes y sacar lo mejor de tus talentos."
-  },
-  "_fuente": "BORRADOR. Sustituir por las descripciones de Crecer con tu temperamento."
+  "fuente": "Crecer con tu temperamento (A. Havard, 2024) · resumen del equipo, pendiente de validar"
 }

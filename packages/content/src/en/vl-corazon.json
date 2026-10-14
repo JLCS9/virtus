@@ -1,0 +1,307 @@
+{
+  "id": "vl-corazon",
+  "version": "1.0.0",
+  "locale": "en",
+  "status": "approved",
+  "source": "TRAD Test Corazon libre 4 languages.ods",
+  "thresholds": {
+    "LOW_PCT": 33,
+    "HIGH_PCT": 66
+  },
+  "ui": {
+    "strongly_agree": "Strongly agree",
+    "agree": "Agree",
+    "neutral": "Neutral",
+    "disagree": "Disagree",
+    "strongly_disagree": "Strongly disagree"
+  },
+  "welcome": {
+    "eyebrow": "Free Heart Test",
+    "title": "",
+    "duration_label": "Duration",
+    "duration_text": "About 15 minutes · 32 questions",
+    "button": "Start"
+  },
+  "disorders": [
+    {
+      "code": "R",
+      "label_key": "hResultR",
+      "html_key": "1-R.html",
+      "question_codes": [
+        "hQuestionR1",
+        "hQuestionR2",
+        "hQuestionR3",
+        "hQuestionR4"
+      ]
+    },
+    {
+      "code": "VR",
+      "label_key": "hResultVR",
+      "html_key": "2-VR.html",
+      "question_codes": [
+        "hQuestionVR1",
+        "hQuestionVR2",
+        "hQuestionVR3",
+        "hQuestionVR4"
+      ]
+    },
+    {
+      "code": "VM",
+      "label_key": "hResultVM",
+      "html_key": "3-VM.html",
+      "question_codes": [
+        "hQuestionVM1",
+        "hQuestionVM2",
+        "hQuestionVM3",
+        "hQuestionVM4"
+      ]
+    },
+    {
+      "code": "VI",
+      "label_key": "hResultVI",
+      "html_key": "4-VI.html",
+      "question_codes": [
+        "hQuestionVI1",
+        "hQuestionVI2",
+        "hQuestionVI3",
+        "hQuestionVI4"
+      ]
+    },
+    {
+      "code": "VC",
+      "label_key": "hResultVC",
+      "html_key": "5-VC.html",
+      "question_codes": [
+        "hQuestionVC1",
+        "hQuestionVC2",
+        "hQuestionVC3",
+        "hQuestionVC4"
+      ]
+    },
+    {
+      "code": "SV",
+      "label_key": "hResultSV",
+      "html_key": "6-SV.html",
+      "question_codes": [
+        "hQuestionSV1",
+        "hQuestionSV2",
+        "hQuestionSV3",
+        "hQuestionSV4"
+      ]
+    },
+    {
+      "code": "SI",
+      "label_key": "hResultSI",
+      "html_key": "7-SI.html",
+      "question_codes": [
+        "hQuestionSI1",
+        "hQuestionSI2",
+        "hQuestionSI3",
+        "hQuestionSI4"
+      ]
+    },
+    {
+      "code": "SC",
+      "label_key": "hResultSC",
+      "html_key": "8-SC.html",
+      "question_codes": [
+        "hQuestionSC1",
+        "hQuestionSC2",
+        "hQuestionSC3",
+        "hQuestionSC4"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "code": "hQuestionR1",
+      "disorder": "R",
+      "text": "When learning something new, I’m motivated purely by intellectual curiosity rather than by how this knowledge might contribute to my personal growth."
+    },
+    {
+      "code": "hQuestionR2",
+      "disorder": "R",
+      "text": "I don’t accept ideas that can’t be proven through hard sciences like mathematics or physics."
+    },
+    {
+      "code": "hQuestionR3",
+      "disorder": "R",
+      "text": "I tend to delay decisions until I'm mathematically certain they're the right ones."
+    },
+    {
+      "code": "hQuestionR4",
+      "disorder": "R",
+      "text": "I don't allow myself to be affected or moved by goodness or beauty."
+    },
+    {
+      "code": "hQuestionVR1",
+      "disorder": "VR",
+      "text": "I believe, as a rule, I must set aside my heart (my feelings) in order to please God."
+    },
+    {
+      "code": "hQuestionVR2",
+      "disorder": "VR",
+      "text": "I talk about duty much more often than I talk about love."
+    },
+    {
+      "code": "hQuestionVR3",
+      "disorder": "VR",
+      "text": "I don't need joy in this life; joy is for the afterlife."
+    },
+    {
+      "code": "hQuestionVR4",
+      "disorder": "VR",
+      "text": "If something feels good or brings me pleasure, I automatically assume it must be wrong somehow."
+    },
+    {
+      "code": "hQuestionVM1",
+      "disorder": "VM",
+      "text": "I worry that if I appear too kind or too in touch with my feelings, people might see me as weak or overly sentimental."
+    },
+    {
+      "code": "hQuestionVM2",
+      "disorder": "VM",
+      "text": "Being around people who are overly 'touchy-feely' makes me very uncomfortable."
+    },
+    {
+      "code": "hQuestionVM3",
+      "disorder": "VM",
+      "text": "In my mind, being manly or a strong woman and being emotionally open just don't mix."
+    },
+    {
+      "code": "hQuestionVM4",
+      "disorder": "VM",
+      "text": "I believe focusing on building willpower and self-discipline is far more important than developing a sensitive heart."
+    },
+    {
+      "code": "hQuestionVI1",
+      "disorder": "VI",
+      "text": "I’m convinced that most of the evil in the world arises from social dysfunctions. If we could only establish the right political system and ideology, all our problems would vanish."
+    },
+    {
+      "code": "hQuestionVI2",
+      "disorder": "VI",
+      "text": "I'm much more focused on trying to change the world around me than on working on myself and my personal growth."
+    },
+    {
+      "code": "hQuestionVI3",
+      "disorder": "VI",
+      "text": "I don't believe in universal principles of human nature."
+    },
+    {
+      "code": "hQuestionVI4",
+      "disorder": "VI",
+      "text": "I don't believe in the Ten Commandments. I believe that every new moral experience is good, and anything that hinders this type of progress is bad."
+    },
+    {
+      "code": "hQuestionVC1",
+      "disorder": "VC",
+      "text": "I'm a big fan of rules (things like laws, company policies, and codes of conduct) because they make it super clear how I should act in pretty much any situation, both at work and in my personal life. No guesswork required! No need for practical wisdom!"
+    },
+    {
+      "code": "hQuestionVC2",
+      "disorder": "VC",
+      "text": "In my opinion, following the rules – whether they come from religion, politics, or society in general – is the key to being a good, moral person. If an action lines up with the rules, it's good. If it doesn't, it's bad. Plain and simple."
+    },
+    {
+      "code": "hQuestionVC3",
+      "disorder": "VC",
+      "text": "I believe there should be a predetermined set of guidelines that cover all common scenarios people face in life. That way we all know exactly what to do."
+    },
+    {
+      "code": "hQuestionVC4",
+      "disorder": "VC",
+      "text": "I'm convinced that there's one set of ethical standards for the workplace and a completely different set for our personal lives. What is morally unacceptable at the office may be acceptable at home."
+    },
+    {
+      "code": "hQuestionSV1",
+      "disorder": "SV",
+      "text": "The main reason I help others and do good deeds is because it gives me warm, fuzzy feelings and makes me feel like a good person."
+    },
+    {
+      "code": "hQuestionSV2",
+      "disorder": "SV",
+      "text": "When I don't get any kind of emotional reward or positive feedback from helping others, I lose interest and stop doing it."
+    },
+    {
+      "code": "hQuestionSV3",
+      "disorder": "SV",
+      "text": "When I pray, I'm mostly looking for comfort and good feelings. If I don't feel anything during prayer, I tend to just give up and stop."
+    },
+    {
+      "code": "hQuestionSV4",
+      "disorder": "SV",
+      "text": "I'm all about doing things that are exciting, intense, and emotionally stimulating. I love being active and feeling all the feelings, just for the sake of the experience itself."
+    },
+    {
+      "code": "hQuestionSI1",
+      "disorder": "SI",
+      "text": "I always go with my gut instinct and follow my heart, no matter what."
+    },
+    {
+      "code": "hQuestionSI2",
+      "disorder": "SI",
+      "text": "I trust my heart completely and feel no need to overthink or second-guess myself when making decisions."
+    },
+    {
+      "code": "hQuestionSI3",
+      "disorder": "SI",
+      "text": "My initial reaction to external stimuli is always the right one. No need to doubt or adjust."
+    },
+    {
+      "code": "hQuestionSI4",
+      "disorder": "SI",
+      "text": "I believe the key to life lies in allowing myself to fully feel everything."
+    },
+    {
+      "code": "hQuestionSC1",
+      "disorder": "SC",
+      "text": "When people in my life (like my kids, students, employees, friends) do something wrong, I avoid confronting them about it. I tell myself that we shouldn't make others feel bad and that we should just try to understand and love them instead."
+    },
+    {
+      "code": "hQuestionSC2",
+      "disorder": "SC",
+      "text": "I tend to shy away from following the demands of my conscience out of fear of upsetting my parents, friends, or colleagues."
+    },
+    {
+      "code": "hQuestionSC3",
+      "disorder": "SC",
+      "text": "I often avoid offering constructive criticism or corrections to others due to a fear of confrontation."
+    },
+    {
+      "code": "hQuestionSC4",
+      "disorder": "SC",
+      "text": "No tengo ningún problema en adoptar una actitud políticamente o culturalmente correcta, incluso si va en contra de mis convicciones, para evitar molestar a los demás con mis valores."
+    }
+  ],
+  "labels": {
+    "heartTest": "\"Free Heart\" Test",
+    "heartTestIntro": "Welcome to the \"Free Heart\" Test! Based on Alex Havard's book \"Free Hearts\", this test is designed to help you identify any tendencies you may have toward the 8 specific disorders outlined below. For each disorder, we will provide both a diagnosis and a remedy. The assessment consists of 32 questions and takes approximately 15 minutes to complete. Let’s get started!",
+    "hResultNoDecease": "It seems you are not inclined toward",
+    "hResultDeceaseStage1": "It seems you exhibit a certain inclination toward",
+    "hResultDeceaseStage2": "It seems you have a strong inclination toward",
+    "hResultInBalance": "It seems you are in a state of inner balance",
+    "после 4 вопросов": "Diagnosis and remedy",
+    "в конце": "Results: Click on the images below to view the diagnosis and remedies",
+    "hResultR": "Rationalism",
+    "hResultVR": "Religious Voluntarism",
+    "hResultVM": "Macho Voluntarism",
+    "hResultVI": "Ideological Voluntarism",
+    "hResultVC": "Conventional Voluntarism",
+    "hResultSV": "Voluptuous Sentimentalism",
+    "hResultSI": "Insane Sentimentalism",
+    "hResultSC": "Cowardly Sentimentalism"
+  },
+  "texts": {
+    "about-heart.html": "8 enfermedades espirituales\nSi nuestro corazón, nuestra voluntad y nuestro intelecto no están en armonía, corremos el riesgo de caer en una de las siguientes 8 enfermedades:\n\n1. El racionalismo\n2. El voluntarismo religioso\n3. El voluntarismo machista\n4. El voluntarismo ideólogico\n5. El voluntarismo conformista\n6. El sentimentalismo voluptuoso\n7. El sentimentalismo demente\n8. El sentimentalismo cobarde",
+    "1-R.html": "Your heart is stifled by your reason. Life’s situations become mere opportunities for you to expand the accumulation of your knowledge. Nothing truly touches you, nothing moves you deep within. You remain an eternal observer. Intellectual curiosity is what drives you. You are unable to respond to the values of existence, whether through joy, sadness, compassion, or love. What captivates you is intellectual analysis. In truth, the distance you maintain from the object of your analysis is so vast that you cannot truly enter it, contemplate it, or know it. You are shut off from life’s mysteries.Let yourself be touched by the beautiful and the good without trying to reduce them to your poor understanding of realities which are beyond you. You will only understand reality when you quit wanting to “comprehend”, contain and possess it. Let yourself be astonished, thrilled, embraced by that which is greater than you.",
+    "2-VR.html": "Your heart is stifled by your will. You are convinced of the need to silence your heart in order to increase the moral value of your will. You love to banish any form of emotion from your behavior, so that only the will remains. You are even ready to act against your heart's desires. You don't need feelings. You only need a \"categorical imperative.\"When we silence the heart, the will eventually breaks. Your human will is neither a turbojet nor a tank. It is rooted in the heart, which is the center of the personality and the sacred place of intimacy. The heart gives the will its original and primary direction. Without this fundamental direction, any act of will is merely a reckless forward rush, a flight over a precipice. \"Duty for duty's sake\" is an inhumane maxim that often leads to splits in personality. Ask yourself: \"Ultimately, deep inside me, what draws me? What do I desire more than anything?\" You cannot base your existence on something that is not you, in the name of a duty or moral obligation that exists only in your imagination. Learn to do what you truly want to do. Learn to be happy. Happiness, be convinced, is not a sin! Such an approach has nothing to do with sentimentality.",
+    "3-VM.html": "Your voluntarism stems from a \"macho\" mindset. It is the result of an exclusively \"masculine\" perception of existence. You silence your heart—both yours and others'—because you are ashamed of it. You are ashamed of having feelings, and you feel uncomfortable around those who do. You are afraid of being seen as \"sentimental.\" And those you perceive as \"effeminate sentimentalists,\" you feel the need to guide or redirect. Beyond the issue of confusing \"having feelings\" with \"being effeminate,\" the danger of your approach is clear: the formation of the heart is not a priority for you. Your priority is the formation of the will.\nLet go of the idea that being manly or being a strong woman and being in touch with your emotions are somehow at odds with each other. Sensitivity and strength aren't mutually exclusive - in fact, being able to connect with and express your feelings in a healthy way is a sign of real courage and maturity. Practice letting yourself feel things fully, without immediately pushing them away or trying to appear tough and unaffected. This might look like allowing yourself to cry when you're sad, rather than bottling it up. Or it could mean telling your loved ones how much you care about them, even if it feels a little uncomfortable at first.",
+    "4-VI.html": "Your adherence to ideological slogans is so strong that it crushes your logical reasoning (intellect). You no longer take into account either the natural order of things or your own inner sense of right and wrong.Renounce ideology. Distinguish between the partial truth it contains and the hidden distortion it represents. Contemplate the millions of innocent victims which ideology inexorably produces. Rediscover the nature of things. Marvel at the dignity of the human being. Conscious of past errors, you should not sink into hopelessness and bitterness. Set out again with a new purpose and a resurrected heart.",
+    "5-VC.html": "Your behavior is conditioned not by the immutable principles of human nature (conscience, virtue), but by social rules that are more or less stable. For you, there are no good actions (those that promote virtue, excellence, human perfection) or bad actions (those that obstruct them): there are only correct actions (those that conform to the rule) or incorrect actions (those that go against it). You are convinced of your moral perfection: by following the rule, you fulfill your \"duty.\" Your fundamental problem is that you do not love. This lack of love makes you blind. You cling to the rules because they are, for you, the only support, the only point of reference in this life.\n\nLearn to love people more than rules, more than traditions, more than the religiously, culturally or politically correct. Try to see the unique, valuable individual in every person you encounter. Learn to sacrifice with joy for the ones you love.",
+    "6-SV.html": "You’re chasing the high of certain emotions, detached from the positive things that originally sparked them. This is voluptuousness—a self-indulgent focus on emotions for their own sake, rather than as a natural response to something genuinely good or meaningful.\n\nFocus on loving and appreciating the good in life for its own sake, not merely for the pleasant feelings it brings. Rather than chasing emotional highs, strive to connect with the deeper values and meanings behind your experiences. When those good feelings inevitably fade, remain steadfast. Keep doing what you know is right and meaningful, not because it always feels amazing, but because you believe in the intrinsic worth of these actions. Cultivate the strength to persevere in doing good, even when it doesn’t offer any emotional reward.",
+    "7-SI.html": "Your heart replaces your reason. It suffocates it. You consider your heart as your only guide. Such a heart is, in fact, an arbitrary one that calls \"intuition\" what is merely the pure product of imagination and fantasy. You always do what your heart tells you – even wrong things! You submit your conscience to your heart. You are not a man or woman of heart: you are a fool, manipulated by your selfishness and pride.\n\nLearn to listen to your conscience before listening to what you call “your heart.” The voice of your conscience, which is the voice of God, has priority over the voice of your “I.” A heart separated from its conscience in not a free heart. It is a perverted, self-centered, hypocritical heart.",
+    "8-SC.html": "Your will has been absorbed by your heart. You renounce the good when it becomes a source of conflict. You are a coward. You fear confrontation, even if it is constructive. You have a heart “too good“ to be able to do good, a heart “too loving“ to be able to love. You say, you don’t want the other to suffer, but it’s you fundamentally who doesn’t want to suffer.\n\nInstead of shying away from doing the right thing because it might lead to some friction or discomfort, practice staying true to your values even when it's challenging. Be willing to face difficult situations head-on, with a commitment to honesty and doing what's best for everyone involved. Learn to communicate clearly, respectfully, and with conviction. It's about learning to tolerate the temporary discomfort of a difficult conversation or situation, knowing that you're acting from a place of integrity and care."
+  },
+  "bookUrl": "https://www.eunsa.es/libro/corazon-libre_99703/"
+}

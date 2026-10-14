@@ -4,69 +4,18 @@
     "locale": "es",
     "virtue": "humildad",
     "roles": [
-      "padre_madre"
-    ],
-    "temperaments": [],
-    "moment": "manana",
-    "text": "Hoy, antes de corregir a tu hijo, pregúntale primero cómo lo ve él.",
-    "source": "BORRADOR del equipo. Semilla: consejos prácticos de Del temperamento al carácter.",
-    "status": "draft",
-    "withPerson": "Hoy, antes de corregir a {persona}, pregúntale primero cómo lo ve."
-  },
-  {
-    "id": "hum-02",
-    "locale": "es",
-    "virtue": "humildad",
-    "roles": [
       "trabajo"
     ],
     "temperaments": [],
     "moment": "manana",
-    "text": "Hoy, en la primera reunión, deja que otro proponga antes que tú y apoya su idea si es buena.",
-    "source": "BORRADOR del equipo. Semilla: consejos prácticos de Del temperamento al carácter.",
+    "text": "Hoy delega una tarea que harías mejor tú, para que otro crezca haciéndola.",
+    "source": "Crecer con tu temperamento · consejos prácticos (adaptación del equipo)",
     "status": "draft",
-    "withPerson": "Hoy deja que {persona} proponga antes que tú y apoya su idea si es buena."
+    "withPerson": "Hoy delega en {persona} una tarea que harías mejor tú, para que crezca haciéndola.",
+    "faceta": "fraterna"
   },
   {
-    "id": "hum-03",
-    "locale": "es",
-    "virtue": "humildad",
-    "roles": [
-      "conyuge"
-    ],
-    "temperaments": [],
-    "moment": "manana",
-    "text": "Hoy reconoce ante tu cónyuge un error concreto, sin añadir ninguna justificación.",
-    "source": "BORRADOR del equipo. Semilla: consejos prácticos de Del temperamento al carácter.",
-    "status": "draft",
-    "withPerson": "Hoy reconoce ante {persona} un error concreto, sin añadir ninguna justificación."
-  },
-  {
-    "id": "hum-04",
-    "locale": "es",
-    "virtue": "humildad",
-    "roles": [],
-    "temperaments": [],
-    "moment": "manana",
-    "text": "Hoy, cuando alguien te lleve la contraria, repite su argumento con tus palabras antes de responder.",
-    "source": "BORRADOR del equipo. Semilla: consejos prácticos de Del temperamento al carácter.",
-    "status": "draft",
-    "withPerson": "Hoy, cuando {persona} te lleve la contraria, repite su argumento con tus palabras antes de responder."
-  },
-  {
-    "id": "hum-05",
-    "locale": "es",
-    "virtue": "humildad",
-    "roles": [],
-    "temperaments": [],
-    "moment": "manana",
-    "text": "Hoy pide consejo a alguien sobre una decisión que ya creías tener clara.",
-    "source": "BORRADOR del equipo. Semilla: consejos prácticos de Del temperamento al carácter.",
-    "status": "draft",
-    "withPerson": "Hoy pide consejo a {persona} sobre una decisión que ya creías tener clara."
-  },
-  {
-    "id": "hum-06",
+    "id": "hum-02",
     "locale": "es",
     "virtue": "humildad",
     "roles": [
@@ -75,13 +24,53 @@
     ],
     "temperaments": [],
     "moment": "manana",
-    "text": "Hoy atribuye en público a otra persona el mérito de un logro que compartís.",
-    "source": "BORRADOR del equipo. Semilla: consejos prácticos de Del temperamento al carácter.",
+    "text": "Hoy comparte una información que solo tienes tú, para no ser imprescindible.",
+    "source": "Crecer con tu temperamento · consejos prácticos (adaptación del equipo)",
     "status": "draft",
-    "withPerson": "Hoy atribuye en público a {persona} el mérito de un logro que compartís."
+    "faceta": "fraterna"
   },
   {
-    "id": "hum-07",
+    "id": "hum-03",
+    "locale": "es",
+    "virtue": "humildad",
+    "roles": [
+      "padre_madre"
+    ],
+    "temperaments": [],
+    "moment": "manana",
+    "text": "Hoy, antes de corregir a tu hijo, pregúntale primero cómo lo ve él.",
+    "source": "Crecer con tu temperamento · consejos prácticos (adaptación del equipo)",
+    "status": "draft",
+    "withPerson": "Hoy, antes de corregir a {persona}, pregúntale primero cómo lo ve.",
+    "faceta": "fraterna"
+  },
+  {
+    "id": "hum-04",
+    "locale": "es",
+    "virtue": "humildad",
+    "roles": [],
+    "temperaments": [],
+    "moment": "manana",
+    "text": "Hoy reconoce un error concreto ante quien corresponda, sin justificarte.",
+    "source": "Crecer con tu temperamento · consejos prácticos (adaptación del equipo)",
+    "status": "draft",
+    "faceta": "fundamental"
+  },
+  {
+    "id": "hum-05",
+    "locale": "es",
+    "virtue": "humildad",
+    "roles": [],
+    "temperaments": [],
+    "moment": "manana",
+    "text": "Hoy, cuando alguien te contradiga, toma su opinión como información, no como un ataque.",
+    "source": "Crecer con tu temperamento · consejos prácticos (adaptación del equipo)",
+    "status": "draft",
+    "withPerson": "Hoy, cuando {persona} te contradiga, toma su opinión como información, no como un ataque.",
+    "faceta": "fundamental"
+  },
+  {
+    "id": "hum-06",
     "locale": "es",
     "virtue": "humildad",
     "roles": [
@@ -89,26 +78,52 @@
     ],
     "temperaments": [],
     "moment": "manana",
-    "text": "Hoy pregunta a un alumno qué haría él en tu lugar y tómalo en serio.",
-    "source": "BORRADOR del equipo. Semilla: consejos prácticos de Del temperamento al carácter.",
-    "status": "draft"
+    "text": "Hoy deja que un alumno termine algo que tú habrías resuelto antes.",
+    "source": "Crecer con tu temperamento · consejos prácticos (adaptación del equipo)",
+    "status": "draft",
+    "faceta": "fraterna"
+  },
+  {
+    "id": "hum-07",
+    "locale": "es",
+    "virtue": "humildad",
+    "roles": [
+      "conyuge",
+      "hijo_hermano"
+    ],
+    "temperaments": [],
+    "moment": "manana",
+    "text": "Hoy escucha hasta el final, sin interrumpir ni dar soluciones.",
+    "source": "Crecer con tu temperamento · consejos prácticos (adaptación del equipo)",
+    "status": "draft",
+    "withPerson": "Hoy escucha a {persona} hasta el final, sin interrumpir ni dar soluciones.",
+    "faceta": "fraterna"
   },
   {
     "id": "hum-08",
     "locale": "es",
     "virtue": "humildad",
-    "roles": [
-      "hijo_hermano"
-    ],
+    "roles": [],
     "temperaments": [],
     "moment": "manana",
-    "text": "Hoy escucha a tus padres o hermanos hasta el final, sin interrumpir ni corregir.",
-    "source": "BORRADOR del equipo. Semilla: consejos prácticos de Del temperamento al carácter.",
+    "text": "Hoy dedica cinco minutos a pensar qué talentos has recibido y no has creado tú.",
+    "source": "Crecer con tu temperamento · consejos prácticos (adaptación del equipo)",
     "status": "draft",
-    "withPerson": "Hoy escucha a {persona} hasta el final, sin interrumpir ni corregir."
+    "faceta": "fundamental"
   },
   {
     "id": "aud-01",
+    "locale": "es",
+    "virtue": "audacia",
+    "roles": [],
+    "temperaments": [],
+    "moment": "manana",
+    "text": "Hoy toma, antes del mediodía, una decisión que llevas días aplazando.",
+    "source": "Crecer con tu temperamento · consejos prácticos (adaptación del equipo)",
+    "status": "draft"
+  },
+  {
+    "id": "aud-02",
     "locale": "es",
     "virtue": "audacia",
     "roles": [
@@ -116,38 +131,13 @@
     ],
     "temperaments": [],
     "moment": "manana",
-    "text": "Hoy di en voz alta la idea que llevas días guardándote, aunque no la tengas perfecta.",
-    "source": "BORRADOR del equipo. Semilla: consejos prácticos de Del temperamento al carácter.",
+    "text": "Hoy di en voz alta la idea que te guardas, aunque no esté perfecta.",
+    "source": "Crecer con tu temperamento · consejos prácticos (adaptación del equipo)",
     "status": "draft",
-    "withPerson": "Hoy comparte con {persona} la idea que llevas días guardándote, aunque no la tengas perfecta."
-  },
-  {
-    "id": "aud-02",
-    "locale": "es",
-    "virtue": "audacia",
-    "roles": [],
-    "temperaments": [],
-    "moment": "manana",
-    "text": "Hoy da el primer paso de algo que estás posponiendo: diez minutos, sin esperar a tenerlo todo claro.",
-    "source": "BORRADOR del equipo. Semilla: consejos prácticos de Del temperamento al carácter.",
-    "status": "draft"
+    "withPerson": "Hoy comparte con {persona} la idea que te guardas, aunque no esté perfecta."
   },
   {
     "id": "aud-03",
-    "locale": "es",
-    "virtue": "audacia",
-    "roles": [
-      "padre_madre"
-    ],
-    "temperaments": [],
-    "moment": "manana",
-    "text": "Hoy propón a tus hijos un plan nuevo que nunca habéis hecho juntos.",
-    "source": "BORRADOR del equipo. Semilla: consejos prácticos de Del temperamento al carácter.",
-    "status": "draft",
-    "withPerson": "Hoy propón a {persona} un plan nuevo que nunca habéis hecho juntos."
-  },
-  {
-    "id": "aud-04",
     "locale": "es",
     "virtue": "audacia",
     "roles": [
@@ -155,34 +145,46 @@
     ],
     "temperaments": [],
     "moment": "manana",
-    "text": "Hoy ofrécete para una tarea en tu comunidad que normalmente dejarías a otros.",
-    "source": "BORRADOR del equipo. Semilla: consejos prácticos de Del temperamento al carácter.",
+    "text": "Hoy ofrécete para algo que normalmente dejarías a otros.",
+    "source": "Crecer con tu temperamento · consejos prácticos (adaptación del equipo)",
+    "status": "draft"
+  },
+  {
+    "id": "aud-04",
+    "locale": "es",
+    "virtue": "audacia",
+    "roles": [],
+    "temperaments": [],
+    "moment": "manana",
+    "text": "Hoy da el primer paso de algo que te da miedo empezar: diez minutos bastan.",
+    "source": "Crecer con tu temperamento · consejos prácticos (adaptación del equipo)",
     "status": "draft"
   },
   {
     "id": "aud-05",
     "locale": "es",
     "virtue": "audacia",
-    "roles": [],
+    "roles": [
+      "padre_madre",
+      "conyuge"
+    ],
     "temperaments": [],
     "moment": "manana",
-    "text": "Hoy toma una decisión pequeña que estás aplazando, antes del mediodía, y no la revises.",
-    "source": "BORRADOR del equipo. Semilla: consejos prácticos de Del temperamento al carácter.",
-    "status": "draft"
+    "text": "Hoy propón un plan nuevo que nunca habéis hecho juntos.",
+    "source": "Crecer con tu temperamento · consejos prácticos (adaptación del equipo)",
+    "status": "draft",
+    "withPerson": "Hoy propón a {persona} un plan nuevo que nunca habéis hecho juntos."
   },
   {
     "id": "aud-06",
     "locale": "es",
     "virtue": "audacia",
-    "roles": [
-      "conyuge"
-    ],
+    "roles": [],
     "temperaments": [],
     "moment": "manana",
-    "text": "Hoy habla con tu cónyuge de ese tema que evitas, con calma y sin rodeos.",
-    "source": "BORRADOR del equipo. Semilla: consejos prácticos de Del temperamento al carácter.",
-    "status": "draft",
-    "withPerson": "Hoy habla con {persona} de ese tema que evitas, con calma y sin rodeos."
+    "text": "Hoy, cuando aparezca el «¿y si sale mal?», actúa igual y observa qué pasa.",
+    "source": "Crecer con tu temperamento · consejos prácticos (adaptación del equipo)",
+    "status": "draft"
   },
   {
     "id": "aud-07",
@@ -193,8 +195,8 @@
     ],
     "temperaments": [],
     "moment": "manana",
-    "text": "Hoy plantea a tus alumnos un reto más alto del que crees que pueden alcanzar.",
-    "source": "BORRADOR del equipo. Semilla: consejos prácticos de Del temperamento al carácter.",
+    "text": "Hoy plantea a tus alumnos una meta más alta de la que esperan.",
+    "source": "Crecer con tu temperamento · consejos prácticos (adaptación del equipo)",
     "status": "draft"
   },
   {
@@ -204,9 +206,10 @@
     "roles": [],
     "temperaments": [],
     "moment": "manana",
-    "text": "Hoy, cuando aparezca el «¿y si sale mal?», actúa de todos modos y anota después qué pasó.",
-    "source": "BORRADOR del equipo. Semilla: consejos prácticos de Del temperamento al carácter.",
-    "status": "draft"
+    "text": "Hoy sal de tu rincón: habla con alguien a quien no te atreves a acercarte.",
+    "source": "Crecer con tu temperamento · consejos prácticos (adaptación del equipo)",
+    "status": "draft",
+    "withPerson": "Hoy acércate a {persona} y dile lo que llevas tiempo pensando."
   },
   {
     "id": "res-01",
@@ -215,8 +218,8 @@
     "roles": [],
     "temperaments": [],
     "moment": "manana",
-    "text": "Hoy termina una tarea que dejaste a medias antes de empezar ninguna nueva.",
-    "source": "BORRADOR del equipo. Semilla: consejos prácticos de Del temperamento al carácter.",
+    "text": "Hoy termina lo que tienes empezado antes de abrir nada nuevo.",
+    "source": "Crecer con tu temperamento · consejos prácticos (adaptación del equipo)",
     "status": "draft"
   },
   {
@@ -228,12 +231,23 @@
     ],
     "temperaments": [],
     "moment": "manana",
-    "text": "Hoy dedica 45 minutos seguidos a una sola tarea, con el móvil fuera de la vista.",
-    "source": "BORRADOR del equipo. Semilla: consejos prácticos de Del temperamento al carácter.",
+    "text": "Hoy haz primero lo más importante y después lo más agradable.",
+    "source": "Crecer con tu temperamento · consejos prácticos (adaptación del equipo)",
     "status": "draft"
   },
   {
     "id": "res-03",
+    "locale": "es",
+    "virtue": "resistencia",
+    "roles": [],
+    "temperaments": [],
+    "moment": "manana",
+    "text": "Hoy cuida los detalles de una tarea hasta el final, aunque nadie lo note.",
+    "source": "Crecer con tu temperamento · consejos prácticos (adaptación del equipo)",
+    "status": "draft"
+  },
+  {
+    "id": "res-04",
     "locale": "es",
     "virtue": "resistencia",
     "roles": [
@@ -241,47 +255,35 @@
     ],
     "temperaments": [],
     "moment": "manana",
-    "text": "Hoy cumple con tus hijos exactamente lo que les prometiste, aunque te surja algo más apetecible.",
-    "source": "BORRADOR del equipo. Semilla: consejos prácticos de Del temperamento al carácter.",
+    "text": "Hoy cumple exactamente lo que prometiste a tus hijos, aunque surja algo mejor.",
+    "source": "Crecer con tu temperamento · consejos prácticos (adaptación del equipo)",
     "status": "draft",
-    "withPerson": "Hoy cumple con {persona} exactamente lo que le prometiste, aunque te surja algo más apetecible."
-  },
-  {
-    "id": "res-04",
-    "locale": "es",
-    "virtue": "resistencia",
-    "roles": [
-      "conyuge"
-    ],
-    "temperaments": [],
-    "moment": "manana",
-    "text": "Hoy escucha a tu cónyuge diez minutos sin cambiar de tema ni mirar el móvil.",
-    "source": "BORRADOR del equipo. Semilla: consejos prácticos de Del temperamento al carácter.",
-    "status": "draft",
-    "withPerson": "Hoy escucha a {persona} diez minutos sin cambiar de tema ni mirar el móvil."
+    "withPerson": "Hoy cumple exactamente lo que prometiste a {persona}, aunque surja algo mejor."
   },
   {
     "id": "res-05",
     "locale": "es",
     "virtue": "resistencia",
-    "roles": [],
+    "roles": [
+      "trabajo",
+      "educador"
+    ],
     "temperaments": [],
     "moment": "manana",
-    "text": "Hoy mantén el compromiso que menos te apetece de tu agenda y llega puntual.",
-    "source": "BORRADOR del equipo. Semilla: consejos prácticos de Del temperamento al carácter.",
-    "status": "draft"
+    "text": "Hoy corrige con caridad algo que llevas tiempo dejando pasar.",
+    "source": "Crecer con tu temperamento · consejos prácticos (adaptación del equipo)",
+    "status": "draft",
+    "withPerson": "Hoy corrige con caridad a {persona} en algo que llevas tiempo dejando pasar."
   },
   {
     "id": "res-06",
     "locale": "es",
     "virtue": "resistencia",
-    "roles": [
-      "comunidad"
-    ],
+    "roles": [],
     "temperaments": [],
     "moment": "manana",
-    "text": "Hoy retoma un compromiso con tu comunidad que habías dejado enfriar.",
-    "source": "BORRADOR del equipo. Semilla: consejos prácticos de Del temperamento al carácter.",
+    "text": "Hoy haz lo correcto sin preocuparte de lo que digan los demás.",
+    "source": "Crecer con tu temperamento · consejos prácticos (adaptación del equipo)",
     "status": "draft"
   },
   {
@@ -289,23 +291,26 @@
     "locale": "es",
     "virtue": "resistencia",
     "roles": [
-      "educador"
+      "conyuge"
     ],
     "temperaments": [],
     "moment": "manana",
-    "text": "Hoy vuelve sobre un alumno que se quedó atrás y dedícale el tiempo que necesite.",
-    "source": "BORRADOR del equipo. Semilla: consejos prácticos de Del temperamento al carácter.",
-    "status": "draft"
+    "text": "Hoy escucha diez minutos seguidos, sin mirar el móvil.",
+    "source": "Crecer con tu temperamento · consejos prácticos (adaptación del equipo)",
+    "status": "draft",
+    "withPerson": "Hoy escucha a {persona} diez minutos seguidos, sin mirar el móvil."
   },
   {
     "id": "res-08",
     "locale": "es",
     "virtue": "resistencia",
-    "roles": [],
+    "roles": [
+      "comunidad"
+    ],
     "temperaments": [],
     "moment": "manana",
-    "text": "Hoy, cuando te canses de algo que es bueno, sigue cinco minutos más antes de dejarlo.",
-    "source": "BORRADOR del equipo. Semilla: consejos prácticos de Del temperamento al carácter.",
+    "text": "Hoy retoma un compromiso que habías dejado enfriar.",
+    "source": "Crecer con tu temperamento · consejos prácticos (adaptación del equipo)",
     "status": "draft"
   },
   {
@@ -315,12 +320,34 @@
     "roles": [],
     "temperaments": [],
     "moment": "manana",
-    "text": "Hoy escribe en una línea algo grande que podrías hacer este año con tus talentos.",
-    "source": "BORRADOR del equipo. Semilla: consejos prácticos de Del temperamento al carácter.",
+    "text": "Hoy no dejes pasar una oportunidad de hacer el bien por miedo o pereza.",
+    "source": "Crecer con tu temperamento · consejos prácticos (adaptación del equipo)",
     "status": "draft"
   },
   {
     "id": "mag-02",
+    "locale": "es",
+    "virtue": "magnanimidad",
+    "roles": [],
+    "temperaments": [],
+    "moment": "manana",
+    "text": "Hoy dedica diez minutos a una obra bella de tu biblioteca: música, pintura o lectura.",
+    "source": "Crecer con tu temperamento · consejos prácticos (adaptación del equipo)",
+    "status": "draft"
+  },
+  {
+    "id": "mag-03",
+    "locale": "es",
+    "virtue": "magnanimidad",
+    "roles": [],
+    "temperaments": [],
+    "moment": "manana",
+    "text": "Hoy escribe tu misión en una frase y léela en voz alta.",
+    "source": "Crecer con tu temperamento · consejos prácticos (adaptación del equipo)",
+    "status": "draft"
+  },
+  {
+    "id": "mag-04",
     "locale": "es",
     "virtue": "magnanimidad",
     "roles": [
@@ -328,13 +355,13 @@
     ],
     "temperaments": [],
     "moment": "manana",
-    "text": "Hoy propón una mejora concreta en tu trabajo que vaya más allá de lo que te piden.",
-    "source": "BORRADOR del equipo. Semilla: consejos prácticos de Del temperamento al carácter.",
+    "text": "Hoy propón una mejora que vaya más allá de lo que te piden.",
+    "source": "Crecer con tu temperamento · consejos prácticos (adaptación del equipo)",
     "status": "draft",
-    "withPerson": "Hoy propón a {persona} una mejora concreta que vaya más allá de lo que te piden."
+    "withPerson": "Hoy propón a {persona} una mejora que vaya más allá de lo que os piden."
   },
   {
-    "id": "mag-03",
+    "id": "mag-05",
     "locale": "es",
     "virtue": "magnanimidad",
     "roles": [
@@ -343,12 +370,23 @@
     "temperaments": [],
     "moment": "manana",
     "text": "Hoy dile a tu hijo qué gran cualidad ves en él y anímale a usarla.",
-    "source": "BORRADOR del equipo. Semilla: consejos prácticos de Del temperamento al carácter.",
+    "source": "Crecer con tu temperamento · consejos prácticos (adaptación del equipo)",
     "status": "draft",
     "withPerson": "Hoy dile a {persona} qué gran cualidad ves en él o ella y anímale a usarla."
   },
   {
-    "id": "mag-04",
+    "id": "mag-06",
+    "locale": "es",
+    "virtue": "magnanimidad",
+    "roles": [],
+    "temperaments": [],
+    "moment": "manana",
+    "text": "Hoy busca la compañía de alguien que admires y pregúntale qué le mueve.",
+    "source": "Crecer con tu temperamento · consejos prácticos (adaptación del equipo)",
+    "status": "draft"
+  },
+  {
+    "id": "mag-07",
     "locale": "es",
     "virtue": "magnanimidad",
     "roles": [
@@ -356,46 +394,8 @@
     ],
     "temperaments": [],
     "moment": "manana",
-    "text": "Hoy identifica una necesidad de tu entorno y da un primer paso para atenderla.",
-    "source": "BORRADOR del equipo. Semilla: consejos prácticos de Del temperamento al carácter.",
-    "status": "draft"
-  },
-  {
-    "id": "mag-05",
-    "locale": "es",
-    "virtue": "magnanimidad",
-    "roles": [
-      "educador"
-    ],
-    "temperaments": [],
-    "moment": "manana",
-    "text": "Hoy habla a tus alumnos de una persona que hizo algo grande y de lo que eso les pide a ellos.",
-    "source": "BORRADOR del equipo. Semilla: consejos prácticos de Del temperamento al carácter.",
-    "status": "draft"
-  },
-  {
-    "id": "mag-06",
-    "locale": "es",
-    "virtue": "magnanimidad",
-    "roles": [
-      "conyuge"
-    ],
-    "temperaments": [],
-    "moment": "manana",
-    "text": "Hoy comparte con tu cónyuge un sueño que tengas para vuestra familia.",
-    "source": "BORRADOR del equipo. Semilla: consejos prácticos de Del temperamento al carácter.",
-    "status": "draft",
-    "withPerson": "Hoy comparte con {persona} un sueño que tengas para vuestra familia."
-  },
-  {
-    "id": "mag-07",
-    "locale": "es",
-    "virtue": "magnanimidad",
-    "roles": [],
-    "temperaments": [],
-    "moment": "manana",
-    "text": "Hoy, en lugar de hacer lo justo, haz una tarea con la mejor calidad de la que eres capaz.",
-    "source": "BORRADOR del equipo. Semilla: consejos prácticos de Del temperamento al carácter.",
+    "text": "Hoy identifica una necesidad cerca de ti y da el primer paso para atenderla.",
+    "source": "Crecer con tu temperamento · consejos prácticos (adaptación del equipo)",
     "status": "draft"
   },
   {
@@ -403,13 +403,12 @@
     "locale": "es",
     "virtue": "magnanimidad",
     "roles": [
-      "hijo_hermano"
+      "educador"
     ],
     "temperaments": [],
     "moment": "manana",
-    "text": "Hoy ofrece tu ayuda a un hermano o a tus padres en algo que les pese, sin que te lo pidan.",
-    "source": "BORRADOR del equipo. Semilla: consejos prácticos de Del temperamento al carácter.",
-    "status": "draft",
-    "withPerson": "Hoy ofrece tu ayuda a {persona} en algo que le pese, sin que te lo pida."
+    "text": "Hoy cuenta a tus alumnos la historia de un modelo de grandeza.",
+    "source": "Crecer con tu temperamento · consejos prácticos (adaptación del equipo)",
+    "status": "draft"
   }
 ]
