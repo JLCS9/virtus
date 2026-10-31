@@ -6,8 +6,7 @@
 import { turnoNoche, type EntradaNoche } from '../../../packages/method/src/retos/index.ts';
 
 import { cors, json } from '../_shared/http.ts';
-import { contextoRetos, fechaValida } from '../_shared/retos.ts';
-import { SeudonimizadorNoDisponible } from '../_shared/seudonimizar.ts';
+import { contextoRetos, fechaValida, respuestaError } from '../_shared/retos.ts';
 
 const BOTONES = ['listo', 'si', 'a_medias', 'no', 'reaccion', 'decision', 'prisa', 'aceptar', 'parar'];
 
@@ -33,8 +32,7 @@ Deno.serve(async (req) => {
     if (!(await ctx.deps.almacen.perfil())) return json({ error: 'sin_perfil' }, 409);
     return json(await turnoNoche(ctx.deps, fecha, entrada));
   } catch (e) {
-    if (e instanceof SeudonimizadorNoDisponible) return json({ error: 'seudonimizador' }, 503);
     console.error('retos-noche:', (e as Error).message);
-    return json({ error: 'internal' }, 500);
+    return respuestaError(e, ctx.probador);
   }
 });

@@ -6,10 +6,10 @@ import type { Dependencias } from '../../../packages/method/src/retos/index.ts';
 
 import { almacenPara } from './almacen.ts';
 import { modeloAnthropicDirecto } from './anthropic-temporal.ts';
-import { modeloBedrock } from './bedrock.ts';
+import { ModeloNoDisponible, modeloBedrock, RespuestaRechazada } from './bedrock.ts';
 import { db, pseudoId } from './db.ts';
 import { json, userContext } from './http.ts';
-import { seudonimizadorPara } from './seudonimizar.ts';
+import { SeudonimizadorNoDisponible, seudonimizadorPara } from './seudonimizar.ts';
 import { sinSuscripcion, suscripcionRetosActiva } from './suscripcion.ts';
 
 /**
@@ -47,7 +47,23 @@ export function fechaValida(f: unknown): string | null {
 
 export interface ContextoRetos {
   userId: string;
+  /** Cuenta de pruebas (modo temporal de Anthropic): solo a estas se les enseña el detalle de un error. */
+  probador: boolean;
   deps: Dependencias;
+}
+
+/**
+ * Respuesta de error de las funciones retos-*. Si el modelo o el seudonimizador no están disponibles
+ * es un 503 con un código que la web y la app muestran como «servicio no disponible» (no un 500 que
+ * parece culpa de la persona). El detalle técnico solo se devuelve a las cuentas de prueba.
+ */
+export function respuestaError(e: unknown, probador: boolean): Response {
+  const indisponible =
+    e instanceof SeudonimizadorNoDisponible || e instanceof ModeloNoDisponible || e instanceof RespuestaRechazada;
+  const detalle = probador
+    ? { detalle: `${e instanceof Error ? e.constructor.name : 'Error'}: ${e instanceof Error ? e.message : String(e)}`.slice(0, 400) }
+    : {};
+  return json({ error: indisponible ? 'servicio_no_disponible' : 'internal', ...detalle }, indisponible ? 503 : 500);
 }
 
 /**
@@ -72,6 +88,7 @@ export async function contextoRetos(req: Request): Promise<ContextoRetos | Respo
   const pseudo = await pseudoId(userId);
   return {
     userId,
+    probador: features.has('retos_anthropic_directo'),
     deps: {
       // TEMPORAL: API de Anthropic solo para cuentas marcadas, mientras AWS activa Bedrock.
       modelo: features.has('retos_anthropic_directo') ? modeloAnthropicDirecto : modeloBedrock,
