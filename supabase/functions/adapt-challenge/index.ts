@@ -2,14 +2,10 @@
  * Adapta el reto base del día a la vida de la persona. La IA solo redacta: no conversa,
  * no inventa doctrina, no diagnostica. Si algo falla devuelve { text: null } y la app
  * muestra el reto base. Solo se envía lo mínimo (alias, rol, temperamento, cómo fue ayer).
- * Usar una organización de Anthropic sin retención de datos para entrenamiento.
+ * El modelo se consume por Amazon Bedrock en región UE (ver _shared/bedrock.ts).
  */
-import Anthropic from 'npm:@anthropic-ai/sdk';
-
+import { completarTexto, MODELO_COACH, RespuestaRechazada } from '../_shared/bedrock.ts';
 import { cors, json, userContext } from '../_shared/http.ts';
-
-const MODEL = Deno.env.get('CLAUDE_MODEL') ?? 'claude-opus-5';
-const anthropic = new Anthropic({ apiKey: Deno.env.get('ANTHROPIC_API_KEY') });
 
 const TEMPERAMENT = { COL: 'colérico', MEL: 'melancólico', SAN: 'sanguíneo', FLE: 'flemático' } as const;
 type T = keyof typeof TEMPERAMENT;
@@ -24,14 +20,8 @@ Reglas:
 - El temperamento secundario modula la dificultad: no lo nombres ni etiquetes a la persona.
 - Si ayer prevaleció la primera reacción, haz el reto un poco más pequeño y alcanzable; si cumplió, mantén la exigencia.
 - Nunca uses: mindset, empoderar, coaching, KPI, soft skills, zona de confort, ni lenguaje de venta.
-- No interpretes emociones ni diagnostiques. Entre 25 y 200 caracteres.`;
-
-const SCHEMA = {
-  type: 'object',
-  properties: { text: { type: 'string', description: 'El reto adaptado, listo para mostrar.' } },
-  required: ['text'],
-  additionalProperties: false,
-};
+- No interpretes emociones ni diagnostiques. Entre 25 y 200 caracteres.
+- Responde solo con un objeto JSON {"text": "<el reto adaptado>"}, sin texto antes ni después.`;
 
 interface Body {
   baseId: string;
@@ -68,26 +58,19 @@ Deno.serve(async (req) => {
   if (!input.reto_base) return json({ text: null });
 
   try {
-    const response = await anthropic.beta.messages.create({
-      model: MODEL,
-      max_tokens: 2048,
-      betas: ['server-side-fallback-2026-07-01'],
-      // Si el modelo declina, la API reintenta con el modelo recomendado.
-      fallbacks: 'default',
-      output_config: { effort: 'low', format: { type: 'json_schema', schema: SCHEMA } },
-      system: SYSTEM,
-      messages: [{ role: 'user', content: JSON.stringify(input) }],
-    } as never);
-    const msg = response as unknown as { stop_reason: string; content: { type: string; text?: string }[] };
-    if (msg.stop_reason !== 'end_turn') return json({ text: null });
-    const block = msg.content.find((b) => b.type === 'text');
-    const text = block?.text ? (JSON.parse(block.text) as { text: string }).text.trim() : null;
+    const salida = await completarTexto({
+      modelo: MODELO_COACH,
+      sistema: SYSTEM,
+      mensajes: [{ role: 'user', content: JSON.stringify(input) }],
+      maxTokens: 4000,
+    });
+    const raw = salida.slice(salida.indexOf('{'), salida.lastIndexOf('}') + 1);
+    const text = raw ? (JSON.parse(raw) as { text?: string }).text?.trim() ?? null : null;
     if (!text || text.length < 25 || text.length > 200 || /[{}]/.test(text)) return json({ text: null });
     return json({ text });
   } catch (error) {
-    if (error instanceof Anthropic.RateLimitError) console.warn('adapt-challenge: rate limited');
-    else if (error instanceof Anthropic.APIError) console.error('adapt-challenge:', error.status, error.message);
-    else console.error('adapt-challenge:', error);
+    if (error instanceof RespuestaRechazada) console.warn('adapt-challenge: rechazada');
+    else console.error('adapt-challenge:', (error as Error).message);
     return json({ text: null });
   }
 });

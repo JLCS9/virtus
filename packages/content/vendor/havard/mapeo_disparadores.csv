@@ -1,0 +1,61 @@
+texto_excel,clave
+reunión o decisión del día,reunion_donde_decido
+asunto pendiente que se arrastra,tarea_pendiente
+"noticia, informe o rumor recibido",informacion_recibida
+error o contratiempo,error_o_contratiempo
+conversación con desacuerdo,conversacion_dificil
+indecisión ante algo menor,tarea_pendiente
+problema nuevo,error_o_contratiempo
+preocupación recurrente,preocupacion_recurrente
+convicción fuerte,reunion_donde_decido
+propuesta atractiva,reunion_donde_decido
+decisión reciente,reunion_donde_decido
+reunión de equipo,reunion_de_equipo
+oportunidad que da miedo,oportunidad_con_riesgo
+conflicto latente,conversacion_dificil
+inicio del día,inicio_del_dia
+tarea que llevas puliendo,entrega_con_presion
+desacuerdo con un superior,desacuerdo_con_superior
+colaborador indeciso,colaborador_indeciso
+momento de pusilanimidad,bajon_emocional
+tarea empezada y abandonada,tarea_pendiente
+inicio de la jornada,inicio_del_dia
+mal humor matinal,inicio_del_dia
+encuentro con persona difícil,persona_dificil
+crítica recibida,critica_recibida
+llegada a casa cansado,llegada_a_casa
+comida en casa o fuera,comida_familiar
+error repetido de un colaborador,colaborador_con_error
+imprevisto,error_o_contratiempo
+compromiso adquirido,compromiso_adquirido
+crítica a una decisión,critica_recibida
+crítica a un ausente,critica_a_un_ausente
+fallo o error propio,error_o_contratiempo
+opinión contraria a la tuya,conversacion_dificil
+impulso de compra o novedad,impulso_de_compra_o_novedad
+éxito ajeno,exito_ajeno
+bajón emocional,bajon_emocional
+persona con la que tienes rencor,persona_con_rencor
+jornada muy cargada,jornada_cargada
+situación tensa habitual,situacion_tensa_habitual
+tarde o noche,tarde_con_hijos
+conversación sobre tema delicado,conversacion_dificil
+encuentro con colaborador,encuentro_con_colaborador
+tarea compartida,reunion_de_equipo
+decisión colectiva contraria,reunion_de_equipo
+daño causado,error_o_contratiempo
+persona cercana con un defecto visible,conversacion_dificil
+planificación del día,inicio_del_dia
+ocasión de ayudar,ocasion_de_ayudar
+problema que te desanima,preocupacion_recurrente
+antes de dormir,antes_de_dormir
+error visible,error_o_contratiempo
+colaborador en una tarea,encuentro_con_colaborador
+instrucción a alguien,encuentro_con_colaborador
+reunión de grupo,reunion_de_equipo
+presión por resultados,entrega_con_presion
+conversación con externo,conversacion_con_externo
+evaluación o feedback,evaluacion_o_feedback
+persona difícil,persona_dificil
+presión social,presion_social
+proyecto propio,proyecto_propio

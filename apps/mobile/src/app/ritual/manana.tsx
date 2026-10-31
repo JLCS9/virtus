@@ -1,5 +1,4 @@
 import { goBackOrHome } from '@/features/nav';
-import { useState } from 'react';
 import { View } from 'react-native';
 import { useTranslation } from 'react-i18next';
 
@@ -13,7 +12,6 @@ export default function RitualManana() {
   const { t } = useTranslation();
   const today = useToday();
   const mission = useVirtus((s) => s.mission);
-  const [noMore, setNoMore] = useState(false);
   const challenge = today.record?.challenge;
   const accepted = !!challenge?.acceptedAt;
 
@@ -23,10 +21,7 @@ export default function RitualManana() {
         accepted ? (
           <Button label={t('ritual.volverHoy')} onPress={goBackOrHome} />
         ) : (
-          <View style={{ gap: space.s }}>
-            <Button label={t('ritual.aceptar')} disabled={!challenge} onPress={today.accept} />
-            <Button variant="ghost" label={t('ritual.otro')} onPress={() => setNoMore(!today.reroll())} />
-          </View>
+          <Button label={t('ritual.aceptar')} disabled={!challenge} onPress={today.accept} />
         )
       }>
       <Stack gap={space.s}>
@@ -46,11 +41,10 @@ export default function RitualManana() {
       <Card accent style={{ gap: space.m, marginTop: space.s }}>
         <Eyebrow>{t('ritual.retoEyebrow')}</Eyebrow>
         <H2>{challenge?.text ?? '…'}</H2>
-        {challenge?.role ? <Caption>{t('ritual.rol', { rol: t(`roles.${challenge.role}`) })}</Caption> : null}
+        {challenge?.why ? <Caption>{challenge.why}</Caption> : null}
       </Card>
 
       {accepted ? <Body>{t('ritual.aceptado')}</Body> : null}
-      {noMore ? <Caption>{t('ritual.sinRetos')}</Caption> : null}
     </Screen>
   );
 }

@@ -1,0 +1,28 @@
+# Añadir bajo `services:` en /opt/virtuousleadership/docker-compose.yml.
+# El contexto de build asume el repo virtus clonado en /opt/virtuousleadership/virtus;
+# ajústalo si vive en otra ruta, o sustituye `build` por `image` si publicas la imagen.
+services:
+  seudonimizador:
+    build:
+      context: ./virtus/services/seudonimizador
+    image: virtus/seudonimizador:latest
+    restart: unless-stopped
+    environment:
+      SEUDONIMIZADOR_TOKEN: ${SEUDONIMIZADOR_TOKEN:?definir en /opt/virtuousleadership/.env}
+    # Solo en loopback: el único acceso es el nginx del host (HTTPS + bearer).
+    ports:
+      - "127.0.0.1:8090:8000"
+    read_only: true
+    tmpfs:
+      - /tmp
+    cap_drop:
+      - ALL
+    security_opt:
+      - no-new-privileges:true
+    mem_limit: 768m
+    cpus: "1.0"
+    logging:
+      driver: json-file
+      options:
+        max-size: "10m"
+        max-file: "3"

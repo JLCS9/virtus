@@ -1,88 +1,62 @@
-import { useCallback, useEffect, useMemo } from 'react';
+import { useCallback, useEffect, useMemo, useState } from 'react';
 
-import {
-  dateKey,
-  dayIndex,
-  isPracticeDay,
-  pickPerson,
-  rankChallenges,
-  renderBase,
-  roleOfDay,
-  type DailyChallenge,
-} from '@virtus/method';
+import { dateKey, dayIndex, isPracticeDay, roleOfDay, retos as R, type WorkVirtue } from '@virtus/method';
 import { modelOfDay, videosFor } from '@virtus/content';
 
 import { useVirtus } from '@/store/virtus';
-import { INCLUDE_DRAFTS, useContent } from './content';
-import { adaptChallenge } from './adapt';
+import { useContent } from './content';
 import { track } from './analytics';
+import { type EstadoRetos, retoDelServidor, retoLocal, virtudDeReto } from './retos';
 
+/**
+ * Día de hoy. El reto lo decide el motor de retos Havard: en el servidor si hay cuenta y perfil
+ * de retos (redactado para tu día), y si no, en el dispositivo con la misma biblioteca.
+ * No hay «otro reto»: el método elige, no la persona.
+ */
 export function useToday(date = new Date()) {
   const content = useContent();
   const s = useVirtus();
   const key = dateKey(date);
   const record = s.records[key];
-  const virtue = s.cycle?.virtue ?? s.temperament?.challengeVirtue ?? 'humildad';
+  const challenge = record?.challenge;
+  const clave = challenge ? virtudDeReto(challenge.baseId) : null;
+  const virtue = (clave ? R.CLAVE_A_VIRTUD_CICLO[clave] : s.cycle?.virtue ?? s.temperament?.challengeVirtue ?? 'humildad') as WorkVirtue;
   const role = roleOfDay(s.roles.map((r) => r.role), date);
   const practiceDay = isPracticeDay(s.plan.rhythm, date);
+  const [estado, setEstado] = useState<EstadoRetos | null>(null);
   const model = useMemo(() => modelOfDay(content, virtue, dayIndex(date), s.temperament?.dominant), [content, virtue, key, s.temperament?.dominant]);
   const video = useMemo(() => {
     const list = videosFor(content, virtue);
     return list[Math.floor(dayIndex(date) / 7) % list.length];
   }, [content, virtue, key]);
 
-  const build = useCallback(
-    (exclude: string[]): DailyChallenge | null => {
-      const candidates = rankChallenges({
-        library: content.challenges,
-        locale: s.locale,
-        virtue,
-        role,
-        temperament: s.temperament,
-        date,
-        exclude,
-        includeDrafts: INCLUDE_DRAFTS,
-      });
-      const base = candidates[0];
-      if (!base) return null;
-      const person = pickPerson(s.collaborators, role, date);
-      return renderBase(base, role, person);
-    },
-    [content, s.locale, virtue, role, s.temperament, s.collaborators, key],
-  );
-
-  const assign = useCallback(
-    async (daily: DailyChallenge, rerolls: number) => {
-      s.setChallenge(key, { baseId: daily.baseId, text: daily.text, role: daily.role, acceptedAt: null, rerolls });
-      // La IA solo redacta la adaptación; si falla o no hay backend, queda el reto base.
-      const adapted = await adaptChallenge(daily, { temperament: s.temperament, record: s.records, lexicon: content.lexicon });
-      if (adapted && useVirtus.getState().records[key]?.challenge?.baseId === daily.baseId) {
-        s.setChallenge(key, { baseId: daily.baseId, text: adapted, role: daily.role, acceptedAt: null, rerolls });
-      }
-    },
-    [key, s.temperament, content.lexicon],
-  );
-
-  // Asigna el reto del día la primera vez que se abre.
+  // Cada vez que se abre: el servidor manda (puede haber cerrado el examen de anoche en otro
+  // dispositivo); si no responde y aún no hay reto, el motor local lo elige.
   useEffect(() => {
-    if (!s.temperament || record?.challenge) return;
-    const daily = build(s.recentChallenges);
-    if (daily) void assign(daily, 0);
-  }, [s.temperament, record?.challenge, key]);
+    if (!s.temperament) return;
+    let vivo = true;
+    void retoDelServidor(key).then(({ estado, reto }) => {
+      if (!vivo) return;
+      setEstado(estado);
+      const actual = useVirtus.getState().records[key]?.challenge;
+      if (reto) {
+        if (actual?.baseId !== reto.retoId || actual.text !== reto.texto || actual.source !== 'servidor') {
+          s.setChallenge(key, { baseId: reto.retoId, text: reto.texto, why: reto.porque, source: 'servidor', role: null, acceptedAt: actual?.acceptedAt ?? null, rerolls: 0 });
+        }
+      } else if (!actual || !virtudDeReto(actual.baseId)) {
+        const local = retoLocal(s.temperament!, useVirtus.getState().records, key);
+        if (local) s.setChallenge(key, { baseId: local.retoId, text: local.texto, why: local.porque, source: 'local', role: null, acceptedAt: null, rerolls: 0 });
+      }
+    });
+    return () => {
+      vivo = false;
+    };
+  }, [s.temperament, key]);
 
-  const reroll = useCallback(() => {
-    const current = record?.challenge;
-    const exclude = [...s.recentChallenges, ...(current ? [current.baseId] : [])];
-    const daily = build(exclude);
-    if (!daily || daily.baseId === current?.baseId) return false;
-    void assign(daily, (current?.rerolls ?? 0) + 1);
-    track('challenge_rerolled', {});
-    return true;
-  }, [record?.challenge, s.recentChallenges, build, assign]);
+  const accept = useCallback(() => {
+    s.acceptChallenge(key);
+    track('challenge_accepted', { source: challenge?.source ?? 'local' });
+  }, [key, challenge?.source]);
 
-  return { key, record, virtue, role, practiceDay, model, video, reroll, accept: () => {
-      s.acceptChallenge(key);
-      track('challenge_accepted', { rerolls: record?.challenge?.rerolls ?? 0, adapted: false });
-    },
-  };
+  return { key, record, virtue, role, practiceDay, model, video, accept, estado };
 }

@@ -468,5 +468,28 @@
     "vista": "Vista",
     "marcarVista": "Marcar como vista",
     "finCurso": "Has llegado al final del curso. Lo que has visto cobra vida en el reto de cada día."
+  },
+  "retos": {
+    "configurarTitulo": "Prepara tus retos",
+    "configurarTexto": "Una conversación breve para conocer tu semana. Solo se hace una vez y así cada reto se ajusta a tu día.",
+    "configurar": "Empezar",
+    "cuentaTexto": "Con tu cuenta, el reto se adapta a tu día y el examen de la noche es una conversación guiada.",
+    "cuenta": "Entrar en mi cuenta",
+    "escribe": "Escribe aquí…",
+    "enviar": "Enviar",
+    "privacidad": "Los nombres que escribas se sustituyen por códigos antes de llegar al asistente.",
+    "sinServicio": "El servicio no está disponible ahora mismo. Inténtalo en unos minutos.",
+    "listo": "Tu perfil está listo. Mañana tendrás tu primer reto.",
+    "botones": {
+      "listo": "Listo",
+      "si": "Sí",
+      "a_medias": "A medias",
+      "no": "No",
+      "reaccion": "Falló mi primera reacción",
+      "decision": "Lo decidí",
+      "prisa": "Tengo prisa",
+      "aceptar": "Así está bien",
+      "parar": "Lo dejamos aquí"
+    }
   }
 }

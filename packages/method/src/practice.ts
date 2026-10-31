@@ -29,7 +29,16 @@ export interface ExamEntry {
 
 export interface DayRecord {
   date: string;
-  challenge?: { baseId: string; text: string; role: Role | null; acceptedAt: string | null; rerolls: number };
+  challenge?: {
+    baseId: string;
+    text: string;
+    role: Role | null;
+    acceptedAt: string | null;
+    rerolls: number;
+    /** Retos Havard: línea de porqué y si lo redactó el servidor o es el respaldo local. */
+    why?: string;
+    source?: 'servidor' | 'local';
+  };
   exam?: ExamEntry;
   habitsDone: string[];
 }

@@ -8,3 +8,4 @@ export * from './cycle';
 export * from './tbp';
 export * from './character';
 export * from './heart';
+export * as retos from './retos/index.ts';
