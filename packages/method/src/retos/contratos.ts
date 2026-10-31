@@ -3,7 +3,7 @@
  * persiste lo que pasa por aquí; si falla, repite una vez con MENSAJE_REINTENTO.
  * Sin dependencias: lo mismo corre en Deno, en la app y en los tests.
  */
-import { TEMPERAMENTOS, VIRTUDES_CLAVE, type Niveles, type Temperamento } from './tipos.ts';
+import { OBSTACULOS, TEMPERAMENTOS, VIRTUDES_CLAVE, type Niveles, type Temperamento } from './tipos.ts';
 
 export type Validacion<T> = { ok: true; valor: T } | { ok: false; error: string };
 
@@ -185,8 +185,9 @@ export function validarExamen(
       return { token: p.token as string, rol: typeof p.rol === 'string' ? p.rol : 'otro' };
     });
     const mencionadas = (Array.isArray(dia.personas_mencionadas) ? dia.personas_mencionadas : []).filter(esToken);
-    const obstaculos = (Array.isArray(dia.obstaculos_detectados) ? dia.obstaculos_detectados : []).filter(
-      (o: unknown): o is string => typeof o === 'string',
+    // Solo los siete obstáculos del método: un texto inventado no entra al motor ni a la base de datos.
+    const obstaculos = [...new Set(Array.isArray(dia.obstaculos_detectados) ? dia.obstaculos_detectados : [])].filter(
+      (o: unknown): o is string => typeof o === 'string' && (OBSTACULOS as readonly string[]).includes(o),
     );
 
     exigir(esObj(json.manana), 'falta manana');

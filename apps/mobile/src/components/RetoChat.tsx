@@ -2,7 +2,7 @@
  * Conversación guiada de los retos (examen de la noche y onboarding). La interfaz solo muestra
  * turnos y botones: los pasos los decide el servidor.
  */
-import { useEffect, useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import { Text, TextInput, View } from 'react-native';
 import { useTranslation } from 'react-i18next';
 
@@ -110,6 +110,7 @@ export function useConversacion<R extends { mensaje: string }>(llamar: (entrada:
   const [ultima, setUltima] = useState<R | null>(null);
   const [ocupado, setOcupado] = useState(true);
   const [error, setError] = useState<string | null>(null);
+  const abierta = useRef(false);
 
   async function paso(entrada: unknown, etiqueta?: string) {
     setOcupado(true);
@@ -126,6 +127,8 @@ export function useConversacion<R extends { mensaje: string }>(llamar: (entrada:
     }
   }
   useEffect(() => {
+    if (abierta.current) return;
+    abierta.current = true;
     void paso(null);
   }, []);
   return { mensajes, ultima, ocupado, error, paso };

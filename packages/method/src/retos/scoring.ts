@@ -36,6 +36,28 @@ export function diasEntre(desde: string, hasta: string): number {
   return Math.round((Date.parse(`${hasta}T00:00:00Z`) - Date.parse(`${desde}T00:00:00Z`)) / DIA_MS);
 }
 
+/**
+ * Mete en el historial lo que ya se sabe de HOY (botones y extracción de la conversación) antes
+ * de puntuar los candidatos de mañana, igual que entraría mañana cuando el examen esté guardado.
+ * Así lo que la persona cuenta esta noche cuenta ya para elegir (obstáculos, «sí» seguidos...).
+ */
+export function conHoy(
+  historial: DiaRegistro[],
+  fecha: string,
+  hoy: { reto_id: string | null; resultado: DiaRegistro['resultado']; tipo_fallo: DiaRegistro['tipo_fallo']; obstaculos: string[] },
+): DiaRegistro[] {
+  const previo = historial.find((d) => d.fecha === fecha);
+  const entrada: DiaRegistro = {
+    fecha,
+    reto_id: hoy.reto_id ?? previo?.reto_id ?? null,
+    resultado: hoy.resultado ?? previo?.resultado ?? null,
+    tipo_fallo: hoy.tipo_fallo ?? previo?.tipo_fallo ?? null,
+    obstaculos: [...new Set([...(previo?.obstaculos ?? []), ...hoy.obstaculos])],
+    reescrito_por_usuario: previo?.reescrito_por_usuario ?? false,
+  };
+  return [...historial.filter((d) => d.fecha !== fecha), entrada];
+}
+
 export function dificultad(reto: Reto, temperamento: Temperamento): number {
   return reto[`dif_${temperamento}`];
 }

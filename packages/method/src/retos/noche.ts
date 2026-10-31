@@ -16,6 +16,8 @@ export interface EstadoNoche {
   /** Turnos de usuario en el paso actual. */
   turnosPaso: number;
   cerrada: boolean;
+  /** La persona ha contado algo de su día o de mañana (pasos 3 y 4): hay algo que extraer. */
+  relato?: boolean;
 }
 
 export type Boton = 'listo' | 'si' | 'a_medias' | 'no' | 'reaccion' | 'decision' | 'prisa' | 'aceptar' | 'parar';
@@ -46,6 +48,7 @@ export const ESTADO_INICIAL: EstadoNoche = {
   esperandoFallo: false,
   turnosPaso: 0,
   cerrada: false,
+  relato: false,
 };
 
 const norm = (s: string) => s.toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '').trim();
@@ -83,8 +86,8 @@ export function avanzar(estado: EstadoNoche, entrada: EntradaNoche): Transicion 
     extraerSituacion: false,
     ...extra,
   });
-  const irA = (paso: Paso, extra: Partial<Transicion> = {}) =>
-    t({ ...e, paso, turnosPaso: 0, esperandoFallo: false }, 'coach', paso === 5 ? { calcularCandidatos: true, ...extra } : extra);
+  const irA = (paso: Paso, extra: Partial<Transicion> = {}, base: EstadoNoche = e) =>
+    t({ ...base, paso, turnosPaso: 0, esperandoFallo: false }, 'coach', paso === 5 ? { calcularCandidatos: true, ...extra } : extra);
 
   if (estado.cerrada) return t(estado, 'cerrar');
   if (boton === 'parar' || (texto && pideParar(texto))) return t({ ...e, cerrada: true }, 'cerrar');
@@ -107,11 +110,17 @@ export function avanzar(estado: EstadoNoche, entrada: EntradaNoche): Transicion 
       if (!f && e.turnosPaso < 2) return t(e, 'coach');
       return siguienteTrasPaso2({ ...e, tipo_fallo: f });
     }
-    case 3:
-      if (sinNada(texto) || e.turnosPaso >= 2) return irA(4);
-      return t(e, 'coach'); // como mucho una repregunta de hechos
-    case 4:
-      return irA(5, { extraerSituacion: !sinNada(texto) });
+    case 3: {
+      // Cualquier relato del día (no un «nada») cuenta: el consejo de mañana parte de él.
+      const s3: EstadoNoche = sinNada(texto) ? e : { ...e, relato: true };
+      if (sinNada(texto) || s3.turnosPaso >= 2) return irA(4, {}, s3);
+      return t(s3, 'coach'); // como mucho una repregunta de hechos
+    }
+    case 4: {
+      const s4: EstadoNoche = sinNada(texto) ? e : { ...e, relato: true };
+      // Se extrae lo contado (hoy o mañana) aunque en este paso diga «nada».
+      return irA(5, { extraerSituacion: !!s4.relato }, s4);
+    }
     case 5:
       if (boton === 'aceptar' || acepta(texto) || e.turnosPaso >= 2) return t({ ...e, cerrada: true }, 'coach_y_cerrar');
       return t(e, 'coach'); // reescritura: el coach acepta u ofrece una versión intermedia una vez

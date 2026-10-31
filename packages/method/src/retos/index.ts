@@ -8,3 +8,4 @@ export * from './prompts.ts';
 export * from './contratos.ts';
 export * from './noche.ts';
 export * from './orquestador.ts';
+export * from './prompts-ajustes.ts';

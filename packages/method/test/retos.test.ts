@@ -228,7 +228,7 @@ describe('prompts', () => {
 });
 
 // ── Orquestador con modelo simulado ───────────────────────────────────────────
-function memoria(perfil: R.PerfilGuardado | null = null) {
+function memoria(perfil: R.PerfilGuardado | null = null, hist: R.DiaRegistro[] = []) {
   const s = {
     perfil,
     perfilGuardado: null as R.PerfilJson | null,
@@ -243,7 +243,7 @@ function memoria(perfil: R.PerfilGuardado | null = null) {
     catalogo: async () => ({ retos: RETOS, disparadores: DISPARADORES }),
     perfil: async () => s.perfil,
     guardarPerfil: async (p) => void (s.perfilGuardado = p),
-    historial: async () => [],
+    historial: async (desde) => hist.filter((d) => d.fecha >= desde),
     historialNivel: async () => [],
     personas: async () => [],
     escenarios: async () => [],
@@ -371,6 +371,24 @@ describe('orquestador', () => {
     expect(s.dias.get('2026-11-03')?.reto_porque).toBeTruthy();
   });
 
+  it('abrir dos veces la misma conversación no vuelve a llamar al modelo', async () => {
+    const { s, almacen } = memoria(perfilCol);
+    let coach = 0;
+    const modelo: R.Modelo = { completar: async () => (coach++, 'Este es tu momento del día.') };
+    const deps = { modelo, almacen, seudo: seudoFalso, mensajeCrisis: '' };
+    const [a, b] = [await R.turnoNoche(deps, '2026-11-02', null), await R.turnoNoche(deps, '2026-11-02', null)];
+    expect(coach).toBe(1);
+    expect(b.mensaje).toBe(a.mensaje);
+    expect(s.turnos.get('2026-11-02')).toHaveLength(1);
+
+    const m2 = memoria(null);
+    let n = 0;
+    const deps2 = { modelo: { completar: async () => (n++, 'Hola.') }, almacen: m2.almacen, seudo: seudoFalso, mensajeCrisis: '' };
+    await R.turnoOnboarding(deps2, '2026-11-02', null, null);
+    await R.turnoOnboarding(deps2, '2026-11-02', null, null);
+    expect(n).toBe(1);
+  });
+
   it('mañana sin examen previo: el motor elige y, si el modelo falla, se muestra la biblioteca', async () => {
     const { s, almacen } = memoria(perfilCol);
     const modelo: R.Modelo = { completar: async () => { throw new Error('Bedrock caído'); } };
@@ -407,5 +425,102 @@ describe('orquestador', () => {
     expect(r.terminado).toBe(true);
     expect(s.perfilGuardado).toMatchObject({ temperamento_dominante: 'colerico', temperamento_secundario: 'sanguineo', confianza_temperamento: 0.9 });
     expect(JSON.stringify(s.onboarding)).not.toContain('Marta');
+  });
+});
+
+describe('consejo ajustado a lo que se cuenta esta noche', () => {
+  const t = (texto: string): R.EntradaNoche => ({ tipo: 'texto', texto });
+  const b = (valor: R.Boton): R.EntradaNoche => ({ tipo: 'boton', valor });
+  const hasta3 = () => R.avanzar(R.avanzar(R.avanzar(R.avanzar(R.ESTADO_INICIAL, b('listo')).estado, b('no')).estado, b('decision')).estado, b('listo')).estado;
+
+  it('un relato en el paso 3 se extrae aunque en el 4 diga «nada»', () => {
+    let s = R.avanzar(R.avanzar(R.avanzar(R.ESTADO_INICIAL, b('listo')).estado, b('si')).estado, t('Discutí con mi socio por el informe')).estado;
+    expect(s).toMatchObject({ paso: 3, relato: true });
+    s = R.avanzar(s, t('nada más')).estado;
+    expect(s.paso).toBe(4);
+    const a5 = R.avanzar(s, t('nada'));
+    expect(a5).toMatchObject({ calcularCandidatos: true, extraerSituacion: true });
+  });
+  it('sin relato en 3 ni en 4 no se gasta una extracción', () => {
+    let s = R.avanzar(R.avanzar(R.avanzar(R.ESTADO_INICIAL, b('listo')).estado, b('si')).estado, t('nada')).estado;
+    expect(s.paso).toBe(4);
+    const a5 = R.avanzar(s, t('nada'));
+    expect(a5.calcularCandidatos).toBe(true);
+    expect(a5.extraerSituacion).toBe(false);
+    expect(hasta3().paso).toBe(3);
+  });
+
+  it('conHoy mete lo de esta noche en el historial y las señales de hoy cuentan para el obstáculo repetido', () => {
+    const previos = [dia('2026-10-30', 'pru-01', { obstaculos: ['perfeccionismo'] }), dia('2026-10-31', 'pru-02', { obstaculos: ['perfeccionismo'] })];
+    const sin = R.ranking(entrada({ historial: previos, hoy: '2026-11-02' })).find((p) => p.reto.obstaculo === 'perfeccionismo')!;
+    expect(sin.factores.obstaculo).toBe(1); // dos veces no bastan
+    const con = R.conHoy(previos, '2026-11-01', { reto_id: 'pru-03', resultado: 'no', tipo_fallo: 'decision', obstaculos: ['perfeccionismo'] });
+    expect(con.find((d) => d.fecha === '2026-11-01')).toMatchObject({ reto_id: 'pru-03', resultado: 'no', tipo_fallo: 'decision' });
+    const tras = R.ranking(entrada({ historial: con, hoy: '2026-11-02' })).find((p) => p.reto.obstaculo === 'perfeccionismo')!;
+    expect(tras.factores.obstaculo).toBe(1.5); // con la de esta noche son tres
+  });
+  it('conHoy no pisa el reto del día ni lo ya guardado', () => {
+    const v = R.conHoy([dia('2026-11-01', 'hum-01', { obstaculos: ['conformismo'] })], '2026-11-01', { reto_id: null, resultado: 'a_medias', tipo_fallo: null, obstaculos: ['perfeccionismo'] });
+    expect(v).toHaveLength(1);
+    expect(v[0]).toMatchObject({ reto_id: 'hum-01', resultado: 'a_medias' });
+    expect(v[0].obstaculos.sort()).toEqual(['conformismo', 'perfeccionismo']);
+  });
+
+  it('los obstáculos extraídos se limitan a los siete del método', () => {
+    const v = R.validarExamen(
+      {
+        resultado: 'no', tipo_fallo: 'decision', nota_usuario: null,
+        dia: { resumen: null, personas_nuevas: [], personas_mencionadas: [], obstaculos_detectados: ['perfeccionismo', 'perfeccionismo', 'inventado', 3] },
+        manana: { situacion: null, disparador: null, personas: [] }, paso_alcanzado: 4, senal_crisis: false,
+      },
+      { retoIdHoy: 'hum-01', idsCandidatos: [], catalogoDisparadores: new Set(), parcial: true },
+    );
+    expect(v.ok && v.valor.dia.obstaculos_detectados).toEqual(['perfeccionismo']);
+  });
+
+  it('el asistente recibe, al proponer el reto, qué pasó hoy y las señales; y las instrucciones para partir de ello', async () => {
+    const F = '2026-11-02';
+    const previos = [dia('2026-10-30', 'pru-01', { obstaculos: ['perfeccionismo'] }), dia('2026-10-31', 'pru-02', { obstaculos: ['perfeccionismo'] })];
+    const { s, almacen } = memoria(perfilCol, previos);
+    s.dias.set(F, { reto_id: 'hum-01', reto_texto: 'Reconoce hoy un error tuyo.', reto_porque: 'x', situacion: null, disparador: null, personas: [] });
+    const sistemasCoach: string[] = [];
+    let extracciones = 0;
+    const modelo: R.Modelo = {
+      completar: async ({ uso, sistema }) => {
+        if (uso === 'clasificador') return '{"nivel":"ninguno","motivo":null}';
+        if (uso === 'json') {
+          extracciones++;
+          return JSON.stringify({
+            reto_id: null, resultado: 'no', tipo_fallo: 'decision', nota_usuario: null,
+            dia: { resumen: 'Discusión con [P1].', personas_nuevas: [{ token: '[P1]', rol: 'colaborador' }], personas_mencionadas: ['[P1]'], obstaculos_detectados: ['perfeccionismo', 'inventado'] },
+            manana: { situacion: null, disparador: null, personas: [] }, paso_alcanzado: 4, senal_crisis: false,
+          });
+        }
+        sistemasCoach.push(sistema);
+        return 'Mañana: …';
+      },
+    };
+    const deps = { modelo, almacen, seudo: seudoFalso, mensajeCrisis: '' };
+    await R.turnoNoche(deps, F, null);
+    await R.turnoNoche(deps, F, b('listo'));
+    await R.turnoNoche(deps, F, b('no'));
+    await R.turnoNoche(deps, F, b('decision'));
+    await R.turnoNoche(deps, F, t('Discutí con Marta porque quería que saliera perfecto'));
+    await R.turnoNoche(deps, F, t('nada más'));
+    const r = await R.turnoNoche(deps, F, t('nada'));
+    expect(r.paso).toBe(5);
+    expect(extracciones).toBe(1); // el relato del paso 3 se extrae aunque el 4 fuera «nada»
+
+    const paso5 = sistemasCoach.at(-1)!;
+    expect(paso5).toContain('AJUSTES DE LA CONVERSACIÓN');
+    expect(paso5).toContain('Reto de hoy: no cumplido; falló la decisión.');
+    expect(paso5).toContain('Señales que han aparecido esta noche: perfeccionismo.');
+    expect(paso5).not.toContain('inventado');
+    expect(paso5).toContain('perfeccionismo (3 veces)');
+    expect(s.sesiones.get(F)!.candidatos).toHaveLength(5);
+
+    // En los pasos anteriores aún no hay señales, y los bloques del 02 siguen intactos en todos.
+    expect(sistemasCoach[0]).not.toContain('Señales que han aparecido');
+    for (const sis of sistemasCoach) expect(sis).toContain(R.BLOQUE_BASE.slice(0, 80));
   });
 });

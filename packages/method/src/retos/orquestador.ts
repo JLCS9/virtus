@@ -18,7 +18,7 @@ import {
   type Validacion,
 } from './contratos.ts';
 import { type EscenarioMemoria, cambiosMemoria, escenarioRespaldo, type PersonaMemoria, type CambiosMemoria } from './memoria.ts';
-import { actualizarNivel } from './niveles.ts';
+import { actualizarNivel, contarObstaculos } from './niveles.ts';
 import { avanzar, type Boton, type EntradaNoche, ESTADO_INICIAL, type EstadoNoche, type Paso } from './noche.ts';
 import {
   BLOQUE_BASE,
@@ -33,7 +33,8 @@ import {
   rellenar,
 } from './prompts.ts';
 import { razonTemperamento } from './razon-temperamento.ts';
-import { candidatos as calcularCandidatos, diasEntre } from './scoring.ts';
+import { AJUSTE_NOCHE, datosDelMotor } from './prompts-ajustes.ts';
+import { candidatos as calcularCandidatos, conHoy, diasEntre } from './scoring.ts';
 import type {
   Candidato,
   DiaRegistro,
@@ -87,7 +88,7 @@ export interface DiaGuardado {
 }
 
 export interface SesionNoche {
-  estado: EstadoNoche & { atencion?: boolean; manana?: SituacionManana | null };
+  estado: EstadoNoche & { atencion?: boolean; manana?: SituacionManana | null; obstaculosHoy?: string[] };
   candidatos: Candidato[] | null;
 }
 
@@ -396,6 +397,9 @@ export async function turnoNoche(deps: Dependencias, fecha: string, entrada: Ent
   if (sesion.estado.cerrada) return responder('El examen de hoy ya está hecho. Hasta mañana.', sesion);
 
   const turnos = await almacen.turnosNoche(fecha);
+  // Abrir una conversación ya abierta (recarga, doble clic) no vuelve a llamar al modelo.
+  const ultimoCoach = [...turnos].reverse().find((t) => t.rol === 'coach');
+  if (!entrada && ultimoCoach) return responder(await seudo.restaurar(ultimoCoach.texto), sesion);
   let turnoUsuario: Turno | null = null;
 
   if (entrada) {
@@ -437,26 +441,23 @@ export async function turnoNoche(deps: Dependencias, fecha: string, entrada: Ent
       .filter(Boolean)
       .join(', ') || 'ninguna';
   const personasTexto = (await almacen.personas()).map((p) => `${p.token} ${p.rol ?? 'otro'}`).join(', ') || 'ninguna';
+  const historial14 = await almacen.historial(sumarDias(fecha, -14));
 
 
   if (tr?.extraerSituacion) {
     const parcial = await pedirJson(deps, sistemaNoche(), [...alternar(turnos), { rol: 'usuario' as const, texto: EXTRAER_EXAMEN }], (j) =>
       validarExamen(j, { retoIdHoy: retoHoy?.id ?? null, idsCandidatos: [], catalogoDisparadores: new Set(disparadores.map((d) => d.clave)), parcial: true }),
     ).catch(() => null);
-    sesion.estado.manana = parcial?.ok ? { disparador: parcial.valor.manana.disparador, personas: parcial.valor.manana.personas } : null;
+    if (parcial?.ok) {
+      sesion.estado.manana = { disparador: parcial.valor.manana.disparador, personas: parcial.valor.manana.personas };
+      // Lo que cuenta de hoy (señales) cuenta ya para elegir el reto de mañana y para el consejo.
+      sesion.estado.obstaculosHoy = parcial.valor.dia.obstaculos_detectados;
+    } else {
+      sesion.estado.manana = null;
+    }
   }
   if (tr?.calcularCandidatos || (sesion.estado.paso === 5 && !sesion.candidatos)) {
-    const respaldo = escenarioRespaldo(await almacen.escenarios(), retos);
-    const manana = sesion.estado.manana?.disparador ? sesion.estado.manana : { disparador: respaldo.disparador, personas: respaldo.personas };
-    sesion.candidatos = calcularCandidatos({
-      perfil,
-      niveles: perfil.niveles,
-      historial: await almacen.historial(sumarDias(fecha, -90)),
-      hoy: sumarDias(fecha, 1),
-      manana,
-      retos,
-      disparadores,
-    });
+    sesion.candidatos = await candidatosParaManana(almacen, fecha, sesion, perfil, retos, disparadores, retoHoy?.id ?? null);
   }
 
   function sistemaNoche(): string {
@@ -484,8 +485,14 @@ export async function turnoNoche(deps: Dependencias, fecha: string, entrada: Ent
       paso: s.estado.paso,
       prisa: s.estado.prisa,
     });
-    const base = sistema(disparadores, modo);
-    return s.estado.atencion ? `${base}\n\n${LINEA_ATENCION}` : base;
+    // Extensión al 02 (prompts-ajustes.ts): el consejo parte de lo que la persona ha contado esta noche.
+    const datos = datosDelMotor({
+      resultado: s.estado.resultado,
+      tipo_fallo: s.estado.tipo_fallo,
+      obstaculosHoy: s.estado.obstaculosHoy ?? [],
+      obstaculosRepetidos: obstaculosRepetidos(historial14, fecha, s.estado.obstaculosHoy ?? []),
+    });
+    return [sistema(disparadores, modo), AJUSTE_NOCHE, datos, s.estado.atencion ? LINEA_ATENCION : null].filter(Boolean).join('\n\n');
   }
 
   const mensajes = alternar(turnos.length ? turnos : [{ rol: 'usuario', texto: '(La persona abre el examen.)' }]);
@@ -496,6 +503,55 @@ export async function turnoNoche(deps: Dependencias, fecha: string, entrada: Ent
   if (tr?.accion === 'coach_y_cerrar') await cerrarNoche(deps, fecha, sesion, turnos, perfil, retos, disparadores, sistemaNoche());
   await almacen.guardarSesionNoche(fecha, sesion);
   return responder(await seudo.restaurar(respuesta), sesion);
+}
+
+/** Obstáculos que se repiten ≥ 3 veces en 14 días (ventana de mañana), contando lo de esta noche. */
+function obstaculosRepetidos(historial: DiaRegistro[], fecha: string, hoy: string[]): { obstaculo: string; veces: number }[] {
+  const manana = sumarDias(fecha, 1);
+  const dias = conHoy(historial, fecha, { reto_id: null, resultado: null, tipo_fallo: null, obstaculos: hoy }).filter(
+    (d) => d.fecha <= fecha && diasEntre(d.fecha, manana) <= 14,
+  );
+  return [...contarObstaculos(dias)]
+    .filter(([, veces]) => veces >= 3)
+    .map(([obstaculo, veces]) => ({ obstaculo, veces }))
+    .sort((a, b) => b.veces - a.veces || (a.obstaculo < b.obstaculo ? -1 : 1));
+}
+
+/**
+ * Los 5 candidatos de mañana con lo que ya se sabe de esta noche: la situación de mañana, lo que
+ * marcó con los botones (cumplió o no, reacción o decisión) y las señales que han salido al contar.
+ */
+async function candidatosParaManana(
+  almacen: Almacen,
+  fecha: string,
+  sesion: SesionNoche,
+  perfil: PerfilGuardado,
+  retos: Reto[],
+  disparadores: Disparador[],
+  retoHoyId: string | null,
+): Promise<Candidato[]> {
+  const respaldo = escenarioRespaldo(await almacen.escenarios(), retos);
+  const m = sesion.estado.manana;
+  const manana = {
+    disparador: m?.disparador ?? respaldo.disparador,
+    personas: m?.personas?.length ? m.personas : respaldo.personas,
+  };
+  const e = sesion.estado;
+  const historial = conHoy(await almacen.historial(sumarDias(fecha, -90)), fecha, {
+    reto_id: retoHoyId,
+    resultado: e.resultado,
+    tipo_fallo: e.tipo_fallo,
+    obstaculos: e.obstaculosHoy ?? [],
+  });
+  return calcularCandidatos({
+    perfil,
+    niveles: perfil.niveles,
+    historial,
+    hoy: sumarDias(fecha, 1),
+    manana,
+    retos,
+    disparadores,
+  });
 }
 
 async function cerrarNoche(
@@ -517,16 +573,7 @@ async function cerrarNoche(
 
   // Si se cerró antes del paso 5 no hay candidatos: el motor los calcula con el respaldo.
   if (!sesion.candidatos) {
-    const respaldo = escenarioRespaldo(await almacen.escenarios(), retos);
-    sesion.candidatos = calcularCandidatos({
-      perfil,
-      niveles: perfil.niveles,
-      historial: await almacen.historial(sumarDias(fecha, -90)),
-      hoy: manana,
-      manana: { disparador: respaldo.disparador, personas: respaldo.personas },
-      retos,
-      disparadores,
-    });
+    sesion.candidatos = await candidatosParaManana(almacen, fecha, sesion, perfil, retos, disparadores, retoHoy?.id ?? null);
   }
   const ids = sesion.candidatos.map((c) => c.reto_id);
 
@@ -571,7 +618,7 @@ async function cerrarNoche(
       tipo_fallo: tipoFallo,
       nota_usuario: examen?.nota_usuario ?? null,
       resumen_dia: examen?.dia.resumen ?? null,
-      obstaculos: examen?.dia.obstaculos_detectados ?? [],
+      obstaculos: [...new Set([...(e.obstaculosHoy ?? []), ...(examen?.dia.obstaculos_detectados ?? [])])],
       paso_alcanzado: Math.max(e.paso, examen?.paso_alcanzado ?? 1),
       modo_prisa: e.prisa,
       nivel_atencion: e.atencion ? 'atencion' : 'ninguno',
@@ -617,6 +664,8 @@ export async function turnoOnboarding(
   const { disparadores } = await almacen.catalogo();
   const sesion: SesionOnboarding = (await almacen.sesionOnboarding()) ?? { turnos: [], cerrada: false };
   if (sesion.cerrada || (await almacen.perfil())) return { mensaje: 'Tu perfil ya está listo.', terminado: true, crisis: false };
+  const ultimoCoach = [...sesion.turnos].reverse().find((t) => t.rol === 'coach');
+  if (!textoUsuario && ultimoCoach) return { mensaje: await seudo.restaurar(ultimoCoach.texto), terminado: false, crisis: false };
 
   if (sesion.turnos.length === 0) {
     // Dato del sistema, no reescritura del prompt: el temperamento ya medido por el test TBP.

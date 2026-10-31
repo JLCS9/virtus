@@ -50,9 +50,14 @@ export function objetivoIntensidad(nivel: number, ultimos14: DiaRegistro[]): num
   return Math.min(5, nivel + 1);
 }
 
+/** Veces que aparece cada obstáculo en los días dados. */
+export function contarObstaculos(dias: DiaRegistro[]): Map<string, number> {
+  const n = new Map<string, number>();
+  for (const d of dias) for (const o of d.obstaculos ?? []) n.set(o, (n.get(o) ?? 0) + 1);
+  return n;
+}
+
 /** Obstáculos que aparecen 3 o más veces en los últimos 14 días. */
 export function obstaculosRecurrentes(ultimos14: DiaRegistro[]): Set<string> {
-  const n = new Map<string, number>();
-  for (const d of ultimos14) for (const o of d.obstaculos ?? []) n.set(o, (n.get(o) ?? 0) + 1);
-  return new Set([...n].filter(([, c]) => c >= 3).map(([o]) => o));
+  return new Set([...contarObstaculos(ultimos14)].filter(([, c]) => c >= 3).map(([o]) => o));
 }
