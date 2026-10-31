@@ -58,7 +58,8 @@
     "s2": "Colérico, melancólico, sanguíneo o flemático. No lo eliges y no cambia. Tu carácter, en cambio, lo construyes tú.",
     "s3titulo": "Cinco minutos al día",
     "s3": "Un reto por la mañana, un examen breve por la noche y la virtud que más te cuesta, en el centro.",
-    "antropologiaCorta": "El método de Alexandre Havard parte de una antropología cristiana. Las prácticas espirituales añadidas son opcionales."
+    "antropologiaCorta": "El método de Alexandre Havard parte de una antropología cristiana. Las prácticas espirituales añadidas son opcionales.",
+    "yaTengoCuenta": "Ya tengo cuenta"
   },
   "test": {
     "eyebrow": "Test de temperamento",
@@ -351,7 +352,12 @@
     "sincronizado": "Sincronizado.",
     "salir": "Cerrar sesión",
     "error": "No se ha podido completar. Inténtalo de nuevo.",
-    "codigoMal": "El código no es correcto o ha caducado."
+    "codigoMal": "El código no es correcto o ha caducado.",
+    "clave": "Contraseña",
+    "entrarClave": "Entrar",
+    "preferirCodigo": "Prefiero recibir un código por email",
+    "preferirClave": "Entrar con contraseña",
+    "claveMal": "Email o contraseña incorrectos."
   },
   "invitado": {
     "eyebrow": "Invitación · Virtus",
