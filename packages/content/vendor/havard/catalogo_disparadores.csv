@@ -1,0 +1,35 @@
+clave,descripcion,ambito,origen
+reunion_donde_decido,reunión o momento en que decides algo,trabajo,03
+reunion_de_equipo,reunión o trabajo de equipo,trabajo,03
+desacuerdo_con_superior,desacuerdo con un superior,trabajo,03
+conversacion_dificil,conversación difícil o con desacuerdo,trabajo,03
+error_o_contratiempo,error o contratiempo (propio o imprevisto),trabajo,03
+critica_recibida,crítica recibida,trabajo,03
+tarea_pendiente,tarea o decisión que se arrastra,trabajo,03
+entrega_con_presion,entrega o resultado con presión,trabajo,03
+jornada_cargada,jornada muy cargada,trabajo,03
+colaborador_indeciso,colaborador indeciso,trabajo,03
+colaborador_con_error,error repetido de un colaborador,trabajo,03
+evaluacion_o_feedback,evaluación o feedback a alguien,trabajo,03
+persona_dificil,encuentro con una persona difícil,trabajo,03
+persona_con_rencor,persona con la que guardas rencor,amistad,03
+exito_ajeno,éxito ajeno,amistad,03
+llegada_a_casa,llegada a casa,familia,03
+comida_familiar,comida en casa o fuera,cuerpo,03
+tarde_con_hijos,tarde o noche con la familia,familia,03
+situacion_tensa_habitual,situación tensa habitual,familia,03
+inicio_del_dia,inicio del día o de la jornada,vida interior,03
+antes_de_dormir,antes de dormir,vida interior,03
+bajon_emocional,bajón emocional o momento de inseguridad,vida interior,03
+preocupacion_recurrente,preocupación recurrente,vida interior,03
+impulso_de_compra_o_novedad,impulso de compra o novedad,cuerpo,03
+presion_social,presión social,sociedad,03
+ocasion_de_ayudar,ocasión de ayudar,sociedad,03
+sin_disparador,sin situación concreta,,03
+informacion_recibida,noticia; informe o rumor recibido,trabajo,propuesta
+oportunidad_con_riesgo,oportunidad que da miedo,trabajo,propuesta
+compromiso_adquirido,compromiso o promesa adquirida,amistad,propuesta
+critica_a_un_ausente,crítica a alguien ausente,trabajo,propuesta
+encuentro_con_colaborador,encuentro o encargo a alguien a tu cargo,trabajo,propuesta
+conversacion_con_externo,conversación con alguien externo,trabajo,propuesta
+proyecto_propio,proyecto propio,trabajo,propuesta

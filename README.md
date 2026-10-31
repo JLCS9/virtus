@@ -28,7 +28,7 @@ La app funciona entera en el dispositivo sin backend. Para activar cuentas, sinc
 1. Crear proyecto en región UE y enlazarlo: `supabase link --project-ref <ref>`.
 2. Crear en Vault el secreto `virtus_field_key` (clave larga aleatoria) para el cifrado de campo.
 3. `supabase db push` y luego `pnpm seed:build && psql "$DATABASE_URL" -f supabase/seed.sql`.
-4. Secretos de funciones (`supabase/.env.example`): `ANTHROPIC_API_KEY`, `CLAUDE_MODEL`, `INVITE_BASE_URL`.
+4. Secretos de funciones (`supabase/.env.example`): Bedrock UE (`AWS_BEARER_TOKEN_BEDROCK`, `BEDROCK_REGION`, `BEDROCK_MODEL_*`), seudonimizador (`SEUDONIMIZADOR_URL`, `SEUDONIMIZADOR_TOKEN`), `INVITE_BASE_URL`. Retos: `python3 scripts/import-retos-havard.py` genera `supabase/seed_retos.sql` (aplicarlo tras las migraciones).
 5. `supabase functions deploy`.
 
 La IA solo redacta el reto del día (`adapt-challenge`), sin chat. Si falla, la app muestra el reto base.

@@ -2,7 +2,7 @@ import { createClient, type SupabaseClient, type User } from 'npm:@supabase/supa
 
 export const cors = {
   'Access-Control-Allow-Origin': '*',
-  'Access-Control-Allow-Headers': 'authorization, x-client-info, apikey, content-type',
+  'Access-Control-Allow-Headers': 'authorization, x-client-info, apikey, content-type, x-virtus-cliente',
 };
 
 export function json(body: unknown, status = 200): Response {

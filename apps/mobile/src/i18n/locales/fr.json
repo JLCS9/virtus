@@ -1,1 +1,25 @@
-{}
+{
+  "retos": {
+    "configurarTitulo": "Prépare tes défis",
+    "configurarTexto": "Une courte conversation sur ta semaine. Une seule fois, pour que chaque défi s'ajuste à ta journée. (La conversation guidée est en espagnol pour l'instant.)",
+    "configurar": "Commencer",
+    "cuentaTexto": "Avec ton compte, le défi s'adapte à ta journée et l'examen du soir devient une conversation guidée.",
+    "cuenta": "Me connecter",
+    "escribe": "Écris ici…",
+    "enviar": "Envoyer",
+    "privacidad": "Les noms que tu écris sont remplacés par des codes avant d'arriver à l'assistant.",
+    "sinServicio": "Le service n'est pas disponible pour le moment. Réessaie dans quelques minutes.",
+    "listo": "Ton profil est prêt. Demain, tu recevras ton premier défi.",
+    "botones": {
+      "listo": "Prêt",
+      "si": "Oui",
+      "a_medias": "En partie",
+      "no": "Non",
+      "reaccion": "Ma première réaction a lâché",
+      "decision": "Je l'ai décidé",
+      "prisa": "Je suis pressé",
+      "aceptar": "C'est bien ainsi",
+      "parar": "On s'arrête là"
+    }
+  }
+}

@@ -25,7 +25,7 @@ export default function RitualManana() {
         ) : (
           <View style={{ gap: space.s }}>
             <Button label={t('ritual.aceptar')} disabled={!challenge} onPress={today.accept} />
-            <Button variant="ghost" label={t('ritual.otro')} onPress={() => setNoMore(!today.reroll())} />
+            {today.reroll ? <Button variant="ghost" label={t('ritual.otro')} onPress={() => setNoMore(!today.reroll!())} /> : null}
           </View>
         )
       }>
@@ -46,7 +46,7 @@ export default function RitualManana() {
       <Card accent style={{ gap: space.m, marginTop: space.s }}>
         <Eyebrow>{t('ritual.retoEyebrow')}</Eyebrow>
         <H2>{challenge?.text ?? '…'}</H2>
-        {challenge?.role ? <Caption>{t('ritual.rol', { rol: t(`roles.${challenge.role}`) })}</Caption> : null}
+        {challenge?.why ? <Caption>{challenge.why}</Caption> : challenge?.role ? <Caption>{t('ritual.rol', { rol: t(`roles.${challenge.role}`) })}</Caption> : null}
       </Card>
 
       {accepted ? <Body>{t('ritual.aceptado')}</Body> : null}

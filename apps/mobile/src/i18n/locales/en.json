@@ -1,1 +1,25 @@
-{}
+{
+  "retos": {
+    "configurarTitulo": "Set up your challenges",
+    "configurarTexto": "A short conversation about your week. You only do it once, so each challenge fits your day. (The guided conversation is in Spanish for now.)",
+    "configurar": "Start",
+    "cuentaTexto": "With your account, the challenge fits your day and the evening examen becomes a guided conversation.",
+    "cuenta": "Sign in",
+    "escribe": "Write here…",
+    "enviar": "Send",
+    "privacidad": "Names you write are replaced by codes before they reach the assistant.",
+    "sinServicio": "The service is not available right now. Try again in a few minutes.",
+    "listo": "Your profile is ready. Tomorrow you will get your first challenge.",
+    "botones": {
+      "listo": "Ready",
+      "si": "Yes",
+      "a_medias": "Partly",
+      "no": "No",
+      "reaccion": "My first reaction failed",
+      "decision": "I decided it",
+      "prisa": "I'm in a hurry",
+      "aceptar": "That's fine",
+      "parar": "Let's stop here"
+    }
+  }
+}

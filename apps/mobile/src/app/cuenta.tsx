@@ -7,6 +7,7 @@ import { pullInvitationResults } from '@/features/invitations';
 import { linkPurchasesUser } from '@/features/subscription';
 import { pushAll } from '@/features/sync';
 import { supabase } from '@/lib/supabase';
+import { useVirtus } from '@/store/virtus';
 import { space } from '@/theme';
 
 /** Cuenta con código por email (sin contraseña). Apple y Google llegan con la build nativa. */
@@ -76,6 +77,7 @@ export default function Cuenta() {
             label={t('cuenta.salir')}
             onPress={async () => {
               await supabase!.auth.signOut();
+              useVirtus.getState().setRetosSuscripcion(null);
               setStep('email');
             }}
           />

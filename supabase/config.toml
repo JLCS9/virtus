@@ -37,3 +37,10 @@ verify_jwt = false
 # Autenticada con un secreto compartido en la cabecera Authorization.
 [functions.revenuecat-webhook]
 verify_jwt = false
+# Retos diarios (método Havard): autenticadas; la web además exige feature_access 'retos_web'.
+[functions.retos-manana]
+verify_jwt = true
+[functions.retos-noche]
+verify_jwt = true
+[functions.retos-onboarding]
+verify_jwt = true

@@ -110,6 +110,11 @@ export interface VirtusState {
   invites: LocalInvite[];
   /** El usuario pospuso la confirmación del temperamento. */
   temperamentConfirmDismissedAt: string | null;
+  /**
+   * Suscripción a Retos de la cuenta, según el servidor (null = aún no se ha comprobado). Solo decide
+   * qué pantalla se enseña: el acceso real lo exige el servidor en cada llamada.
+   */
+  retosSuscripcion: 'activa' | 'inactiva' | null;
   /** Invitaciones y miradas ya incorporadas desde el servidor. */
   processedRemote: string[];
   /** Lecciones de los cursos en vídeo vistas (id → fecha) y la última abierta. */
@@ -117,6 +122,7 @@ export interface VirtusState {
   lastLesson: string | null;
 
   setTemperament: (r: TemperamentResult) => void;
+  setRetosSuscripcion: (v: 'activa' | 'inactiva' | null) => void;
   setRoles: (roles: RoleBox[]) => void;
   setMission: (mission: string, notes?: Partial<VirtusState['missionNotes']>) => void;
   setPlan: (plan: Partial<Plan>) => void;
@@ -173,6 +179,7 @@ const initial = {
   cycleHistory: [],
   invites: [],
   temperamentConfirmDismissedAt: null,
+  retosSuscripcion: null,
   processedRemote: [],
   watched: {},
   lastLesson: null,
@@ -190,6 +197,7 @@ export const useVirtus = create<VirtusState>()(
           temperamentHistory: [...s.temperamentHistory, r],
           cycle: s.cycle ?? { virtue: r.challengeVirtue, startedAt: new Date().toISOString() },
         })),
+      setRetosSuscripcion: (retosSuscripcion) => set({ retosSuscripcion }),
       setRoles: (roles) => set({ roles }),
       setMission: (mission, notes) => set((s) => ({ mission, missionNotes: { ...s.missionNotes, ...notes } })),
       setPlan: (plan) => set((s) => ({ plan: { ...s.plan, ...plan } })),

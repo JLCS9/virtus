@@ -1,5 +1,5 @@
 import { goBackOrHome } from '@/features/nav';
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import { View } from 'react-native';
 import { StatusBar } from 'expo-status-bar';
 import { useTranslation } from 'react-i18next';
@@ -7,12 +7,67 @@ import { useTranslation } from 'react-i18next';
 import { examTone, type ExamEntry, type Role } from '@virtus/method';
 
 import { Body, BodyStrong, Button, Caption, Chip, Eyebrow, Field, Filete, H1, Row, Screen, Stack } from '@/components/ui';
+import { EntradaChat, ListaChat, useConversacion } from '@/components/RetoChat';
 import { track } from '@/features/analytics';
+import { type RespuestaNoche, turnoNoche } from '@/features/retos';
 import { useToday } from '@/features/today';
 import { useVirtus } from '@/store/virtus';
 import { space } from '@/theme';
 
+/** Examen guiado (servidor) si hay cuenta y perfil de retos; si no, el formulario local. */
 export default function ExamenNoche() {
+  const today = useToday();
+  // Con suscripción se espera a saber si el servidor responde, para no enseñar un formulario y cambiarlo después.
+  if (today.retos && today.estado === null) {
+    return (
+      <Screen variant="noche" scroll={false} contentStyle={{ justifyContent: 'center' }}>
+        <StatusBar style="light" />
+        <Caption>…</Caption>
+      </Screen>
+    );
+  }
+  return today.estado === 'servidor' ? <ExamenGuiado /> : <ExamenLocal />;
+}
+
+function ExamenGuiado() {
+  const { t } = useTranslation();
+  const c = useConversacion<RespuestaNoche>(turnoNoche);
+  const r = c.ultima;
+  const cerrado = !!r && (r.cerrada || r.crisis);
+  const etiqueta = (b: string) => t(`retos.botones.${b}`);
+
+  useEffect(() => {
+    if (r?.cerrada && !r.crisis) track('exam_completed', { format: 'guiado', prisa: r.prisa });
+  }, [r?.cerrada]);
+
+  return (
+    <Screen
+      variant="noche"
+      footer={
+        cerrado ? (
+          <Button label={t('ritual.volverHoy')} onPress={goBackOrHome} />
+        ) : (
+          <EntradaChat
+            botones={r?.botones ?? []}
+            etiquetaBoton={etiqueta}
+            ocupado={c.ocupado}
+            onBoton={(b) => c.paso({ tipo: 'boton', valor: b }, etiqueta(b))}
+            onEnviar={(x) => c.paso({ tipo: 'texto', texto: x }, x)}
+          />
+        )
+      }>
+      <StatusBar style="light" />
+      <Stack gap={space.s}>
+        <Eyebrow>{t('examen.eyebrow')}</Eyebrow>
+        <Filete />
+      </Stack>
+      <ListaChat mensajes={c.mensajes} ocupado={c.ocupado} />
+      {c.error ? <Caption>{c.error}</Caption> : null}
+    </Screen>
+  );
+}
+
+function ExamenLocal() {
   const { t } = useTranslation();
   const today = useToday();
   const s = useVirtus();

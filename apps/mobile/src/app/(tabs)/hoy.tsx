@@ -113,7 +113,7 @@ export default function Hoy() {
         <Eyebrow>{t('hoy.retoDe', { virtud: t(`virtudes.${today.virtue}`) })}</Eyebrow>
         {!today.practiceDay ? <Body>{t('hoy.descanso')}</Body> : null}
         <H2>{challenge?.text ?? '…'}</H2>
-        {challenge?.role ? <Caption>{t(`roles.${challenge.role}`)}</Caption> : null}
+        {challenge?.why ? <Caption>{challenge.why}</Caption> : challenge?.role ? <Caption>{t(`roles.${challenge.role}`)}</Caption> : null}
         {accepted ? (
           <View style={{ flexDirection: 'row', alignItems: 'center', gap: space.s }}>
             <Check done onDark />
@@ -122,11 +122,19 @@ export default function Hoy() {
         ) : (
           <View style={{ gap: space.xs }}>
             <Button label={t('ritual.aceptar')} disabled={!challenge} onPress={today.accept} />
-            <Button variant="ghost" label={t('ritual.otro')} onPress={() => setNoMore(!today.reroll())} />
+            {today.reroll ? <Button variant="ghost" label={t('ritual.otro')} onPress={() => setNoMore(!today.reroll!())} /> : null}
             {noMore ? <Caption>{t('ritual.sinRetos')}</Caption> : null}
           </View>
         )}
       </Hero>
+
+      {today.estado === 'sin_perfil' ? (
+        <Card accent>
+          <BodyStrong>{t('retos.configurarTitulo')}</BodyStrong>
+          <Caption>{t('retos.configurarTexto')}</Caption>
+          <Button label={t('retos.configurar')} onPress={() => router.push('/retos/onboarding' as never)} />
+        </Card>
+      ) : null}
 
       <View style={{ flexDirection: 'row', gap: space.m }}>
         <Tile
