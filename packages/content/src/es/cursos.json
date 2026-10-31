@@ -1,0 +1,658 @@
+[
+  {
+    "id": "curso-1",
+    "numero": 1,
+    "titulo": "Del Temperamento al Carácter",
+    "virtudes": [],
+    "temas": [
+      "temperamento",
+      "caracter"
+    ],
+    "lecciones": [
+      {
+        "id": "1.0",
+        "titulo": "Introducción",
+        "vimeoId": "922851661",
+        "duracion": 1340,
+        "miniatura": "https://i.vimeocdn.com/video/1814129785-19d792e32361296ab390832ab0ffeda3c942b302e08299d1f1b6755439bf1f22-d_640?region=us",
+        "virtudes": [],
+        "temperamentos": []
+      },
+      {
+        "id": "1.1",
+        "titulo": "El temperamento es biológico, el carácter espiritual",
+        "vimeoId": "922865851",
+        "duracion": 912,
+        "miniatura": "https://i.vimeocdn.com/video/1814128362-9f084272bf7003b6c3a4ea8908bd515af31626c744df105df877fdc532a40b45-d_640?region=us",
+        "virtudes": [],
+        "temperamentos": []
+      },
+      {
+        "id": "1.2",
+        "titulo": "El carácter se construye sobre la base del temperamento",
+        "vimeoId": "922878435",
+        "duracion": 562,
+        "miniatura": "https://i.vimeocdn.com/video/1989716010-dfb52c0dda377cebb2adedb72042be439a7849aad024df8ad95a436808c68024-d_640?region=us",
+        "virtudes": [],
+        "temperamentos": []
+      },
+      {
+        "id": "1.3",
+        "titulo": "Cada temperamento posee valores concretos",
+        "vimeoId": "922881313",
+        "duracion": 350,
+        "miniatura": "https://i.vimeocdn.com/video/1989368903-cbc0e86dde811d00b8989700870d6518fbc5a8686ddefd6979d12cae849e155e-d_640?region=us",
+        "virtudes": [],
+        "temperamentos": []
+      },
+      {
+        "id": "1.4",
+        "titulo": "Cada temperamento se distingue por su reacción a los estímulos",
+        "vimeoId": "922883783",
+        "duracion": 114,
+        "miniatura": "https://i.vimeocdn.com/video/1989361853-2d7ca18e55a3431397f310c223b5e04d38e716c63d6f7ad9ae35551cf53ff2f6-d_640?region=us",
+        "virtudes": [],
+        "temperamentos": []
+      },
+      {
+        "id": "1.5",
+        "titulo": "Temperamento dominante y temperamento secundario",
+        "vimeoId": "924563637",
+        "duracion": 716,
+        "miniatura": "https://i.vimeocdn.com/video/1989716843-40e72de2fde08789a98fc9a1a3e7f0e5a13027aa0c1282e422ce528ffadaae81-d_640?region=us",
+        "virtudes": [],
+        "temperamentos": []
+      },
+      {
+        "id": "1.6",
+        "titulo": "El colérico",
+        "vimeoId": "924566128",
+        "duracion": 623,
+        "miniatura": "https://i.vimeocdn.com/video/1989716552-47f0d482550896852754c83c5cb2ccdcd3cfb6ad9d1e86135b0b68c47e2c1163-d_640?region=us",
+        "virtudes": [],
+        "temperamentos": [
+          "COL"
+        ]
+      },
+      {
+        "id": "1.7",
+        "titulo": "El melancólico",
+        "vimeoId": "924571431",
+        "duracion": 511,
+        "miniatura": "https://i.vimeocdn.com/video/1989371916-a957329b2dd45aea28370818f5255134433d4edb8a27d80816c982ed0069b744-d_640?region=us",
+        "virtudes": [],
+        "temperamentos": [
+          "MEL"
+        ]
+      },
+      {
+        "id": "1.8",
+        "titulo": "El sanguíneo",
+        "vimeoId": "924568703",
+        "duracion": 604,
+        "miniatura": "https://i.vimeocdn.com/video/1989716326-7170cdcfb1d3f1c119102c4968b593bcf438fa2273f6466db04d4ceb910ac5c9-d_640?region=us",
+        "virtudes": [],
+        "temperamentos": [
+          "SAN"
+        ]
+      },
+      {
+        "id": "1.9",
+        "titulo": "El flemático",
+        "vimeoId": "924568973",
+        "duracion": 580,
+        "miniatura": "https://i.vimeocdn.com/video/1989361492-f1eef4e02fbd17a97b3616f77e28cc26aa956f9c9973f34336f2535b19dd3efa-d_640?region=us",
+        "virtudes": [],
+        "temperamentos": [
+          "FLE"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "curso-2",
+    "numero": 2,
+    "titulo": "Practicar la magnanimidad",
+    "virtudes": [
+      "magnanimidad"
+    ],
+    "temas": [
+      "virtudes"
+    ],
+    "lecciones": [
+      {
+        "id": "2.0",
+        "titulo": "Introducción",
+        "vimeoId": "924576183",
+        "duracion": 502,
+        "miniatura": "https://i.vimeocdn.com/video/1818222846-1b4be3de916a3f1a0883be01ad49ad8fefe87bf0a33b189daec9108905515bce-d_640?region=us",
+        "virtudes": [
+          "magnanimidad"
+        ],
+        "temperamentos": []
+      },
+      {
+        "id": "2.1",
+        "titulo": "La magnanimidad y la humildad son ideales de vida",
+        "vimeoId": "924576390",
+        "duracion": 555,
+        "miniatura": "https://i.vimeocdn.com/video/1818223586-35a480cf85bfea1f975055d86fcecc1ed3b33a8050c3029f7fce34916fde60a9-d_640?region=us",
+        "virtudes": [
+          "humildad",
+          "magnanimidad"
+        ],
+        "temperamentos": []
+      },
+      {
+        "id": "2.2",
+        "titulo": "La magnanimidad es contemplación y acción",
+        "vimeoId": "924576268",
+        "duracion": 300,
+        "miniatura": "https://i.vimeocdn.com/video/1818223183-9fe1b57ee25ee53923af919afb5ac39ed9bca09499508085e37cb8c44c0c6321-d_640?region=us",
+        "virtudes": [
+          "magnanimidad"
+        ],
+        "temperamentos": []
+      },
+      {
+        "id": "2.3",
+        "titulo": "Magnanimidad y prudencia",
+        "vimeoId": "924576301",
+        "duracion": 378,
+        "miniatura": "https://i.vimeocdn.com/video/1818224422-46d5e1b28d84dea3d351756a7e00ef71ac3f0ac5f7091e745da9a0f9a538df65-d_640?region=us",
+        "virtudes": [
+          "magnanimidad",
+          "prudencia"
+        ],
+        "temperamentos": []
+      },
+      {
+        "id": "2.4",
+        "titulo": "La magnanimidad y los 4 temperamentos",
+        "vimeoId": "924577735",
+        "duracion": 1379,
+        "miniatura": "https://i.vimeocdn.com/video/1817588875-3f10436edb3cd9bda5b153f6a87c89e9211f8c4584c05615946d4469d9e7796c-d_640?region=us",
+        "virtudes": [
+          "magnanimidad"
+        ],
+        "temperamentos": []
+      },
+      {
+        "id": "2.5",
+        "titulo": "Practicar la magnanimidad: la contemplación",
+        "vimeoId": "924578323",
+        "duracion": 1309,
+        "miniatura": "https://i.vimeocdn.com/video/1818223809-a692be608316f6e4fd9de8edf6ad8e82943b2845c152dc605b60551e908649c3-d_640?region=us",
+        "virtudes": [
+          "magnanimidad"
+        ],
+        "temperamentos": []
+      },
+      {
+        "id": "2.6",
+        "titulo": "Practicar la magnanimidad: La acción",
+        "vimeoId": "924578528",
+        "duracion": 1342,
+        "miniatura": "https://i.vimeocdn.com/video/1818224063-e1a96aa734891d0f74d077ed6a649de0e9f270557d8571e563dbd3af0c811208-d_640?region=us",
+        "virtudes": [
+          "magnanimidad"
+        ],
+        "temperamentos": []
+      }
+    ]
+  },
+  {
+    "id": "curso-3",
+    "numero": 3,
+    "titulo": "Practicar la humildad",
+    "virtudes": [
+      "humildad"
+    ],
+    "temas": [
+      "virtudes"
+    ],
+    "lecciones": [
+      {
+        "id": "3.0",
+        "titulo": "Introducción",
+        "vimeoId": "924591423",
+        "duracion": 506,
+        "miniatura": "https://i.vimeocdn.com/video/1818323417-6d6476098a67ae48bd9252144f9627b22f2ada4babc5449ee1f311adca3eb0e0-d_640?region=us",
+        "virtudes": [
+          "humildad"
+        ],
+        "temperamentos": []
+      },
+      {
+        "id": "3.1",
+        "titulo": "La humildad es el fundamento y la cumbre de todas las virtudes",
+        "vimeoId": "924591484",
+        "duracion": 234,
+        "miniatura": "https://i.vimeocdn.com/video/1989362459-63833e9638480206430e7733f452df8c244b466eb523c9c481942ba7ad16f0c0-d_640?region=us",
+        "virtudes": [
+          "humildad"
+        ],
+        "temperamentos": []
+      },
+      {
+        "id": "3.2",
+        "titulo": "Humildad fundamental y su relación con la humildad fraterna",
+        "vimeoId": "924591517",
+        "duracion": 941,
+        "miniatura": "https://i.vimeocdn.com/video/1817601328-f2f21ad92e5a8cda355764ba014dfdfeceab81316e69e5b81aaa8693574f15b0-d_640?region=us",
+        "virtudes": [
+          "humildad"
+        ],
+        "temperamentos": []
+      },
+      {
+        "id": "3.3",
+        "titulo": "Humildad fundamental y prudencia",
+        "vimeoId": "924591559",
+        "duracion": 343,
+        "miniatura": "https://i.vimeocdn.com/video/1818225401-9b0b33aa7f673fa1490d1ccdf35d29ce4995249c98a714f7a86a0d5a14371405-d_640?region=us",
+        "virtudes": [
+          "humildad",
+          "prudencia"
+        ],
+        "temperamentos": []
+      },
+      {
+        "id": "3.4",
+        "titulo": "Humildad fraterna y motivación",
+        "vimeoId": "924591617",
+        "duracion": 515,
+        "miniatura": "https://i.vimeocdn.com/video/1817601200-f61b8e0d55f12c81562efe747d46fae3afc1b6d5f58b92d27760eda54dfea048-d_640?region=us",
+        "virtudes": [
+          "humildad"
+        ],
+        "temperamentos": []
+      },
+      {
+        "id": "3.5",
+        "titulo": "La humildad y los 4 temperamentos",
+        "vimeoId": "924592417",
+        "duracion": 1194,
+        "miniatura": "https://i.vimeocdn.com/video/1817603767-f538c4a0ec89de8399f9eef90c7f3f996b2865cf6f43aa8ea6d405d70d36583b-d_640?region=us",
+        "virtudes": [
+          "humildad"
+        ],
+        "temperamentos": []
+      },
+      {
+        "id": "3.6",
+        "titulo": "Practicar la humildad fundamental",
+        "vimeoId": "924591867",
+        "duracion": 128,
+        "miniatura": "https://i.vimeocdn.com/video/1817601291-9da19687fbadf0dac6434ee0e991845d2bd061290272a0b993d74f5d57e4543e-d_640?region=us",
+        "virtudes": [
+          "humildad"
+        ],
+        "temperamentos": []
+      },
+      {
+        "id": "3.7",
+        "titulo": "Practicar la humildad fraterna",
+        "vimeoId": "924592567",
+        "duracion": 1036,
+        "miniatura": "https://i.vimeocdn.com/video/1817603839-0abb95af27eab78ac71bb8d78d02fdd676450cc4f23b5d6bc2333f5768ced89d-d_640?region=us",
+        "virtudes": [
+          "humildad"
+        ],
+        "temperamentos": []
+      },
+      {
+        "id": "3.8",
+        "titulo": "Humildad fraterna en las organizaciones",
+        "vimeoId": "924592610",
+        "duracion": 1384,
+        "miniatura": "https://i.vimeocdn.com/video/1818325749-37eaf0cf1b62e787bdfe3a4a60e463b765ebd249efc97e834275d9b02532f5e7-d_640?region=us",
+        "virtudes": [
+          "humildad"
+        ],
+        "temperamentos": []
+      }
+    ]
+  },
+  {
+    "id": "curso-4",
+    "numero": 4,
+    "titulo": "Practicar las 4 virtudes fundamentales",
+    "virtudes": [
+      "prudencia",
+      "fortaleza",
+      "dominio",
+      "justicia"
+    ],
+    "temas": [
+      "virtudes"
+    ],
+    "lecciones": [
+      {
+        "id": "4.0",
+        "titulo": "Introducción",
+        "vimeoId": "924643429",
+        "duracion": 339,
+        "miniatura": "https://i.vimeocdn.com/video/1989364038-85a233f2bb17015c36c658576818390d7735e60b2f94a434ab21b64b2afe391e-d_640?region=us",
+        "virtudes": [],
+        "temperamentos": []
+      },
+      {
+        "id": "4.1",
+        "titulo": "La pirámide de las virtudes",
+        "vimeoId": "924643470",
+        "duracion": 345,
+        "miniatura": "https://i.vimeocdn.com/video/1817678155-2f6dfce04948a0905087d4a97be69bf7e04f05960a880b348e43a5d922d4ab99-d_640?region=us",
+        "virtudes": [],
+        "temperamentos": []
+      },
+      {
+        "id": "4.2",
+        "titulo": "La prudencia es la madre de todas las virtudes",
+        "vimeoId": "924643498",
+        "duracion": 856,
+        "miniatura": "https://i.vimeocdn.com/video/1817678548-0630ca38b9853caedab38d7ad27de221ff69f2907d5bf0b5d324e69c4420b12d-d_640?region=us",
+        "virtudes": [
+          "prudencia"
+        ],
+        "temperamentos": []
+      },
+      {
+        "id": "4.3",
+        "titulo": "Practicar la prudencia",
+        "vimeoId": "924643536",
+        "duracion": 587,
+        "miniatura": "https://i.vimeocdn.com/video/1817680522-d78e562589b7e5b7bba17b7efd386be102113871bd1c024d4b27765601e1ee58-d_640?region=us",
+        "virtudes": [
+          "prudencia"
+        ],
+        "temperamentos": []
+      },
+      {
+        "id": "4.4",
+        "titulo": "La prudencia y los 4 temperamentos",
+        "vimeoId": "924643575",
+        "duracion": 1237,
+        "miniatura": "https://i.vimeocdn.com/video/1818333793-5c1d5d1abcea1db2a33ba8a40aae2ab89298e70cbf50b3f176f889372f5f294e-d_640?region=us",
+        "virtudes": [
+          "prudencia"
+        ],
+        "temperamentos": []
+      },
+      {
+        "id": "4.5",
+        "titulo": "Practicar la fortaleza",
+        "vimeoId": "924643612",
+        "duracion": 490,
+        "miniatura": "https://i.vimeocdn.com/video/1818334373-0fc90a2fcc21bdba1b92ddb372a97cb54e821f5ec65cbb16fce6d40ef8f2b6b8-d_640?region=us",
+        "virtudes": [
+          "fortaleza"
+        ],
+        "temperamentos": []
+      },
+      {
+        "id": "4.6",
+        "titulo": "La fortaleza y los 4 temperamentos",
+        "vimeoId": "924643648",
+        "duracion": 821,
+        "miniatura": "https://i.vimeocdn.com/video/1817681168-3e1e44fe0d2b1e9c7595acd5118cc594ccebfbae86166560304c59bcc6b7e8fa-d_640?region=us",
+        "virtudes": [
+          "fortaleza"
+        ],
+        "temperamentos": []
+      },
+      {
+        "id": "4.7",
+        "titulo": "El dominio de sí",
+        "vimeoId": "924643714",
+        "duracion": 310,
+        "miniatura": "https://i.vimeocdn.com/video/1818334946-c8e92edb7669d16801b2dca74f6d890fd8ffeaa8c3b2ef94adb0a5d9f077a70e-d_640?region=us",
+        "virtudes": [
+          "dominio"
+        ],
+        "temperamentos": []
+      },
+      {
+        "id": "4.8",
+        "titulo": "El dominio de sí y los 4 temperamentos",
+        "vimeoId": "924643737",
+        "duracion": 686,
+        "miniatura": "https://i.vimeocdn.com/video/1818335240-f8c855ed7700a41e5415bcbd40b4cf0f5fb86703b7dcd2a360a851d3494b22fe-d_640?region=us",
+        "virtudes": [
+          "dominio"
+        ],
+        "temperamentos": []
+      },
+      {
+        "id": "4.9",
+        "titulo": "Practicar la justicia",
+        "vimeoId": "924643766",
+        "duracion": 671,
+        "miniatura": "https://i.vimeocdn.com/video/1818335554-5bdf72b2a4764c147883560bf94b2557e2af1104cfaf88aee51695af27a2a15a-d_640?region=us",
+        "virtudes": [
+          "justicia"
+        ],
+        "temperamentos": []
+      },
+      {
+        "id": "4.10",
+        "titulo": "La justicia y los 4 temperamentos",
+        "vimeoId": "924643798",
+        "duracion": 1158,
+        "miniatura": "https://i.vimeocdn.com/video/1818335821-303213f9f7fb205c99fe9650704b8195babd4eb676b991846ba65d47341b6315-d_640?region=us",
+        "virtudes": [
+          "justicia"
+        ],
+        "temperamentos": []
+      }
+    ]
+  },
+  {
+    "id": "curso-5",
+    "numero": 5,
+    "titulo": "Corazón, intelecto y voluntad",
+    "virtudes": [],
+    "temas": [
+      "corazon"
+    ],
+    "lecciones": [
+      {
+        "id": "5.0",
+        "titulo": "Introducción",
+        "vimeoId": "924670798",
+        "duracion": 563,
+        "miniatura": "https://i.vimeocdn.com/video/1817718872-56d1ba7851eb6b0ee5717e6391288c4cbf3a4e832ba91e6c9e909564dee4034e-d_640?region=us",
+        "virtudes": [],
+        "temperamentos": []
+      },
+      {
+        "id": "5.1",
+        "titulo": "Cuerpo, alma y espíritu",
+        "vimeoId": "924671065",
+        "duracion": 392,
+        "miniatura": "https://i.vimeocdn.com/video/1818359253-fcf7d681bb02220f3d8bf912be30ed21d251fa5be1c783320d73871b4d753575-d_640?region=us",
+        "virtudes": [],
+        "temperamentos": []
+      },
+      {
+        "id": "5.2",
+        "titulo": "El \"triángulo blanco\"",
+        "vimeoId": "924671113",
+        "duracion": 191,
+        "miniatura": "https://i.vimeocdn.com/video/1817718984-bb071225952e608da73f98a3498e4783b27a11c3c62e5dc8dc74933281ca78be-d_640?region=us",
+        "virtudes": [],
+        "temperamentos": []
+      },
+      {
+        "id": "5.3",
+        "titulo": "El racionalista",
+        "vimeoId": "924671239",
+        "duracion": 532,
+        "miniatura": "https://i.vimeocdn.com/video/1817719567-7e5022e834ac202a013fdf921a950f3123b5f9791c4c9aa3cf85e3abaa276138-d_640?region=us",
+        "virtudes": [],
+        "temperamentos": []
+      },
+      {
+        "id": "5.4",
+        "titulo": "Los voluntaristas",
+        "vimeoId": "924671495",
+        "duracion": 1586,
+        "miniatura": "https://i.vimeocdn.com/video/1817720645-f5bca37507631c20930df9ee2f7ad574704b3c929adbab7898c9fb0e5c3be574-d_640?region=us",
+        "virtudes": [],
+        "temperamentos": []
+      },
+      {
+        "id": "5.5",
+        "titulo": "Los sentimentalistas",
+        "vimeoId": "924672224",
+        "duracion": 1955,
+        "miniatura": "https://i.vimeocdn.com/video/1818361526-6a091cefebff0c016aea13775bd7896be9168a030b741ca4371030ba35bf7b80-d_640?region=us",
+        "virtudes": [],
+        "temperamentos": []
+      }
+    ]
+  },
+  {
+    "id": "curso-6",
+    "numero": 6,
+    "titulo": "Descubrir su misión",
+    "virtudes": [
+      "magnanimidad"
+    ],
+    "temas": [
+      "mision"
+    ],
+    "lecciones": [
+      {
+        "id": "6.0",
+        "titulo": "Introducción",
+        "vimeoId": "924678340",
+        "duracion": 351,
+        "miniatura": "https://i.vimeocdn.com/video/1818362318-1f8f78104e69a6bb896c0bf88bd1bfe21b6193603d2368a651d6ce89f84bf967-d_640?region=us",
+        "virtudes": [],
+        "temperamentos": []
+      },
+      {
+        "id": "6.1",
+        "titulo": "¿Qué es una misión?",
+        "vimeoId": "924678464",
+        "duracion": 1032,
+        "miniatura": "https://i.vimeocdn.com/video/1817730781-e7b6b32d77ea67ce773bc4f11caae115a91b77f1c058a98c7400c991d6213a6b-d_640?region=us",
+        "virtudes": [],
+        "temperamentos": []
+      },
+      {
+        "id": "6.2",
+        "titulo": "Ejemplo de misiones",
+        "vimeoId": "924678683",
+        "duracion": 2561,
+        "miniatura": "https://i.vimeocdn.com/video/1817731397-03455940816302ddb6173c8b0ea45e293fc4d747079b200469ac0047e7de043e-d_640?region=us",
+        "virtudes": [],
+        "temperamentos": []
+      },
+      {
+        "id": "6.3",
+        "titulo": "¿Por qué una misión?",
+        "vimeoId": "924679235",
+        "duracion": 485,
+        "miniatura": "https://i.vimeocdn.com/video/1818363032-c68c5c7307f7e954dfb11fabe7d8a1770fa82d267432f501dd94048f53dc0d85-d_640?region=us",
+        "virtudes": [],
+        "temperamentos": []
+      },
+      {
+        "id": "6.4",
+        "titulo": "Mi misión",
+        "vimeoId": "924679399",
+        "duracion": 3033,
+        "miniatura": "https://i.vimeocdn.com/video/1818363445-6a8375d88eeeb969ebca85e6e2bf4f81e87ac341b293e991fac0d43c1139540b-d_640?region=us",
+        "virtudes": [],
+        "temperamentos": []
+      }
+    ]
+  },
+  {
+    "id": "curso-7",
+    "numero": 7,
+    "titulo": "La educación del corazón",
+    "virtudes": [],
+    "temas": [
+      "corazon"
+    ],
+    "lecciones": [
+      {
+        "id": "7.0",
+        "titulo": "Introducción",
+        "vimeoId": "924692308",
+        "duracion": 205,
+        "miniatura": "https://i.vimeocdn.com/video/1818364281-d86f7b0565cdc0968d9af0180fb7696c27c779167a54f51cc705dcb363f8e017-d_640?region=us",
+        "virtudes": [],
+        "temperamentos": []
+      },
+      {
+        "id": "7.1",
+        "titulo": "El amor, un corazón en paz",
+        "vimeoId": "924692379",
+        "duracion": 414,
+        "miniatura": "https://i.vimeocdn.com/video/1989369510-698c2708783f5d08057618c73fbe0929e4d1821d6967e7b276f70ff6c482a610-d_640?region=us",
+        "virtudes": [],
+        "temperamentos": []
+      },
+      {
+        "id": "7.2",
+        "titulo": "La belleza, un corazón alegre",
+        "vimeoId": "924692610",
+        "duracion": 457,
+        "miniatura": "https://i.vimeocdn.com/video/1989371339-cc8d3b24664881f36544ac2a2a9f381b9fea0d263c5a44d5b9c34c4132da692b-d_640?region=us",
+        "virtudes": [],
+        "temperamentos": []
+      },
+      {
+        "id": "7.3",
+        "titulo": "La grandeza, un corazón magnánimo",
+        "vimeoId": "924692820",
+        "duracion": 555,
+        "miniatura": "https://i.vimeocdn.com/video/1989683895-b6a7565e1693af3e3d972574b055fb10adfa495977fc32cc3f1ab5180561e6b0-d_640?region=us",
+        "virtudes": [],
+        "temperamentos": []
+      },
+      {
+        "id": "7.4",
+        "titulo": "La libertad, un corazón noble",
+        "vimeoId": "924693044",
+        "duracion": 524,
+        "miniatura": "https://i.vimeocdn.com/video/1989684245-2b894d26be1a7d5fb65b4cbbe8bf26f61e508f223699bd9463263ba75445096e-d_640?region=us",
+        "virtudes": [],
+        "temperamentos": []
+      },
+      {
+        "id": "7.5",
+        "titulo": "La misericordia, un corazón purificado",
+        "vimeoId": "924693282",
+        "duracion": 361,
+        "miniatura": "https://i.vimeocdn.com/video/1989369256-022b41fab9ce4f69f1b9d74b55e8f0da19fc99c0d1cdd5b43a0b51cc8f64641a-d_640?region=us",
+        "virtudes": [],
+        "temperamentos": []
+      },
+      {
+        "id": "7.6",
+        "titulo": "El sufrimiento, un corazón divinizado",
+        "vimeoId": "924693464",
+        "duracion": 356,
+        "miniatura": "https://i.vimeocdn.com/video/1989368540-61de7831c2f8346a05affa204834df3c6c35f336323bd6abde85194fbe32b3d9-d_640?region=us",
+        "virtudes": [],
+        "temperamentos": []
+      },
+      {
+        "id": "7.7",
+        "titulo": "La humildad nos hace receptivos",
+        "vimeoId": "924693609",
+        "duracion": 291,
+        "miniatura": "https://i.vimeocdn.com/video/1989363722-7d3d9418c4b43a00ebe20f6b788efc40fbfd16c294277c9b758e58968fa68137-d_640?region=us",
+        "virtudes": [
+          "humildad"
+        ],
+        "temperamentos": []
+      }
+    ]
+  }
+]

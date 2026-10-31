@@ -1,0 +1,1423 @@
+{
+  "id": "vl-caracter",
+  "version": "1.0.0",
+  "locale": "fr",
+  "status": "approved",
+  "source": "TRAD Character test 4.xlsx",
+  "ui": {
+    "strongly_disagree": "Pas du tout d'accord",
+    "disagree": "Pas d'accord",
+    "neutral": "Neutre",
+    "agree": "D'accord",
+    "strongly_agree": "Tout à fait d'accord"
+  },
+  "welcome": {
+    "eyebrow": "Test de Caractère",
+    "title": "",
+    "byline": "Basé sur le livre du Leadership Vertueux d'Alexandre Havard.",
+    "intro_line1": "Ce test mesure votre progression dans les vertus, ces habitudes spirituelles forgées par l'effort.",
+    "intro_line2": "Les six vertus clés sont : prudence, courage, maîtrise de soi, justice, magnanimité et humilité.",
+    "duration_label": "Durée",
+    "duration_text": "Environ 8 à 10 minutes · 68 questions",
+    "button": "Commencer"
+  },
+  "facets": [
+    {
+      "key": "deliberation",
+      "virtue": "P",
+      "role": "passive",
+      "label_key": "chResultP1",
+      "denominator": 5.1
+    },
+    {
+      "key": "decision",
+      "virtue": "P",
+      "role": "active",
+      "label_key": "chResultP2",
+      "denominator": 3
+    },
+    {
+      "key": "endurance",
+      "virtue": "C",
+      "role": "passive",
+      "label_key": "chResultC1",
+      "denominator": 9
+    },
+    {
+      "key": "audacity",
+      "virtue": "C",
+      "role": "active",
+      "label_key": "chResultC2",
+      "denominator": 5
+    },
+    {
+      "key": "subduing",
+      "virtue": "S",
+      "role": "passive",
+      "label_key": "chResultS1",
+      "denominator": 6
+    },
+    {
+      "key": "energizing",
+      "virtue": "S",
+      "role": "active",
+      "label_key": "chResultS2",
+      "denominator": 3
+    },
+    {
+      "key": "communion",
+      "virtue": "J",
+      "role": "passive",
+      "label_key": "chResultJ1",
+      "denominator": 4
+    },
+    {
+      "key": "common_good",
+      "virtue": "J",
+      "role": "active",
+      "label_key": "chResultJ2",
+      "denominator": 5
+    },
+    {
+      "key": "contemplation",
+      "virtue": "M",
+      "role": "passive",
+      "label_key": "chResultM1",
+      "denominator": 6
+    },
+    {
+      "key": "action",
+      "virtue": "M",
+      "role": "active",
+      "label_key": "chResultM2",
+      "denominator": 12
+    },
+    {
+      "key": "self_knowledge",
+      "virtue": "H",
+      "role": "passive",
+      "label_key": "chResultH1",
+      "denominator": 9
+    },
+    {
+      "key": "service",
+      "virtue": "H",
+      "role": "active",
+      "label_key": "chResultH2",
+      "denominator": 6
+    }
+  ],
+  "virtues": [
+    {
+      "code": "P",
+      "label_key": "chResultP",
+      "html_key": "1-prudence.html",
+      "denominator": 8.1,
+      "passive_facet": "deliberation",
+      "active_facet": "decision"
+    },
+    {
+      "code": "C",
+      "label_key": "chResultC",
+      "html_key": "2-courage.html",
+      "denominator": 14,
+      "passive_facet": "endurance",
+      "active_facet": "audacity"
+    },
+    {
+      "code": "S",
+      "label_key": "chResultS",
+      "html_key": "3-selfmastery.html",
+      "denominator": 9,
+      "passive_facet": "subduing",
+      "active_facet": "energizing"
+    },
+    {
+      "code": "J",
+      "label_key": "chResultJ",
+      "html_key": "4-justice.html",
+      "denominator": 9,
+      "passive_facet": "communion",
+      "active_facet": "common_good"
+    },
+    {
+      "code": "M",
+      "label_key": "chResultM",
+      "html_key": "5-magnanimity.html",
+      "denominator": 18,
+      "passive_facet": "contemplation",
+      "active_facet": "action"
+    },
+    {
+      "code": "H",
+      "label_key": "chResultH",
+      "html_key": "6-humility.html",
+      "denominator": 15,
+      "passive_facet": "self_knowledge",
+      "active_facet": "service"
+    }
+  ],
+  "questions": [
+    {
+      "code": "P1",
+      "text": "En général, je sépare les faits et les opinions avant de prendre des décisions.",
+      "weights": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "code": "P2",
+      "text": "Je ne déforme pas les faits afin de les rendre conformes à mes intérêts, mes passions et mes désirs.",
+      "weights": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "code": "P3",
+      "text": "Je ne ferme pas les yeux sur les vérités que j’ai du mal à accepter.",
+      "weights": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "code": "P4",
+      "text": "Je m'efforce constamment d'identifier mes préjugés personnels et de les mettre de côté - cela me permet de prendre de meilleures décisions.",
+      "weights": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "code": "P5",
+      "text": "Je n'hésite pas à demander conseil auprès de personnes sages et compétentes.",
+      "weights": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "code": "P6",
+      "text": "Je décide à temps, sans permettre à la crainte de l'erreur de ralentir le processus.",
+      "weights": [
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "code": "P7",
+      "text": "Je vais au bout de mes décisions, peu importe les obstacles.",
+      "weights": [
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "code": "P8",
+      "text": "Lorsque les résultats sont insatisfaisants, je ne rejette jamais la faute sur mes conseillers — la responsabilité ultime de mes décisions m'incombe exclusivement.",
+      "weights": [
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "code": "C1",
+      "text": "J’éduque ma conscience dans une quête sincère et systématique de vérité.",
+      "weights": [
+        0.1,
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "code": "C2",
+      "text": "Je ne succombe pas au culturellement ou politiquement correct — mes actions reflètent authentiquement mes valeurs et mes principes.",
+      "weights": [
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "code": "C3",
+      "text": "Je ne cache pas mes idéaux ; les personnes avec qui je travaille connaissent parfaitement les valeurs que je défends.",
+      "weights": [
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "code": "C4",
+      "text": "Je ne me préoccupe pas du « qu’en dira-t-on ».",
+      "weights": [
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "code": "C5",
+      "text": "Je suis fidèle à ma conscience, même sous la menace de la mort.",
+      "weights": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "code": "C6",
+      "text": "Je n’agis pas de manière immorale en me réfugiant derrière l’immoralité générale (le fameux argument : « Tout le monde le fait ! »).",
+      "weights": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "code": "C7",
+      "text": "J'ose prendre des risques et refuse de laisser la peur de l'échec me paralyser.",
+      "weights": [
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "code": "C8",
+      "text": "Je maintiens le cap, même en face d’oppositions et de contradictions.",
+      "weights": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "code": "C9",
+      "text": "Je mène à bien mes projets en soignant tous les détails.",
+      "weights": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "code": "C10",
+      "text": "Ma persévérance n’est pas le résultat d’un entêtement déplacé, mais le fruit d’une position de principe réfléchie.",
+      "weights": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "code": "S1",
+      "text": "Je fais ce que je dois faire, et non ce qui est agréable à faire.",
+      "weights": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "code": "S2",
+      "text": "Je priorise ce qui est important plutôt que ce qui est urgent.",
+      "weights": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "code": "S3",
+      "text": "Je consacre du temps à ce qui est important : mon développement personnel, le développement des autres, la planification à long terme.",
+      "weights": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "code": "S4",
+      "text": "Je garde mon sang-froid, même dans les circonstances difficiles.",
+      "weights": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "code": "S5",
+      "text": "Dans les débats, je n’utilise pas d’expressions vulgaires et je n’élève pas la voix.",
+      "weights": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "code": "S6",
+      "text": "J'ai appris l'art de posséder (les biens matériels) sans attachement.",
+      "weights": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "code": "S7",
+      "text": "Mon engagement envers la pureté n'est pas une restriction — c'est la plus haute vibration de l'amour.",
+      "weights": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "code": "S8",
+      "text": "Je refuse d'être la marionnette de la célébrité.",
+      "weights": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "code": "S9",
+      "text": "Quand l'injustice frappe, je réponds par le feu de la justice — jamais par une soumission silencieuse.",
+      "weights": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "code": "J1",
+      "text": "Je cherche l’excellence dans mon travail professionnel.",
+      "weights": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "code": "J2",
+      "text": "Mon travail n’est pas un moyen de m’affirmer égoïstement, mais un service aux autres.",
+      "weights": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "code": "J3",
+      "text": "Je ne suis pas un « bourreau de travail ».",
+      "weights": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "code": "J4",
+      "text": "Je passe du temps en famille.",
+      "weights": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "code": "J5",
+      "text": "Je ne suis pas individualiste : je participe activement à l’édification du bien commun. ",
+      "weights": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "code": "J6",
+      "text": "Je suis sincère et transparent. Je dis toujours la vérité.",
+      "weights": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "code": "J7",
+      "text": "Je fais en sorte que les gens me connaissent tel que je suis en réalité.",
+      "weights": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "code": "J8",
+      "text": "Je défends la vérité morale, même si elle est politiquement incorrecte.",
+      "weights": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "code": "J9",
+      "text": "Je pardonne facilement et j’oublie rapidement les offenses.",
+      "weights": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "code": "M1",
+      "text": "Je suis conscient(e) de ma dignité en tant qu'être spirituel, doté d'une raison, d'une volonté libre et d'un cœur capable de choix profonds et fondamentaux.",
+      "weights": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "code": "M2",
+      "text": "Je suis conscient d'être appelé à réaliser de grandes choses, parmi lesquelles la plus importante est le développement de ma personnalité et de la personnalité des autres.",
+      "weights": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "code": "M3",
+      "text": "Je recherche la compagnie de grands esprits – à la fois rêveurs et hommes/femmes d'action – capables de m'inspirer.",
+      "weights": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "code": "M4",
+      "text": "Je m’efforce, chaque jour, d’améliorer mon caractère et d’atteindre l’excellence personnelle.",
+      "weights": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "code": "M5",
+      "text": "J'ai une conscience claire de mes forces.",
+      "weights": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "code": "M6",
+      "text": "Je consacre mon énergie à multiplier mes talents plus encore qu’à lutter contre mes faiblesses.",
+      "weights": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "code": "M7",
+      "text": "J’ai confiance en moi-même, en mes talents et capacités.",
+      "weights": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "code": "M8",
+      "text": "Je consacre le temps nécessaire à la considération de ma mission vitale.",
+      "weights": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "code": "M9",
+      "text": "Je me concentre sur ma mission. Je ne me laisse pas facilement distraire par des choses accessoires.",
+      "weights": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "code": "M10",
+      "text": "Je communique à mes amis et à mes collègues un sens de la mission.",
+      "weights": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "code": "M11",
+      "text": "J’alimente sans cesse mon imagination, je la pousse dans ses retranchements — afin qu’elle accouche d’idées plus fécondes.",
+      "weights": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "code": "M12",
+      "text": "Je ne crains pas l’échec.",
+      "weights": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "code": "M13",
+      "text": "Je prends des décisions audacieuses. Je n’ai pas peur de prendre des risques.",
+      "weights": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "code": "M14",
+      "text": "Je ne crains pas le mal que font les autres, mais le bien que je ne fais pas.",
+      "weights": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "code": "M15",
+      "text": "Je transforme les obstacles en opportunités.",
+      "weights": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "code": "M16",
+      "text": "Je choisis des amis et collaborateurs qui me poussent à me dépasser.",
+      "weights": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "code": "M17",
+      "text": "Je ne me compare à personne.",
+      "weights": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "code": "H1",
+      "text": "Je considère le point de vue des autres. Je ne cherche pas à imposer mes opinions.",
+      "weights": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "code": "H2",
+      "text": "Je ne discute pas lorsque j’ai tort.",
+      "weights": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "code": "H3",
+      "text": "Je n’insiste pas obstinément lorsque j’ai raison.",
+      "weights": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "code": "H4",
+      "text": "Je préfère le dialogue à la confrontation.",
+      "weights": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "code": "H5",
+      "text": "J’ai conscience de ce que mes talents sont des dons.",
+      "weights": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "code": "H6",
+      "text": "Je ne cherche pas à me justifier lorsqu’on me réprimande.",
+      "weights": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "code": "H7",
+      "text": "Je ne cache pas mes fautes.",
+      "weights": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "code": "H8",
+      "text": "Je partage la joie de ceux que l’on récompense.",
+      "weights": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "code": "H9",
+      "text": "Je rigole volontiers lorsqu’on fait des plaisanteries sur mon compte.",
+      "weights": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "code": "H10",
+      "text": "Je prends plaisir à servir les autres.",
+      "weights": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "code": "H11",
+      "text": "J’aide les autres à prendre conscience de leur dignité et à découvrir et à multiplier leurs talents.",
+      "weights": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "code": "H12",
+      "text": "Je tire les personnes plutôt que je ne les pousse.",
+      "weights": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "code": "H13",
+      "text": "J’inspire plutôt que je ne commande.",
+      "weights": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "code": "H14",
+      "text": "J’enseigne plutôt que je ne réprimande.",
+      "weights": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "code": "H15",
+      "text": "Je révèle le potentiel des personnes en les aidant à mobiliser leurs ressources intérieures.",
+      "weights": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    }
+  ],
+  "labels": {
+    "charTest": "Test de caractère",
+    "linkToBookVL": "https://editions-lelaurier.com/fr/education/618-le-leadership-vertueux-9782864953739.html",
+    "charTestIntro": "Évaluez votre progression dans le développement de votre caractère ",
+    "chResultP": "Prudence",
+    "chResultP1": "Délibération",
+    "chResultP2": "Décision",
+    "chResultC": "Courage",
+    "chResultC1": "Endurance",
+    "chResultC2": "Audace",
+    "chResultS": "Maîtrise de soi",
+    "chResultS1": "Soumets tes passions basses",
+    "chResultS2": "Stimule tes passions nobles",
+    "chResultJ": "Justice",
+    "chResultJ1": "Communion",
+    "chResultJ2": "Bien commun",
+    "chResultM": "Magnanimité",
+    "chResultM1": "Contemplation",
+    "chResultM2": "Action",
+    "chResultH": "Humilité",
+    "chResultH1": "Connaissance de soi",
+    "chResultH2": "Service des autres",
+    "chResultVirtueStage0": "Il semble que vous ayez un faible niveau de",
+    "chResultVirtueStage1": "Il semble que vous avez un niveau modéré de",
+    "chResultVirtueStage2": "Il semble que vous avez un niveau élevé de",
+    "chResultPassiveAspect": "Aspect passif de la vertu",
+    "chResultActiveAspect": "Aspect actif de la vertu"
+  },
+  "texts": {
+    "text-about-character-test.html": "La personnalité humaine est fondamentalement composée d’un tempérament et d’un caractère.\nLe tempérament est une prédisposition naturelle et innée à réagir d’une certaine manière. Le caractère est une prédisposition acquise, le fruit d’un travail libre sur soi-même sous l’influence de la famille, de l’école et de la société.\nLe tempérament est biologique. Selon l’ancienne mais toujours pertinente théorie d’Hippocrate-Galen, il existe quatre tempéraments : colérique, mélancolique, sanguin, flegmatique. Nous naissons avec notre tempérament et nous ne pouvons pas le changer : nous mourrons avec les qualités et les défauts de notre tempérament.\nLe caractère est spirituel : il est composé de vertus qui sont des habitudes morales acquises et développées par la pratique. Il y a six vertus que l’on peut qualifier d’essentielles : la prudence (la capacité de prendre des bonnes décisions), le courage (l’audace et l’endurance), la maîtrise de soi (le contrôle des émotions), la justice (l’habitus de donner à chacun son dû), la magnanimité (l’orientation du cœur, de l’intelligence et de la volonté vers les grandes choses) et l’humilité (la connaissance de soi et le service de l’autre). Nous ne sommes pas nés avec notre caractère : le caractère est quelque chose que nous construisons.",
+    "1-prudence.html": "Prudence : prendre les bonnes décisions\n\nLa prudence nous permet de percevoir les situations dans leur complexité et de prendre des décisions conformes à cette perception. La prudence est composée essentiellement de deux éléments : la délibération et la décision.\n\nDélibération\n• Regarde la réalité en face.\n• Refuse de te mentir à toi-même.\n• Demande conseil.\n\nDécision\n• Surmonte la peur de te tromper.\n• Mets en &oelig;uvre tes décisions sans tarder.\n\nLa prudence ne consiste pas à être rusé, futé, habile. Elle consiste à prendre les bonnes décisions. Une bonne décision est une décision qui est conforme à la réalité des choses (la situation concrète) et des personnes (leur dignité). Si au lieu de prendre des décisions conformes à la réalité, nous « reconstruisons » habituellement la réalité (nous nous mentons à nous- même) pour qu’elle serve nos intérêts et satisfasse nos passions, nous ne pourrons jamais pratiquer la prudence.\n\nLa prudence exige la perspicacité, la diligence (nous devons prendre le temps d’étudier la réalité), l’humilité (nous devons demander conseil). La prudence exige avant tout l’audace (nous devons être capables de regarder la réalité en face et de prendre des risques).\n\nS’il nous manque la prudence, nous ne prendrons pas de décisions ou prendrons les mauvaises décisions. Sans la prudence il n’y a pas de leadership. Le leader doit être un bon décideur.",
+    "2-courage.html": "Courage : prendre des risques et maintenir le cap\n\nLe courage a deux dimensions : l’audace et l’endurance. Le leader sait prendre des risques. Il sait aussi tenir le cap. Il est prévisible dans son endurance (l’endurance engendre la fidélité), mais imprévisible dans son audace (l’audace engendre la créativité).\n\nAudace\n• Habitue-toi à prendre des risques.\n• Assure-toi de la moralité de tes objectifs et moyens.\n\nEndurance\n• Sois persévérant et fidèle dans l’adversité.\n• Assure-toi que ta persévérance n’est pas le résultat d’un entêtement déplacé, mais le fruit d’une position de principe réfléchie et juste.\n\nLe courage n’est pas l’expression de n’importe quel type de volonté. Seule la volonté bonne et juste est susceptible de servir de base au courage. Le terroriste qui se sacrifie pour sa cause n’est pas courageux : il est tout simplement fou, violent, obstiné. Tu es courageux seulement si tes objectifs et les moyens que tu utilises pour les atteindre sont justes : s’ils respectent les principes fondamentaux de la nature humaine et la dignité de la personne.\n\nDans l’endurance sont enracinées les vertus de persévérance et de fidélité. Une personne fidèle est une personne qui résiste à l’épreuve du temps : les circonstances changent, mais sa substance propre ne change pas. Elle ne se laisse pas manipuler par la nouveauté. C’est une âme stable dans un monde instable.\n\nS’il te manque le courage, ton discours sera hypocrite : tu n’auras pas l’audace de passer à l’action, et si néanmoins tu te lances en avant, tôt ou tard tu feras marche arrière sous la pression des personnes ou des événements. Ceux qui te faisaient confiance parce que « tu avais l’air intelligent », cesseront de croire en toi. Sans courage le leadership n’a pas d’avenir.",
+    "3-selfmastery.html": "Maîtrise de soi : diriger nos passions\n\nLes passions nobles nous poussent à accomplir des actions nobles. Les passions mauvaises nous poussent à réaliser des actions mauvaises. La maîtrise de soi mortifie nos passions mauvaises. Elle stimule nos passions nobles et les met au service de notre mission.\n\nSoumets tes passions basses\n• Désirs impurs (soif égoïste de pouvoir, d’argent et de jouissance).\n• Colère injuste, fruit de l’orgueil.\n\nStimule tes passions nobles\n• Désirs et ambitions nobles (l’amour toujours prêt à se sacrifier pour l’autre est la plus élevée des passions).\n• Colère juste, en réponse à l’injustice.\n\nLa maîtrise de soi c’est le pouvoir du c&oelig;ur et de l’intelligence. C’est la capacité de dire « oui » à ce qui nous fait grandir et de dire « non » à ce qui nous avilit. L’intempérance est un signe de castration et d’amputation, c’est l’agonie d’un c&oelig;ur incapable de s’affirmer lui-même dans les profondeurs de son être.\n\nLa maîtrise de soi exige avant tout la pratique de l’humilité : l’humilité de reconnaître que nous avons des passions mauvaises. Si tu penses que les émotions et passions que tu éprouves sont exclusivement positives, pourquoi alors pratiquer la maîtrise de soi ? Porte un regard d’humilité sur toi-même : ta soif de pouvoir, d’argent et de jouissance rapetisse ton c&oelig;ur au lieu de l’agrandir. De même ta colère, qui est souvent le fruit de ton orgueil. Accepte la vérité sur toi-même (il n’y a pas que du bien dans la nature humaine) et défend ta propre dignité par une lutte spirituelle efficace.\n\nLa maîtrise de soi crée dans nos c&oelig;urs un espace nécessaire à la grandeur et au service de l’autre : au leadership vertueux. Si tu es obsédé par l’image que tu as de toi-même, par ton pouvoir, tes biens et tes plaisirs, tu finiras par perdre le sens de ta mission, et il n’y aura plus de place pour les autres dans ton c&oelig;ur et dans tes pensées.\n\nLa maîtrise de soi ne consiste pas seulement à mortifier nos passions basses. Elle consiste aussi et avant tout à stimuler et vivifier nos passions nobles. Nous sommes appelés à faire le bien non seulement avec notre volonté, mais aussi avec notre c&oelig;ur : avec nos sentiments et avec nos sens. Nous devons éprouver du plaisir à faire le bien. Le nirvana oriental, l’apathie stoïque, le spiritualisme platonicien, le moralisme kantien et le puritanisme sont des doctrines qui ne saisissent pas la place des passions dans la nature humaine et ne peuvent comprendre ce qu’est la maîtrise de soi. Ceux qui craignent leurs passions ou ne perçoivent pas leur valeur ontologique et existentielle (ceux qui, par exemple, en face d’une injustice dont souffrent des milliers de personnes, mortifient leur colère au lieu de lui donner libre cours) n’atteindront jamais l’excellence. Le christianisme, à cet égard, a porté un coup mortel à toutes les déviances spiritualistes : Jésus-Christ, le Dieu fait Chair, ne cacha pas sa peur, ses larmes, son indignation, sa colère, sa pitié, sa joie, sa compassion et son amour.",
+    "4-justice.html": "Justice : donner à chacun son dû\n\nNous donnons aux autres leur dû lorsque nous pratiquons les vertus de la communion interpersonnelle et construisons le bien commun. Les vertus fondamentales de la communion interpersonnelle sont la véracité et l’amour. Quant au bien commun, nous l’édifions par l’accomplissement fidèle de nos responsabilités professionnelles, familiales et sociales.\n\nCommunion\n• Vérité, sincérité et simplicité.\n• Empathie, amitié, joie.\n• Amour et miséricorde.\n\nBien commun\n• Laboriosité.\n• Vie de famille.\n• Citoyenneté.\n\nLa justice est bien plus qu’un concept politique, juridique ou social. C’est une vertu personnelle, une vertu du caractère. Il n’y a pas de société juste là où il n’y a pas d’hommes et de femmes justes.\n\nLa justice exige la prudence : il faut un esprit perspicace pour comprendre ce qui est dû à l’autre. Un homme prudent saisit avant tout ce qui est dû à l’être humain en général : il donne aux hommes ce qui est dû aux hommes. Une personne imprudente donne facilement aux hommes ce qui est dû aux singes. Elle ne peut être juste.\n\nLa justice exige le courage : il faut une volonté forte pour constamment, et non pas de temps en temps, donner à chacun ce qui lui est dû.\n\nLa justice ne peut être pratiquée sans amour. L’homme est un être personnel : nous ne pouvons lui donner ce qui lui est dû qu’en l’aimant.\n\nCelui qui n’est pas juste se sert lui-même au lieu de servir les autres. Son leadership n’est qu’un mensonge et une trahison.",
+    "5-magnanimity.html": "Magnanimité : tendre vers les grandes choses\n\nLa magnanimité est la vertu des âmes contemplatives conscientes de leur dignité d’être humain et de leur vocation transcendante. La magnanimité est dirigée vers l’action. Elle est la vertu de la contemplation et de l’action. Le magnanime ne reconnaît pas seulement sa dignité d’être humain : il l’affirme dans l’action.\n\nContemplation\n• Conscience de sa dignité propre.\n• Conscience de ses forces et de ses talents.\n• Le Rêve.\n\nAction\n• Affirmation de sa dignité propre.\n• Affirmation de ses forces et de ses talents.\n• La Mission.\n\nLa magnanimité est la quête de l’esprit pour les grandes choses. Celui qui cherche la grandeur et s’efforce d’y correspondre est magnanime. La magnanimité prend sa racine dans une ferme confiance dans les plus hautes possibilités de la nature humaine. La magnanimité est un idéal de la grandeur de l’homme, un idéal de la confiance en l’homme. Elle est la forme suprême de l’espérance humaine.\n\nLa magnanimité n’est pas orgueil. Le magnanime comprend parfaitement que sa force, sa dignité et sa grandeur sont des dons de Dieu, bien plus que le résultat de sa propre activité.\n\nLe magnanime cherche la grandeur, non la reconnaissance. Le pusillanime est dépourvu du sens de sa dignité propre, inhérente à sa condition d’être humain : il pense qu’il vaut ce que les gens disent qu’il vaut. Il recherche la reconnaissance professionnelle à tout prix. Il court, il s’agite dans tous les sens, il fait de nombreuses choses car il a peur de ne pas être reconnu. Celui qui possède un sens profond de sa dignité n’a pas besoin de reconnaissance. Son action extérieure est la prolongation de sa richesse intérieure.\n\nLa magnanimité est la première vertu spécifique des leaders. Les leaders sont magnanimes dans la vision qu’ils ont d’eux-mêmes ; dans leurs rêves et leurs missions ; dans la confiance, l’enthousiasme, l’espérance et l’audace ; dans leur aptitude à utiliser les moyens proportionnés à leurs buts ; dans leur capacité à fixer des objectifs personnels élevés pour eux-mêmes et ceux qui les entourent.",
+    "6-humility.html": "Humilité : se connaître soi-même et servir les autres\n\nL’humilité est l’habitude de vivre dans la vérité sur soi-même (la connaissance de soi). C’est aussi l’habitude de servir les autres. Nous servons les personnes efficacement lorsque nous les aidons à grandir en tant qu’êtres humains.\n\nConnaissance de soi\n• Conscience de notre condition de créature.\n• Conscience de nos limites et de nos faiblesses.\n• Conscience de notre dignité.\n• Conscience de nos talents.\n\nServir les autres\n• Servir.\n• Faire grandir les personnes.\n\nLa connaissance de soi est l’humilité fondamentale. Elle est le fruit de la contemplation. Servir les autres est l’humilité fraternelle. Elle est le résultat de l’action.\n\nL’humilité fondamentale ne doit pas être confondue avec la pusillanimité. Certes, la connaissance de soi nous révèle nos limites et nos faiblesses, mais elle nous rend aussi conscients de notre dignité et de nos talents (de la même manière que le fait la magnanimité). Si tu ne reconnais pas tes talents, tu n’es pas humble : tu es pusillanime. Magnanimité et humilité vont de pair. Seule une personne magnanime (celle qui a conscience de sa grandeur) peut être humble sans tomber dans la pusillanimité, de même que seul l’humble (celui qui sait que ses talents sont des dons et non le résultat de son activité propre) peut être magnanime sans devenir orgueilleux.\n\nL’humilité fraternelle est la seconde vertu spécifique des leaders. Pour un leader, pratiquer l’humilité consiste plus à attirer qu’à pousser, à inspirer plutôt qu’à commander, à enseigner plutôt qu’à contrôler. Être humble, c’est donner à ceux qu’on dirige la capacité de se réaliser et d’atteindre la grandeur. Le leader délègue le pouvoir non pas parce qu’il n’a pas le temps de tout faire lui-même, mais parce qu’il veut que ses collaborateurs grandissent (il est plus facile de grandir quand on participe au processus de décision). Le leader met en avant ses collaborateurs plutôt que lui-même (il ne se rend pas indispensable et prépare ainsi sa succession). Tout cela est l’humilité fraternelle en pratique."
+  }
+}

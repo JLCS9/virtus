@@ -31,6 +31,8 @@ export interface CollaboratorBox extends Collaborator {
   invitedAt: string | null;
   /** Id en el servidor tras sincronizar. */
   remoteId?: string | null;
+  /** El tipo viene del test que hizo la propia persona por invitación (sustituye al estimado). */
+  confirmed?: boolean;
 }
 
 export interface Habit {
@@ -48,6 +50,10 @@ export interface Plan {
   rhythm: Rhythm;
   spiritual: boolean;
   notifications: boolean;
+  /** Duración del ciclo en semanas. */
+  cycleWeeks: number;
+  /** Analítica de uso (opt-in, nunca incluye el diario). */
+  analytics: boolean;
 }
 
 export interface Cycle {
@@ -55,11 +61,32 @@ export interface Cycle {
   startedAt: string;
 }
 
+export interface ClosedCycle extends Cycle {
+  closedAt: string;
+  characterTakenAt: string | null;
+}
+
+export interface LocalInvite {
+  kind: 'temperament' | 'character_view';
+  collaboratorId: string | null;
+  createdAt: string;
+}
+
 export interface CharacterResult {
   takenAt: string;
   testVersion: string;
   self: Record<Virtue, number>;
+  /** Aspecto pasivo y activo de cada virtud (test oficial). */
+  facets?: Record<Virtue, { passive: number; active: number }>;
   others: Record<Virtue, number>[];
+}
+
+export interface HeartRecord {
+  takenAt: string;
+  testVersion: string;
+  pct: Record<string, number>;
+  stage: Record<string, 'none' | 'stage1' | 'stage2'>;
+  verdict: 'balanced' | 'has_stages';
 }
 
 export interface VirtusState {
@@ -76,8 +103,18 @@ export interface VirtusState {
   records: Record<string, DayRecord>;
   recentChallenges: string[];
   character: CharacterResult[];
+  heart: HeartRecord[];
   /** Última sincronización correcta con el servidor. */
   syncedAt: string | null;
+  cycleHistory: ClosedCycle[];
+  invites: LocalInvite[];
+  /** El usuario pospuso la confirmación del temperamento. */
+  temperamentConfirmDismissedAt: string | null;
+  /** Invitaciones y miradas ya incorporadas desde el servidor. */
+  processedRemote: string[];
+  /** Lecciones de los cursos en vídeo vistas (id → fecha) y la última abierta. */
+  watched: Record<string, string>;
+  lastLesson: string | null;
 
   setTemperament: (r: TemperamentResult) => void;
   setRoles: (roles: RoleBox[]) => void;
@@ -92,7 +129,15 @@ export interface VirtusState {
   saveExam: (date: string, exam: ExamEntry) => void;
   toggleHabit: (date: string, habitId: string) => void;
   addCharacter: (r: CharacterResult) => void;
+  addHeart: (r: HeartRecord) => void;
   markSynced: (at: string) => void;
+  closeCycle: (next: WorkVirtue) => void;
+  addOthersView: (view: Record<Virtue, number>) => void;
+  addInvite: (i: LocalInvite) => void;
+  dismissTemperamentConfirm: () => void;
+  markProcessed: (ids: string[]) => void;
+  openLesson: (id: string) => void;
+  markWatched: (id: string) => void;
   reset: () => void;
 }
 
@@ -105,6 +150,8 @@ export const defaultPlan: Plan = {
   rhythm: [false, true, true, true, true, true, true],
   spiritual: false,
   notifications: true,
+  cycleWeeks: 4,
+  analytics: false,
 };
 
 const initial = {
@@ -121,7 +168,14 @@ const initial = {
   records: {},
   recentChallenges: [],
   character: [],
+  heart: [],
   syncedAt: null,
+  cycleHistory: [],
+  invites: [],
+  temperamentConfirmDismissedAt: null,
+  processedRemote: [],
+  watched: {},
+  lastLesson: null,
 };
 
 const emptyDay = (date: string): DayRecord => ({ date, habitsDone: [] });
@@ -168,13 +222,64 @@ export const useVirtus = create<VirtusState>()(
           return { records: { ...s.records, [date]: { ...r, habitsDone: done } } };
         }),
       addCharacter: (r) => set((s) => ({ character: [...s.character, r] })),
+      addHeart: (r) => set((s) => ({ heart: [...s.heart, r] })),
       markSynced: (syncedAt) => set({ syncedAt }),
+      closeCycle: (next) =>
+        set((s) => {
+          const now = new Date().toISOString();
+          const last = s.character[s.character.length - 1];
+          const closed: ClosedCycle[] = s.cycle
+            ? [
+                ...s.cycleHistory,
+                {
+                  ...s.cycle,
+                  closedAt: now,
+                  characterTakenAt: last && last.takenAt >= s.cycle.startedAt ? last.takenAt : null,
+                },
+              ]
+            : s.cycleHistory;
+          return { cycleHistory: closed, cycle: { virtue: next, startedAt: now } };
+        }),
+      addOthersView: (view) =>
+        set((s) => {
+          if (s.character.length === 0) return {};
+          const last = s.character[s.character.length - 1];
+          return { character: [...s.character.slice(0, -1), { ...last, others: [...last.others, view] }] };
+        }),
+      addInvite: (i) => set((s) => ({ invites: [...s.invites, i] })),
+      dismissTemperamentConfirm: () => set({ temperamentConfirmDismissedAt: new Date().toISOString() }),
+      markProcessed: (ids) => set((s) => ({ processedRemote: [...new Set([...s.processedRemote, ...ids])] })),
+      openLesson: (id) => set({ lastLesson: id }),
+      markWatched: (id) => set((s) => (s.watched[id] ? {} : { watched: { ...s.watched, [id]: new Date().toISOString() } })),
       reset: () => set({ ...initial }),
     }),
     {
       name: 'virtus-v1',
-      version: 1,
+      version: 4,
       storage: createJSONStorage(() => AsyncStorage),
+      // v1 → v2: nuevos campos del plan y del ciclo.
+      migrate: (persisted, version) => {
+        const p = persisted as Partial<VirtusState>;
+        if (version < 2) {
+          p.plan = { ...defaultPlan, ...(p.plan ?? {}) };
+          p.cycleHistory ??= [];
+          p.invites ??= [];
+          p.temperamentConfirmDismissedAt ??= null;
+          p.processedRemote ??= [];
+        }
+        if (version < 3) {
+          // El test de temperamento pasa al motor oficial: se conservan los resultados antiguos como historial.
+          p.heart ??= [];
+          const fix = (r: TemperamentResult) => ({ ...r, isPure: r.secondary === null, secondaryStrength: null }) as TemperamentResult;
+          if (p.temperament) p.temperament = fix(p.temperament);
+          p.temperamentHistory = (p.temperamentHistory ?? []).map(fix);
+        }
+        if (version < 4) {
+          p.watched ??= {};
+          p.lastLesson ??= null;
+        }
+        return p as VirtusState;
+      },
     },
   ),
 );

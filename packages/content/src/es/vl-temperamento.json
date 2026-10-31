@@ -1,0 +1,227 @@
+{
+  "id": "vl-temperamento",
+  "version": "1.0.0",
+  "locale": "es",
+  "status": "approved",
+  "source": "virtuousleadership.com · test de temperamento adulto (tbp-test)",
+  "items": {
+    "COL1": "Cuando un grupo se queda parado, suelo ser yo quien empuja para que arranque, en vez de esperar a que otro lo haga.",
+    "COL2": "Cuando ya tengo claro qué hay que hacer, me cuesta tener paciencia con quien todavía lo está debatiendo.",
+    "COL3": "Cuando algo me molesta, los demás lo notan en mi cara o en mi tono antes de que yo lo diga.",
+    "COL4": "Prefiero plantear un desacuerdo de frente aunque haya fricción, antes que dejarlo pasar para no romper la calma.",
+    "SAN1": "Con desconocidos, suelo ser yo quien rompe el hielo y empieza a hablar.",
+    "SAN2": "Cuando algo sale mal, paso página rápido y me cuesta poco volver al buen ánimo.",
+    "SAN3": "Por defecto espero que las cosas salgan bien y me quedo más con lo bueno que con lo malo.",
+    "SAN4": "Pienso mejor hablando con otros que dándole vueltas yo solo.",
+    "MEL1": "Después de una conversación importante, sigo dándole vueltas mentalmente durante horas o días.",
+    "MEL2": "Comentarios que para otros son pequeños, a mí me pueden afectar varios días.",
+    "MEL3": "Si una tarea no queda como yo creo que debería, me cuesta soltarla y seguir adelante.",
+    "MEL4": "Prefiero una conversación profunda con una persona que una reunión animada con varias.",
+    "FLE1": "En situaciones tensas, suelo mantener la calma aunque los demás se alteren.",
+    "FLE2": "Antes de meterme de lleno en algo nuevo, prefiero observar cómo evoluciona un tiempo.",
+    "FLE3": "Si puedo conseguir lo importante sin entrar en un enfrentamiento, elijo esa vía.",
+    "FLE4": "Cuando una rutina me funciona, no siento mucha necesidad de cambiarla por probar otra cosa.",
+    "TCOL1": "Cuando alguien me confronta, mi primer impulso es plantarle cara, no bajar la tensión.",
+    "TCOL2": "Prefiero decidir rápido con información incompleta a esperar tenerlo todo claro.",
+    "TSAN1": "Disfruto especialmente lo nuevo y desconocido, incluso sin saber cómo va a salir.",
+    "TSAN2": "Después de meses con el mismo proyecto, me cuesta mantener el entusiasmo del principio.",
+    "TMEL1": "Cuando algo me toca por dentro, sólo lo hablo con personas que sé que me van a entender de verdad.",
+    "TMEL2": "Detalles que otros ni notan —un tono, una mirada, un comentario al paso— a mí me siguen afectando un buen rato.",
+    "TFLE1": "Cuando todo el mundo se acelera, yo mantengo mi propio ritmo sin contagiarme.",
+    "TFLE2": "Prefiero seguir con lo que ya conozco a lanzarme a algo distinto solo por probar.",
+    "S2_C1": "Cuando algo importante me sale bien, el buen humor me dura mucho tiempo.",
+    "S2_C2": "Las preocupaciones rara vez me quitan el sueño.",
+    "S2_C3": "Cuando algo sale mal, lo proceso rápido y paso página sin demora.",
+    "S2_C4": "Después de una decisión importante, sigo dándole vueltas mentalmente aunque ya esté tomada.",
+    "S2_C5": "Hay personas o situaciones que me siguen pesando aunque sepa que ya no debería.",
+    "S2_C6": "Antes de eventos importantes, suelo notar tensión interna o preocupación anticipada.",
+    "S2_S1": "Cuando algo me indigna, me cuesta disimularlo aunque quiera.",
+    "S2_S2": "Mi intensidad emocional puede subir y bajar bastante en un mismo día.",
+    "S2_S3": "Cuando algo me importa de verdad, mi reacción suele ser intensa.",
+    "S2_S4": "Cuando hay tensión en un grupo, suelo ser de los que mantiene la calma.",
+    "S2_S5": "Las situaciones nuevas no suelen ponerme nervioso.",
+    "S2_S6": "Mi estado de ánimo se mantiene bastante parejo a lo largo del día.",
+    "S2_M1": "Cuando tengo claro lo que pienso, lo digo aunque no caiga bien.",
+    "S2_M2": "Me cuesta dejar pasar una injusticia sin reaccionar.",
+    "S2_M3": "Si algo me importa, no me cuesta defenderlo en público.",
+    "S2_M4": "Aunque tenga una opinión muy clara, no me genera tensión quedarme sin expresarla.",
+    "S2_M5": "Cuando puedo evitar entrar en una discusión, lo hago.",
+    "S2_M6": "Prefiero observar primero la situación y posicionarme después.",
+    "S2_F1": "Suelo encontrar fácilmente conversación con cualquiera.",
+    "S2_F2": "Disfruto los encuentros sociales aunque sean breves.",
+    "S2_F3": "Con gente nueva, no me cuesta integrarme.",
+    "S2_F4": "Necesito bastante tiempo a solas para recargar energía.",
+    "S2_F5": "En reuniones grandes prefiero quedarme en segundo plano.",
+    "S2_F6": "Las tensiones del entorno me afectan más de lo que parece."
+  },
+  "ui": {
+    "welcome": {
+      "eyebrow": "Test de Temperamento",
+      "title": "",
+      "byline": "Basado en la teoría del Liderazgo Virtuoso de Alexandre Havard.",
+      "intro": "Antes de empezar: este test no mide tu carácter, mide tu temperamento — esa primera reacción que aparece antes de pensar. Responde con lo que te sale, no con lo que crees que deberías responder. Cuanto más espontáneo seas, más afinado será el resultado. Al final descubrirás tu temperamento dominante y el secundario.",
+      "notice": "Ningún temperamento es mejor que otro. Cada uno tiene su grandeza y su virtud-desafío.",
+      "duration_label": "22 a 30 preguntas",
+      "duration_text": "aproximadamente 5 minutos",
+      "button": "Comenzar"
+    },
+    "question": {
+      "progress": "Pregunta {n} de {total}",
+      "yes": "VERDADERO",
+      "no": "FALSO",
+      "back": "← Anterior"
+    },
+    "transition": {
+      "eyebrow": "Etapa 2 — Matiz",
+      "title_template": "Tu temperamento dominante es ",
+      "title_template_suffix": ".",
+      "text": "Vamos a precisar tu temperamento secundario.",
+      "button": "Continuar"
+    }
+  },
+  "temperaments": {
+    "COL": {
+      "name": "Colérico",
+      "focus": "la acción",
+      "archetype": "el ejecutor"
+    },
+    "MEL": {
+      "name": "Melancólico",
+      "focus": "las ideas",
+      "archetype": "el soñador"
+    },
+    "SAN": {
+      "name": "Sanguíneo",
+      "focus": "las personas",
+      "archetype": "el comunicador"
+    },
+    "FLE": {
+      "name": "Flemático",
+      "focus": "la paz",
+      "archetype": "el mediador"
+    }
+  },
+  "result": {
+    "pureNote": "· perfil puro · estadísticamente menos frecuente",
+    "challengeLabel": "Virtud-desafío",
+    "intensityLabel": "Intensidad del temperamento secundario",
+    "intensityMarked": "marcada",
+    "intensityLight": "ligera",
+    "virtues": {
+      "COL": {
+        "name": "Humildad",
+        "detail": "Fundamental (autoconocimiento) y fraterna (servicio)."
+      },
+      "MEL": {
+        "name": "Audacia",
+        "detail": "El aspecto activo de la virtud de la fortaleza."
+      },
+      "SAN": {
+        "name": "Resistencia y persistencia",
+        "detail": "Los aspectos pasivos de la virtud de la fortaleza."
+      },
+      "FLE": {
+        "name": "Magnanimidad",
+        "detail": "La virtud de la grandeza, la de los que sueñan a lo grande."
+      }
+    },
+    "profiles": {
+      "COL": {
+        "name": "EL EJECUTOR",
+        "label": "colérico",
+        "challenge": "Humildad fundamental + fraterna",
+        "fortaleza": "Exhibes una gran energía y entusiasmo, buscando constantemente la acción y los logros. Destacas en situaciones competitivas y posees habilidades sólidas de gestión.",
+        "debilidad": "Estás convencido de que tu energía es el resultado de tu actividad y trabajo, cuando en realidad es un don de la naturaleza. Te enfocas demasiado en la actividad y los resultados, descuidando tu propio desarrollo personal. En la dirección de personas, te cuesta respetar los sentimientos de los demás, hacerlos crecer, darles responsabilidad y servirles.",
+        "reto": "Tendrás que cultivar la humildad fundamental (el autoconocimiento) y la humildad fraterna (el servicio a los demás)."
+      },
+      "COL-MEL": {
+        "name": "EL EJECUTOR CONTEMPLATIVO",
+        "label": "colérico-melancólico",
+        "challenge": "Humildad fraterna",
+        "fortaleza": "Tu naturaleza colérica te impulsa hacia la acción y la obtención de resultados, mientras que tu faceta melancólica aporta una profunda sensibilidad y una mente creativa. La combinación de tu temperamento colérico y melancólico te permite abordar las tareas con energía, evitando al mismo tiempo caer en un activismo ciego.",
+        "debilidad": "Como colérico, puedes tender a servirte de las personas en lugar de servirles. Como melancólico, tu naturaleza introspectiva puede llevarte a olvidarte de los demás.",
+        "reto": "Como ejecutor contemplativo, te enfrentas al desafío de cultivar tus relaciones. La humildad fraterna se convierte en tu reto, instándote a cuidar de los demás y a servirles."
+      },
+      "COL-SAN": {
+        "name": "EL EJECUTOR AMABLE",
+        "label": "colérico-sanguíneo",
+        "challenge": "Humildad fundamental",
+        "fortaleza": "Tu naturaleza colérica te impulsa hacia la acción y el resultado, mientras que tu aspecto sanguíneo te dota de una profunda afectividad, amor por las personas y el deseo de hacerlas felices. Esta dualidad te permite no sólo ser eficaz en la realización de tareas, sino también construir buenas relaciones con los demás.",
+        "debilidad": "Tu impulsividad colérica podría llevarte al activismo sin rumbo. Tu naturaleza sanguínea te lleva a una mayor atención hacia los demás en detrimento de tu propio autoconocimiento. Te dedicas más a la acción que a tu desarrollo personal.",
+        "reto": "Tu desafío radica en conocerte mejor a ti mismo. Tu reto es la humildad fundamental, que es el aspecto de la virtud de la humildad vinculado al conocimiento de uno mismo."
+      },
+      "MEL": {
+        "name": "EL SOÑADOR",
+        "label": "melancólico",
+        "challenge": "Audacia",
+        "fortaleza": "Tienes una fuerte inclinación hacia la contemplación y posees un espíritu artístico, original y creativo. Te atrae la idea de la perfección y esta búsqueda constante de lo perfecto forma parte fundamental de tu existencia. Eres un gran soñador.",
+        "debilidad": "Tienes miedo a la acción, que inevitablemente revela la limitación de la naturaleza humana. Tienes miedo a la incertidumbre y no te gusta el riesgo.",
+        "reto": "Eres un soñador, pero la acción te cuesta. Tu reto es la audacia, que es el aspecto activo de la virtud de la fortaleza."
+      },
+      "MEL-COL": {
+        "name": "EL SOÑADOR EJECUTOR",
+        "label": "melancólico-colérico",
+        "challenge": "Humildad fraterna",
+        "fortaleza": "Tu naturaleza melancólica te dota de una profunda sensibilidad, creatividad. Al mismo tiempo, como colérico, posees un fuerte deseo de acción y logros. Tu temperamento melancólico te permite soñar en grande, mientras que tu faceta colérica te impulsa a convertir esos sueños en una misión alcanzable.",
+        "debilidad": "Como melancólico, eres propenso al ensimismamiento y a olvidarte fácilmente de los demás. Como colérico, tiendes a utilizar a los demás en lugar de servirles.",
+        "reto": "Eres un contemplativo activo, pero descuidas las relaciones con los demás. Tu reto es la humildad fraterna, que es el aspecto de la virtud de la humildad que nos ayuda a servir a los demás."
+      },
+      "MEL-FLE": {
+        "name": "EL SOÑADOR PRAGMÁTICO",
+        "label": "melancólico-flemático",
+        "challenge": "Audacia",
+        "fortaleza": "Como melancólico, posees una profunda sensibilidad, una mente creativa y buscas la perfección, mientras que tu temperamento flemático te dota de racionalidad y pragmatismo.",
+        "debilidad": "Como melancólico tienes miedo a la acción, que inevitablemente revela la limitación de la naturaleza humana. Como flemático, no sueles tomar la iniciativa en las acciones por miedo a equivocarte.",
+        "reto": "Eres un soñador pragmático, pero tardas en actuar. Tu reto es la audacia, que es el aspecto activo de la virtud de la fortaleza."
+      },
+      "SAN": {
+        "name": "EL COMUNICADOR",
+        "label": "sanguíneo",
+        "challenge": "Resistencia y persistencia",
+        "fortaleza": "Posees una profunda naturaleza relacional, siendo naturalmente comunicativo, sonriente, amable, cálido y afectuoso. Disfrutas riendo, bromeando y divirtiéndote, irradiando alegría de vivir. Destacas por tu habilidad para comunicarte.",
+        "debilidad": "Tu enfoque exclusivo en el presente puede dificultar la práctica de las virtudes relacionadas con el tiempo, como la resistencia, la perseverancia, la paciencia y la fidelidad. Inicias proyectos, pero muchas veces te resulta difícil finalizarlos, ya que permanentemente buscas novedad y diversión. Eres poco constante.",
+        "reto": "Tu desafío es la resistencia y la persistencia, que son aspectos pasivos de la virtud de la fortaleza."
+      },
+      "SAN-COL": {
+        "name": "EL COMUNICADOR ATENTO",
+        "label": "sanguíneo-colérico",
+        "challenge": "Humildad fundamental",
+        "fortaleza": "Como sanguíneo, eres profundamente relacional, amas a las personas y buscas hacerlas felices. Al mismo tiempo, tu faceta colérica te impulsa hacia la acción y la obtención de resultados. Tu temperamento sanguíneo te facilita desarrollar buenas relaciones con las personas, mientras que tu temperamento colérico te ayuda a mantener la atención y a realizar eficazmente las tareas.",
+        "debilidad": "Tu tendencia sanguínea a conocer a los demás mejor que a ti mismo puede llevarte a descuidar tu propio autoconocimiento. Además, tu naturaleza colérica puede conducirte a un activismo ciego.",
+        "reto": "Eres un comunicador atento, pero te conoces mal a ti mismo. Necesitas dedicar tiempo a conocerte mejor. Tu reto es cultivar la humildad fundamental, que se relaciona con el autoconocimiento."
+      },
+      "SAN-FLE": {
+        "name": "EL COMUNICADOR RESERVADO",
+        "label": "sanguíneo-flemático",
+        "challenge": "Magnanimidad",
+        "fortaleza": "Como sanguíneo, eres profundamente relacional, amas a las personas y buscas hacerlas felices. Por otro lado, tu temperamento flemático aporta una perspectiva desapasionada, racional y pragmática. Tu naturaleza sanguínea te facilita desarrollar buenas relaciones con los demás, mientras que tu faceta flemática aporta coherencia a tu vida.",
+        "debilidad": "Tu inclinación sanguínea a vivir en el presente puede limitar tu visión del futuro, y el miedo flemático a soñar puede restringir tu capacidad de imaginar posibilidades más grandes.",
+        "reto": "Eres un comunicador reservado, te cuesta soñar a lo grande. La virtud de la magnanimidad, el deseo de grandeza, se convierten en tu reto."
+      },
+      "FLE": {
+        "name": "EL MEDIADOR",
+        "label": "flemático",
+        "challenge": "Magnanimidad",
+        "fortaleza": "Destacas por tu serenidad y racionalidad. Abordas la realidad de manera científica, siendo pragmático, realista y preciso. Tu enfoque pragmático te convierte en un hábil solucionador de problemas, con los pies firmemente en la tierra. Tu deseo de paz hace de ti un buen mediador.",
+        "debilidad": "Buscas la seguridad y nunca vas contra corriente.",
+        "reto": "Amas la paz, pero no sabes soñar. Tu reto es la virtud de la magnanimidad, que es la virtud de los soñadores que transforman su sueño en misión."
+      },
+      "FLE-MEL": {
+        "name": "EL MEDIADOR CONTEMPLATIVO",
+        "label": "flemático-melancólico",
+        "challenge": "Audacia",
+        "fortaleza": "Como flemático, eres desapasionado, racional y pragmático, mientras que tu naturaleza melancólica te dota de profunda sensibilidad, creatividad y deseos de perfección. Tu temperamento flemático te ayuda a ser concreto, realista y preciso, mientras que el melancólico eleva tu corazón y te impulsa a soñar en grande.",
+        "debilidad": "Tu temor flemático a la acción, motivado por el miedo a cometer errores, se suma al temor melancólico a la acción, donde irremediablemente se manifiesta la imperfección humana.",
+        "reto": "El desafío para ti consiste en la audacia, que representa el aspecto activo de la virtud de la fortaleza."
+      },
+      "FLE-SAN": {
+        "name": "EL MEDIADOR AMABLE",
+        "label": "flemático-sanguíneo",
+        "challenge": "Magnanimidad",
+        "fortaleza": "Como flemático, eres desapasionado, sereno, racional y pragmático, lo que proporciona coherencia a tu vida, mientras que tu naturaleza sanguínea te hace profundamente relacional, amante de la felicidad de los demás y habilidoso en el desarrollo de relaciones interpersonales.",
+        "debilidad": "Como flemático, puedes tener miedo a soñar, y como sanguíneo, la tendencia a vivir exclusivamente en el presente puede limitar tu visión a largo plazo.",
+        "reto": "Tu reto consiste en cultivar la magnanimidad, la virtud de la grandeza."
+      }
+    }
+  }
+}

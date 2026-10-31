@@ -5,6 +5,7 @@
 import { Share } from 'react-native';
 
 import { supabase } from '@/lib/supabase';
+import { track } from './analytics';
 import { useVirtus } from '@/store/virtus';
 
 export const backendEnabled = () => supabase !== null;
@@ -16,6 +17,8 @@ export async function invite(kind: 'temperament' | 'character_view', remoteColla
   const { data, error } = await supabase.functions.invoke<{ url: string }>('invite', { body: { kind, collaboratorId: remoteCollaboratorId } });
   if (error || !data?.url) return false;
   await Share.share({ message: data.url });
+  track('invite_created', { kind });
+  useVirtus.getState().addInvite({ kind, collaboratorId: remoteCollaboratorId ?? null, createdAt: new Date().toISOString() });
   return true;
 }
 

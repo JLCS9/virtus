@@ -16,7 +16,7 @@ export function isValidPlan(p: Plan) {
   return TIME.test(p.morningTime) && TIME.test(p.eveningTime) && p.habits.length <= 3 && p.rhythm.some(Boolean);
 }
 
-function Toggle({ label, note, value, onChange }: { label: string; note?: string; value: boolean; onChange: (v: boolean) => void }) {
+export function Toggle({ label, note, value, onChange }: { label: string; note?: string; value: boolean; onChange: (v: boolean) => void }) {
   return (
     <View style={{ flexDirection: 'row', alignItems: 'center', gap: space.m }}>
       <View style={{ flex: 1, gap: space.xs }}>
@@ -139,6 +139,15 @@ export function PlanForm({
               selected={plan.rhythm[d]}
               onPress={() => set({ rhythm: plan.rhythm.map((v, i) => (i === d ? !v : v)) })}
             />
+          ))}
+        </Row>
+      </Stack>
+      <Divider />
+      <Stack gap={space.s}>
+        <Eyebrow>{t('plan.cicloSemanas')}</Eyebrow>
+        <Row>
+          {[3, 4, 6, 8].map((n) => (
+            <Chip key={n} label={t('plan.semanas', { n })} selected={plan.cycleWeeks === n} onPress={() => set({ cycleWeeks: n })} />
           ))}
         </Row>
       </Stack>

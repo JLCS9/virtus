@@ -1,0 +1,227 @@
+{
+  "id": "vl-temperamento",
+  "version": "1.0.0",
+  "locale": "fr",
+  "status": "approved",
+  "source": "virtuousleadership.com · test de temperamento adulto (tbp-test)",
+  "items": {
+    "COL1": "Quand un groupe reste bloqué à ne rien faire, c'est généralement moi qui pousse pour qu'il se mette en mouvement, plutôt que d'attendre qu'un autre le fasse.",
+    "COL2": "Quand je sais déjà ce qu'il faut faire, j'ai du mal à être patient avec ceux qui en discutent encore.",
+    "COL3": "Quand quelque chose me dérange, les autres le voient sur mon visage ou dans le ton de ma voix avant même que je le dise.",
+    "COL4": "Je préfère exprimer un désaccord de front, même s'il y a des frictions, plutôt que de le laisser passer pour ne pas troubler le calme.",
+    "SAN1": "Avec des inconnus, c'est généralement moi qui brise la glace et commence à parler.",
+    "SAN2": "Quand quelque chose tourne mal, je tourne la page rapidement et je n'ai pas de mal à retrouver ma bonne humeur.",
+    "SAN3": "Par défaut, je m'attends à ce que les choses se passent bien et je retiens davantage le bon que le mauvais.",
+    "SAN4": "Je réfléchis mieux en parlant avec les autres qu'en tournant en rond tout seul.",
+    "MEL1": "Après une conversation importante, je continue à y repenser mentalement pendant des heures ou des jours.",
+    "MEL2": "Des remarques que d'autres trouvent mineures peuvent m'affecter durant plusieurs jours.",
+    "MEL3": "Si une tâche n'est pas parfaitement réalisée, j'ai du mal à la lâcher et à passer à autre chose.",
+    "MEL4": "Je préfère une conversation profonde avec une personne qu'une réunion animée avec plusieurs personnes.",
+    "FLE1": "Dans les situations tendues, j'ai tendance à rester calme même si les autres s'énervent.",
+    "FLE2": "Avant de me lancer pleinement dans quelque chose de nouveau, je préfère observer comment cela évolue pendant un certain temps.",
+    "FLE3": "Si je peux obtenir l'essentiel sans entrer dans un affrontement, je choisis cette voie.",
+    "FLE4": "Quand une routine me convient, je ne ressens pas un grand besoin de la changer pour essayer autre chose.",
+    "TCOL1": "Quand quelqu'un me confronte, mon premier réflexe est de lui faire face, pas de baisser la tension.",
+    "TCOL2": "Je préfère décider rapidement avec des informations incomplètes plutôt que d'attendre d'avoir tout compris.",
+    "TSAN1": "J'apprécie particulièrement ce qui est nouveau et inconnu, même si je ne connais pas les aboutissants.",
+    "TSAN2": "Après plusieurs mois de travail sur le même projet, j'ai du mal à garder l'enthousiasme du début.",
+    "TMEL1": "Quand quelque chose me touche profondément, je n'en parle qu'avec des personnes dont je sais qu'elles vont vraiment me comprendre.",
+    "TMEL2": "Des détails que d'autres ne remarquent même pas — un ton, un regard, une remarque en passant — continuent à m'affecter un bon moment.",
+    "TFLE1": "Quand tout le monde s'affole, je garde mon propre rythme sans me laisser contaminer.",
+    "TFLE2": "Je préfère continuer avec ce que je connais déjà plutôt que de me lancer dans quelque chose de différent juste pour essayer.",
+    "S2_C1": "Quand quelque chose d'important tourne bien pour moi, ma bonne humeur dure longtemps.",
+    "S2_C2": "Les soucis me font rarement perdre le sommeil.",
+    "S2_C3": "Quand quelque chose tourne mal, je le digère vite et je passe à autre chose sans attendre.",
+    "S2_C4": "Après avoir pris une décision importante, je n'arrête pas de la ressasser mentalement, même si elle est déjà prise.",
+    "S2_C5": "Il y a des personnes ou des situations qui continuent à me peser, même quand je sais que ça ne devrait plus être le cas.",
+    "S2_C6": "Avant un événement important, je ressens souvent une tension intérieure ou une inquiétude anticipée.",
+    "S2_S1": "Quand quelque chose m'indigne, j'ai du mal à le cacher, même si j'essaie.",
+    "S2_S2": "Mon intensité émotionnelle peut facilement monter et descendre au cours d'une même journée.",
+    "S2_S3": "Quand quelque chose compte vraiment pour moi, ma réaction est généralement intense.",
+    "S2_S4": "Quand il y a des tensions dans un groupe, je fais partie de ceux qui gardent leur calme.",
+    "S2_S5": "Les situations nouvelles ne me rendent pas particulièrement nerveux.",
+    "S2_S6": "Mon humeur reste assez stable tout au long de la journée.",
+    "S2_M1": "Quand je sais clairement ce que je pense, je le dis, même si ça ne plaît pas.",
+    "S2_M2": "J'ai du mal à laisser passer une injustice sans réagir.",
+    "S2_M3": "Si quelque chose m'importe, je n'ai pas de mal à le défendre en public.",
+    "S2_M4": "Même quand j'ai une opinion très arrêtée, cela ne me pose pas de problème de ne pas l'exprimer.",
+    "S2_M5": "Quand je peux éviter une dispute, je le fais.",
+    "S2_M6": "Je préfère d'abord observer la situation, et me positionner ensuite.",
+    "S2_F1": "J'arrive facilement à discuter avec n'importe qui.",
+    "S2_F2": "J'apprécie les rencontres sociales, même brèves.",
+    "S2_F3": "Avec des gens que je ne connais pas, je n'ai pas de mal à m'intégrer.",
+    "S2_F4": "J'ai besoin de passer pas mal de temps seul pour recharger mes batteries.",
+    "S2_F5": "Dans les grands rassemblements, je préfère rester en retrait.",
+    "S2_F6": "Les tensions ambiantes m'affectent plus qu'il n'y paraît."
+  },
+  "ui": {
+    "welcome": {
+      "eyebrow": "Test de tempérament",
+      "title": "",
+      "byline": "Basé sur la théorie du Leadership Vertueux d'Alexandre Havard.",
+      "intro": "Avant de commencer : ce test ne mesure pas votre caractère, mais votre tempérament – cette réaction spontanée qui surgit avant même que vous ayez le temps de réfléchir. Répondez avec ce qui vous vient instinctivement, non pas avec ce que vous pensez devoir répondre. Plus vous serez spontané, plus vos résultats seront précis. À la fin, vous découvrirez votre tempérament dominant ainsi que votre tempérament secondaire.",
+      "notice": "Aucun tempérament n'est supérieur à un autre. Chacun possède sa propre grandeur et sa vertu-défi.",
+      "duration_label": "22 à 30 questions",
+      "duration_text": "environ 5 minutes",
+      "button": "Commencer"
+    },
+    "question": {
+      "progress": "Question {n} sur {total}",
+      "yes": "VRAI",
+      "no": "FAUX",
+      "back": "← Précédent"
+    },
+    "transition": {
+      "eyebrow": "Étape 2 — Nuance",
+      "title_template": "Ton tempérament dominant est ",
+      "title_template_suffix": ".",
+      "text": "Précisons ton tempérament secondaire.",
+      "button": "Continuer"
+    }
+  },
+  "temperaments": {
+    "COL": {
+      "name": "Colérique",
+      "focus": "l'action",
+      "archetype": "l'exécutant"
+    },
+    "MEL": {
+      "name": "Mélancolique",
+      "focus": "les idées",
+      "archetype": "le rêveur"
+    },
+    "SAN": {
+      "name": "Sanguin",
+      "focus": "les personnes",
+      "archetype": "le communicateur"
+    },
+    "FLE": {
+      "name": "Flegmatique",
+      "focus": "la paix",
+      "archetype": "le médiateur"
+    }
+  },
+  "result": {
+    "pureNote": "· profil pur · statistiquement moins fréquent",
+    "challengeLabel": "Vertu-défi",
+    "intensityLabel": "Intensité du tempérament secondaire",
+    "intensityMarked": "marquée",
+    "intensityLight": "légère",
+    "virtues": {
+      "COL": {
+        "name": "Humilité",
+        "detail": "Fondamentale (connaissance de soi) et fraternelle (service)."
+      },
+      "MEL": {
+        "name": "Audace",
+        "detail": "L'aspect actif de la vertu de force."
+      },
+      "SAN": {
+        "name": "Résistance et persévérance",
+        "detail": "Les aspects passifs de la vertu de force."
+      },
+      "FLE": {
+        "name": "Magnanimité",
+        "detail": "La vertu de la grandeur, celle de ceux qui rêvent grand."
+      }
+    },
+    "profiles": {
+      "COL": {
+        "name": "LE MANAGER",
+        "label": "colérique",
+        "challenge": "Humilité (fondamentale + fraternelle)",
+        "fortaleza": "Vous avez le vent en poupe. Vous avez soif d'action et de résultats. Vous aimez la compétition. Vous êtes un excellent manager.",
+        "debilidad": "Vous avez tendance à croire que votre talent est le résultat de votre activité et de votre travail, alors qu'il s'agit en fait d'un don naturel. Vous consacrez plus de temps à vos activités qu'à votre croissance personnelle. Vous avez tendance à utiliser les personnes plutôt qu'à les servir.",
+        "reto": "Votre défi est l'humilité qui est la vertu de la connaissance de soi (humilité fondamentale) et du service aux autres (humilité fraternelle)."
+      },
+      "COL-MEL": {
+        "name": "LE MANAGER CONTEMPLATIF",
+        "label": "colérique-mélancolique",
+        "challenge": "Humilité fraternelle",
+        "fortaleza": "En tant que colérique, vous avez soif d'action et de résultats. En tant que mélancolique, vous avez une sensibilité profonde et un grand esprit créatif. Votre tempérament dominant (colérique) vous aide à passer à l'action. Votre tempérament secondaire (mélancolique) vous aide à donner un sens à votre travail et vous protège de l'activisme aveugle.",
+        "debilidad": "En tant que colérique, vous avez tendance à utiliser les personnes plutôt qu'à les servir. En tant que mélancolique, vous avez tendance à l'auto-absorption et à oublier les autres.",
+        "reto": "Vous êtes un homme/femme d'action contemplatif, mais vous n'êtes pas bon dans le relationnel, dans le service. Votre défi est l'humilité fraternelle qui est l'aspect de la vertu d'humilité qui nous aide à servir les autres."
+      },
+      "COL-SAN": {
+        "name": "LE MANAGER CHALEUREUX",
+        "label": "colérique-sanguin",
+        "challenge": "Humilité fondamentale",
+        "fortaleza": "En tant que colérique, vous avez soif d'action et de résultats. En tant que sanguin, vous êtes bons dans le relationnel : vous aimez les gens et voulez les rendre heureux. Votre tempérament dominant (colérique) vous aide à passer à l'action. Votre tempérament secondaire (sanguin) fait de vous une personne amicale et chaleureuse.",
+        "debilidad": "En tant que colérique, vous êtes enclin à l'activisme aveugle. En tant que sanguin, vous avez tendance à connaître les autres mieux que vous-même. Vous consacrez plus de temps à vos activités qu'à votre croissance personnelle.",
+        "reto": "Vous aimez agir, mais vous ne vous connaissez pas suffisamment. Vous devez consacrer du temps à l'examen de conscience. Votre défi est l'humilité fondamentale qui est l'aspect de la vertu d'humilité lié à la connaissance de soi."
+      },
+      "MEL": {
+        "name": "LE CONTEMPLATIF",
+        "label": "mélancolique",
+        "challenge": "Audace",
+        "fortaleza": "Vous êtes enclin à la contemplation. Vous êtes un artiste, un esprit original et créatif. Vous êtes porté vers la perfection. La perfection est la toile de fond de votre existence. Vous êtes un grand rêveur.",
+        "debilidad": "Vous craignez l'action dans laquelle l'imperfection due aux limitations de la nature humaine se manifeste irrémédiablement. Vous craignez l'inconnu et n'aimez pas prendre de risques.",
+        "reto": "Vous êtes un rêveur, mais l'action vous coûte. Votre vertu défi est l'audace qui est l'aspect actif de la vertu du courage."
+      },
+      "MEL-COL": {
+        "name": "LE CONTEMPLATIF ACTIF",
+        "label": "mélancolique-colérique",
+        "challenge": "Humilité fraternelle",
+        "fortaleza": "En tant que mélancolique, vous avez une sensibilité profonde et un grand esprit créatif. En tant que colérique, vous avez soif d'action et de résultats. Votre tempérament dominant (mélancolique) vous aide à rêver en grand. Votre tempérament secondaire (colérique) vous aide à réaliser votre rêve et à le transformer en mission.",
+        "debilidad": "En tant que mélancolique, vous êtes enclin à l'auto-absorption et à oublier les autres. En tant que colérique, vous avez tendance à utiliser les autres au lieu de les servir.",
+        "reto": "Vous êtes un contemplatif actif, mais vous négligez le relationnel. Votre défi est l'humilité fraternelle qui est l'aspect de la vertu d'humilité qui nous aide à servir les autres."
+      },
+      "MEL-FLE": {
+        "name": "LE CONTEMPLATIF PRAGMATIQUE",
+        "label": "mélancolique-flegmatique",
+        "challenge": "Audace",
+        "fortaleza": "En tant que mélancolique, vous avez une sensibilité profonde et un grand esprit créatif. En tant que flegmatique, vous êtes rationnel et pragmatique. Votre tempérament dominant (mélancolique) vous aide à rêver en grand. Votre tempérament secondaire (flegmatique) vous permet d'être concret, réaliste et pragmatique.",
+        "debilidad": "En tant que mélancolique, vous craignez l'action dans laquelle l'imperfection due aux limitations de la nature humaine se manifeste irrémédiablement. En tant que flegmatique, vous avez peur de faire des erreurs.",
+        "reto": "Vous êtes un rêveur pragmatique, mais vous êtes lent à agir. Votre défi est l'audace qui est l'aspect actif de la vertu de courage."
+      },
+      "SAN": {
+        "name": "LE COMMUNICATEUR",
+        "label": "sanguin",
+        "challenge": "Endurance (persistance)",
+        "fortaleza": "Vous êtes un être profondément relationnel, vous êtes naturellement communicatif, souriant, amical, chaleureux et affectueux. Vous aimez rire, plaisanter, vous amuser. Tout votre être respire la joie de vivre. Vous êtes un grand communicateur.",
+        "debilidad": "Parce que vous vivez exclusivement dans le présent, les vertus liées au temps – l'endurance, la persistance, la patience et la fidélité – sont des vertus que vous pratiquez difficilement. Vous commencez, mais ne terminez pas. Vous avez constamment besoin de fixer votre attention sur quelque chose de nouveau, de curieux et d'amusant. Vous avez tendance à manquer de constance.",
+        "reto": "Votre vertu défi est l'endurance (la persistance) qui est l'aspect passif de la vertu du courage."
+      },
+      "SAN-COL": {
+        "name": "LE COMMUNICATEUR FOCALISÉ",
+        "label": "sanguin-colérique",
+        "challenge": "Humilité fondamentale",
+        "fortaleza": "En tant que sanguin, vous êtes un être profondément relationnel, vous aimez les gens et voulez les rendre heureux. En tant que colérique, vous avez soif d'action et de résultats. Votre tempérament dominant (sanguin) vous aide dans le relationnel. Votre tempérament secondaire (colérique) vous aide à vous focaliser sur des tâches concrètes et à les terminer.",
+        "debilidad": "En tant que sanguin, vous avez tendance à connaître les autres mieux que vous-même. En tant que colérique, vous êtes enclin à l'activisme aveugle.",
+        "reto": "Vous êtes un communicateur focalisé, mais vous ne vous connaissez pas bien. Vous devez consacrer du temps à l'examen de conscience. Votre défi est l'humilité fondamentale, qui est l'aspect de la vertu d'humilité lié à la connaissance de soi."
+      },
+      "SAN-FLE": {
+        "name": "LE COMMUNICATEUR DISCRET",
+        "label": "sanguin-flegmatique",
+        "challenge": "Magnanimité",
+        "fortaleza": "En tant que sanguin, vous êtes un être profondément relationnel, vous aimez les gens et voulez les rendre heureux. En tant que flegmatique, vous êtes dépassionné, rationnel et pragmatique. Votre tempérament dominant (sanguin) vous aide dans le relationnel. Votre tempérament secondaire (flegmatique) donne de la consistance à votre existence.",
+        "debilidad": "En tant que sanguin, vous avez tendance à vivre exclusivement dans le présent. En tant que flegmatique, vous avez peur de rêver.",
+        "reto": "Vous êtes un communicateur discret, mais vous avez du mal à rêver de grande choses. Votre défi est la vertu de magnanimité qui est la vertu de la grandeur."
+      },
+      "FLE": {
+        "name": "LE MÉDIATEUR",
+        "label": "flegmatique",
+        "challenge": "Magnanimité",
+        "fortaleza": "Vous êtes dépassionné et serein. Vous êtes rationnel. Votre approche de la réalité est scientifique. Vous êtes pragmatique, réaliste, précis. Vous avez les pieds sur terre. Vous avez soif de paix. Vous êtes un très bon médiateur.",
+        "debilidad": "Vous avez tendance à nager dans le sens du courant. Vous avez besoin de sécurité.",
+        "reto": "Vous aimez la paix, mais vous ne savez pas rêver. Votre défi est la vertu de magnanimité qui est la vertu des rêveurs qui transforment leur rêve en mission."
+      },
+      "FLE-MEL": {
+        "name": "LE MÉDIATEUR CONTEMPLATIF",
+        "label": "flegmatique-mélancolique",
+        "challenge": "Audace",
+        "fortaleza": "En tant que flegmatique, vous êtes dépassionné, rationnel et pragmatique. En tant que mélancolique, vous avez une sensibilité profonde et un grand esprit créatif. Votre tempérament dominant (flegmatique) vous aide à être concret, réaliste et précis. Votre tempérament secondaire (mélancolique) vous aide à rêver de grandes choses.",
+        "debilidad": "En tant que flegmatique, vous craignez l'action parce que vous avez peur de faire des erreurs. En tant que mélancolique, vous craignez l'action dans laquelle l'imperfection due aux limitations de la nature humaine se manifeste irrémédiablement.",
+        "reto": "Votre défi est l'audace qui est l'aspect actif de la vertu de courage."
+      },
+      "FLE-SAN": {
+        "name": "LE MÉDIATEUR CHALEUREUX",
+        "label": "flegmatique-sanguin",
+        "challenge": "Magnanimité",
+        "fortaleza": "En tant que flegmatique, vous êtes dépassionné, serein, rationnel et pragmatique. En tant que sanguin, vous êtes un être profondément relationnel, vous aimez les gens et voulez les rendre heureux. Votre tempérament dominant (flegmatique) donne de la cohérence à votre existence. Votre tempérament secondaire (sanguin) vous aide dans le relationnel.",
+        "debilidad": "En tant que flegmatique, vous avez peur de rêver. En tant que sanguin, vous avez tendance à vivre exclusivement dans le présent.",
+        "reto": "Votre défi est la vertu de magnanimité qui est la vertu de la grandeur."
+      }
+    }
+  }
+}

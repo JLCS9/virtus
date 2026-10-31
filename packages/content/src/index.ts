@@ -1,28 +1,147 @@
-import type { BaseChallenge, Locale, TestDefinition, Temperament, ValidationRules, WorkVirtue } from '@virtus/method';
+import type { BaseChallenge, CharacterTestData, HeartTestData, Locale, Temperament, TypeCode, ValidationRules, WorkVirtue } from '@virtus/method';
 
 import retosEs from './es/retos.json';
 import habitosEs from './es/habitos.json';
 import temperamentosEs from './es/temperamentos.json';
 import lexicoEs from './es/lexico.json';
-import fragmentosEs from './es/fragmentos.json';
-import testTemperamentoEs from './es/test-temperamento.json';
-import testCaracterEs from './es/test-caracter.json';
+import videosEs from './es/videos.json';
+import modelosEs from './es/modelos.json';
+import entornoEs from './es/entorno.json';
+import lecturasEs from './es/lecturas.json';
+import cursosEs from './es/cursos.json';
+import vlTemperamentoEs from './es/vl-temperamento.json';
+import vlCaracterEs from './es/vl-caracter.json';
+import vlCorazonEs from './es/vl-corazon.json';
 
+/** Uno de los cuatro temperamentos: arquetipo, valor y claves. */
 export interface TemperamentCopy {
   nombre: string;
-  rasgos: string;
+  arquetipo: string;
+  valor: string;
+  reactividad: string;
   fortalezas: string[];
-  riesgo: string;
-  desafio: string;
+  riesgos: string[];
+  comunicar: string;
+  desafio: WorkVirtue;
+  claveDesafio: string;
+  modelos: string[];
 }
 
-export interface Fragment {
+/** Uno de los 12 perfiles oficiales (virtuousleadership.com / Crecer con tu temperamento). */
+export interface TypeCopy {
+  name: string;
+  label: string;
+  challenge: string;
+  fortaleza: string;
+  debilidad: string;
+  reto: string;
+}
+
+type Likert5 = Record<'strongly_disagree' | 'disagree' | 'neutral' | 'agree' | 'strongly_agree', string>;
+
+export interface VlTemperamentTest {
   id: string;
-  author: string;
-  text: string;
+  version: string;
+  status: 'approved';
   source: string;
-  virtues: string[];
-  status: 'draft' | 'approved';
+  items: Record<string, string>;
+  ui: {
+    welcome: { intro: string; notice: string; byline: string; duration_label: string; duration_text: string; button: string };
+    question: { progress: string; yes: string; no: string; back: string };
+    transition: { eyebrow: string; title_template: string; title_template_suffix: string; text: string; button: string };
+  };
+  temperaments: Record<Temperament, { name: string; focus: string; archetype: string }>;
+  result: {
+    pureNote: string;
+    challengeLabel: string;
+    intensityLabel: string;
+    intensityMarked: string;
+    intensityLight: string;
+    virtues: Record<Temperament, { name: string; detail: string }>;
+    profiles: Record<TypeCode, TypeCopy>;
+  };
+}
+
+export interface VlCharacterTest extends CharacterTestData {
+  id: string;
+  version: string;
+  source: string;
+  ui: Likert5;
+  welcome: { intro_line1: string; intro_line2: string; duration_text: string; button: string };
+  questions: { code: string; text: string; weights: number[] }[];
+  labels: Record<string, string>;
+  texts: Record<string, string>;
+}
+
+export interface VlHeartTest extends HeartTestData {
+  id: string;
+  version: string;
+  source: string;
+  ui: Likert5;
+  welcome?: { duration_text: string; button: string };
+  questions: { code: string; disorder: string; text: string }[];
+  labels: Record<string, string>;
+  texts: Record<string, string>;
+  bookUrl: string;
+}
+
+export interface Video {
+  id: string;
+  youtubeId: string;
+  titulo: string;
+  canal: string;
+  temas: string[];
+  virtudes: string[];
+}
+
+/** Una lección de un curso en vídeo de Alex (Vimeo). duracion en segundos. */
+export interface Lesson {
+  id: string;
+  titulo: string;
+  vimeoId: string;
+  duracion: number;
+  miniatura: string | null;
+  virtudes: string[];
+  temperamentos: string[];
+}
+
+/** Curso en vídeo de Alex: la lección x.0 es la introducción. */
+export interface Course {
+  id: string;
+  numero: number;
+  titulo: string;
+  virtudes: string[];
+  temas: string[];
+  lecciones: Lesson[];
+}
+
+export interface Model {
+  id: string;
+  nombre: string;
+  años: string;
+  ambito: string;
+  lema: string;
+  resumen: string;
+  virtudes: string[];
+  temperamento: Temperament | null;
+}
+
+export interface Reading {
+  id: string;
+  titulo: string;
+  autor: string;
+  virtudes: string[];
+  intro: string;
+  tarjetas: { titulo: string; texto: string }[];
+  cierre: string;
+  fuente: string;
+}
+
+export interface Environment {
+  intro: string;
+  secciones: { id: 'libros' | 'musica' | 'peliculas' | 'pinturas'; titulo: string; items: string[] }[];
+  destacados: Record<string, string>;
+  fuente: string;
 }
 
 export interface ContentBundle {
@@ -30,21 +149,33 @@ export interface ContentBundle {
   challenges: BaseChallenge[];
   habits: Record<string, string[]>;
   temperaments: Record<Temperament, TemperamentCopy>;
+  types: Record<TypeCode, TypeCopy>;
   lexicon: ValidationRules;
-  fragments: Fragment[];
-  tests: { temperament: TestDefinition; character: TestDefinition };
+  videos: Video[];
+  models: Model[];
+  environment: Environment;
+  readings: Reading[];
+  courses: Course[];
+  /** Los tres tests oficiales de virtuousleadership.com. */
+  vlTests: { temperament: VlTemperamentTest; character: VlCharacterTest; heart: VlHeartTest };
 }
 
 const es: ContentBundle = {
   locale: 'es',
   challenges: retosEs as unknown as BaseChallenge[],
   habits: habitosEs,
-  temperaments: temperamentosEs as unknown as Record<Temperament, TemperamentCopy>,
+  temperaments: temperamentosEs.temperamentos as unknown as Record<Temperament, TemperamentCopy>,
+  types: vlTemperamentoEs.result.profiles as unknown as Record<TypeCode, TypeCopy>,
   lexicon: lexicoEs,
-  fragments: fragmentosEs as unknown as Fragment[],
-  tests: {
-    temperament: testTemperamentoEs as unknown as TestDefinition,
-    character: testCaracterEs as unknown as TestDefinition,
+  videos: videosEs,
+  models: modelosEs.modelos as unknown as Model[],
+  environment: entornoEs as unknown as Environment,
+  readings: lecturasEs,
+  courses: cursosEs as Course[],
+  vlTests: {
+    temperament: vlTemperamentoEs as unknown as VlTemperamentTest,
+    character: vlCaracterEs as unknown as VlCharacterTest,
+    heart: vlCorazonEs as unknown as VlHeartTest,
   },
 };
 
@@ -59,8 +190,48 @@ export function habitsFor(content: ContentBundle, virtue: WorkVirtue): string[] 
   return content.habits[virtue] ?? [];
 }
 
-/** Fragmento del día para una virtud, determinista por fecha. */
-export function fragmentFor(content: ContentBundle, virtue: WorkVirtue, dayIndex: number): Fragment {
-  const pool = content.fragments.filter((f) => f.virtues.length === 0 || f.virtues.includes(virtue));
-  return pool[dayIndex % pool.length];
+/** La virtud del ciclo encaja con una pieza etiquetada (audacia y resistencia cuentan como fortaleza). */
+function matches(tags: string[], virtue: WorkVirtue): boolean {
+  if (tags.includes(virtue)) return true;
+  return (virtue === 'audacia' || virtue === 'resistencia') && tags.includes('fortaleza');
+}
+
+/** Modelos para una virtud, primero los del mismo temperamento dominante. */
+export function modelsFor(content: ContentBundle, virtue: WorkVirtue, dominant?: Temperament | null): Model[] {
+  const pool = content.models.filter((m) => matches(m.virtudes, virtue));
+  const list = pool.length > 0 ? pool : content.models;
+  return [...list].sort((a, b) => Number(b.temperamento === dominant) - Number(a.temperamento === dominant));
+}
+
+/** Modelo del día: rota entre los de la virtud, de forma determinista. */
+export function modelOfDay(content: ContentBundle, virtue: WorkVirtue, dayIndex: number, dominant?: Temperament | null): Model {
+  const list = modelsFor(content, virtue, dominant);
+  return list[dayIndex % list.length];
+}
+
+export function videosFor(content: ContentBundle, virtue: WorkVirtue): Video[] {
+  const list = content.videos.filter((v) => matches(v.virtudes, virtue));
+  return list.length > 0 ? list : content.videos;
+}
+
+/** Cursos, primero los que trabajan la virtud del ciclo. */
+export function coursesFor(content: ContentBundle, virtue: WorkVirtue): Course[] {
+  return [...content.courses].sort((a, b) => Number(matches(b.virtudes, virtue)) - Number(matches(a.virtudes, virtue)));
+}
+
+export function courseMatches(course: Course, virtue: WorkVirtue): boolean {
+  return matches(course.virtudes, virtue);
+}
+
+/** Lección por id, con su curso y su posición. */
+export function findLesson(content: ContentBundle, id: string): { course: Course; lesson: Lesson; index: number } | null {
+  for (const course of content.courses) {
+    const index = course.lecciones.findIndex((l) => l.id === id);
+    if (index >= 0) return { course, lesson: course.lecciones[index], index };
+  }
+  return null;
+}
+
+export function typeCopy(content: ContentBundle, code: TypeCode): TypeCopy {
+  return content.types[code];
 }

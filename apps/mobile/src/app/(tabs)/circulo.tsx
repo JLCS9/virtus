@@ -6,6 +6,7 @@ import { ALL_TYPES, ROLES, parseType, type Role, type TypeCode } from '@virtus/m
 
 import { Body, BodyStrong, Button, Caption, Card, Chip, Field, H3, Row, Screen, Stack, Titular } from '@/components/ui';
 import { backendEnabled, invite } from '@/features/account';
+import { useContent } from '@/features/content';
 import { typeName } from '@/features/labels';
 import { useVirtus, type CollaboratorBox } from '@/store/virtus';
 import { space } from '@/theme';
@@ -15,6 +16,7 @@ const blank = (): CollaboratorBox => ({ id: `c-${Date.now()}`, alias: '', relati
 export default function Circulo() {
   const { t } = useTranslation();
   const s = useVirtus();
+  const content = useContent();
   const [draft, setDraft] = useState<CollaboratorBox | null>(null);
   const [note, setNote] = useState<string | null>(null);
   const userRoles = s.roles.length > 0 ? s.roles.map((r) => r.role) : [...ROLES];
@@ -38,7 +40,16 @@ export default function Circulo() {
             {c.relation ? `${c.relation} · ` : ''}
             {t(`roles.${c.role}`)}
           </Body>
-          {c.estimated ? <Caption>{typeName(t, parseType(c.estimated))} · {t('circulo.estimadoCorto')}</Caption> : null}
+          {c.estimated ? (
+            <>
+              <Caption>
+                {typeName(t, parseType(c.estimated))} · {c.confirmed ? t('circulo.confirmado') : t('circulo.estimadoCorto')}
+              </Caption>
+              <Body>
+                {t('circulo.comunicar')} {content.temperaments[parseType(c.estimated).dominant].comunicar}
+              </Body>
+            </>
+          ) : null}
           <Row>
             <Button variant="secondary" label={t('comun.editar')} onPress={() => setDraft(c)} />
             {backendEnabled() ? <Button variant="secondary" label={t('circulo.invitar')} onPress={() => doInvite(c)} /> : null}

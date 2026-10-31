@@ -17,6 +17,8 @@ export interface BaseChallenge {
   text: string;
   /** Variante con una persona concreta: contiene {persona}. */
   withPerson?: string;
+  /** Faceta de la virtud (p. ej. humildad fundamental o fraterna). */
+  faceta?: string;
   source: string;
   status: 'draft' | 'approved';
 }

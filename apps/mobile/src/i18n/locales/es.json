@@ -52,35 +52,59 @@
     "paso1": "Descubres tu temperamento: con qué naturaleza naciste.",
     "paso2": "Recibes tu virtud-desafío: la puerta por la que entran las demás.",
     "paso3": "Cada día, un reto por la mañana y un examen breve por la noche. Unos cinco minutos.",
-    "empezar": "Empezar"
+    "empezar": "Descubrir mi temperamento",
+    "s1": "El liderazgo no es un cargo: es un llamado abierto a todos. Virtus te acompaña cada día para formar tu carácter.",
+    "s2titulo": "Naces con un temperamento",
+    "s2": "Colérico, melancólico, sanguíneo o flemático. No lo eliges y no cambia. Tu carácter, en cambio, lo construyes tú.",
+    "s3titulo": "Cinco minutos al día",
+    "s3": "Un reto por la mañana, un examen breve por la noche y la virtud que más te cuesta, en el centro.",
+    "antropologiaCorta": "El método de Alexandre Havard parte de una antropología cristiana. Las prácticas espirituales añadidas son opcionales."
   },
   "test": {
     "eyebrow": "Test de temperamento",
     "pregunta": "Pregunta {{n}} de {{total}}",
     "ver": "Ver mi temperamento",
-    "anterior": "Anterior"
+    "anterior": "Anterior",
+    "titulo": "Descubre tu temperamento"
   },
   "revelacion": {
     "eyebrow": "Tu temperamento",
     "dominante": "Dominante",
     "secundario": "Secundario",
-    "puro": "Sin secundario relevante (por debajo del 10 %)",
+    "puro": "Perfil puro",
     "naturaleza": "Lo que es natural en ti",
     "fortalezas": "Tus puntos fuertes",
     "riesgo": "Lo que te costará",
-    "desafioEyebrow": "Tu virtud-desafío",
+    "desafioEyebrow": "Tu reto",
     "desafioIntro": "La virtud que siempre te costará y la puerta por la que entran las demás.",
-    "nota": "El temperamento no cambia y no es virtud ni vicio: es la materia prima. El carácter lo construyes tú, libremente, con las virtudes. Ni excusa ni culpa.",
+    "nota": "El temperamento no cambia y no es virtud ni vicio. El carácter lo construyes tú, libremente.",
     "empate": "Dos temperamentos pesan casi lo mismo en ti. Es frecuente; dentro de unas semanas te propondremos confirmar el resultado.",
     "inconsistente": "Tus respuestas mezclan temperamentos que no se combinan. Te propondremos repetir el test con calma dentro de unas semanas.",
-    "seguir": "Seguir: mi vida concreta"
+    "seguir": "Seguir: mi vida concreta",
+    "verMas": "Ver más sobre tu tipo",
+    "retoTipo": "El reto de tu tipo",
+    "reactividad": "Tu reacción natural es {{r}}.",
+    "modelo": "Alguien con tu temperamento",
+    "fuente": "Basado en «Crecer con tu temperamento», de Alexandre Havard.",
+    "intensidad": "Intensidad del secundario: {{i}}",
+    "fuenteOficial": "Test de temperamento oficial de Virtuous Leadership · «Crecer con tu temperamento», de Alexandre Havard."
   },
   "rolesPantalla": {
     "eyebrow": "Tu vida concreta",
     "titulo": "¿Dónde se juega tu carácter?",
-    "intro": "Elige tus roles. Los retos se repartirán entre ellos. Puedes cambiarlos cuando quieras.",
-    "detalle": "Una línea sobre este rol (opcional)",
-    "detallePlaceholder": "Ej.: dos hijos, de 8 y 12 años"
+    "intro": "Marca los roles que vives hoy. Los retos se repartirán entre ellos. Puedes cambiarlos cuando quieras.",
+    "detalle": "En una línea (opcional)",
+    "cualOtro": "¿Cuál? En una línea",
+    "ejemplos": {
+      "padre_madre": "Ej.: dos hijos, de 8 y 12 años",
+      "hijo_hermano": "Ej.: cuido de mi madre; tengo dos hermanas",
+      "conyuge": "Ej.: casado desde hace diez años",
+      "educador": "Ej.: tutor de 3.º de ESO",
+      "trabajo": "Ej.: dirijo un equipo de cinco personas",
+      "comunidad": "Ej.: voluntario en mi parroquia",
+      "otro": "Ej.: entrenador de un equipo de fútbol infantil"
+    },
+    "privacidad": "Lo que escribas aquí se guarda cifrado y solo sirve para adaptar tus retos."
   },
   "mision": {
     "eyebrow": "Tu misión",
@@ -119,7 +143,9 @@
     "espiritualNota": "Oración y lecturas espirituales opcionales. Los textos de Alex se muestran siempre íntegros.",
     "notificaciones": "Recordatorios",
     "terminar": "Empezar mi camino",
-    "horaInvalida": "Revisa las horas (formato 07:30) y marca al menos un día de práctica."
+    "horaInvalida": "Revisa las horas (formato 07:30) y marca al menos un día de práctica.",
+    "cicloSemanas": "Duración del ciclo",
+    "semanas": "{{n}} semanas"
   },
   "dias": [
     "D",
@@ -145,7 +171,18 @@
     "descanso": "Hoy es día de descanso en tu plan.",
     "habitos": "Hábitos de hoy",
     "abrir": "Abrir",
-    "ciclo": "Ciclo: {{virtud}}"
+    "ciclo": "Ciclo: {{virtud}}",
+    "cicloCierre": "Tu ciclo ha llegado a su fin",
+    "cicloCierreTexto": "Diez minutos para mirar lo vivido, medir tu carácter con la mirada de otros y elegir el siguiente ciclo.",
+    "confirmarTitulo": "Confirma tu temperamento",
+    "confirmarTexto": "La medición puede fallar. Ahora que te conoces algo más, repite el test con calma.",
+    "confirmar": "Repetir el test",
+    "retoDe": "Tu reto de hoy · {{virtud}}",
+    "aceptadoNoche": "Aceptado. Esta noche lo miras con calma.",
+    "nocheCorto": "Tres minutos para mirar el día",
+    "cicloCorto": "Tu ciclo",
+    "diaDe": "Día {{n}} de {{total}}",
+    "inspiracion": "Inspiración de hoy"
   },
   "ritual": {
     "eyebrow": "Mañana · {{virtud}}",
@@ -199,7 +236,7 @@
     "segunda": "segunda",
     "habitos": "Tus hábitos",
     "veces": "{{n}} de 7 días",
-    "lectura": "Lectura de la semana"
+    "lectura": "Para esta semana"
   },
   "camino": {
     "eyebrow": "Camino",
@@ -210,13 +247,26 @@
     "ciclo": "Ciclo actual",
     "cicloDias": "Día {{n}} del ciclo",
     "itinerario": "Itinerario de misión",
-    "cambiarCiclo": "Cambiar la virtud del ciclo"
+    "cambiarCiclo": "Cambiar la virtud del ciclo",
+    "cerrarCiclo": "Cerrar el ciclo"
   },
   "biblioteca": {
     "eyebrow": "Biblioteca",
-    "titulo": "Para tu temperamento y tu ciclo",
+    "titulo": "Aprende del método",
     "fragmentos": "Fragmentos",
-    "todos": "Todo"
+    "todos": "Todo",
+    "videos": "Conferencias de Alex",
+    "modelos": "Modelos de liderazgo virtuoso",
+    "entorno": "Entorno magnánimo",
+    "entornoTexto": "Libros, música, películas y pintura que Alex recomienda",
+    "lecturas": "Lecturas breves",
+    "verTodos": "Ver todos",
+    "videoNota": "Vídeo de YouTube en modo de privacidad mejorada.",
+    "virtudesVividas": "Virtudes que encarnó",
+    "temperamentoModelo": "Temperamento {{t}}, según Alex Havard.",
+    "fuenteModelos": "Fuente: Virtuous Leadership Models (resumen del equipo).",
+    "favoritaAlex": "su favorita",
+    "paraTi": "Para tu temperamento"
   },
   "circulo": {
     "eyebrow": "Círculo",
@@ -232,7 +282,9 @@
     "anadir": "Añadir colaborador",
     "sinCuenta": "Las invitaciones estarán disponibles cuando actives tu cuenta.",
     "estimadoCorto": "estimado, solo en este dispositivo",
-    "quitar": "Quitar del círculo"
+    "quitar": "Quitar del círculo",
+    "confirmado": "confirmado por su propio test",
+    "comunicar": "Cómo comunicarte:"
   },
   "yo": {
     "eyebrow": "Yo",
@@ -259,7 +311,15 @@
     "sinFecha": "—",
     "temperamentoNota": "Lo que es natural en ti: no cambia.",
     "caracterNota": "Lo que has conquistado: crece con las virtudes.",
-    "cuenta": "Cuenta y sincronización"
+    "cuenta": "Cuenta y sincronización",
+    "analitica": "Compartir datos de uso anónimos",
+    "analiticaNota": "Nos ayuda a mejorar Virtus. Nunca incluye tu diario, tu misión, tus roles ni tus resultados.",
+    "suscripcion": "Suscripción",
+    "corazon": "Mi corazón",
+    "corazonVacio": "Descubre qué le impide crecer a tu corazón.",
+    "corazonHacer": "Hacer el test Corazón libre",
+    "corazonEquilibrado": "Equilibrado",
+    "corazonTendencias": "{{n}} tendencias a trabajar"
   },
   "notif": {
     "mananaTitulo": "Tu reto de hoy",
@@ -269,7 +329,13 @@
   },
   "caracter": {
     "eyebrow": "Test de carácter",
-    "guardar": "Ver mi perfil"
+    "guardar": "Ver mi resultado",
+    "titulo": "¿Qué virtudes has construido?",
+    "resultado": "Tu carácter hoy",
+    "resultadoIntro": "Pulsa cada virtud para ver los consejos de Alex Havard.",
+    "verConsejos": "Ver consejos para crecer",
+    "humildadNota": "Responde pensando en las últimas semanas. Quien crece en humildad se conoce con más verdad y a veces se puntúa más bajo.",
+    "fuente": "Test de carácter oficial de Virtuous Leadership."
   },
   "cuenta": {
     "eyebrow": "Cuenta",
@@ -286,5 +352,121 @@
     "salir": "Cerrar sesión",
     "error": "No se ha podido completar. Inténtalo de nuevo.",
     "codigoMal": "El código no es correcto o ha caducado."
+  },
+  "invitado": {
+    "eyebrow": "Invitación · Virtus",
+    "tituloTest": "Descubre tu temperamento",
+    "tituloMirada": "Tu mirada sobre una persona de confianza",
+    "introTest": "Una persona de tu confianza te invita a descubrir tu temperamento con el test oficial de Virtuous Leadership. Responde con tu primera reacción. Al terminar, tu tipo se compartirá con quien te invitó.",
+    "introMirada": "Una persona que confía en ti trabaja su carácter y te pide tu mirada sincera. Piensa en cómo ha actuado en las últimas semanas. Tus respuestas le ayudan a conocerse con verdad.",
+    "consentimientoTest": "Acepto compartir mi tipo de temperamento con la persona que me invitó.",
+    "consentimientoMirada": "Acepto que mis respuestas se compartan, sin mi nombre, con la persona que me invitó.",
+    "privacidad": "No necesitas cuenta. No guardamos tu nombre ni tu email. Solo se comparte el resultado.",
+    "enviar": "Enviar",
+    "gracias": "Gracias",
+    "graciasTexto": "Tu respuesta se ha enviado. Crecer haciendo crecer a los demás también es esto.",
+    "noDisponible": "Invitación no disponible",
+    "noDisponibleTexto": "El enlace ha caducado, ya se usó o no es válido. Pide a quien te invitó un enlace nuevo.",
+    "instruccionMirada": "Piensa en la persona que te ha invitado. Para cada afirmación, ¿describe bien su forma de actuar en las últimas semanas?"
+  },
+  "ciclo": {
+    "eyebrow": "Cierre de ciclo · {{virtud}}",
+    "titulo": "Mira el camino recorrido",
+    "vivido": "Lo vivido",
+    "dias": "Días del ciclo",
+    "aceptados": "Retos aceptados",
+    "cumplidos": "Retos cumplidos",
+    "reacciones": "La segunda reacción prevaleció {{segunda}} veces; la primera, {{primera}}.",
+    "autoevaluacion": "Tu autoevaluación",
+    "autoHecha": "Ya has hecho tu autoevaluación en este ciclo.",
+    "autoPendiente": "Responde con verdad, pensando en las últimas semanas.",
+    "repetirAuto": "Repetirla",
+    "mirada": "La mirada de los otros",
+    "miradaTexto": "La autoevaluación sola mide mal lo que el método busca. Pide a al menos una persona de confianza que responda sobre ti.",
+    "pedirMirada": "Pedir su mirada",
+    "comprobar": "Comprobar respuestas",
+    "invitacionCreada": "Enlace creado. Cuando responda, pulsa «Comprobar respuestas».",
+    "miradasNuevas": "Se han incorporado {{n}} respuestas.",
+    "sinMiradas": "Todavía no ha respondido nadie.",
+    "evolucion": "Tu carácter",
+    "respectoAnterior": "Respecto al ciclo anterior",
+    "humildadNota": "Puntuarte más bajo puede ser señal de que te conoces con más verdad.",
+    "siguiente": "Tu siguiente ciclo",
+    "siguienteNota": "Por defecto, tu virtud-desafío: la que siempre te costará.",
+    "cerrar": "Empezar ciclo de {{virtud}}"
+  },
+  "suscripcion": {
+    "eyebrow": "Suscripción",
+    "titulo": "Virtus completo",
+    "intro": "Virtus acompaña cada día la formación del carácter según el método de Alexandre Havard.",
+    "incluye": [
+      "Reto diario adaptado a tu vida concreta",
+      "Examen de noche y revisión semanal",
+      "Ciclos con test de carácter y la mirada de los otros",
+      "Biblioteca de fragmentos y lecciones"
+    ],
+    "noDisponible": "La suscripción está disponible en la app para iOS y Android.",
+    "suscribirme": "Suscribirme",
+    "restaurar": "Restaurar compras",
+    "activa": "Tu suscripción está activa.",
+    "noCompletada": "La compra no se ha completado.",
+    "sinCompras": "No hay compras que restaurar.",
+    "legal": "La suscripción se renueva automáticamente hasta que la canceles desde los ajustes de tu tienda."
+  },
+  "lectura": {
+    "empezar": "Empezar",
+    "siguiente": "Siguiente"
+  },
+  "corazon": {
+    "eyebrow": "Corazón libre",
+    "titulo": "¿Qué le impide crecer a tu corazón?",
+    "intro": "Si corazón, inteligencia y voluntad no están en armonía, el corazón pierde su libertad. Este test, basado en «Corazón libre» de Alexandre Havard, te ayuda a ver hacia qué tendencias te inclinas y cuál es su remedio.",
+    "queMide": "Lo que mide",
+    "resultado": "Tu corazón hoy",
+    "resultadoIntro": "No es un diagnóstico: son tendencias. Pulsa cada una para leer su descripción y su remedio.",
+    "ver": "Ver mi resultado",
+    "verRemedio": "Ver diagnóstico y remedio",
+    "enElLibro": "En el libro: {{nombre}}",
+    "libro": "Leer «Corazón libre»",
+    "ayuda": "Virtus no trata heridas ni traumas. Si estás pasando por un momento difícil, busca la ayuda de un profesional o de alguien de confianza.",
+    "stage": {
+      "none": "Sin inclinación",
+      "stage1": "Inclinación ligera",
+      "stage2": "Inclinación fuerte"
+    },
+    "tendencias": {
+      "R": "Vivir solo desde la cabeza",
+      "VR": "Silenciar el corazón por deber",
+      "VM": "Endurecerse para no sentir",
+      "VI": "Dejar que las ideas aplasten la realidad",
+      "VC": "Vivir según lo que se lleva",
+      "SV": "Buscar la emoción por sí misma",
+      "SI": "Dejarse guiar solo por el sentimiento",
+      "SC": "Huir del conflicto en nombre del corazón"
+    }
+  },
+  "cursos": {
+    "eyebrow": "Cursos de Alex",
+    "curso": "Curso {{n}}",
+    "paraTuCiclo": "Para tu ciclo",
+    "lecciones_one": "{{count}} lección",
+    "lecciones_other": "{{count}} lecciones",
+    "minutos": "{{m}} min",
+    "horas": "{{h}} h {{m}} min",
+    "vistas": "{{done}} de {{total}} vistas",
+    "completado": "Curso completado",
+    "empezar": "Empezar el curso",
+    "continuar": "Continuar · {{n}}",
+    "verDeNuevo": "Volver a verlo",
+    "continua": "Continúa donde lo dejaste",
+    "siguienteEtiqueta": "Siguiente",
+    "tuTemperamento": "Tu temperamento",
+    "leccionDe": "Lección {{n}} de {{total}}",
+    "siguiente": "Siguiente lección",
+    "aContinuacion": "A continuación",
+    "volverCurso": "Volver al curso",
+    "vista": "Vista",
+    "marcarVista": "Marcar como vista",
+    "finCurso": "Has llegado al final del curso. Lo que has visto cobra vida en el reto de cada día."
   }
 }

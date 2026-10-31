@@ -7,6 +7,7 @@ import { useTranslation } from 'react-i18next';
 import { examTone, type ExamEntry, type Role } from '@virtus/method';
 
 import { Body, BodyStrong, Button, Caption, Chip, Eyebrow, Field, Filete, H1, Row, Screen, Stack } from '@/components/ui';
+import { track } from '@/features/analytics';
 import { useToday } from '@/features/today';
 import { useVirtus } from '@/store/virtus';
 import { space } from '@/theme';
@@ -37,6 +38,7 @@ export default function ExamenNoche() {
 
   const close = () => {
     s.saveExam(today.key, { ...e, completedAt: new Date().toISOString() });
+    track('exam_completed', { format: e.format });
     setClosed(true);
   };
 
