@@ -8,4 +8,5 @@ export * from './cycle';
 export * from './tbp';
 export * from './character';
 export * from './heart';
-export * as retos from './retos/index.ts';
+// El módulo de retos (biblioteca, motor, prompts, orquestador) NO se exporta aquí: es solo del servidor
+// (Edge Functions y tests lo importan por ruta) y no debe viajar dentro de la app.

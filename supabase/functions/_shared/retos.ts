@@ -10,6 +10,7 @@ import { modeloBedrock } from './bedrock.ts';
 import { db, pseudoId } from './db.ts';
 import { json, userContext } from './http.ts';
 import { seudonimizadorPara } from './seudonimizar.ts';
+import { sinSuscripcion, suscripcionRetosActiva } from './suscripcion.ts';
 
 /**
  * PROVISIONAL: debe sustituirlo el texto redactado y revisado por un profesional (brief 01).
@@ -51,19 +52,21 @@ export interface ContextoRetos {
 
 /**
  * Autentica y prepara el contexto. Devuelve una Response si hay que cortar (401/403).
- * Web: solo cuentas con feature_access 'retos_web' (puerta suave: oculta una función sin terminar).
+ * ACCESO: solo con suscripción activa a Retos, igual para la web y la app. Es lo primero que se
+ * comprueba: sin ella no se crea nada (ni el pseudónimo) ni se llama a ningún modelo.
  */
 export async function contextoRetos(req: Request): Promise<ContextoRetos | Response> {
   const ctx = await userContext(req);
   if (!ctx) return json({ error: 'unauthorized' }, 401);
   const userId = ctx.user.id;
+  if (!(await suscripcionRetosActiva(userId))) return sinSuscripcion();
   const sql = db();
 
-  // feature_access solo lo escribe el service role: la marca depende del usuario del JWT, no del cliente.
+  // feature_access ya no da acceso: solo elige el proveedor del modelo. Lo escribe solo el servicio,
+  // y la marca depende del usuario del JWT, no de lo que mande el cliente.
   const features = new Set(
     (await sql`select feature from public.feature_access where user_id = ${userId}`).map((f) => f.feature as string),
   );
-  if (req.headers.get('x-virtus-cliente') === 'web' && !features.has('retos_web')) return json({ error: 'forbidden' }, 403);
 
   const [perfilCuenta] = await sql`select country from public.profiles where id = ${userId}`;
   const pseudo = await pseudoId(userId);

@@ -1,7 +1,7 @@
 import { describe, expect, it } from 'vitest';
 import biblioteca from '../../content/src/es/retos-havard.json';
 import md from '../../content/vendor/havard/02_Prompts_sistema.md?raw';
-import { retos as R } from '../src';
+import * as R from '../src/retos/index.ts';
 
 type Reto = R.Reto;
 const RETOS = biblioteca.retos as unknown as Reto[];

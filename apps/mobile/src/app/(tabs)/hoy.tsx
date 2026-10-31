@@ -1,4 +1,4 @@
-import { useEffect } from 'react';
+import { useEffect, useState } from 'react';
 import { Pressable, Text, View } from 'react-native';
 import { router } from 'expo-router';
 import { SymbolView } from 'expo-symbols';
@@ -13,7 +13,6 @@ import { ProgressRing } from '@/components/ProgressRing';
 import { VideoCard } from '@/components/VideoCard';
 import { Carousel } from '@/components/Carousel';
 import { pullInvitationResults } from '@/features/invitations';
-import { supabase } from '@/lib/supabase';
 import { useToday } from '@/features/today';
 import { useVirtus } from '@/store/virtus';
 import { color, radius, space, type } from '@/theme';
@@ -81,6 +80,7 @@ export default function Hoy() {
   const { t, i18n } = useTranslation();
   const s = useVirtus();
   const today = useToday();
+  const [noMore, setNoMore] = useState(false);
   const now = new Date();
   const date = now.toLocaleDateString(i18n.language, { weekday: 'long', day: 'numeric', month: 'long' });
   const challenge = today.record?.challenge;
@@ -113,14 +113,18 @@ export default function Hoy() {
         <Eyebrow>{t('hoy.retoDe', { virtud: t(`virtudes.${today.virtue}`) })}</Eyebrow>
         {!today.practiceDay ? <Body>{t('hoy.descanso')}</Body> : null}
         <H2>{challenge?.text ?? '…'}</H2>
-        {challenge?.why ? <Caption>{challenge.why}</Caption> : null}
+        {challenge?.why ? <Caption>{challenge.why}</Caption> : challenge?.role ? <Caption>{t(`roles.${challenge.role}`)}</Caption> : null}
         {accepted ? (
           <View style={{ flexDirection: 'row', alignItems: 'center', gap: space.s }}>
             <Check done onDark />
             <Body>{t('hoy.aceptadoNoche')}</Body>
           </View>
         ) : (
-          <Button label={t('ritual.aceptar')} disabled={!challenge} onPress={today.accept} />
+          <View style={{ gap: space.xs }}>
+            <Button label={t('ritual.aceptar')} disabled={!challenge} onPress={today.accept} />
+            {today.reroll ? <Button variant="ghost" label={t('ritual.otro')} onPress={() => setNoMore(!today.reroll!())} /> : null}
+            {noMore ? <Caption>{t('ritual.sinRetos')}</Caption> : null}
+          </View>
         )}
       </Hero>
 
@@ -129,11 +133,6 @@ export default function Hoy() {
           <BodyStrong>{t('retos.configurarTitulo')}</BodyStrong>
           <Caption>{t('retos.configurarTexto')}</Caption>
           <Button label={t('retos.configurar')} onPress={() => router.push('/retos/onboarding' as never)} />
-        </Card>
-      ) : today.estado === 'sin_sesion' && supabase ? (
-        <Card>
-          <Caption>{t('retos.cuentaTexto')}</Caption>
-          <Button variant="secondary" label={t('retos.cuenta')} onPress={() => router.push('/cuenta')} />
         </Card>
       ) : null}
 

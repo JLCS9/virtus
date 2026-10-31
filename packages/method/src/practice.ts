@@ -37,7 +37,9 @@ export interface DayRecord {
     rerolls: number;
     /** Retos Havard: línea de porqué y si lo redactó el servidor o es el respaldo local. */
     why?: string;
-    source?: 'servidor' | 'local';
+    /** Clave de nivel (8) de la virtud del reto, tal como la manda el servidor. */
+    virtudClave?: string;
+    source?: 'servidor';
   };
   exam?: ExamEntry;
   habitsDone: string[];

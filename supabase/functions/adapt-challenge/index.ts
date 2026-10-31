@@ -6,6 +6,7 @@
  */
 import { completarTexto, MODELO_COACH, RespuestaRechazada } from '../_shared/bedrock.ts';
 import { cors, json, userContext } from '../_shared/http.ts';
+import { sinSuscripcion, suscripcionRetosActiva } from '../_shared/suscripcion.ts';
 
 const TEMPERAMENT = { COL: 'colérico', MEL: 'melancólico', SAN: 'sanguíneo', FLE: 'flemático' } as const;
 type T = keyof typeof TEMPERAMENT;
@@ -37,6 +38,8 @@ Deno.serve(async (req) => {
   if (req.method === 'OPTIONS') return new Response('ok', { headers: cors });
   const ctx = await userContext(req);
   if (!ctx) return json({ error: 'unauthorized' }, 401);
+  // Usa los mismos modelos que los retos: solo con suscripción activa (la app ya cae al reto base).
+  if (!(await suscripcionRetosActiva(ctx.user.id))) return sinSuscripcion();
 
   let body: Body;
   try {

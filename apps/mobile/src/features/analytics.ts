@@ -10,7 +10,8 @@ import { useVirtus } from '@/store/virtus';
 type Events = {
   onboarding_completed: { roles: number; habits: number };
   test_completed: { kind: 'temperament' | 'character'; repeat: boolean };
-  challenge_accepted: { source: 'servidor' | 'local' };
+  challenge_accepted: { rerolls: number; adapted: boolean; source?: 'servidor' };
+  challenge_rerolled: Record<string, never>;
   exam_completed: { format: 'breve' | 'completo' | 'guiado'; prisa?: boolean };
   weekly_opened: Record<string, never>;
   cycle_closed: { with_external_view: boolean; next_is_challenge: boolean };

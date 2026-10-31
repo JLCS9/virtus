@@ -17,6 +17,15 @@ import { space } from '@/theme';
 /** Examen guiado (servidor) si hay cuenta y perfil de retos; si no, el formulario local. */
 export default function ExamenNoche() {
   const today = useToday();
+  // Con suscripción se espera a saber si el servidor responde, para no enseñar un formulario y cambiarlo después.
+  if (today.retos && today.estado === null) {
+    return (
+      <Screen variant="noche" scroll={false} contentStyle={{ justifyContent: 'center' }}>
+        <StatusBar style="light" />
+        <Caption>…</Caption>
+      </Screen>
+    );
+  }
   return today.estado === 'servidor' ? <ExamenGuiado /> : <ExamenLocal />;
 }
 
