@@ -5,6 +5,7 @@
 import type { Dependencias } from '../../../packages/method/src/retos/index.ts';
 
 import { almacenPara } from './almacen.ts';
+import { modeloAnthropicDirecto } from './anthropic-temporal.ts';
 import { modeloBedrock } from './bedrock.ts';
 import { db, pseudoId } from './db.ts';
 import { json, userContext } from './http.ts';
@@ -58,17 +59,19 @@ export async function contextoRetos(req: Request): Promise<ContextoRetos | Respo
   const userId = ctx.user.id;
   const sql = db();
 
-  if (req.headers.get('x-virtus-cliente') === 'web') {
-    const [acceso] = await sql`select 1 from public.feature_access where user_id = ${userId} and feature = 'retos_web'`;
-    if (!acceso) return json({ error: 'forbidden' }, 403);
-  }
+  // feature_access solo lo escribe el service role: la marca depende del usuario del JWT, no del cliente.
+  const features = new Set(
+    (await sql`select feature from public.feature_access where user_id = ${userId}`).map((f) => f.feature as string),
+  );
+  if (req.headers.get('x-virtus-cliente') === 'web' && !features.has('retos_web')) return json({ error: 'forbidden' }, 403);
 
   const [perfilCuenta] = await sql`select country from public.profiles where id = ${userId}`;
   const pseudo = await pseudoId(userId);
   return {
     userId,
     deps: {
-      modelo: modeloBedrock,
+      // TEMPORAL: API de Anthropic solo para cuentas marcadas, mientras AWS activa Bedrock.
+      modelo: features.has('retos_anthropic_directo') ? modeloAnthropicDirecto : modeloBedrock,
       almacen: almacenPara(pseudo),
       seudo: await seudonimizadorPara(userId),
       mensajeCrisis: mensajeCrisis(perfilCuenta?.country ?? 'ES'),
