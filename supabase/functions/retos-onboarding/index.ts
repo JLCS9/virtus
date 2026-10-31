@@ -6,8 +6,7 @@
 import { turnoOnboarding } from '../../../packages/method/src/retos/index.ts';
 
 import { cors, json } from '../_shared/http.ts';
-import { contextoRetos, fechaValida, temperamentoDelTest } from '../_shared/retos.ts';
-import { SeudonimizadorNoDisponible } from '../_shared/seudonimizar.ts';
+import { contextoRetos, fechaValida, temperamentoDelTest, respuestaError } from '../_shared/retos.ts';
 
 Deno.serve(async (req) => {
   if (req.method === 'OPTIONS') return new Response('ok', { headers: cors });
@@ -21,8 +20,7 @@ Deno.serve(async (req) => {
     const temperamento = await temperamentoDelTest(ctx.userId);
     return json(await turnoOnboarding(ctx.deps, fecha, texto, temperamento));
   } catch (e) {
-    if (e instanceof SeudonimizadorNoDisponible) return json({ error: 'seudonimizador' }, 503);
     console.error('retos-onboarding:', (e as Error).message);
-    return json({ error: 'internal' }, 500);
+    return respuestaError(e, ctx.probador);
   }
 });

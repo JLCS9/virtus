@@ -20,7 +20,7 @@ export const MODELO_CLASIFICADOR = Deno.env.get('BEDROCK_MODEL_CLASIFICADOR') ??
 let cliente: Anthropic | null = null;
 function bedrock(): Anthropic {
   const token = Deno.env.get('AWS_BEARER_TOKEN_BEDROCK');
-  if (!token) throw new Error('AWS_BEARER_TOKEN_BEDROCK no está configurado');
+  if (!token) throw new ModeloNoDisponible('AWS_BEARER_TOKEN_BEDROCK no está configurado');
   cliente ??= new Anthropic({
     apiKey: token,
     baseURL: `https://bedrock-mantle.${REGION}.api.aws/anthropic`,
@@ -32,6 +32,9 @@ function bedrock(): Anthropic {
 
 export class RespuestaRechazada extends Error {}
 
+/** El modelo no está disponible o no ha dado una respuesta utilizable: se responde 503, no 500. */
+export class ModeloNoDisponible extends Error {}
+
 /** Llamada simple: texto de la respuesta, o error si el modelo rechaza o se corta. */
 export async function completarTexto(p: {
   modelo: string;
@@ -39,22 +42,28 @@ export async function completarTexto(p: {
   mensajes: { role: 'user' | 'assistant'; content: string }[];
   maxTokens: number;
 }): Promise<string> {
-  const msg = await bedrock().messages.create({
-    model: p.modelo,
-    max_tokens: p.maxTokens,
-    ...(p.sistema ? { system: p.sistema } : {}),
-    messages: p.mensajes,
-    // Turnos breves y extracciones: esfuerzo bajo (en Opus 5.5 el razonamiento no se desactiva).
-    output_config: { effort: 'low' },
-  } as Anthropic.MessageCreateParamsNonStreaming);
+  let msg: Anthropic.Message;
+  try {
+    msg = await bedrock().messages.create({
+      model: p.modelo,
+      max_tokens: p.maxTokens,
+      ...(p.sistema ? { system: p.sistema } : {}),
+      messages: p.mensajes,
+      // Turnos breves y extracciones: esfuerzo bajo (en Opus 5.5 el razonamiento no se desactiva).
+      output_config: { effort: 'low' },
+    } as Anthropic.MessageCreateParamsNonStreaming);
+  } catch (e) {
+    if (e instanceof ModeloNoDisponible) throw e;
+    throw new ModeloNoDisponible(`bedrock: ${(e as Error).message}`);
+  }
   if (msg.stop_reason === 'refusal') throw new RespuestaRechazada('refusal');
-  if (msg.stop_reason === 'max_tokens') throw new Error('respuesta cortada por max_tokens');
+  if (msg.stop_reason === 'max_tokens') throw new ModeloNoDisponible('respuesta cortada por max_tokens');
   const texto = msg.content
     .filter((b): b is Anthropic.TextBlock => b.type === 'text')
     .map((b) => b.text)
     .join('')
     .trim();
-  if (!texto) throw new Error('respuesta vacía');
+  if (!texto) throw new ModeloNoDisponible('respuesta vacía');
   return texto;
 }
 

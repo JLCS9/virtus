@@ -6,8 +6,7 @@
 import { retoDelDia } from '../../../packages/method/src/retos/index.ts';
 
 import { cors, json } from '../_shared/http.ts';
-import { contextoRetos, fechaValida } from '../_shared/retos.ts';
-import { SeudonimizadorNoDisponible } from '../_shared/seudonimizar.ts';
+import { contextoRetos, fechaValida, respuestaError } from '../_shared/retos.ts';
 
 Deno.serve(async (req) => {
   if (req.method === 'OPTIONS') return new Response('ok', { headers: cors });
@@ -21,8 +20,7 @@ Deno.serve(async (req) => {
     const reto = await retoDelDia(ctx.deps, fecha);
     return json({ perfil: true, reto });
   } catch (e) {
-    if (e instanceof SeudonimizadorNoDisponible) return json({ error: 'seudonimizador' }, 503);
     console.error('retos-manana:', (e as Error).message);
-    return json({ error: 'internal' }, 500);
+    return respuestaError(e, ctx.probador);
   }
 });
