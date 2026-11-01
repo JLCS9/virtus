@@ -39,7 +39,8 @@
     "camino": "Camino",
     "biblioteca": "Biblioteca",
     "circulo": "Círculo",
-    "yo": "Yo"
+    "yo": "Yo",
+    "formacion": "Formación"
   },
   "bienvenida": {
     "eyebrow": "Liderazgo Virtuoso®",
@@ -497,5 +498,29 @@
       "aceptar": "Así está bien",
       "parar": "Lo dejamos aquí"
     }
+  },
+  "caminoRetos": {
+    "titulo": "Un paso cada día",
+    "asistente": "Tu asistente",
+    "conversaNoche": "Conversa cada noche",
+    "conoceAsistente": "Conoce a tu asistente",
+    "textoNoche": "Cinco minutos para mirar el día y preparar el reto de mañana. Respondes con tus palabras, sin prisa.",
+    "textoOnboarding": "Una conversación breve, una sola vez, para conocer tu semana. Con ella tu reto de cada día se ajusta a tu vida.",
+    "hacerNoche": "Hacer el examen de la noche",
+    "empezar": "Empezar",
+    "siguienteLeccion": "Siguiente lección",
+    "virtudes": "Tus virtudes",
+    "mapa": "Tu mapa de carácter",
+    "resumen": "Tu virtud más presente es {{mayor}} ({{pMayor}} %). La que más puedes cultivar ahora es {{menor}} ({{pMenor}} %).",
+    "sinTestTitulo": "Descubre qué virtudes has construido",
+    "sinTestTexto": "El test de carácter mide las seis virtudes y dibuja aquí tu punto de partida.",
+    "hacerTest": "Hacer el test de carácter"
+  },
+  "formacion": {
+    "eyebrow": "Formación",
+    "titulo": "Virtuous Leadership",
+    "progreso": "Tu progreso",
+    "leccionesDe": "{{done}} de {{total}} lecciones",
+    "tiempoVisto": "{{tiempo}} vistas"
   }
 }

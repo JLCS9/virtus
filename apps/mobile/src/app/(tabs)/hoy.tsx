@@ -98,7 +98,10 @@ export default function Hoy() {
     <Screen>
       <View style={{ flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center' }}>
         <Wordmark height={24} />
-        <Caption>{date}</Caption>
+        <Pressable accessibilityRole="button" accessibilityLabel={t('tabs.yo')} onPress={() => router.push('/yo' as never)} hitSlop={12} style={{ flexDirection: 'row', alignItems: 'center', gap: space.s }}>
+          <Caption>{date}</Caption>
+          <SymbolView name={{ ios: 'person.crop.circle', android: 'account_circle', web: 'account_circle' }} size={24} tintColor={color.azulProfundo} />
+        </Pressable>
       </View>
 
       {s.mission ? (
