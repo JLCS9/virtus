@@ -522,5 +522,13 @@
     "progreso": "Tu progreso",
     "leccionesDe": "{{done}} de {{total}} lecciones",
     "tiempoVisto": "{{tiempo}} vistas"
+  },
+  "resultado": {
+    "eyebrow": "Tu resultado",
+    "sinTest": "Aún no tienes un resultado del test de temperamento.",
+    "hacerTest": "Hacer el test",
+    "virtudDesafio": "Tu virtud-desafío",
+    "fortaleza": "Tu fortaleza",
+    "debilidad": "Tu punto débil"
   }
 }

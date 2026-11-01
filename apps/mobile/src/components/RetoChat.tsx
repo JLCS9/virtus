@@ -80,6 +80,9 @@ export function EntradaChat({
         placeholder={t('retos.escribe')}
         placeholderTextColor={color.piedra}
         multiline
+        submitBehavior="submit"
+        returnKeyType="send"
+        onSubmitEditing={enviar}
         maxLength={2000}
         accessibilityLabel={t('retos.escribe')}
         style={[

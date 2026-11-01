@@ -5,6 +5,7 @@ import { Tabs } from 'expo-router/js-tabs';
 import { SymbolView } from 'expo-symbols';
 import { useTranslation } from 'react-i18next';
 
+import { activarSincronizacionFormacion } from '@/features/formacionSync';
 import { refrescarSuscripcionRetos } from '@/features/retos';
 import { useVirtus } from '@/store/virtus';
 import { color, fontFamily } from '@/theme';
@@ -21,7 +22,9 @@ export default function TabsLayout() {
   const onboarded = useVirtus((s) => s.onboardedAt);
   const retos = useVirtus((s) => s.retosSuscripcion === 'activa');
   useEffect(() => {
-    if (onboarded) void refrescarSuscripcionRetos();
+    if (!onboarded) return;
+    void refrescarSuscripcionRetos();
+    activarSincronizacionFormacion();
   }, [onboarded]);
   if (!onboarded) return <Redirect href="/bienvenida" />;
 

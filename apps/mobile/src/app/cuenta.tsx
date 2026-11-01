@@ -6,6 +6,7 @@ import { Body, Button, Caption, Field, Screen, Stack, Titular } from '@/componen
 import { goBackOrHome } from '@/features/nav';
 import { pullInvitationResults } from '@/features/invitations';
 import { linkPurchasesUser } from '@/features/subscription';
+import { activarSincronizacionFormacion, sincronizarFormacion } from '@/features/formacionSync';
 import { refrescarSuscripcionRetos } from '@/features/retos';
 import { pushAll } from '@/features/sync';
 import { supabase } from '@/lib/supabase';
@@ -52,6 +53,8 @@ export default function Cuenta() {
     await linkPurchasesUser(userId);
     await pullInvitationResults();
     await refrescarSuscripcionRetos();
+    activarSincronizacionFormacion();
+    await sincronizarFormacion();
     const nueva = !useVirtus.getState().onboardedAt;
     if (nueva) useVirtus.getState().completeOnboarding();
     setStep('in');

@@ -8,6 +8,7 @@ import { cycleDay, isCycleDue, shouldConfirmTemperament } from '@virtus/method';
 
 import { Body, BodyStrong, Button, Caption, Card, Eyebrow, H2, Screen, Stack, Wordmark } from '@/components/ui';
 import { Hero } from '@/components/Hero';
+import { MiResultado } from '@/components/MiResultado';
 import { ModelCard } from '@/components/ModelCard';
 import { ProgressRing } from '@/components/ProgressRing';
 import { VideoCard } from '@/components/VideoCard';
@@ -130,6 +131,8 @@ export default function Hoy() {
           </View>
         )}
       </Hero>
+
+      {today.retos ? <MiResultado /> : null}
 
       {today.estado === 'sin_perfil' ? (
         <Card accent>
