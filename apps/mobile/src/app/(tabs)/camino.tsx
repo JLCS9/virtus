@@ -4,6 +4,7 @@ import { useTranslation } from 'react-i18next';
 
 import type { WorkVirtue } from '@virtus/method';
 
+import { CaminoRetos } from '@/components/CaminoRetos';
 import { Body, Button, Caption, Card, Eyebrow, H3, Screen, Titular } from '@/components/ui';
 import { useVirtus } from '@/store/virtus';
 import { color, radius, space, type, virtueColor } from '@/theme';
@@ -36,6 +37,11 @@ function Node({ v, center, current }: { v: WorkVirtue; center?: boolean; current
 }
 
 export default function Camino() {
+  const retos = useVirtus((s) => s.retosSuscripcion === 'activa');
+  return retos ? <CaminoRetos /> : <CaminoClasico />;
+}
+
+function CaminoClasico() {
   const { t } = useTranslation();
   const s = useVirtus();
   const challenge = s.temperament?.challengeVirtue ?? 'humildad';

@@ -100,7 +100,7 @@ export default function Biblioteca() {
 }
 
 /** «Continúa donde lo dejaste»: la siguiente lección del último curso abierto, si no está terminado. */
-function ContinueLesson() {
+export function ContinueLesson() {
   const content = useContent();
   const last = useVirtus((s) => s.lastLesson);
   const found = last ? findLesson(content, last) : null;

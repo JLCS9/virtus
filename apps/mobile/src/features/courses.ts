@@ -29,3 +29,31 @@ export function useCourseProgress(course: Course) {
     course.lecciones.slice(lastSeen + 1).find((l) => !watched[l.id]) ?? course.lecciones.find((l) => !watched[l.id]) ?? null;
   return { done, total: course.lecciones.length, next, started: done > 0, complete: done === course.lecciones.length, watched };
 }
+
+/** Avance global de la formación (todas las lecciones de todos los cursos). */
+export function overallProgress(courses: Course[], watched: Record<string, string>) {
+  const lessons = courses.flatMap((c) => c.lecciones);
+  const done = lessons.filter((l) => watched[l.id]).length;
+  return { done, total: lessons.length, value: lessons.length ? done / lessons.length : 0 };
+}
+
+/**
+ * La lección a la que volver: la última abierta si aún no se ha visto; si no, la siguiente de ese
+ * curso; si el curso está completo (o no hay última), la primera sin ver del primer curso sin terminar.
+ */
+export function nextLessonOverall(courses: Course[], watched: Record<string, string>, lastId: string | null) {
+  const nextIn = (course: Course): Lesson | null => {
+    const lastSeen = course.lecciones.reduce((acc, l, i) => (watched[l.id] ? i : acc), -1);
+    return course.lecciones.slice(lastSeen + 1).find((l) => !watched[l.id]) ?? course.lecciones.find((l) => !watched[l.id]) ?? null;
+  };
+  const prev = lastId ? courses.find((c) => c.lecciones.some((l) => l.id === lastId)) : undefined;
+  if (prev && prev.lecciones.some((l) => !watched[l.id])) {
+    const lesson = watched[lastId!] ? nextIn(prev) : prev.lecciones.find((l) => l.id === lastId) ?? null;
+    if (lesson) return { course: prev, lesson };
+  }
+  for (const course of courses) {
+    const lesson = nextIn(course);
+    if (lesson) return { course, lesson };
+  }
+  return null;
+}

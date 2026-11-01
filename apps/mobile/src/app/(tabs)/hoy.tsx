@@ -8,6 +8,7 @@ import { cycleDay, isCycleDue, shouldConfirmTemperament } from '@virtus/method';
 
 import { Body, BodyStrong, Button, Caption, Card, Eyebrow, H2, Screen, Stack, Wordmark } from '@/components/ui';
 import { Hero } from '@/components/Hero';
+import { MiResultado } from '@/components/MiResultado';
 import { ModelCard } from '@/components/ModelCard';
 import { ProgressRing } from '@/components/ProgressRing';
 import { VideoCard } from '@/components/VideoCard';
@@ -98,7 +99,10 @@ export default function Hoy() {
     <Screen>
       <View style={{ flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center' }}>
         <Wordmark height={24} />
-        <Caption>{date}</Caption>
+        <Pressable accessibilityRole="button" accessibilityLabel={t('tabs.yo')} onPress={() => router.push('/yo' as never)} hitSlop={12} style={{ flexDirection: 'row', alignItems: 'center', gap: space.s }}>
+          <Caption>{date}</Caption>
+          <SymbolView name={{ ios: 'person.crop.circle', android: 'account_circle', web: 'account_circle' }} size={24} tintColor={color.azulProfundo} />
+        </Pressable>
       </View>
 
       {s.mission ? (
@@ -127,6 +131,8 @@ export default function Hoy() {
           </View>
         )}
       </Hero>
+
+      {today.retos ? <MiResultado /> : null}
 
       {today.estado === 'sin_perfil' ? (
         <Card accent>

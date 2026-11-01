@@ -6,7 +6,15 @@ schemas = ["public"]
 
 [auth]
 site_url = "virtus://"
-additional_redirect_urls = ["virtus://auth"]
+additional_redirect_urls = [
+  "virtus://auth",
+  # Web (virtuousleadership.com): destino del email de recuperación de contraseña.
+  "https://virtuousleadership.com/*/restablecer",
+  "https://virtuousleadership.com/*/reset-password",
+  "https://virtuousleadership.com/*/reinitialiser",
+  "https://virtuousleadership.com/*/vosstanovlenie",
+  "http://localhost:5173/**",
+]
 enable_signup = true
 
 [auth.email]
