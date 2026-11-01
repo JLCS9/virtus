@@ -90,8 +90,9 @@ export async function contextoRetos(req: Request): Promise<ContextoRetos | Respo
     userId,
     probador: features.has('retos_anthropic_directo'),
     deps: {
-      // TEMPORAL: API de Anthropic solo para cuentas marcadas, mientras AWS activa Bedrock.
-      modelo: features.has('retos_anthropic_directo') ? modeloAnthropicDirecto : modeloBedrock,
+      // TEMPORAL: mientras AWS activa Bedrock, todas las cuentas con suscripción usan la API de Anthropic.
+      // Al activarse Bedrock: secreto RETOS_MODELO=bedrock (sin redesplegar código).
+      modelo: features.has('retos_anthropic_directo') || Deno.env.get('RETOS_MODELO') !== 'bedrock' ? modeloAnthropicDirecto : modeloBedrock,
       almacen: almacenPara(pseudo),
       seudo: await seudonimizadorPara(userId),
       mensajeCrisis: mensajeCrisis(perfilCuenta?.country ?? 'ES'),

@@ -78,6 +78,7 @@ export default function Bienvenida() {
             ))}
           </View>
           <Button label={page < pages - 1 ? t('comun.continuar') : t('bienvenida.empezar')} onPress={next} />
+          <Button variant="ghost" label={t('bienvenida.yaTengoCuenta')} onPress={() => router.push('/cuenta')} />
         </View>
       </SafeAreaView>
     </SurfaceProvider>

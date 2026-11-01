@@ -86,7 +86,8 @@ export function useToday(date = new Date()) {
 
   // Con suscripción: el servidor decide y redacta el reto, y manda sobre el que haya en el dispositivo.
   useEffect(() => {
-    if (!retos || !s.temperament) return;
+    // El servidor saca el temperamento del test de la cuenta: no hace falta tenerlo en el dispositivo.
+    if (!retos) return;
     let vivo = true;
     void retoDelServidor(key).then(({ estado, reto }) => {
       if (!vivo) return;
