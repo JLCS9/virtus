@@ -1,6 +1,7 @@
 import { goBackOrHome } from '@/features/nav';
 import { useEffect, useState } from 'react';
 import { View } from 'react-native';
+import { Redirect } from 'expo-router';
 import { StatusBar } from 'expo-status-bar';
 import { useTranslation } from 'react-i18next';
 
@@ -11,11 +12,36 @@ import { EntradaChat, ListaChat, useConversacion } from '@/components/RetoChat';
 import { track } from '@/features/analytics';
 import { type RespuestaNoche, turnoNoche } from '@/features/retos';
 import { useToday } from '@/features/today';
+import { useCamino } from '@/features/camino';
+import { siguientePaso } from '@/lib/camino';
 import { useVirtus } from '@/store/virtus';
 import { space } from '@/theme';
 
-/** Examen guiado (servidor) si hay cuenta y perfil de retos; si no, el formulario local. */
+/**
+ * Con suscripción a Retos, el examen de la noche es el del Camino (sustituye a la conversación con la
+ * IA): se va al de hoy, o al Camino si hoy no toca. Sin suscripción, el formulario local de siempre.
+ */
 export default function ExamenNoche() {
+  const retos = useVirtus((s) => s.retosSuscripcion === 'activa');
+  return retos ? <AlCamino /> : <ExamenSinCamino />;
+}
+
+function AlCamino() {
+  const camino = useCamino();
+  if (camino.cargando) {
+    return (
+      <Screen variant="noche" scroll={false} contentStyle={{ justifyContent: 'center' }}>
+        <StatusBar style="light" />
+        <Caption>…</Caption>
+      </Screen>
+    );
+  }
+  const paso = siguientePaso(camino);
+  if (paso?.tipo === 'examen') return <Redirect href={{ pathname: '/camino/examen/[dia]', params: { dia: String(paso.dia) } }} />;
+  return <Redirect href="/camino" />;
+}
+
+function ExamenSinCamino() {
   const today = useToday();
   // Con suscripción se espera a saber si el servidor responde, para no enseñar un formulario y cambiarlo después.
   if (today.retos && today.estado === null) {

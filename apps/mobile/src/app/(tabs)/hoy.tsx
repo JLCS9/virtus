@@ -8,7 +8,7 @@ import { cycleDay, isCycleDue, shouldConfirmTemperament } from '@virtus/method';
 
 import { Body, BodyStrong, Button, Caption, Card, Eyebrow, H2, Screen, Stack, Wordmark } from '@/components/ui';
 import { Hero } from '@/components/Hero';
-import { MiResultado } from '@/components/MiResultado';
+import { HoyCamino } from '@/components/HoyCamino';
 import { ModelCard } from '@/components/ModelCard';
 import { ProgressRing } from '@/components/ProgressRing';
 import { VideoCard } from '@/components/VideoCard';
@@ -77,7 +77,13 @@ function Tile({
   );
 }
 
+/** Con suscripción a Retos, Hoy es el del Camino (como en la web); sin ella, el de siempre. */
 export default function Hoy() {
+  const retos = useVirtus((s) => s.retosSuscripcion === 'activa');
+  return retos ? <HoyCamino /> : <HoyClasico />;
+}
+
+function HoyClasico() {
   const { t, i18n } = useTranslation();
   const s = useVirtus();
   const today = useToday();
@@ -131,16 +137,6 @@ export default function Hoy() {
           </View>
         )}
       </Hero>
-
-      {today.retos ? <MiResultado /> : null}
-
-      {today.estado === 'sin_perfil' ? (
-        <Card accent>
-          <BodyStrong>{t('retos.configurarTitulo')}</BodyStrong>
-          <Caption>{t('retos.configurarTexto')}</Caption>
-          <Button label={t('retos.configurar')} onPress={() => router.push('/retos/onboarding' as never)} />
-        </Card>
-      ) : null}
 
       <View style={{ flexDirection: 'row', gap: space.m }}>
         <Tile

@@ -1,5 +1,6 @@
 import { goBackOrHome } from '@/features/nav';
 import { useState } from 'react';
+import { Redirect } from 'expo-router';
 import { View } from 'react-native';
 import { useTranslation } from 'react-i18next';
 
@@ -9,7 +10,13 @@ import { useToday } from '@/features/today';
 import { useVirtus } from '@/store/virtus';
 import { space } from '@/theme';
 
+/** Con suscripción a Retos no hay reto del día (lo sustituye el reto de la semana del Camino, en Hoy). */
 export default function RitualManana() {
+  const retos = useVirtus((s) => s.retosSuscripcion === 'activa');
+  return retos ? <Redirect href="/hoy" /> : <RetoDelDia />;
+}
+
+function RetoDelDia() {
   const { t } = useTranslation();
   const today = useToday();
   const mission = useVirtus((s) => s.mission);
