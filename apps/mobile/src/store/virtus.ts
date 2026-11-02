@@ -120,6 +120,8 @@ export interface VirtusState {
   /** Lecciones de los cursos en vídeo vistas (id → fecha) y la última abierta. */
   watched: Record<string, string>;
   lastLesson: string | null;
+  /** Cuenta a la que ya se pasó el Círculo como fichas de personas (se hace una sola vez). */
+  circuloMigradoA: string | null;
 
   setTemperament: (r: TemperamentResult) => void;
   setRetosSuscripcion: (v: 'activa' | 'inactiva' | null) => void;
@@ -144,6 +146,7 @@ export interface VirtusState {
   markProcessed: (ids: string[]) => void;
   openLesson: (id: string) => void;
   markWatched: (id: string) => void;
+  markCirculoMigrado: (userId: string) => void;
   reset: () => void;
 }
 
@@ -183,6 +186,7 @@ const initial = {
   processedRemote: [],
   watched: {},
   lastLesson: null,
+  circuloMigradoA: null,
 };
 
 const emptyDay = (date: string): DayRecord => ({ date, habitsDone: [] });
@@ -259,11 +263,12 @@ export const useVirtus = create<VirtusState>()(
       markProcessed: (ids) => set((s) => ({ processedRemote: [...new Set([...s.processedRemote, ...ids])] })),
       openLesson: (id) => set({ lastLesson: id }),
       markWatched: (id) => set((s) => (s.watched[id] ? {} : { watched: { ...s.watched, [id]: new Date().toISOString() } })),
+      markCirculoMigrado: (circuloMigradoA) => set({ circuloMigradoA }),
       reset: () => set({ ...initial }),
     }),
     {
       name: 'virtus-v1',
-      version: 4,
+      version: 5,
       storage: createJSONStorage(() => AsyncStorage),
       // v1 → v2: nuevos campos del plan y del ciclo.
       migrate: (persisted, version) => {
@@ -286,6 +291,7 @@ export const useVirtus = create<VirtusState>()(
           p.watched ??= {};
           p.lastLesson ??= null;
         }
+        if (version < 5) p.circuloMigradoA ??= null;
         return p as VirtusState;
       },
     },
