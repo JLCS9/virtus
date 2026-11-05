@@ -1,6 +1,6 @@
 import { useEffect, useRef } from 'react';
 
-import { vimeoSrc } from '@/features/courses';
+import { urlVimeo as vimeoSrc } from '@/portal/web/formacion/cursos.js';
 
 const ORIGIN = 'https://player.vimeo.com';
 

@@ -1,6 +1,6 @@
 import { WebView } from 'react-native-webview';
 
-import { vimeoSrc } from '@/features/courses';
+import { urlVimeo as vimeoSrc } from '@/portal/web/formacion/cursos.js';
 
 /**
  * Reproductor insertado de Vimeo. Avisa del avance (0–1) para marcar la lección como vista.

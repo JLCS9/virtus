@@ -1,0 +1,1245 @@
+{
+  "id": "modulo1",
+  "titulo": "Del temperamento al carácter",
+  "curso": 1,
+  "pasos": [
+    {
+      "id": "m1-01",
+      "num": 1,
+      "tipo": "video",
+      "titulo": "Introducción: educación del carácter",
+      "vimeoId": "922851661",
+      "visible": true,
+      "leccion": 1,
+      "intro": [
+        "La personalidad humana se compone de un temperamento y un carácter.",
+        "El temperamento es una predisposición natural e innata a reaccionar de una determinada manera. Puede ser colérico, melancólico, sanguíneo o flemático. Nacemos con nuestro temperamento y no podemos cambiarlo: morimos con las cualidades y defectos de nuestro temperamento.",
+        "Sobre la base de nuestro temperamento, construimos nuestro carácter. El carácter se compone de virtudes, como la prudencia, el valor, el autocontrol, la justicia, la magnanimidad y la humildad. Las virtudes son hábitos morales, fortalezas espirituales que se adquieren y desarrollan con la práctica. No nacemos con nuestro carácter, lo construimos."
+      ]
+    },
+    {
+      "id": "m1-02",
+      "num": 2,
+      "tipo": "define",
+      "titulo": "Define",
+      "visible": false,
+      "conceptos": [
+        {
+          "concepto": "Temperamento",
+          "definicion": "Base biológica de la personalidad: predisposición innata a reaccionar de determinada manera. Nacemos con él y moriremos con él.",
+          "correctas": [
+            "Predisposición innata",
+            "Biológico",
+            "Reactividad natural",
+            "Heredado",
+            "Inmutable"
+          ],
+          "distractores": [
+            "Hábito moral",
+            "Adquirido con esfuerzo",
+            "Fortaleza espiritual",
+            "Fruto de la libertad"
+          ]
+        },
+        {
+          "concepto": "Temperamento colérico",
+          "definicion": "Temperamento orientado a la acción. Manager nacido, enérgico y decidido, con confianza natural en sí mismo.",
+          "correctas": [
+            "La acción",
+            "Manager nacido",
+            "Energía",
+            "Conseguir metas",
+            "Confianza en sí mismo"
+          ],
+          "distractores": [
+            "La contemplación",
+            "Las personas",
+            "Voluntad oculta",
+            "Perfeccionista"
+          ]
+        },
+        {
+          "concepto": "Temperamento melancólico",
+          "definicion": "Temperamento orientado a las ideas. Contemplativo, perfeccionista, independiente y creador por naturaleza.",
+          "correctas": [
+            "Las ideas",
+            "Contemplación",
+            "Perfeccionista",
+            "Independiente",
+            "Creador"
+          ],
+          "distractores": [
+            "La acción",
+            "Comunicador nacido",
+            "La alegría",
+            "Manager nacido"
+          ]
+        },
+        {
+          "concepto": "Temperamento sanguíneo",
+          "definicion": "Temperamento orientado a las personas. Comunicador nacido, con los sentidos despiertos y pasión por la aventura.",
+          "correctas": [
+            "Las personas",
+            "Comunicador nacido",
+            "La alegría",
+            "Sentidos despiertos",
+            "Pasión por la aventura"
+          ],
+          "distractores": [
+            "La paz",
+            "Desapasionado",
+            "Voluntad de hierro",
+            "Las ideas"
+          ]
+        },
+        {
+          "concepto": "Temperamento flemático",
+          "definicion": "Temperamento orientado a la paz. Desapasionado y científico, con una voluntad de hierro oculta bajo su calma exterior.",
+          "correctas": [
+            "La paz",
+            "Desapasionado y científico",
+            "Voluntad de hierro oculta",
+            "Constante y perseverante",
+            "Racional"
+          ],
+          "distractores": [
+            "Emprendedor nato",
+            "Sentidos despiertos",
+            "La aventura",
+            "Creador"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "m1-03",
+      "num": 3,
+      "tipo": "quiz",
+      "titulo": "Cuestionario 1",
+      "visible": false,
+      "preguntas": [
+        {
+          "texto": "¿Con qué se debe comenzar la educación del carácter?",
+          "opciones": [
+            "Leyendo libros sobre ética",
+            "Practicando deportes de equipo",
+            "Meditando sobre los propios errores",
+            "Identificando el propio temperamento biológico"
+          ],
+          "correcta": 3
+        },
+        {
+          "texto": "¿Por qué es importante conocer el propio temperamento?",
+          "opciones": [
+            "Para saber qué profesión elegir",
+            "Para entender las reacciones de los demás",
+            "Para justificar nuestros defectos",
+            "Todas las respuestas son correctas"
+          ],
+          "correcta": 3
+        },
+        {
+          "texto": "¿Cuál de los siguientes no es un temperamento?",
+          "opciones": [
+            "Colérico",
+            "Sanguíneo",
+            "Neurótico",
+            "Flemático"
+          ],
+          "correcta": 2
+        },
+        {
+          "texto": "¿Qué gran científico desarrolló la teoría de los temperamentos?",
+          "opciones": [
+            "Aristóteles",
+            "Galeno",
+            "Hipócrates",
+            "Platón"
+          ],
+          "correcta": 2
+        }
+      ]
+    },
+    {
+      "id": "m1-concl-0",
+      "tipo": "conclusion_modulo",
+      "visible": false,
+      "titulo": "Resumen del Módulo 0",
+      "modulo_numero": 0,
+      "modulo_titulo": "Introducción: educación del carácter",
+      "aprendizajes": [
+        "Qué es el liderazgo virtuoso",
+        "Diferencia entre temperamento (biológico) y carácter (espiritual)"
+      ],
+      "ejercicios_evaluables": [
+        {
+          "id": "m1-02",
+          "label": "Definiciones"
+        },
+        {
+          "id": "m1-03",
+          "label": "Cuestionario"
+        }
+      ]
+    },
+    {
+      "id": "m1-04",
+      "num": 4,
+      "tipo": "video",
+      "titulo": "El temperamento es biológico, el carácter espiritual",
+      "visible": true,
+      "leccion": 2,
+      "vimeoId": "922865851"
+    },
+    {
+      "id": "m1-06",
+      "num": 6,
+      "tipo": "define",
+      "titulo": "Define",
+      "visible": false,
+      "conceptos": [
+        {
+          "concepto": "Carácter",
+          "definicion": "Parte de la personalidad que construimos con nuestras decisiones. Conjunto de virtudes adquiridas mediante la práctica.",
+          "correctas": [
+            "Virtudes",
+            "Hábitos morales",
+            "Predisposición adquirida",
+            "Crecimiento personal",
+            "Construido"
+          ],
+          "distractores": [
+            "Predisposición innata",
+            "Biológico",
+            "Reactividad",
+            "Innato"
+          ]
+        },
+        {
+          "concepto": "Prudencia",
+          "definicion": "Madre de todas las virtudes: la capacidad de tomar buenas decisiones, deliberando bien y decidiendo con acierto.",
+          "correctas": [
+            "Tomar buenas decisiones",
+            "Madre de todas las virtudes",
+            "Sabiduría práctica",
+            "Discernimiento"
+          ],
+          "distractores": [
+            "Mantener el rumbo",
+            "Controlarse",
+            "Dar a cada uno lo suyo",
+            "Ir hacia las cosas grandes"
+          ]
+        },
+        {
+          "concepto": "Fortaleza",
+          "definicion": "La virtud de mantener el rumbo y asumir riesgos. Tiene dos dimensiones: resistencia (aguantar) y audacia (emprender).",
+          "correctas": [
+            "Mantener el rumbo",
+            "Asumir riesgos",
+            "Fuerza interior",
+            "Resistencia",
+            "Audacia"
+          ],
+          "distractores": [
+            "Tomar buenas decisiones",
+            "Control de las pasiones",
+            "Servicio a los otros",
+            "Soñar con cosas grandes"
+          ]
+        },
+        {
+          "concepto": "Dominio de sí",
+          "definicion": "La virtud de gobernar las propias pasiones: someter las emociones desordenadas y estimular las nobles.",
+          "correctas": [
+            "Disciplina interior",
+            "Control de las emociones"
+          ],
+          "distractores": [
+            "Asumir riesgos",
+            "Tomar buenas decisiones",
+            "Vivir en la verdad",
+            "La acción"
+          ]
+        },
+        {
+          "concepto": "Justicia",
+          "definicion": "La virtud de dar a cada uno lo que le corresponde, viviendo en comunión con los demás y buscando el bien común.",
+          "correctas": [
+            "Dar a cada uno lo suyo",
+            "Derecho de cada uno",
+            "Relación con los demás"
+          ],
+          "distractores": [
+            "Capacidad de controlarse",
+            "Mantener el rumbo",
+            "Verdad sobre sí mismo",
+            "Sueños y acción"
+          ]
+        },
+        {
+          "concepto": "Magnanimidad",
+          "definicion": "La virtud de la grandeza de alma: aspirar a cosas grandes y convertir el sueño en una misión que da sentido a la vida.",
+          "correctas": [
+            "Grandeza de alma",
+            "Aspirar a lo grande",
+            "Sueño y acción"
+          ],
+          "distractores": [
+            "Capacidad de controlarse",
+            "Dar a cada uno lo suyo",
+            "Predisposición innata",
+            "Hábito del servicio"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "m1-05",
+      "num": 5,
+      "tipo": "quiz",
+      "titulo": "Cuestionario 2",
+      "visible": false,
+      "preguntas": [
+        {
+          "texto": "¿Cuál de los siguientes factores no influye en el desarrollo del carácter?",
+          "opciones": [
+            "La educación recibida",
+            "Las decisiones personales",
+            "La alimentación",
+            "El entorno cultural"
+          ],
+          "correcta": 2
+        },
+        {
+          "texto": "¿Cuál es la relación entre carácter y temperamento?",
+          "opciones": [
+            "Son sinónimos",
+            "El temperamento es más importante que el carácter",
+            "El carácter puede complementar el temperamento y compensar sus defectos",
+            "No tienen relación"
+          ],
+          "correcta": 2
+        },
+        {
+          "texto": "¿Qué concepto describe mejor la esencia del carácter?",
+          "opciones": [
+            "Inteligencia emocional",
+            "Personalidad innata",
+            "Habilidades sociales",
+            "Libertad interior"
+          ],
+          "correcta": 3
+        },
+        {
+          "texto": "¿En qué se manifiesta la libertad interior de una persona?",
+          "opciones": [
+            "En la capacidad de tomar decisiones coherentes con sus valores",
+            "En no dejarse arrastrar por las emociones desordenadas",
+            "En mantener el rumbo incluso bajo presión",
+            "Todas las respuestas son correctas"
+          ],
+          "correcta": 3
+        }
+      ]
+    },
+    {
+      "id": "m1-concl-1",
+      "tipo": "conclusion_modulo",
+      "visible": false,
+      "titulo": "Resumen del Módulo 1",
+      "modulo_numero": 1,
+      "modulo_titulo": "El temperamento es biológico, el carácter espiritual",
+      "aprendizajes": [
+        "El temperamento es biológico, innato e inmutable",
+        "El carácter es espiritual, adquirido y modificable"
+      ],
+      "ejercicios_evaluables": [
+        {
+          "id": "m1-06",
+          "label": "Definiciones"
+        },
+        {
+          "id": "m1-05",
+          "label": "Cuestionario"
+        }
+      ]
+    },
+    {
+      "id": "m1-07",
+      "num": 7,
+      "tipo": "video",
+      "titulo": "El carácter se construye sobre la base del temperamento",
+      "visible": true,
+      "leccion": 3,
+      "vimeoId": "922878435"
+    },
+    {
+      "id": "m1-08",
+      "num": 8,
+      "tipo": "identifica",
+      "titulo": "Mi carácter",
+      "visible": false,
+      "enunciado": "Cada virtud tiene un aspecto pasivo y otro activo. Por ejemplo, la prudencia se compone de deliberación (aspecto pasivo) y de decisión (aspecto activo); la fortaleza se compone de perseverancia (pasivo) y audacia (activo).\n\nEsta sección trata de tu carácter, es decir, de las virtudes que practicas hoy, no de tu temperamento. Responde pensando en tu vida concreta y no en el diagrama de tu temperamento: ese llegará en la sección 4.\n\nPara cada virtud, selecciona el aspecto que te resulta relativamente fácil (+) y el que practicas con más dificultad (−). Después escribe un ejemplo de tu vida para cada uno.",
+      "enunciadoCorto": "Selecciona el aspecto que te resulta más fácil (+) y el que te resulta más difícil (−). Escribe un ejemplo de tu vida.",
+      "virtudes": [
+        {
+          "nombre": "Prudencia",
+          "pasivo": "Deliberación",
+          "activo": "Decisión",
+          "ejemploPasivo": "Antes de aceptar un nuevo proyecto, analizar los pros y contras, consultar a las personas afectadas y reunir información relevante.",
+          "ejemploActivo": "Una vez analizada la situación, tomar la decisión con firmeza sin postergarla indefinidamente por miedo a equivocarse."
+        },
+        {
+          "nombre": "Fortaleza",
+          "pasivo": "Resistencia",
+          "activo": "Audacia",
+          "ejemploPasivo": "Mantenerse firme en tus valores cuando recibes presión del grupo para actuar en contra de tus principios.",
+          "ejemploActivo": "Emprender un proyecto ambicioso a pesar de las dificultades, asumiendo riesgos calculados."
+        },
+        {
+          "nombre": "Dominio de sí",
+          "pasivo": "Sometimiento de malas emociones",
+          "activo": "Estímulo de buenas emociones",
+          "ejemploPasivo": "No dejarse llevar por la ira en una discusión y mantener la calma para responder con serenidad.",
+          "ejemploActivo": "Cultivar la compasión y la empatía cuando ves a alguien en dificultad, dejándote conmover por su situación."
+        },
+        {
+          "nombre": "Justicia",
+          "pasivo": "Comunión",
+          "activo": "Bien común",
+          "ejemploPasivo": "Escuchar activamente a un compañero que atraviesa una dificultad, respetando su dignidad y dándole tu tiempo.",
+          "ejemploActivo": "Sacrificar un beneficio personal para que el equipo o la comunidad avance, contribuyendo al bienestar de todos."
+        },
+        {
+          "nombre": "Magnanimidad",
+          "pasivo": "Contemplación",
+          "activo": "Acción",
+          "ejemploPasivo": "Descubrir tu misión personal y dedicar tiempo a soñar en grande con lo que quieres aportar al mundo.",
+          "ejemploActivo": "Dar pasos concretos cada día para hacer realidad esos grandes sueños, sin quedarte solo en la teoría."
+        },
+        {
+          "nombre": "Humildad",
+          "pasivo": "Conocimiento propio",
+          "activo": "Servicio a los demás",
+          "ejemploPasivo": "Reconocer tus limitaciones y aceptar con sinceridad tus áreas de mejora, sin autoengaño.",
+          "ejemploActivo": "Poner tus talentos al servicio de los demás sin buscar reconocimiento ni protagonismo."
+        }
+      ],
+      "diagrama": true
+    },
+    {
+      "id": "m1-09",
+      "tipo": "conclusion_modulo",
+      "visible": false,
+      "titulo": "Resumen del Módulo 2",
+      "modulo_numero": 2,
+      "modulo_titulo": "El carácter se construye sobre la base del temperamento",
+      "aprendizajes": [
+        "Las seis virtudes del líder",
+        "Aspecto pasivo y activo de cada virtud"
+      ],
+      "ejercicios_evaluables": []
+    },
+    {
+      "id": "m1-10",
+      "num": 10,
+      "tipo": "video",
+      "titulo": "Cada temperamento posee valores concretos",
+      "visible": true,
+      "leccion": 4,
+      "vimeoId": "922881313"
+    },
+    {
+      "id": "m1-11",
+      "num": 11,
+      "tipo": "desliza",
+      "titulo": "Identifica el temperamento",
+      "visible": false,
+      "escenas": [
+        {
+          "texto": "En una reunión surge un problema urgente. Alguien se levanta y dice: «Yo me encargo. Esto es lo que haremos...»",
+          "respuesta": "COL",
+          "opciones": [
+            "COL",
+            "MEL",
+            "SAN",
+            "FLE"
+          ]
+        },
+        {
+          "texto": "Antes de aceptar un proyecto nuevo, pide tres días para analizar todas las opciones y los posibles riesgos.",
+          "respuesta": "MEL",
+          "opciones": [
+            "COL",
+            "MEL",
+            "SAN",
+            "FLE"
+          ]
+        },
+        {
+          "texto": "Llega a una fiesta y en diez minutos ya conoce a todos y ha montado un plan para el fin de semana.",
+          "respuesta": "SAN",
+          "opciones": [
+            "COL",
+            "MEL",
+            "SAN",
+            "FLE"
+          ]
+        },
+        {
+          "texto": "Todos discuten acaloradamente. Espera en silencio. Cuando habla, resume la situación con calma y todos se tranquilizan.",
+          "respuesta": "FLE",
+          "opciones": [
+            "COL",
+            "MEL",
+            "SAN",
+            "FLE"
+          ]
+        },
+        {
+          "texto": "Le asignan un proyecto complejo. Trabaja sin parar hasta terminarlo, sin pedir ayuda a nadie.",
+          "respuesta": "COL",
+          "opciones": [
+            "COL",
+            "MEL",
+            "SAN",
+            "FLE"
+          ]
+        },
+        {
+          "texto": "Le proponen liderar un equipo nuevo. Responde: «Necesito pensarlo... no estoy seguro de estar preparado.»",
+          "respuesta": "MEL",
+          "opciones": [
+            "COL",
+            "MEL",
+            "SAN",
+            "FLE"
+          ]
+        },
+        {
+          "texto": "Organiza una cena improvisada para animar a un amigo que está pasándolo mal. En media hora ha llamado a diez personas y montado el plan.",
+          "respuesta": "SAN",
+          "opciones": [
+            "COL",
+            "MEL",
+            "SAN",
+            "FLE"
+          ]
+        },
+        {
+          "texto": "El equipo cambia de estrategia a mitad de proyecto. Mientras otros protestan, acepta el cambio sin alterarse y se adapta al nuevo plan sin perder la calma.",
+          "respuesta": "FLE",
+          "opciones": [
+            "COL",
+            "MEL",
+            "SAN",
+            "FLE"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "m1-12",
+      "tipo": "conclusion_modulo",
+      "visible": false,
+      "titulo": "Resumen del Módulo 3",
+      "modulo_numero": 3,
+      "modulo_titulo": "Cada temperamento posee valores concretos",
+      "aprendizajes": [
+        "Cada temperamento posee fortalezas y debilidades propias",
+        "Identificar temperamentos en situaciones reales"
+      ],
+      "ejercicios_evaluables": [
+        {
+          "id": "m1-11",
+          "label": "Identifica temperamentos"
+        }
+      ]
+    },
+    {
+      "id": "m1-13",
+      "num": 13,
+      "tipo": "video",
+      "titulo": "Temperamento dominante y temperamento secundario",
+      "visible": true,
+      "leccion": 5,
+      "vimeoId": "924563637"
+    },
+    {
+      "id": "m1-13b",
+      "num": 13.5,
+      "tipo": "temperamento_perfil",
+      "titulo": "Tu temperamento",
+      "visible": false
+    },
+    {
+      "id": "m1-13c",
+      "num": 13.6,
+      "tipo": "retos_temperamento",
+      "titulo": "Los retos de mi temperamento",
+      "visible": false,
+      "virtud_desafio_map": {
+        "COL": "Humildad",
+        "COL-MEL": "Humildad fraterna",
+        "COL-SAN": "Humildad fundamental",
+        "MEL": "Audacia",
+        "MEL-COL": "Humildad fraterna",
+        "MEL-FLE": "Audacia",
+        "SAN": "Resistencia y persistencia",
+        "SAN-COL": "Humildad fundamental",
+        "SAN-FLE": "Magnanimidad",
+        "FLE": "Magnanimidad",
+        "FLE-MEL": "Audacia",
+        "FLE-SAN": "Magnanimidad"
+      },
+      "facilita_dificulta": {
+        "COL": {
+          "facilita": "la audacia (fortaleza)",
+          "dificulta": "el servicio (humildad)"
+        },
+        "MEL": {
+          "facilita": "la deliberación (prudencia)",
+          "dificulta": "la decisión y la audacia (fortaleza)"
+        },
+        "SAN": {
+          "facilita": "la comunión (justicia)",
+          "dificulta": "la perseverancia (fortaleza)"
+        },
+        "FLE": {
+          "facilita": "el dominio propio",
+          "dificulta": "la magnanimidad y la iniciativa"
+        }
+      },
+      "secundario_compensa": {
+        "COL-MEL": "te será más fácil practicar la Deliberación (Prudencia) que si fueras 100% Colérico",
+        "COL-SAN": "te será más fácil practicar la Humildad que si fueras 100% Colérico",
+        "MEL-COL": "encontrarás más sencillo tomar decisiones (Prudencia) que si fueras 100% Melancólico",
+        "MEL-FLE": "te resultará más sencillo practicar el dominio propio que si fueras 100% Melancólico",
+        "SAN-FLE": "te será más fácil practicar la Perseverancia que si fueras 100% Sanguíneo",
+        "SAN-COL": "te será más fácil practicar la Perseverancia que si fueras 100% Sanguíneo",
+        "FLE-SAN": "será más fácil practicar la Magnanimidad que si fueras 100% Flemático",
+        "FLE-MEL": "será más fácil practicar la Magnanimidad que si fueras 100% Flemático"
+      },
+      "secundario_ayuda_virtud": {
+        "COL-SAN": true,
+        "COL-MEL": false,
+        "MEL-COL": true,
+        "MEL-FLE": false,
+        "SAN-FLE": true,
+        "SAN-COL": true,
+        "FLE-SAN": true,
+        "FLE-MEL": true
+      },
+      "ejemplos_facilita": {
+        "COL": "Por ejemplo, como colérico te resulta natural lanzarte a la acción, emprender proyectos ambiciosos y tomar decisiones rápidas. Eso es la audacia en acción: no te paraliza el miedo a equivocarte.",
+        "MEL": "Por ejemplo, como melancólico tiendes a reflexionar antes de actuar, a sopesar los pros y contras. Eso es la deliberación (prudencia) en acción: piensas bien las cosas antes de decidir.",
+        "SAN": "Por ejemplo, como sanguíneo conectas fácilmente con los demás, generas buen ambiente y eres generoso con tu tiempo. Eso es la comunión (justicia) en acción: sabes estar con la gente.",
+        "FLE": "Por ejemplo, como flemático mantienes la calma ante la presión, no te dejas arrastrar por los impulsos y piensas con la cabeza fría. Eso es el dominio propio en acción."
+      },
+      "ejemplos_dificulta": {
+        "COL": "Por ejemplo, como colérico puedes tender a usar a las personas como medios para tus fines, imponer tu criterio sin escuchar o pasar por encima de los sentimientos ajenos. Ahí falla la humildad: el servicio a los demás.",
+        "MEL": "Por ejemplo, como melancólico puedes quedarte paralizado analizando sin pasar nunca a la acción, o tener miedo a lanzarte por si algo sale mal. Ahí falla la audacia: atreverte a actuar pese a la incertidumbre.",
+        "SAN": "Por ejemplo, como sanguíneo puedes empezar muchas cosas y terminar pocas, aburrirte cuando un proyecto deja de ser nuevo o abandonar cuando aparecen dificultades. Ahí falla la perseverancia.",
+        "FLE": "Por ejemplo, como flemático puedes conformarte con una vida cómoda sin aspirar a más, evitar los riesgos y no proponerte metas ambiciosas. Ahí falla la magnanimidad: soñar en grande."
+      },
+      "ejemplos_defectos": {
+        "COL-MEL": "Por ejemplo, el melancólico aporta la reflexión que al colérico le falta: antes de lanzarte a actuar, tu lado melancólico te ayuda a pararte a pensar y considerar cómo afecta tu decisión a los demás.",
+        "COL-SAN": "Por ejemplo, el sanguíneo aporta la cercanía humana que al colérico le falta: tu lado sanguíneo te ayuda a conectar con las personas y a preocuparte genuinamente por ellas, suavizando la tendencia a imponerte.",
+        "MEL-COL": "Por ejemplo, el colérico aporta la decisión que al melancólico le falta: tu lado colérico te empuja a pasar de pensar a hacer, a no quedarte paralizado buscando la opción perfecta.",
+        "MEL-FLE": "Por ejemplo, el flemático aporta la calma que al melancólico le falta: tu lado flemático te ayuda a no dejarte arrastrar por la ansiedad y a mantener la serenidad cuando las cosas se complican.",
+        "SAN-FLE": "Por ejemplo, el flemático aporta la constancia que al sanguíneo le falta: tu lado flemático te ayuda a mantenerte firme en un proyecto cuando ya no es novedoso ni divertido.",
+        "SAN-COL": "Por ejemplo, el colérico aporta la determinación que al sanguíneo le falta: tu lado colérico te ayuda a no abandonar cuando aparecen obstáculos y a insistir hasta terminar.",
+        "FLE-SAN": "Por ejemplo, el sanguíneo aporta la iniciativa que al flemático le falta: tu lado sanguíneo te empuja a dar el primer paso, a proponer ideas y a no quedarte esperando a que otro decida.",
+        "FLE-MEL": "Por ejemplo, el melancólico aporta la profundidad que al flemático le falta: tu lado melancólico te empuja a preguntarte «¿para qué estoy aquí?» y a buscar un propósito más allá de la comodidad."
+      }
+    },
+    {
+      "id": "m1-14",
+      "num": 14,
+      "tipo": "quiz",
+      "titulo": "Los desafíos de mi temperamento",
+      "visible": false,
+      "personalizado": true,
+      "diagrama_temperamentos": true,
+      "preguntas": [
+        {
+          "texto": "¿Cuál es la traducción de temperamentum?",
+          "opciones": [
+            "Temperatura",
+            "Oportunidad",
+            "Mezcla, justa proporción de las partes",
+            "Coraje"
+          ],
+          "correcta": 2
+        },
+        {
+          "texto": "¿Cuántos temperamentos puede combinar una persona?",
+          "opciones": [
+            "1",
+            "2",
+            "3",
+            "4"
+          ],
+          "correcta": 1
+        },
+        {
+          "texto": "¿Qué combinación de temperamentos es posible?",
+          "opciones": [
+            "Colérico-Flemático",
+            "Sanguíneo-Melancólico",
+            "Melancólico-Colérico",
+            "Flemático-Colérico"
+          ],
+          "correcta": 2
+        },
+        {
+          "texto": "¿Qué combinaciones de temperamento son imposibles?",
+          "opciones": [
+            "Colérico-Melancólico y Sanguíneo-Flemático",
+            "Colérico-Flemático y Sanguíneo-Melancólico",
+            "Melancólico-Flemático y Colérico-Sanguíneo",
+            "Sanguíneo-Colérico y Flemático-Melancólico"
+          ],
+          "correcta": 1
+        }
+      ]
+    },
+    {
+      "id": "m1-concl-4",
+      "tipo": "conclusion_modulo",
+      "visible": false,
+      "titulo": "Resumen del Módulo 4",
+      "modulo_numero": 4,
+      "modulo_titulo": "Temperamento dominante y secundario",
+      "aprendizajes": [
+        "Todos tenemos un temperamento dominante y uno secundario",
+        "Tu perfil de temperamento personal"
+      ],
+      "ejercicios_evaluables": [
+        {
+          "id": "m1-14",
+          "label": "Cuestionario"
+        }
+      ]
+    },
+    {
+      "id": "m1-15",
+      "num": 15,
+      "tipo": "video",
+      "titulo": "El Colérico",
+      "visible": true,
+      "leccion": 6,
+      "vimeoId": "924566128"
+    },
+    {
+      "id": "m1-17",
+      "num": 17,
+      "tipo": "test_profundo",
+      "titulo": "Test profundo — Colérico",
+      "visible": false,
+      "temperamento": "COL",
+      "num_preguntas": 14,
+      "foco": "Humildad, servicio, orgullo, escuchar, pedir perdón",
+      "preguntas": [
+        "¿Suelo pedir opinión a los demás o me aferro obstinadamente a mis propias ideas?",
+        "¿Estoy abierto a la crítica sana y constructiva?",
+        "¿Veo mi trabajo como una oportunidad para servir o sólo persigo mi propio interés?",
+        "¿Me dejo llevar con frecuencia por el orgullo?",
+        "¿Interrumpo fácilmente a los demás cuando hablan?",
+        "¿Me apresuro a defender un punto de vista, incluso cuando no conozco el tema?",
+        "¿Soy capaz de pedir perdón con humildad y sencillez, sin justificarme?",
+        "Cuando me apresuro a cumplir algunos objetivos, ¿me importan las consecuencias para los demás?",
+        "¿Soy capaz de cambiar mis planes personales cuando las necesidades de los demás lo requieren?",
+        "¿Soy autoritario en lugar de buscar la cooperación de los demás?",
+        "¿Soy tan ambicioso en mi vida profesional que me olvido de mi vida familiar?",
+        "¿Me enfado ante las contradicciones o las veo como oportunidades para crecer en paciencia?",
+        "¿Tengo tendencia a querer controlarlo todo?",
+        "¿Soy consciente de que mis talentos son dones y no el producto de mi propia actividad?"
+      ],
+      "descripcion": "Reflexiona con sinceridad sobre cada pregunta. No hay respuestas correctas ni incorrectas: este ejercicio es para tu crecimiento personal."
+    },
+    {
+      "id": "m1-15p",
+      "tipo": "circulo_personas",
+      "visible": false,
+      "titulo": "¿Conoces a alguien así?",
+      "temperamento_tema": "COL",
+      "pregunta": "Después de lo que has aprendido sobre el temperamento Colérico, ¿te recuerda a alguien de tu entorno?",
+      "descripcion_temp": "Orientado a la acción, decidido, emprendedor. Tiende a liderar y busca resultados."
+    },
+    {
+      "id": "m1-16",
+      "num": 16,
+      "tipo": "quiz",
+      "titulo": "Cuestionario — Colérico",
+      "visible": false,
+      "preguntas": [
+        {
+          "texto": "¿Qué personaje famoso de Shakespeare es colérico?",
+          "opciones": [
+            "Hamlet",
+            "Romeo",
+            "Otelo",
+            "Macbeth"
+          ],
+          "correcta": 2
+        },
+        {
+          "texto": "¿Qué cualidad positiva no corresponde al colérico?",
+          "opciones": [
+            "Energía y determinación",
+            "Confianza en sí mismo",
+            "Capacidad de liderazgo",
+            "Tendencia a la contemplación"
+          ],
+          "correcta": 3
+        },
+        {
+          "texto": "¿Qué defecto no corresponde al colérico?",
+          "opciones": [
+            "Orgullo",
+            "Impulsividad",
+            "Ira",
+            "Tendencia al pesimismo"
+          ],
+          "correcta": 3
+        },
+        {
+          "texto": "¿Qué afirmación sobre gestión y liderazgo es correcta?",
+          "opciones": [
+            "Un gestor y un líder son exactamente lo mismo",
+            "Un líder se enfoca en el desarrollo y crecimiento de las personas",
+            "La gestión es más importante que el liderazgo",
+            "El liderazgo solo se aplica en empresas grandes"
+          ],
+          "correcta": 1
+        }
+      ]
+    },
+    {
+      "id": "m1-concl-5",
+      "tipo": "conclusion_modulo",
+      "visible": false,
+      "titulo": "Resumen del Módulo 5",
+      "modulo_numero": 5,
+      "modulo_titulo": "El Colérico",
+      "aprendizajes": [
+        "Características del temperamento Colérico",
+        "Fortalezas y desafíos específicos del Colérico"
+      ],
+      "ejercicios_evaluables": [
+        {
+          "id": "m1-16",
+          "label": "Cuestionario"
+        }
+      ]
+    },
+    {
+      "id": "m1-18",
+      "num": 18,
+      "tipo": "video",
+      "titulo": "El Melancólico",
+      "visible": true,
+      "leccion": 7,
+      "vimeoId": "924571431"
+    },
+    {
+      "id": "m1-20",
+      "num": 20,
+      "tipo": "test_profundo",
+      "titulo": "Test profundo — Melancólico",
+      "visible": false,
+      "temperamento": "MEL",
+      "num_preguntas": 16,
+      "foco": "Audacia, acción, perdón, positividad, perfeccionismo",
+      "preguntas": [
+        "¿Me esfuerzo cada día por convertir mis sueños en acciones concretas?",
+        "¿Cumplo mis decisiones con diligencia?",
+        "¿Intento salir de mí mismo y conocer gente nueva?",
+        "¿Mi preferencia por la soledad me lleva a aislarme de los demás?",
+        "¿Guardo rencor a alguien? ¿Soy rápido para perdonar?",
+        "¿Tengo la costumbre de «reírme» de mí mismo?",
+        "¿Trato de ser positivo, animando a los demás?",
+        "¿Paso demasiado tiempo insistiendo en los problemas?",
+        "¿Reacciono desproporcionadamente ante los sucesos?",
+        "¿Dejo que los acontecimientos del día me desanimen?",
+        "¿Lucho decididamente contra la tristeza?",
+        "¿Suelo resistir la tentación del desánimo, del mal humor?",
+        "¿Tiendo a dudar de las intenciones de las personas?",
+        "¿Permito que las imperfecciones creen distancia con los demás?",
+        "¿Supero la tentación del «perfeccionismo»?",
+        "¿Dejo que mis preocupaciones profesionales invadan mi vida familiar?"
+      ],
+      "descripcion": "Reflexiona con sinceridad sobre cada pregunta. No hay respuestas correctas ni incorrectas: este ejercicio es para tu crecimiento personal."
+    },
+    {
+      "id": "m1-18p",
+      "tipo": "circulo_personas",
+      "visible": false,
+      "titulo": "¿Conoces a alguien así?",
+      "temperamento_tema": "MEL",
+      "pregunta": "Después de lo que has aprendido sobre el temperamento Melancólico, ¿te recuerda a alguien de tu entorno?",
+      "descripcion_temp": "Reflexivo, profundo, idealista. Tiende a pensar mucho antes de actuar y busca la excelencia."
+    },
+    {
+      "id": "m1-19",
+      "num": 19,
+      "tipo": "quiz",
+      "titulo": "Cuestionario — Melancólico",
+      "visible": false,
+      "preguntas": [
+        {
+          "texto": "¿Qué personaje famoso de Shakespeare es melancólico?",
+          "opciones": [
+            "Otelo",
+            "Hamlet",
+            "Romeo",
+            "Próspero"
+          ],
+          "correcta": 1
+        },
+        {
+          "texto": "¿Qué cualidad positiva no corresponde al melancólico?",
+          "opciones": [
+            "Le gusta el poder y prospera en la competencia",
+            "Profundidad de pensamiento",
+            "Independencia",
+            "Creatividad"
+          ],
+          "correcta": 0
+        },
+        {
+          "texto": "¿Qué defecto no corresponde al melancólico?",
+          "opciones": [
+            "Miedo a actuar",
+            "Rencor",
+            "Tiende a la confrontación y al autoritarismo",
+            "Susceptibilidad"
+          ],
+          "correcta": 2
+        },
+        {
+          "texto": "¿Por qué el perfeccionismo es peligroso?",
+          "opciones": [
+            "Impide actuar por miedo al error",
+            "Genera frustración constante",
+            "Paraliza la toma de decisiones",
+            "Todas las respuestas son correctas"
+          ],
+          "correcta": 3
+        }
+      ]
+    },
+    {
+      "id": "m1-concl-6",
+      "tipo": "conclusion_modulo",
+      "visible": false,
+      "titulo": "Resumen del Módulo 6",
+      "modulo_numero": 6,
+      "modulo_titulo": "El Melancólico",
+      "aprendizajes": [
+        "Características del temperamento Melancólico",
+        "Fortalezas y desafíos específicos del Melancólico"
+      ],
+      "ejercicios_evaluables": [
+        {
+          "id": "m1-19",
+          "label": "Cuestionario"
+        }
+      ]
+    },
+    {
+      "id": "m1-21",
+      "num": 21,
+      "tipo": "video",
+      "titulo": "El Sanguíneo",
+      "visible": true,
+      "leccion": 8,
+      "vimeoId": "924568703"
+    },
+    {
+      "id": "m1-23",
+      "num": 23,
+      "tipo": "test_profundo",
+      "titulo": "Test profundo — Sanguíneo",
+      "visible": false,
+      "temperamento": "SAN",
+      "num_preguntas": 14,
+      "foco": "Perseverancia, profundidad, constancia, sinceridad",
+      "preguntas": [
+        "¿Suelo realizar todas las tareas al detalle?",
+        "¿Lucho contra las distracciones en mi trabajo?",
+        "¿Intento controlar mis sentidos externos, mi imaginación y mis emociones?",
+        "¿Soy sincero o exagero algunas cosas para impresionar?",
+        "¿Respeto el espacio personal y la intimidad de los demás?",
+        "¿Busco conocer bien a las personas que trato?",
+        "¿Son auténticas mis amistades?",
+        "¿Intento centrarme en una tarea durante varias horas al día?",
+        "¿Hay momentos en mi día en los que dejo de lado mi smartphone?",
+        "¿Me conformo con un conocimiento superficial de las cosas?",
+        "¿Intento asimilar lo que leo, o tiendo a leer precipitadamente?",
+        "¿Suelo hacer una lista de tareas para el día?",
+        "¿Hago mi trabajo a tiempo o tiendo a dejarlo para más tarde?",
+        "¿Persevero en mis planes una vez pasado el entusiasmo inicial?"
+      ],
+      "descripcion": "Reflexiona con sinceridad sobre cada pregunta. No hay respuestas correctas ni incorrectas: este ejercicio es para tu crecimiento personal."
+    },
+    {
+      "id": "m1-21p",
+      "tipo": "circulo_personas",
+      "visible": false,
+      "titulo": "¿Conoces a alguien así?",
+      "temperamento_tema": "SAN",
+      "pregunta": "Después de lo que has aprendido sobre el temperamento Sanguíneo, ¿te recuerda a alguien de tu entorno?",
+      "descripcion_temp": "Sociable, entusiasta, optimista. Disfruta de la compañía y conecta fácilmente con los demás."
+    },
+    {
+      "id": "m1-22",
+      "num": 22,
+      "tipo": "quiz",
+      "titulo": "Cuestionario — Sanguíneo",
+      "visible": false,
+      "preguntas": [
+        {
+          "texto": "¿Qué cualidad positiva no corresponde al sanguíneo?",
+          "opciones": [
+            "Empatía y amabilidad",
+            "Capacidad comunicativa",
+            "Sentido de la aventura",
+            "Racionalidad y rigor científico"
+          ],
+          "correcta": 3
+        },
+        {
+          "texto": "¿Qué defecto no corresponde al sanguíneo?",
+          "opciones": [
+            "Frivolidad",
+            "Está completamente absorto en sus ideas",
+            "Inestabilidad",
+            "Busca la aprobación"
+          ],
+          "correcta": 1
+        },
+        {
+          "texto": "¿Qué afirmación sobre el sanguíneo es incorrecta?",
+          "opciones": [
+            "Es un comunicador nato",
+            "Tiene facilidad para hacer amigos",
+            "Tiende a la aventura",
+            "Todas son correctas"
+          ],
+          "correcta": 3
+        },
+        {
+          "texto": "¿En qué acción se manifiesta principalmente la justicia?",
+          "opciones": [
+            "En cumplir las leyes",
+            "En la apertura al otro",
+            "En el castigo justo",
+            "En la igualdad material"
+          ],
+          "correcta": 1
+        }
+      ]
+    },
+    {
+      "id": "m1-concl-7",
+      "tipo": "conclusion_modulo",
+      "visible": false,
+      "titulo": "Resumen del Módulo 7",
+      "modulo_numero": 7,
+      "modulo_titulo": "El Sanguíneo",
+      "aprendizajes": [
+        "Características del temperamento Sanguíneo",
+        "Fortalezas y desafíos específicos del Sanguíneo"
+      ],
+      "ejercicios_evaluables": [
+        {
+          "id": "m1-22",
+          "label": "Cuestionario"
+        }
+      ]
+    },
+    {
+      "id": "m1-24",
+      "num": 24,
+      "tipo": "video",
+      "titulo": "El Flemático",
+      "visible": true,
+      "leccion": 9,
+      "vimeoId": "924568973"
+    },
+    {
+      "id": "m1-26",
+      "num": 26,
+      "tipo": "test_profundo",
+      "titulo": "Test profundo — Flemático",
+      "visible": false,
+      "temperamento": "FLE",
+      "num_preguntas": 11,
+      "foco": "Magnanimidad, iniciativa, misión, salir de la zona de confort",
+      "preguntas": [
+        "¿Suelo buscar la compañía de personas magnánimas?",
+        "¿Me esfuerzo por crear un «entorno magnánimo» a mi alrededor?",
+        "¿Procuro cultivar mi imaginación?",
+        "¿Me esfuerzo por desarrollar mis talentos o me limito a luchar contra mis defectos?",
+        "¿Intento descubrir mi misión en la vida?",
+        "¿Dejo pasar las oportunidades de actuar por miedo o pereza?",
+        "¿Cuántas veces soy yo quien propone una solución sin que nadie me lo pida?",
+        "¿Caigo en la tentación de pensar que involucrarme en los «problemas» de los demás no me va a llevar a ninguna parte?",
+        "¿Intento comprender las necesidades reales de mis amigos?",
+        "¿Evito conversaciones incómodas por miedo al conflicto?",
+        "¿Intento salir de mi «zona de confort»?"
+      ],
+      "descripcion": "Reflexiona con sinceridad sobre cada pregunta. No hay respuestas correctas ni incorrectas: este ejercicio es para tu crecimiento personal."
+    },
+    {
+      "id": "m1-24p",
+      "tipo": "circulo_personas",
+      "visible": false,
+      "titulo": "¿Conoces a alguien así?",
+      "temperamento_tema": "FLE",
+      "pregunta": "Después de lo que has aprendido sobre el temperamento Flemático, ¿te recuerda a alguien de tu entorno?",
+      "descripcion_temp": "Tranquilo, constante, pacífico. Busca la armonía y mantiene la calma bajo presión."
+    },
+    {
+      "id": "m1-25",
+      "num": 25,
+      "tipo": "quiz",
+      "titulo": "Cuestionario — Flemático",
+      "visible": false,
+      "preguntas": [
+        {
+          "texto": "¿Qué personaje de Guerra y Paz de Tolstói es flemático?",
+          "opciones": [
+            "Pierre Bezújov",
+            "Andréi Bolkonski",
+            "Natasha Rostova",
+            "Nikolái Rostov"
+          ],
+          "correcta": 0
+        },
+        {
+          "texto": "¿Qué cualidad positiva no corresponde al flemático?",
+          "opciones": [
+            "Constancia y perseverancia",
+            "Racionalidad",
+            "Voluntad de hierro oculta",
+            "Está siempre alerta emocionalmente"
+          ],
+          "correcta": 3
+        },
+        {
+          "texto": "¿Qué defecto no corresponde al flemático?",
+          "opciones": [
+            "Se deja llevar",
+            "Le encanta la diversión y busca la novedad",
+            "No soporta equivocarse",
+            "Falta de iniciativa"
+          ],
+          "correcta": 1
+        },
+        {
+          "texto": "¿Qué temperamento hace a un buen hombre de ciencia?",
+          "opciones": [
+            "Colérico",
+            "Sanguíneo",
+            "Melancólico",
+            "Flemático"
+          ],
+          "correcta": 3
+        }
+      ]
+    },
+    {
+      "id": "m1-concl-8",
+      "tipo": "conclusion_modulo",
+      "visible": false,
+      "titulo": "Resumen del Módulo 8",
+      "modulo_numero": 8,
+      "modulo_titulo": "El Flemático",
+      "aprendizajes": [
+        "Características del temperamento Flemático",
+        "Fortalezas y desafíos específicos del Flemático"
+      ],
+      "ejercicios_evaluables": [
+        {
+          "id": "m1-25",
+          "label": "Cuestionario"
+        }
+      ]
+    },
+    {
+      "id": "m1-26r",
+      "tipo": "reflexion_guiada",
+      "titulo": "Reflexión guiada",
+      "visible": false,
+      "parrafos": [
+        {
+          "id": "B1",
+          "tipo": "generico",
+          "texto": "Cada temperamento presenta diferentes retos."
+        },
+        {
+          "id": "B2",
+          "tipo": "condicional",
+          "variantes": {
+            "COL": "Los coléricos tienden a hablar demasiado rápido y a ser impulsivos. Por eso les conviene aprender a ir más despacio y escuchar atentamente a los demás. Pueden beneficiarse al trabajar la paciencia y reflexionar sobre sus decisiones antes de actuar.",
+            "MEL": "Los melancólicos tienden a ser demasiado críticos y les vendría bien aprender a ver el lado bueno de las personas y las situaciones. Pueden necesitar desarrollar su flexibilidad y apertura mental.",
+            "SAN": "Los sanguíneos suelen ser optimistas y alegres, pero a veces les convendría tomarse la vida más en serio. También podrían beneficiarse de aprender a gestionar mejor su tiempo y sus recursos.",
+            "FLE": "Los flemáticos, aunque tranquilos y apacibles, pueden necesitar aprender a imponerse y a tomar decisiones. También les resultará útil controlar mejor el estrés y la ansiedad."
+          }
+        },
+        {
+          "id": "B3",
+          "tipo": "generico",
+          "texto": "Aunque cada temperamento presenta sus propios retos, es importante recordar que todos tenemos potencial para el desarrollo personal. Trabajando activamente para superar nuestros retos, podemos ser lo mejor que podemos ser."
+        },
+        {
+          "id": "B4",
+          "tipo": "generico",
+          "texto": "Desarrolla un plan concreto de desarrollo personal basado en estos retos."
+        }
+      ]
+    },
+    {
+      "id": "m1-test-caracter",
+      "tipo": "test_caracter",
+      "titulo": "Test de carácter",
+      "visible": false,
+      "descripcion": "Evalúa tu nivel actual en las seis virtudes del liderazgo: prudencia, fortaleza, dominio de sí, justicia, magnanimidad y humildad. Responde con sinceridad — este test es para ti."
+    },
+    {
+      "id": "m1-27",
+      "num": 27,
+      "tipo": "cierre",
+      "titulo": "Conclusiones Módulo 1",
+      "visible": true,
+      "sintesis": {
+        "campos": [
+          "temperamento_primario",
+          "temperamento_secundario",
+          "virtud_desafio",
+          "lo_que_facilita",
+          "lo_que_cuesta",
+          "proposito"
+        ],
+        "virtud_desafio_map": {
+          "COL": "Humildad",
+          "COL-MEL": "Humildad fraterna",
+          "COL-SAN": "Humildad fundamental",
+          "MEL": "Audacia",
+          "MEL-COL": "Humildad fraterna",
+          "MEL-FLE": "Audacia",
+          "SAN": "Resistencia y persistencia",
+          "SAN-COL": "Humildad fundamental",
+          "SAN-FLE": "Magnanimidad",
+          "FLE": "Magnanimidad",
+          "FLE-MEL": "Audacia",
+          "FLE-SAN": "Magnanimidad"
+        }
+      }
+    }
+  ]
+}

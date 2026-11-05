@@ -1,8 +1,6 @@
 import { Redirect } from 'expo-router';
 
-import { useVirtus } from '@/store/virtus';
-
+// La app es el portal de la web: /portal decide (sin sesión → /login, sin suscripción → /sin-acceso).
 export default function Index() {
-  const onboarded = useVirtus((s) => s.onboardedAt);
-  return <Redirect href={onboarded ? '/hoy' : '/bienvenida'} />;
+  return <Redirect href="/portal" />;
 }
