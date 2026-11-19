@@ -1,0 +1,690 @@
+{
+  "id": "curso6",
+  "titulo": "Descubre tu misión",
+  "ideas_clave": [
+    { "texto": "Mi misión es mi contribución específica al bien común de la humanidad.", "paso": "m6-04" },
+    { "texto": "La vocación es una llamada a ser; la misión, una llamada a la acción.", "paso": "m6-04" },
+    { "texto": "Tú eres tu misión.", "paso": "m6-04" },
+    { "texto": "Una misión nace al unir dos cosas: tu talento y el desafío del mundo en que vives.", "paso": "m6-05" },
+    { "texto": "Cuando tienes una misión clara, te ayuda a tomar buenas decisiones.", "paso": "m6-10" },
+    { "texto": "No puedes sacar tu misión de tus objetivos: fijas tus objetivos en función de tu misión.", "paso": "m6-10" },
+    { "texto": "La misión es fruto del autoconocimiento: si no, es un capricho.", "paso": "m6-11" }
+  ],
+  "curso": 6,
+  "pasos": [
+    {
+      "id": "m6-01",
+      "num": 1,
+      "tipo": "video",
+      "titulo": "Descubre tu misión",
+      "vimeoId": "924678340",
+      "visible": true,
+      "leccion": 1,
+      "modulo": 0,
+      "intro": [
+        [
+          "Mi misión es mi contribución específica al bien común de la humanidad.",
+          "No está determinada en el tiempo: **es algo que hago sin interrupción**."
+        ],
+        [
+          "Mi misión…",
+          {
+            "chips": [
+              "Orienta mi existencia",
+              "Determina mis objetivos",
+              "Me mantiene centrado"
+            ]
+          }
+        ],
+        [
+          {
+            "enfasis": "Para descubrir mi misión, tengo que responder a dos preguntas:",
+            "grande": true
+          }
+        ],
+        [
+          {
+            "etiqueta": "Pregunta 1"
+          },
+          {
+            "caja": "¿Cuál es mi historia y cuál es mi talento?"
+          }
+        ],
+        [
+          {
+            "etiqueta": "Pregunta 2"
+          },
+          {
+            "caja": "¿Cuál es el reto cultural o social al que me siento llamado a responder con pasión y determinación?"
+          }
+        ]
+      ]
+    },
+    {
+      "id": "m6-02",
+      "num": 2,
+      "tipo": "video",
+      "titulo": "¿Qué es una misión?",
+      "vimeoId": "924678464",
+      "visible": false,
+      "leccion": 2,
+      "modulo": 0,
+      "continua_modulo": true
+    },
+    {
+      "id": "m6-03",
+      "num": 3,
+      "tipo": "lectura",
+      "titulo": "¿Qué es una misión?",
+      "visible": false,
+      "modulo": 0,
+      "lecturas": [
+        [
+          {
+            "titulo_pagina": "¿Qué es una vocación?"
+          },
+          {
+            "enfasis": "La vocación es una __llamada a ser__."
+          },
+          "Viene del latín «vocare», llamar.\nEstoy llamado a ser una persona concreta.",
+          "**La vocación es el marco de mi vida** y descubrirla supone un mínimo de sentido religioso."
+        ],
+        [
+          {
+            "titulo_pagina": "¿Qué es una misión?"
+          },
+          {
+            "enfasis": "Una misión es una __llamada a la acción__."
+          },
+          "Viene del latín «missio», enviar.\nEstoy enviado a hacer algo concreto.",
+          "**La misión es mi contribución al bien común de la humanidad.**",
+          {
+            "enfasis": "Hacen falta las dos:",
+            "grande": true
+          },
+          "Una vocación sin misión no tiene contenido.\nUna misión sin vocación no tiene marco."
+        ],
+        [
+          {
+            "titulo_pagina": "¿Cómo es mi misión?"
+          },
+          "Mi misión es **específica**.",
+          "«Ser una buena madre» o «ser el número uno» no son misiones: son **__demasiado genéricas__**.",
+          "Tengo **una sola misión** y la cumplo todo el tiempo, de mil maneras distintas, hasta el final de mi vida.",
+          "No es como el soldado, que recibe una misión tras otra.",
+          {
+            "cita": "Tú eres tu misión."
+          }
+        ]
+      ]
+    },
+    {
+      "id": "m6-04",
+      "num": 4,
+      "tipo": "quiz",
+      "titulo": "Cuestionario 1",
+      "visible": false,
+      "modulo": 0,
+      "preguntas": [
+        {
+          "texto": "¿Qué es una Misión?",
+          "opciones": [
+            "Una respuesta activa a un desafío de carácter cultural o social",
+            "Tu contribución específica al bien común de la humanidad",
+            "Una definición de lo que te hace único",
+            "Todas las respuestas son correctas"
+          ],
+          "correcta": 3
+        },
+        {
+          "texto": "¿En qué se diferencia la Misión de la Vocación?",
+          "opciones": [
+            "La vocación es una forma de ser, la Misión es lo que debo hacer",
+            "La vocación nace en el hombre como una iniciativa desde lo alto (de Dios, según cómo lo entienda), mientras que la Misión es formulada por la propia persona como el fruto de la puesta en práctica de sus talentos",
+            "La vocación es un marco de vida para la persona y para su Misión",
+            "Todas las respuestas son correctas"
+          ],
+          "correcta": 3
+        },
+        {
+          "texto": "Completa la frase: «Yo soy…»",
+          "opciones": [
+            "Mi Misión",
+            "Mis deseos",
+            "Mis pensamientos",
+            "Todas las respuestas son correctas"
+          ],
+          "correcta": 0
+        },
+        {
+          "texto": "¿Cuánto tiempo se necesita para cumplir una Misión?",
+          "opciones": [
+            "1 año",
+            "5 años",
+            "10 años",
+            "Toda la vida"
+          ],
+          "correcta": 3
+        }
+      ]
+    },
+    {
+      "id": "m6-concl-1",
+      "tipo": "conclusion_modulo",
+      "visible": false,
+      "titulo": "Resumen: ¿Qué es una misión?",
+      "modulo_numero": 0,
+      "modulo_titulo": "¿Qué es una misión?",
+      "modulo": 0,
+      "aprendizajes": [
+        "Mi misión es mi contribución específica al bien común de la humanidad",
+        "La vocación es una llamada a ser; la misión, una llamada a la acción",
+        "Tengo una sola misión y la cumplo toda la vida: yo soy mi misión"
+      ],
+      "ejercicios_evaluables": [
+        {
+          "id": "m6-04",
+          "label": "Cuestionario"
+        }
+      ]
+    },
+    {
+      "id": "m6-05",
+      "num": 5,
+      "tipo": "video",
+      "titulo": "Ejemplos de misiones",
+      "vimeoId": "924678683",
+      "visible": false,
+      "leccion": 3,
+      "modulo": 1
+    },
+    {
+      "id": "m6-06",
+      "num": 6,
+      "tipo": "lectura",
+      "titulo": "Ejemplos de misiones",
+      "visible": false,
+      "modulo": 1,
+      "lecturas": [
+        [
+          {
+            "titulo_pagina": "4 ejemplos de misiones"
+          },
+          "En todos, la misión nace al unir dos cosas:",
+          {
+            "checks": [
+              "Mi talento",
+              "El desafío del mundo en que vivo"
+            ]
+          }
+        ],
+        [
+          {
+            "titulo_pagina": "Aleksandr Solzhenitsyn"
+          },
+          "Escritor ruso, Premio Nobel de Literatura (1918–2008).",
+          {
+            "etiqueta": "Misión"
+          },
+          {
+            "cita": "Quería ser la memoria de un pueblo víctima de una tragedia indecible."
+          },
+          {
+            "etiqueta": "Talento"
+          },
+          "Escribir. En el gulag, sin papel, escribía de memoria, y sus compañeros de cárcel le decían que lo hacía muy bien.",
+          {
+            "etiqueta": "Desafío"
+          },
+          "Los millones de personas sin voz que morían bajo el comunismo, y la grandeza de quienes lo afrontaron con dignidad."
+        ],
+        [
+          {
+            "titulo_pagina": "Jérôme Lejeune"
+          },
+          "Médico y genetista francés (1926–1994).",
+          {
+            "etiqueta": "Misión"
+          },
+          {
+            "cita": "Quería defender la verdad científica y la gran verdad moral que se deriva de ella."
+          },
+          {
+            "etiqueta": "Talento"
+          },
+          "La ciencia. Fue un genetista de altísimo nivel: descubrió la causa del síndrome de Down.",
+          {
+            "etiqueta": "Desafío"
+          },
+          "Defender la vida humana con la verdad científica."
+        ],
+        [
+          {
+            "titulo_pagina": "Madre Teresa de Calcuta"
+          },
+          "Fundadora de las Misioneras de la Caridad (1910–1997).",
+          {
+            "etiqueta": "Misión"
+          },
+          {
+            "cita": "Quería ser madre de los más pobres entre los pobres de la tierra."
+          },
+          {
+            "etiqueta": "Talento"
+          },
+          "La maternidad espiritual.",
+          {
+            "etiqueta": "Desafío"
+          },
+          "La pobreza extrema: que quienes habían vivido como animales murieran como ángeles, conociendo el amor.",
+          "Un día le ofrecieron millones de dólares para dirigir grandes hospitales. Ella respondió:",
+          {
+            "cita": "Mi misión es ser una madre, no una enfermera."
+          },
+          "**Una misión clara ayuda a tomar buenas decisiones.**"
+        ],
+        [
+          {
+            "titulo_pagina": "Alexandre Havard"
+          },
+          "Fundador del Liderazgo Virtuoso.",
+          {
+            "etiqueta": "Misión"
+          },
+          {
+            "cita": "Encender los corazones para la grandeza."
+          },
+          {
+            "etiqueta": "Talento"
+          },
+          "Enseñar e inspirar: ir al corazón de las personas, y no solo a su inteligencia.",
+          {
+            "etiqueta": "Desafío"
+          },
+          "La pusilanimidad: un mundo que hace a las personas pequeñas."
+        ]
+      ]
+    },
+    {
+      "id": "m6-concl-2",
+      "tipo": "conclusion_modulo",
+      "visible": false,
+      "titulo": "Resumen: Ejemplos de misiones",
+      "modulo_numero": 1,
+      "modulo_titulo": "Ejemplos de misiones",
+      "modulo": 1,
+      "aprendizajes": [
+        "Una misión nace al unir mi talento y el desafío del mundo en que vivo",
+        "Cuatro misiones: ser memoria, defender la verdad científica, ser madre, encender los corazones",
+        "Una misión clara ayuda a tomar buenas decisiones"
+      ],
+      "ejercicios_evaluables": []
+    },
+    {
+      "id": "m6-08",
+      "num": 8,
+      "tipo": "video",
+      "titulo": "¿Por qué una misión?",
+      "vimeoId": "924679235",
+      "visible": false,
+      "leccion": 4,
+      "modulo": 2
+    },
+    {
+      "id": "m6-09",
+      "num": 9,
+      "tipo": "lectura",
+      "titulo": "¿Por qué una misión?",
+      "visible": false,
+      "modulo": 2,
+      "lecturas": [
+        [
+          {
+            "subtitulo_pagina": "Existen tres razones por las que tener una misión:"
+          },
+          {
+            "enfasis": "1. Orienta mi existencia"
+          },
+          "Me da una dirección. Sin misión, la vocación se queda sin concretar: falta un contenido, falta una dirección, y no se sabe cuál es mi contribución al bien común.",
+          "Jérôme Lejeune sabía que lo suyo era la ciencia: tenía que hablar como científico, no como filósofo ni como teólogo."
+        ],
+        [
+          {
+            "enfasis": "2. Determina mis objetivos"
+          },
+          "La misión fija los objetivos, y no al revés: no puedo sacar mi misión de mis objetivos. Cuando mi misión está clara, veo qué objetivos debo tomar y cuáles son una pérdida de tiempo.",
+          "Sin misión, los objetivos se contradicen porque nada los unifica: se hacen muchas cosas y al final no se hace nada. Madre Teresa rechazó lo que iba contra su misión."
+        ],
+        [
+          {
+            "enfasis": "3. Me mantiene centrado"
+          },
+          "La misión no es solo una dirección: también me centra en algo concreto que tengo que realizar. Cuando me proponen otras cosas, me pregunto si sirven a mi misión o son una pérdida de tiempo.",
+          "Un visitante contó a Solzhenitsyn que había estado en un campo de concentración: él sacó papel y lápiz y se lo preguntó todo. Era la memoria de esa época."
+        ]
+      ]
+    },
+    {
+      "id": "m6-10",
+      "num": 10,
+      "tipo": "quiz",
+      "titulo": "Cuestionario 3",
+      "visible": false,
+      "modulo": 2,
+      "preguntas": [
+        {
+          "texto": "¿Cuál de las siguientes afirmaciones es incorrecta?",
+          "opciones": [
+            "Mi misión define mis objetivos",
+            "Mi misión me permite estar enfocado",
+            "Mis objetivos definen mi misión",
+            "Mi misión da dirección a mi existencia"
+          ],
+          "correcta": 2
+        },
+        {
+          "texto": "A la Madre Teresa le ofrecieron millones para dirigir grandes hospitales. ¿Por qué dijo que no?",
+          "opciones": [
+            "No quería depender del dinero",
+            "Su misión era ser madre de los más pobres, no enfermera",
+            "No sabía de medicina",
+            "Prefería trabajar sola"
+          ],
+          "correcta": 1
+        },
+        {
+          "texto": "¿Qué le pasa a quien se fija objetivos sin tener una misión?",
+          "opciones": [
+            "Sus objetivos se contradicen, porque nada los unifica",
+            "Los cumple antes",
+            "Se fija objetivos más ambiciosos",
+            "No le pasa nada"
+          ],
+          "correcta": 0
+        },
+        {
+          "texto": "Solzhenitsyn sacaba papel y lápiz en cuanto alguien le hablaba de un campo de concentración. ¿Qué muestra este ejemplo?",
+          "opciones": [
+            "Que una misión te mantiene centrado",
+            "Que era periodista",
+            "Que desconfiaba de la gente",
+            "Que buscaba ideas para una novela"
+          ],
+          "correcta": 0
+        }
+      ]
+    },
+    {
+      "id": "m6-concl-3",
+      "tipo": "conclusion_modulo",
+      "visible": false,
+      "titulo": "Resumen: ¿Por qué una misión?",
+      "modulo_numero": 2,
+      "modulo_titulo": "¿Por qué una misión?",
+      "modulo": 2,
+      "aprendizajes": [
+        "Mi misión orienta mi existencia: me da una dirección",
+        "Mi misión determina mis objetivos, y no al revés",
+        "Mi misión me mantiene centrado en lo esencial"
+      ],
+      "ejercicios_evaluables": [
+        {
+          "id": "m6-10",
+          "label": "Cuestionario"
+        }
+      ]
+    },
+    {
+      "id": "m6-11",
+      "num": 11,
+      "tipo": "video",
+      "titulo": "Mi misión",
+      "vimeoId": "924679399",
+      "visible": false,
+      "leccion": 5,
+      "modulo": 3
+    },
+    {
+      "id": "m6-concl-4",
+      "tipo": "conclusion_modulo",
+      "visible": false,
+      "titulo": "Resumen: Mi misión",
+      "modulo_numero": 3,
+      "modulo_titulo": "Mi misión",
+      "modulo": 3,
+      "aprendizajes": [
+        "La misión es fruto del autoconocimiento; si no, es un capricho",
+        "Para descubrirla, cuento mi historia, reconozco mis talentos y miro el desafío de mi tiempo",
+        "Mi misión debe ser corta, para recordarla, y densa, para cumplirla cada día"
+      ],
+      "ejercicios_evaluables": []
+    },
+    {
+      "id": "m6-proyecto",
+      "num": 13,
+      "tipo": "proyecto_mision",
+      "titulo": "Plan para descubrir tu misión",
+      "visible": false,
+      "modulo": "final",
+      "proyecto_final": true,
+      "resumen_ficha": true,
+      "prioridad_ficha": 1,
+      "recuerdo_curso2": {
+        "paso": "m2-14",
+        "indices": [
+          7,
+          8,
+          9
+        ],
+        "titulo": "Tus reflexiones del Curso 2: Practicando la magnanimidad",
+        "texto": "En el Test de magnanimidad, tres preguntas te hicieron reflexionar sobre tu misión. Esto es lo que escribiste:"
+      },
+      "secciones": [
+        {
+          "id": "historia",
+          "titulo": "Mi historia",
+          "lecturas": [
+            [
+              "Para responder a la pregunta «¿Quién soy?» necesito conocer bien mi historia y contemplarla.",
+              "**Es mi historia, y no mis caprichos, la que define mi misión.**",
+              {
+                "cita": "Mi historia no es sólo mi historia. Es también la historia de las personas que viven en mí de un modo u otro porque su influencia sobre mí fue considerable."
+              }
+            ],
+            [
+              "Recordar es un esfuerzo moral: me esfuerzo por recordar lo bueno que he recibido y por ser agradecido. Si hay heridas, la única manera de curarlas es perdonar.",
+              "El género de mi relato es el de la **autobiografía espiritual**. Escribo para conocerme y comprenderme, no para que otros me lean. Escribo en círculo, como vuela el águila: vuelvo una y otra vez a mis raíces."
+            ]
+          ],
+          "preguntas": [
+            {
+              "texto": "Las personas que han dejado en mí una huella profunda, un rastro indeleble.",
+              "obligatoria": true,
+              "ejemplo": "Alex Havard dedica los tres primeros capítulos de su autobiografía espiritual a sus abuelos, sus padres y sus hermanos. Sus abuelos habían sufrido la Primera Guerra Mundial y habían huido del bolchevismo; de cada uno recibió algo distinto, y en todos vio grandeza. Estas personas siguen viviendo en ti, aunque hayan muerto.",
+              "guia": "¿Quiénes son? ¿Qué te dejó cada una de ellas? ¿Qué huella llevas de ellas en tu manera de ser y de actuar?"
+            },
+            {
+              "texto": "Los acontecimientos que forjaron mi personalidad.",
+              "obligatoria": false,
+              "ejemplo": "Al llegar a la universidad, en los años 70, Alex vio que el mundo que le rodeaba no se parecía a la grandeza que había conocido en su familia: era un mundo de consumismo y de gente sin raíces. Ese contraste le marcó.",
+              "guia": "¿Qué momentos te marcaron? ¿Qué descubriste en ellos? ¿Cómo te cambiaron?"
+            },
+            {
+              "texto": "Mi país, sus grandezas y sus miserias.",
+              "obligatoria": false,
+              "ejemplo": "Cada país tiene unos dones propios y una misión en la historia. Eres miembro de esa familia nacional y has recibido mucho de ella: descubre su grandeza. Pero sé objetivo y habla también de lo que va contra lo mejor de tu patria.",
+              "guia": "¿Qué hay de excepcional en tu país y en su tradición? ¿Qué te hace sufrir de él hoy? ¿Qué sientes por él? ¿Qué hay de tu país en ti?"
+            },
+            {
+              "texto": "Libros, películas y música que me inspiran.",
+              "obligatoria": false,
+              "ejemplo": "Andréi Tarkovski estrenó «El espejo» en los años 70. Un día recibió la carta de una mujer que le preguntaba cómo conocía su vida: no la conocía, pero la película contaba la esencia de su vida. Si una obra te toca, es porque habla de ti.",
+              "guia": "¿Qué obras te han tocado? ¿Por qué te tocaron? ¿Qué dicen de ti?"
+            },
+            {
+              "texto": "Intento descubrir el tema principal de mi existencia.",
+              "obligatoria": true,
+              "ejemplo": "Así descubrió Alex el suyo: «Vi grandeza en mis padres, mis abuelos, mis amigos, mis profesores. Al mismo tiempo, vi un océano de pusilanimidad, producto del consumismo y del relativismo moral, que barría el mundo. Observé con asombro la aparición de nuevas criaturas, las del Mundo feliz de Aldous Huxley: seres sin pasado, sin patria, sin familia, sin Dios. Vi a los hombres sin pecho de C.S. Lewis, a los amputados de corazón de Jacques Brel. Me aterroricé y decidí actuar. Mi misión —encender corazones para la grandeza— se convirtió en mi respuesta personal a esta catástrofe antropológica.» (Alexandre Havard, «Mi camino hacia el liderazgo virtuoso»)",
+              "guia": "Mira todo lo que has escrito hasta ahora. ¿Qué vuelve una y otra vez en tu historia?"
+            }
+          ],
+          "enunciado": "Reflexiona sobre el siguiente tema:"
+        },
+        {
+          "id": "talentos",
+          "titulo": "Mis talentos",
+          "lecturas": [
+            [
+              "Tu misión está relacionada con tu historia y con tus talentos. Pregúntate: **¿Qué se me da bien?**",
+              "Hablar de tus talentos no es orgullo: es humildad, vivir en la verdad sobre ti mismo. Tus talentos son un don; tú solo los multiplicas. Si no los conoces bien, pide a otros su opinión.",
+              "**Mi misión está donde está mi excelencia.**"
+            ]
+          ],
+          "preguntas": [
+            {
+              "texto": "Temperamento",
+              "obligatoria": false,
+              "ejemplo": "Alex es melancólico: su temperamento le orienta hacia las ideas y la creatividad, y eso le ayuda a avanzar en su misión de encender los corazones para la grandeza.",
+              "guia": "¿Qué talentos te da tu temperamento? Repasa tu temperamento primario y tu temperamento secundario.",
+              "slider": "temperamento"
+            },
+            {
+              "texto": "Carácter",
+              "obligatoria": false,
+              "guia": "¿Qué virtudes tienes ya desarrolladas? Repasa las seis virtudes del liderazgo.",
+              "slider": "virtudes",
+              "ejemplo": "Por ejemplo: «Soy justo: la gente confía en mí porque cumplo mi palabra y trato a todos por igual. También soy audaz: no me cuesta asumir riesgos cuando algo merece la pena»."
+            },
+            {
+              "texto": "Cuerpo",
+              "obligatoria": false,
+              "guia": "¿Qué dones físicos tienes?",
+              "ejemplo": "Por ejemplo: «Tengo mucha energía y aguanto bien el cansancio: puedo trabajar muchas horas seguidas. Tengo buena voz y presencia cuando hablo en público»."
+            },
+            {
+              "texto": "Corazón",
+              "obligatoria": false,
+              "guia": "¿Qué te mueve? ¿Qué sabes amar?",
+              "ejemplo": "Por ejemplo: «Me conmueve el sufrimiento de los demás y sé escuchar. Disfruto de la belleza: de la música, de la naturaleza, de una conversación profunda»."
+            },
+            {
+              "texto": "Voluntad",
+              "obligatoria": false,
+              "guia": "¿En qué eres constante y firme?",
+              "ejemplo": "Por ejemplo: «Cuando empiezo algo, lo termino. Mantengo mis compromisos aunque me cueste y no abandono a la primera dificultad»."
+            },
+            {
+              "texto": "Inteligencia",
+              "obligatoria": false,
+              "guia": "¿Qué entiendes con facilidad?",
+              "ejemplo": "Por ejemplo: «Entiendo rápido los problemas complejos y sé explicarlos con sencillez. Veo enseguida lo esencial de una situación»."
+            },
+            {
+              "texto": "Talento específico",
+              "obligatoria": true,
+              "ejemplo": "«Usted no nos da solo información, nos da formación». Esto es lo que le decían a Alex sus alumnos en clase, en la Universidad de Helsinki. Era un buen abogado, pero vio que en esto era excelente, y dejó la abogacía para dedicarse a enseñar.",
+              "guia": "¿Qué haces de forma excelente? ¿Qué te dicen los demás que haces especialmente bien?"
+            }
+          ],
+          "temperamentos": {
+            "MEL": "El melancólico es idealista y creativo: crea cosas nuevas todo el tiempo. Su misión probablemente va en la dirección de las ideas.",
+            "COL": "El colérico es acción y energía: sabe hacer avanzar una idea y venderla al mundo. Muchas veces crea organizaciones.",
+            "SAN": "El sanguíneo es un comunicador nato: sabe reunir a la gente y convencerla de que vale la pena un proyecto.",
+            "FLE": "El flemático es tranquilo y sistemático: convierte las ideas en procesos que duran años, incluso siglos."
+          },
+          "enunciado": "Reflexiona sobre tus dones y talentos:",
+          "virtudes": [
+            {
+              "nombre": "Prudencia",
+              "texto": "Mejora la capacidad del líder para tomar las decisiones correctas. Es la madre de todas las virtudes."
+            },
+            {
+              "nombre": "Fortaleza",
+              "texto": "Permite mantener el rumbo y resistir presiones de todo tipo. Tiene dos caras: la resistencia, que es perseverar, y la audacia, que es asumir riesgos."
+            },
+            {
+              "nombre": "Dominio de sí",
+              "texto": "Subordina las emociones a la razón y proyecta su energía vital en el cumplimiento de la misión."
+            },
+            {
+              "nombre": "Justicia",
+              "texto": "Permite dar a cada uno lo que le corresponde. Es la virtud social por excelencia."
+            },
+            {
+              "nombre": "Magnanimidad",
+              "texto": "Es el hábito de esforzarse por conseguir grandes cosas."
+            },
+            {
+              "nombre": "Humildad",
+              "texto": "Es el hábito de vivir en el autoconocimiento. También es el hábito del servicio."
+            }
+          ]
+        },
+        {
+          "id": "desafio",
+          "titulo": "Mi desafío",
+          "lecturas": [
+            [
+              "Ya te conoces mejor: tu historia y tus talentos. Ahora mira el mundo en el que vives hoy.",
+              "**Tu misión nace del contraste entre quién eres y lo que pasa en el mundo.**"
+            ]
+          ],
+          "preguntas": [
+            {
+              "texto": "¿Cuál es el reto cultural o social al que me siento llamado a responder con pasión y determinación?",
+              "obligatoria": true,
+              "ejemplo": "Solzhenitsyn: el mundo del comunismo y de los campos de concentración. Madre Teresa: los más pobres entre los pobres. Lejeune: defender la vida humana con la verdad científica. Alex Havard: la pusilanimidad, la pequeñez del ser humano en los siglos XX y XXI.",
+              "guia": "¿Qué pasa en el mundo que te disgusta profundamente y contra lo que quieres luchar?"
+            }
+          ],
+          "enunciado": "Reflexiona sobre la siguiente pregunta:"
+        },
+        {
+          "id": "declaracion",
+          "titulo": "Mi declaración de misión",
+          "lecturas": [
+            [
+              "Mi misión debe formularse de tal manera que:",
+              "1. Destaque claramente el reto cultural o social al que respondo con pasión y determinación a través de mis acciones.",
+              "2. Pueda cumplirla de formas muy distintas cada día.",
+              "Y, además, **corta**, para recordarla; **densa**, para cumplirla mil veces al día. Si no eres poeta, pide ayuda a un amigo que lo sea."
+            ]
+          ],
+          "preguntas": [
+            {
+              "texto": "Escribe aquí tu declaración de misión personal.",
+              "obligatoria": true,
+              "contador_palabras": {
+                "min": 3,
+                "max": 5,
+                "texto": "Orientación: de 3 a 5 palabras"
+              },
+              "ejemplo": "Solzhenitsyn: «Quería ser la memoria de un pueblo víctima de una tragedia indecible». Lejeune: «Quería defender la verdad científica y la gran verdad moral que se deriva de ella». Madre Teresa: «Quería ser madre de los más pobres entre los pobres de la tierra». Las palabras clave son «memoria», «verdad científica», «madre»: precisas y generosas a la vez. Se puede ser madre todos los días, ser memoria todos los días, y todos los días se puede gritar una verdad científica.",
+              "guia": "Corta, para recordarla; densa, para cumplirla mil veces al día.",
+              "placeholder": "Escribe tu misión…"
+            }
+          ],
+          "enunciado": "Con todo lo que has escrito, formula tu misión:"
+        },
+        {
+          "id": "organizacion",
+          "titulo": "Mi misión y la de mi organización",
+          "opcional": true,
+          "lecturas": [],
+          "preguntas": [
+            {
+              "texto": "Si trabajo en una empresa o en una asociación: ¿en qué medida, al cumplir la misión de mi organización, estoy cumpliendo mi misión personal?",
+              "obligatoria": false,
+              "guia": "¿Tu trabajo te ayuda a cumplir tu misión o te aleja de ella?"
+            }
+          ],
+          "enunciado": "Reflexiona sobre la siguiente pregunta:"
+        }
+      ],
+      "cierre": {
+        "titulo": "Tu misión",
+        "texto": "Este trabajo no termina hoy. Cada mes, tómate unas horas para reconsiderar, corregir y completar lo que has empezado. Tu misión aparecerá en «Mi perfil»."
+      }
+    }
+  ]
+}

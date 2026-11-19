@@ -1,0 +1,463 @@
+{
+  "meta": {
+    "source": "TRAD Test Corazon libre 4 languages.ods",
+    "disorders_count": 8,
+    "questions_per_disorder": 4,
+    "questions_total": 32,
+    "thresholds": {
+      "LOW_PCT": 33,
+      "HIGH_PCT": 66
+    }
+  },
+  "disorders": [
+    {
+      "code": "R",
+      "label_key": "hResultR",
+      "html_key": "1-R.html",
+      "question_codes": [
+        "hQuestionR1",
+        "hQuestionR2",
+        "hQuestionR3",
+        "hQuestionR4"
+      ]
+    },
+    {
+      "code": "VR",
+      "label_key": "hResultVR",
+      "html_key": "2-VR.html",
+      "question_codes": [
+        "hQuestionVR1",
+        "hQuestionVR2",
+        "hQuestionVR3",
+        "hQuestionVR4"
+      ]
+    },
+    {
+      "code": "VM",
+      "label_key": "hResultVM",
+      "html_key": "3-VM.html",
+      "question_codes": [
+        "hQuestionVM1",
+        "hQuestionVM2",
+        "hQuestionVM3",
+        "hQuestionVM4"
+      ]
+    },
+    {
+      "code": "VI",
+      "label_key": "hResultVI",
+      "html_key": "4-VI.html",
+      "question_codes": [
+        "hQuestionVI1",
+        "hQuestionVI2",
+        "hQuestionVI3",
+        "hQuestionVI4"
+      ]
+    },
+    {
+      "code": "VC",
+      "label_key": "hResultVC",
+      "html_key": "5-VC.html",
+      "question_codes": [
+        "hQuestionVC1",
+        "hQuestionVC2",
+        "hQuestionVC3",
+        "hQuestionVC4"
+      ]
+    },
+    {
+      "code": "SV",
+      "label_key": "hResultSV",
+      "html_key": "6-SV.html",
+      "question_codes": [
+        "hQuestionSV1",
+        "hQuestionSV2",
+        "hQuestionSV3",
+        "hQuestionSV4"
+      ]
+    },
+    {
+      "code": "SI",
+      "label_key": "hResultSI",
+      "html_key": "7-SI.html",
+      "question_codes": [
+        "hQuestionSI1",
+        "hQuestionSI2",
+        "hQuestionSI3",
+        "hQuestionSI4"
+      ]
+    },
+    {
+      "code": "SC",
+      "label_key": "hResultSC",
+      "html_key": "8-SC.html",
+      "question_codes": [
+        "hQuestionSC1",
+        "hQuestionSC2",
+        "hQuestionSC3",
+        "hQuestionSC4"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "code": "hQuestionR1",
+      "disorder_code": "R",
+      "text": {
+        "en": "When learning something new, I’m motivated purely by intellectual curiosity rather than by how this knowledge might contribute to my personal growth.",
+        "ru": "Когда я учу что-то новое, меня мотивирует исключительно интеллектуальное любопытство, а не то, как эти познания могут способствовать моему личностному росту.",
+        "fr": "Lorsque j'apprends quelque chose de nouveau, je suis motivé uniquement par la curiosité intellectuelle, et non par l'impact potentiel de ces connaissances sur mon développement personnel.",
+        "es": "Cuando aprendo algo nuevo, mi motivación proviene únicamente de la curiosidad intelectual, y no del impacto que estos conocimientos puedan tener en mi desarrollo personal.",
+        "pt": "Quando aprendo algo novo, sou apenas motivado pela curiosidade intelectual e não pelo potencial impacto desses conhecimentos no meu desenvolvimento pessoal."
+      }
+    },
+    {
+      "code": "hQuestionR2",
+      "disorder_code": "R",
+      "text": {
+        "en": "I don’t accept ideas that can’t be proven through hard sciences like mathematics or physics.",
+        "ru": "Я не принимаю идеи, которые не могут быть доказаны точными науками, такими как математика или физика.",
+        "fr": "Je n'accepte pas les idées qui ne peuvent pas être prouvées par des sciences exactes telles que les mathématiques ou la physique.",
+        "es": "No acepto las ideas que no pueden ser probadas por ciencias exactas como las matemáticas o la física.",
+        "pt": "Não aceito ideias que não podem ser comprovadas pelas ciências exactas tais como a matemática ou a física."
+      }
+    },
+    {
+      "code": "hQuestionR3",
+      "disorder_code": "R",
+      "text": {
+        "en": "I tend to delay decisions until I'm mathematically certain they're the right ones.",
+        "ru": "Я склонен откладывать принятие решений, пока не буду математически уверен, что они правильные.",
+        "fr": "J'ai tendance à retarder mes décisions jusqu'à ce que je sois mathématiquement certain qu'elles sont les bonnes.",
+        "es": "Tengo tendencia a retrasar las decisiones hasta estar matemáticamente seguro de que son las correctas.",
+        "pt": "Tenho tendência para adiar as decisões até ter a certeza matemática de que são as corretas."
+      }
+    },
+    {
+      "code": "hQuestionR4",
+      "disorder_code": "R",
+      "text": {
+        "en": "I don't allow myself to be affected or moved by goodness or beauty.",
+        "ru": "Я не позволяю себе быть затронутым добром и красотой.",
+        "fr": "Je ne laisse pas la bonté ou la beauté m'émouvoir.",
+        "es": "No dejo que la bondad o la belleza me conmuevan.",
+        "pt": "Não deixo que a bondade e a beleza me comovam."
+      }
+    },
+    {
+      "code": "hQuestionVR1",
+      "disorder_code": "VR",
+      "text": {
+        "en": "I believe, as a rule, I must set aside my heart (my feelings) in order to please God.",
+        "ru": "Я уверен, что должен заглушить голос своего сердца, чтобы заслужить благосклонность Бога.",
+        "fr": "Je suis convaincu de devoir mettre mon cœur (mes sentiments) de côté pour plaire à Dieu.",
+        "es": "Estoy convencido de que debo dejar mi corazón (mis sentimentos) de lado para agradar a Dios.",
+        "pt": "Estou convencido que tenho de pôr de lado o meu coração, (os meus sentimentos) para agradar a Deus."
+      }
+    },
+    {
+      "code": "hQuestionVR2",
+      "disorder_code": "VR",
+      "text": {
+        "en": "I talk about duty much more often than I talk about love.",
+        "ru": "Я говорю о долге гораздо чаще, чем о любви.",
+        "fr": "Je parle du devoir beaucoup plus souvent que de l'amour.",
+        "es": "Hablo del deber mucho más a menudo que del amor.",
+        "pt": "Falo muito mais do dever do que do coração."
+      }
+    },
+    {
+      "code": "hQuestionVR3",
+      "disorder_code": "VR",
+      "text": {
+        "en": "I don't need joy in this life; joy is for the afterlife.",
+        "ru": "Мне не нужна радость в этой жизни; радость предназначена для загробной жизни.",
+        "fr": "Je n'ai pas besoin de joie dans cette vie ; la joie est pour l'au-delà.",
+        "es": "No necesito la alegría en esta vida; la alegría es para la vida después de la muerte.",
+        "pt": "Não preciso de alegria nesta vida. A alegria é para a vida após a morte."
+      }
+    },
+    {
+      "code": "hQuestionVR4",
+      "disorder_code": "VR",
+      "text": {
+        "en": "If something feels good or brings me pleasure, I automatically assume it must be wrong somehow.",
+        "ru": "Если что-то приносит мне удовольствие, первой мыслью бывает, что это, вероятно, нечто дурное.",
+        "fr": "Si quelque chose me donne du plaisir, ma première pensée est que cette chose doit être mauvaise.",
+        "es": "Si algo me da placer, mi primer pensamiento es que esa cosa debe ser mala.",
+        "pt": "Se algo me dá prazer, a meu primeiro pensamento é que deve ser mau."
+      }
+    },
+    {
+      "code": "hQuestionVM1",
+      "disorder_code": "VM",
+      "text": {
+        "en": "I worry that if I appear too kind or too in touch with my feelings, people might see me as weak or overly sentimental.",
+        "ru": "Боюсь, что если я проявлю слишком много доброты или чувствительности, люди сочтут меня слабым или излишне сентиментальным.",
+        "fr": "Je crains que si je montre trop de gentillesse ou trop de sensibilité, les gens ne me perçoivent comme étant faible ou trop sentimental.",
+        "es": "Temo que si muestro demasiada amabilidad o demasiada sensibilidad, la gente me vea como débil o excesivamente sentimental.",
+        "pt": "Tenho medo que, se mostrar demasiada bondade ou sensibilidade, as pessoas me olhem como alguém fraco ou demasiado sentimental."
+      }
+    },
+    {
+      "code": "hQuestionVM2",
+      "disorder_code": "VM",
+      "text": {
+        "en": "Being around people who are overly 'touchy-feely' makes me very uncomfortable.",
+        "ru": "Быть окруженным «эмоциональными» или «сентиментальными» людьми заставляет меня чувствовать себя неловко.",
+        "fr": "Être entouré de personnes « émotionnelles » ou « sentimentales » me met mal à l'aise.",
+        "es": "Estar rodeado de personas \"emocionales\" o \"sentimentales\" me pone incómodo.",
+        "pt": "Fico incomodado ao estar rodeado de pessoas “emotivas” ou “sentimentais\"."
+      }
+    },
+    {
+      "code": "hQuestionVM3",
+      "disorder_code": "VM",
+      "text": {
+        "en": "In my mind, being manly or a strong woman and being emotionally open just don't mix.",
+        "ru": "Для меня быть \"мужем\" или сильной женщиной и быть эмоционально открытым — это вещи, которые не сочетаются.",
+        "fr": "Pour moi, être un homme viril ou une femme forte et être émotionnellement ouvert sont des choses qui ne vont pas ensemble.",
+        "es": "Para mí, ser un hombre viril o una mujer fuerte y ser emocionalmente abierto son cosas que no van de la mano.",
+        "pt": "Para mim, ser um homem viril ou uma mulher forte e ser ao mesmo tempo emocionalmente aberto são coisas que não se combinam."
+      }
+    },
+    {
+      "code": "hQuestionVM4",
+      "disorder_code": "VM",
+      "text": {
+        "en": "I believe focusing on building willpower and self-discipline is far more important than developing a sensitive heart.",
+        "ru": "Я считаю, что гораздо важнее укреплять свою волю, чем развивать чувствительное сердце.",
+        "fr": "Je pense qu'il est bien plus important d’affermir sa volonté que de développer un cœur sensible.",
+        "es": "Pienso que es mucho más importante fortalecer la voluntad que desarrollar un corazón sensible.",
+        "pt": "Acho que é muito mais importante fortalecer a vontade do que de desenvolver um coração sensível."
+      }
+    },
+    {
+      "code": "hQuestionVI1",
+      "disorder_code": "VI",
+      "text": {
+        "en": "I’m convinced that most of the evil in the world arises from social dysfunctions. If we could only establish the right political system and ideology, all our problems would vanish.",
+        "ru": "Я уверен, что большинство зла в мире происходит из-за нарушений в обществе. Если бы мы смогли создать правильную политическую систему и идеологию, все наши проблемы исчезли бы.",
+        "fr": "Je suis convincu que le mal dans le monde provient des dysfonctionnements de la société. Si nous pouvions seulement établir le bon système politique et la bonne idéologie, tous nos problèmes disparaîtraient.",
+        "es": "Estoy convencido de que el mal en el mundo proviene de los disfuncionamientos de la sociedad. Si solo pudiéramos establecer el sistema político adecuado y la ideología correcta, todos nuestros problemas desaparecerían.",
+        "pt": "Estou convencido de que o mal no mundo tem origem na natureza disfuncional da sociedade. Se pudéssemos estabelecer o sistema político correto e a ideologia adquada, todos os nossos problemas desapareceriam."
+      }
+    },
+    {
+      "code": "hQuestionVI2",
+      "disorder_code": "VI",
+      "text": {
+        "en": "I'm much more focused on trying to change the world around me than on working on myself and my personal growth.",
+        "ru": "Я считаю, что важнее изменять мир вокруг себя, чем работать над собой и своим личным развитием.",
+        "fr": "Je pense qu’il est plus important de changer le monde autour de moi plutôt que de travailler sur moi-même et mon développement personnel.",
+        "es": "Creo que es más importante cambiar el mundo a mi alrededor que trabajar en mí mismo y en mi desarrollo personal.",
+        "pt": "Creio que é mais importante mudar o mundo à minha volta do que trabalhar sobre mim mesmo e sobre o meu desenvolvimento pessoal."
+      }
+    },
+    {
+      "code": "hQuestionVI3",
+      "disorder_code": "VI",
+      "text": {
+        "en": "I don't believe in universal principles of human nature.",
+        "ru": "Я не верю в универсальные принципы человеческой природы.",
+        "fr": "Je ne crois pas aux principes universels de la nature humaine.",
+        "es": "No creo en los principios universales de la naturaleza humana.",
+        "pt": "Não acredito em princípios universais da natureza humana."
+      }
+    },
+    {
+      "code": "hQuestionVI4",
+      "disorder_code": "VI",
+      "text": {
+        "en": "I don't believe in the Ten Commandments. I believe that every new moral experience is good, and anything that hinders this type of progress is bad.",
+        "ru": "Я не верю в Десять заповедей. Я верю, что каждый новый моральный опыт — это благо, а все, что препятствует этому прогрессу, — это зло.",
+        "fr": "Je ne crois pas aux Dix Commandements. Je crois que chaque nouvelle expérience morale est bonne, et que tout ce qui entrave ce type de progrès est mauvais.",
+        "es": "No creo en los Diez Mandamientos. Creo que cada nueva experiencia moral es buena, y que todo lo que obstaculiza este tipo de progreso es malo.",
+        "pt": "Não acredito nos Dez Mandamentos. Acredito que cada nova experiência moral é boa e que tudo o que impede esse tipo de progresso é mau."
+      }
+    },
+    {
+      "code": "hQuestionVC1",
+      "disorder_code": "VC",
+      "text": {
+        "en": "I'm a big fan of rules (things like laws, company policies, and codes of conduct) because they make it super clear how I should act in pretty much any situation, both at work and in my personal life. No guesswork required! No need for practical wisdom!",
+        "ru": "Мне очень нравятся правила, такие как законы и корпоративные кодексы поведения, потому что они четко и однозначно указывают, как следует поступать в любой ситуации - будь то на работе или в личной жизни. Думать не нужно!",
+        "fr": "J'aime beaucoup les règles, telles que les lois ou les codes de conduite des entreprises car elles m’indiquent comment je dois agir dans toutes les situations, que ce soit au travail ou dans ma vie personnelle. Pas besoin de réfléchir !",
+        "es": "Me gustan mucho las reglas, como las leyes o los códigos de conducta de las empresas, porque me indican cómo debo actuar en cualquier situación, ya sea en el trabajo o en mi vida personal. ¡No hace falta pensar!",
+        "pt": "Gosto muito das regras, tais como as leis ou os códigos de conduta das empresas, porque me indicam como devo agir em quase todas as situações, seja no trabalho ou na minha vida pessoal - não é preciso reflectir!"
+      }
+    },
+    {
+      "code": "hQuestionVC2",
+      "disorder_code": "VC",
+      "text": {
+        "en": "In my opinion, following the rules – whether they come from religion, politics, or society in general – is the key to being a good, moral person. If an action lines up with the rules, it's good. If it doesn't, it's bad. Plain and simple.",
+        "ru": "На мой взгляд, следование правилам — будь то религиозным, политическим или социальным — это ключ к человеческому совершенству. Если действие соответствует правилам, оно хорошее. Если нет — плохое. Все так просто.",
+        "fr": "À mon avis, suivre les règles – qu'elles viennent de la religion, de la politique ou de la société en général – est la clé de la perfection humaine. Si une action est conforme aux règles, elle est bonne. Si elle ne l’est pas, elle est mauvaise. C’est aussi simple que ça.",
+        "es": "En mi opinión, seguir las reglas —ya sean de la religión, la política o la sociedad en general— es la clave de la perfección humana. Si una acción cumple con las reglas, es buena. Si no lo hace, es mala. Así de simple.",
+        "pt": "Na minha opinião, seguir as regras - sejam elas da religião, da política ou da sociedade em geral - é a chave para a perfeição humana. Se uma ação estiver de acordo com as regras, é boa. Se não estiver, é má. Tão simples quanto isto."
+      }
+    },
+    {
+      "code": "hQuestionVC3",
+      "disorder_code": "VC",
+      "text": {
+        "en": "I believe there should be a predetermined set of guidelines that cover all common scenarios people face in life. That way we all know exactly what to do.",
+        "ru": "Я считаю, что должно существовать набор заранее определенных правил, охватывающих все обычные ситуации жизни. Так мы всегда точно знали бы, что делать.",
+        "fr": "Je pense qu'il devrait y avoir un ensemble de règles prédéfinies pour couvrir toutes les situations courantes de la vie. Ainsi, on saurait toujours exactement quoi faire.",
+        "es": "Creo que debería existir un conjunto de reglas predefinidas para cubrir todas las situaciones comunes de la vida. De esta manera, siempre sabríamos exactamente qué hacer.",
+        "pt": "Penso que deveria haver um conjunto de regras pré-definidas para cobrir todas as situações correntes da vida. Dessa forma, saberíamos sempre exatamente o que fazer."
+      }
+    },
+    {
+      "code": "hQuestionVC4",
+      "disorder_code": "VC",
+      "text": {
+        "en": "I'm convinced that there's one set of ethical standards for the workplace and a completely different set for our personal lives. What is morally unacceptable at the office may be acceptable at home.",
+        "ru": "Я убежден, что существует набор этических норм для работы и другой для личной жизни. То, что морально неприемлемо на работе, может быть вполне приемлемо дома.",
+        "fr": "Je suis convaincu qu'il existe un ensemble de normes éthiques pour le travail et un autre pour notre vie personnelle. Ce qui est moralement inacceptable au bureau peut être acceptable à la maison.",
+        "es": "Estoy convencido de que existe un conjunto de normas éticas para el trabajo y otro para nuestra vida personal. Lo que es moralmente inaceptable en la oficina puede ser aceptable en casa.",
+        "pt": "Estou convencido de que existe um conjunto de normas éticas para o local de trabalho e um conjunto completamente diferente para as nossa vida pessoal. O que é moralmente inaceitável no escritório pode ser aceitável em casa."
+      }
+    },
+    {
+      "code": "hQuestionSV1",
+      "disorder_code": "SV",
+      "text": {
+        "en": "The main reason I help others and do good deeds is because it gives me warm, fuzzy feelings and makes me feel like a good person.",
+        "ru": "Я делаю добро, потому что это приносит мне приятное ощущение быть хорошим человеком.",
+        "fr": "Je fais le bien parce que cela me procure la sensation agréable d'être une bonne personne.",
+        "es": "Hago el bien porque me proporciona la sensación agradable de ser una buena persona.",
+        "pt": "Faço o bem porque me dá a agradável sensação de ser uma boa pessoa."
+      }
+    },
+    {
+      "code": "hQuestionSV2",
+      "disorder_code": "SV",
+      "text": {
+        "en": "When I don't get any kind of emotional reward or positive feedback from helping others, I lose interest and stop doing it.",
+        "ru": "Когда я не получаю эмоциональной награды или положительного отклика от людей, которым помогаю, я быстро теряю желание продолжать им помогать и перестаю это делать.",
+        "fr": "Quand je ne reçois aucune récompense émotionnelle ou retour positif des personnes que j’aide, je perds rapidement le désir de continuer à les aider et j'arrête de le faire.",
+        "es": "Cuando no recibo ninguna recompensa emocional o retroalimentación positiva de las personas a las que ayudo, pierdo rápidamente el deseo de seguir ayudándolas y dejo de hacerlo.",
+        "pt": "Quando não recebo uma recompensa emocional ou um feedback positivo das pessoas que ajudo, perco rapidamente o desejo de continuar a ajudá-las e deixo de o fazer."
+      }
+    },
+    {
+      "code": "hQuestionSV3",
+      "disorder_code": "SV",
+      "text": {
+        "en": "When I pray, I'm mostly looking for comfort and good feelings. If I don't feel anything during prayer, I tend to just give up and stop.",
+        "ru": "Когда я молюсь, я в основном ищу утешение и поддержку. Если я не чувствую ничего во время молитвы, я перестаю молиться, потому что молиться в такие моменты не имеет смысла.",
+        "fr": "Quand je prie, je cherche surtout des consolations et du réconfort. Si je ne ressens rien pendant la prière, je cesse de prier, car prier dans ces moments-là ne sert à rien.",
+        "es": "Cuando rezo, busco sobre todo consolaciones y consuelo. Si no siento nada durante la oración, dejo de rezar, porque rezar en esos momentos no sirve de nada.",
+        "pt": "Quando rezo, procuro sobretudo consolação e conforto. Se não sinto nada durante a oração, deixo de rezar, porque rezar nessa altura é inútil."
+      }
+    },
+    {
+      "code": "hQuestionSV4",
+      "disorder_code": "SV",
+      "text": {
+        "en": "I'm all about doing things that are exciting, intense, and emotionally stimulating. I love being active and feeling all the feelings, just for the sake of the experience itself.",
+        "ru": "Я предпочитаю интенсивные действия, эмоционально стимулирующие. Мне нравится быть активным и испытывать в действиях всевозможные эмоции. Действие ради удовольствия от самого действия — это то, что я переживаю каждый день.",
+        "fr": "Je privilégie les actions intenses et stimulantes émotionnellement. J'aime être actif et éprouver dans l’action toutes sortes d'émotions. L’action pour le plaisir de l’action est quelque chose que j’expérimente tous les jours.",
+        "es": "Priorizo las acciones intensas y emocionalmente estimulantes. Me gusta estar activo y experimentar todo tipo de emociones a través de la acción. La acción por el placer de la acción es algo que experimento todos los días.",
+        "pt": "Dou prioridade às ações intensas e emocionalmente estimulantes. Gosto de ser ativo e de experimentar todos os tipos de emoções através da ação. A ação pelo prazer da ação é algo que experimento todos os dias."
+      }
+    },
+    {
+      "code": "hQuestionSI1",
+      "disorder_code": "SI",
+      "text": {
+        "en": "I always go with my gut instinct and follow my heart, no matter what.",
+        "ru": "Я всегда позволяю своему инстинкту и сердцу вести меня, что бы ни случилось.",
+        "fr": "Je me laisse toujours guider par mon instinct et par mon cœur, quoi qu'il arrive.",
+        "es": "Siempre me dejo guiar por mi instinto y por mi corazón, pase lo que pase.",
+        "pt": "Deixo-me sempre guiar pelos meus instintos e pelo meu coração, aconteça o que acontecer."
+      }
+    },
+    {
+      "code": "hQuestionSI2",
+      "disorder_code": "SI",
+      "text": {
+        "en": "I trust my heart completely and feel no need to overthink or second-guess myself when making decisions.",
+        "ru": "Я полностью доверяю своему сердцу. Мне не нужно размышлять или сомневаться в себе, когда я принимаю решения.",
+        "fr": "Je fais entièrement confiance à mon cœur. Je n'ai pas besoin de réfléchir ni de douter de moi-même lorsque je prends des décisions.",
+        "es": "Confío completamente en mi corazón. No necesito reflexionar ni dudar de mí mismo cuando tomo decisiones.",
+        "pt": "Confio plenamente no meu coração. Não preciso de pensar muito nem de duvidar de mim mesmo quando tomo decisões."
+      }
+    },
+    {
+      "code": "hQuestionSI3",
+      "disorder_code": "SI",
+      "text": {
+        "en": "My initial reaction to external stimuli is always the right one. No need to doubt or adjust.",
+        "ru": "Моя первоначальная реакция на внешние стимулы всегда правильная. Нет нужды сомневаться или корректировать ее.",
+        "fr": "Ma réaction initiale aux stimuli extérieurs est toujours la bonne. Pas besoin de douter ou d'ajuster.",
+        "es": "Mi reacción inicial a los estímulos externos siempre es la correcta. No necesito dudar ni ajustar.",
+        "pt": "A minha reação inicial a estímulos externos é sempre a correta. Não preciso de duvidar ou de me adaptar."
+      }
+    },
+    {
+      "code": "hQuestionSI4",
+      "disorder_code": "SI",
+      "text": {
+        "en": "I believe the key to life lies in allowing myself to fully feel everything.",
+        "ru": "",
+        "fr": "",
+        "es": "La clave de la vida es vivir plenamente todo tipo de emociones.",
+        "pt": "A chave da vida é viver plenamente todos os tipos de emoções."
+      }
+    },
+    {
+      "code": "hQuestionSC1",
+      "disorder_code": "SC",
+      "text": {
+        "en": "When people in my life (like my kids, students, employees, friends) do something wrong, I avoid confronting them about it. I tell myself that we shouldn't make others feel bad and that we should just try to understand and love them instead.",
+        "ru": "Когда люди, за которых я несу ответственность (мои дети, мои ученики, мои сотрудники, мои друзья), совершают ошибку, я стараюсь не обсуждать это с ними. Я говорю себе, что не следует заставлять их чувствовать, что они неправы, и что лучше просто попытаться их понять и любить.",
+        "fr": "Lorsque les personnes dont je suis responsable (mes enfants, mes élèves, mes employés, mes amis) font quelque chose de mal, j'évite de les confronter à ce sujet. Je me dis qu'il ne faut pas leur faire sentir qu'ils ont tort et qu'il vaut mieux simplement essayer de les comprendre et de les aimer.",
+        "es": "Cuando las personas de las que soy responsable (mis hijos, mis alumnos, mis empleados, mis amigos) hacen algo mal, evito confrontarlas sobre el tema. Me digo a mí mismo que no debo hacerles sentir que están equivocados y que es mejor simplemente intentar comprenderlas y amarlas.",
+        "pt": "Quando as pessoas por quem sou responsável (os meus filhos, os meus alunos, os meus empregados, os meus amigos) fazem algo de errado, evito confrontá-las com isso. Digo a mim próprio que não devo fazê-las sentir que estão eqyuivocadas e que o melhor é simplesmente tentar compreende-las e ama-las."
+      }
+    },
+    {
+      "code": "hQuestionSC2",
+      "disorder_code": "SC",
+      "text": {
+        "en": "I tend to shy away from following the demands of my conscience out of fear of upsetting my parents, friends, or colleagues.",
+        "ru": "Я часто уступаю требованиям своей совести из страха обидеть родителей, друзей или коллег.",
+        "fr": "J'ai tendance à reculer devant les exigences de ma conscience par crainte de faire souffrir mes parents, mes amis, mes collègues.",
+        "es": "Tengo la tendencia a ceder ante las exigencias de mi conciencia por temor a molestar a mis padres, amigos, colegas.",
+        "pt": "Tenho tendência para me afastar das exigências da minha consciência com medo de magoar os meus pais, os meus amigos ou os meus colegas."
+      }
+    },
+    {
+      "code": "hQuestionSC3",
+      "disorder_code": "SC",
+      "text": {
+        "en": "I often avoid offering constructive criticism or corrections to others due to a fear of confrontation.",
+        "ru": "Опасаясь конфликта, я часто избегаю давать конструктивную критику, даже когда это действительно необходимо.",
+        "fr": "Par peur des conflits, j’ai beaucoup de mal à offrir aux autres une critique constructive, même lorsqu’ils en ont clairement besoin.",
+        "es": "Por miedo a los conflictos, me cuesta mucho ofrecer a los demás una crítica constructiva, incluso cuando claramente la necesitan.",
+        "pt": "Por causa do medo dos conflitos, tenho muita dificuldade em fazer críticas construtuivas, mesmo que seja evidente de que o necessitam."
+      }
+    },
+    {
+      "code": "hQuestionSC4",
+      "disorder_code": "SC",
+      "text": {
+        "en": "",
+        "ru": "Я легко соглашаюсь с политически или культурно корректной позицией, даже если она идет вразрез с моими убеждениями, чтобы не задеть чувства других своими ценностями.",
+        "fr": "Je n’ai aucun mal à adopter une attitude politiquement ou culturellement correcte, même si cela va à l’encontre de mes convictions, afin d’éviter de froisser les autres avec mes valeurs.",
+        "es": "No tengo ningún problema en adoptar una actitud políticamente o culturalmente correcta, incluso si va en contra de mis convicciones, para evitar molestar a los demás con mis valores.",
+        "pt": "Não tenho qualquer problema em adotar uma atitude politica ou culturalmente correta, mesmo que ela vá contra as minhas convicções, para evitar incomodar os outros com os meus valores."
+      }
+    }
+  ],
+  "link_to_book": {
+    "en": "",
+    "ru": "",
+    "fr": "",
+    "es": "https://www.eunsa.es/libro/corazon-libre_99703/",
+    "pt": ""
+  }
+}

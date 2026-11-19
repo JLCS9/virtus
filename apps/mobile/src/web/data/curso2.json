@@ -1,0 +1,892 @@
+{
+  "id": "curso2",
+  "titulo": "Practicando la magnanimidad",
+  "ideas_clave": [
+    { "texto": "La persona magnánima quiere hacer grandes cosas, pero sobre todo quiere ser grande.", "paso": "m2-01" },
+    { "texto": "La magnanimidad es la primera virtud específica de los líderes.", "paso": "m2-01" },
+    { "texto": "La magnanimidad y la humildad son ideales de vida.", "paso": "m2-02" },
+    { "texto": "El liderazgo consiste en crecer haciendo crecer a otras personas.", "paso": "m2-01" },
+    { "texto": "Tienes que descubrir en ti tu grandeza. No puedes servir con tu miseria.", "paso": "m2-01" }
+  ],
+  "curso": 2,
+  "pasos": [
+    {
+      "id": "m2-01",
+      "num": 1,
+      "tipo": "video",
+      "titulo": "Practicando la magnanimidad",
+      "visible": true,
+      "leccion": 1,
+      "vimeoId": "924576183",
+      "intro": [
+        [
+          "La magnanimidad es la virtud de las grandes personas.",
+          "La persona magnánima quiere hacer grandes cosas, pero sobre todo quiere ser grande.",
+          { "caja": "Tiene confianza en sí mismo, en sus talentos y en sus capacidades." }
+        ],
+        [
+          { "checks": [
+            "Se siente libre y fuerte llevando su imaginación hasta el final.",
+            "Está lleno de esperanza humana.",
+            "Sueña y transforma su sueño en misión.",
+            "Ve en los grandes problemas de la humanidad grandes oportunidades y los obstáculos como cumbres que hay que conquistar."
+          ] },
+          "**__Está convencido de que el mal es el bien que no se hace.__**"
+        ],
+        [
+          { "destacado": "La magnanimidad es la primera virtud\nespecífica de los líderes." }
+        ]
+      ],
+      "modulo": 0
+    },
+    {
+      "id": "m2-02",
+      "num": 2,
+      "tipo": "video",
+      "titulo": "Magnanimidad y Humildad son ideales de vida",
+      "visible": true,
+      "leccion": 2,
+      "vimeoId": "924576390",
+      "continua_modulo": true,
+      "modulo": 0
+    },
+    {
+      "id": "m2-03",
+      "ficha": [],
+      "caratula_desc": "Observa la Pirámide de Liderazgo Virtuoso y reflexiona sobre el lugar que ocupa la magnanimidad en el sistema de virtudes.\n\nDespués responderás a unas preguntas para profundizar en ello.",
+      "num": 3,
+      "tipo": "reflexion_piramide",
+      "titulo": "La magnanimidad en el sistema de Liderazgo Virtuoso",
+      "visible": false,
+      "resumen_ficha": "¿Cómo ayuda la humildad a la magnanimidad?",
+      "prioridad_ficha": 4,
+      "imagen": "piramide-lv",
+      "enunciado": "Observa la Pirámide de Liderazgo Virtuoso",
+      "descripcion": "Contempla el diagrama y reflexiona sobre el lugar que ocupa la magnanimidad en el sistema de virtudes. Después responde a las preguntas.",
+      "preguntas": [
+        "¿Es posible la magnanimidad sin la prudencia? ¿Por qué?",
+        "¿Es posible la magnanimidad sin la fortaleza? ¿Por qué?",
+        "¿Es posible la magnanimidad sin el dominio de sí? ¿Por qué?",
+        "¿Es posible la magnanimidad sin la justicia? ¿Por qué?"
+      ],
+      "modulo": 0
+    },
+    {
+      "id": "m2-04",
+      "caratula_desc": "Responde a cuatro preguntas sobre la magnanimidad y la humildad para poner a prueba lo que has aprendido en este módulo.",
+      "num": 4,
+      "tipo": "quiz",
+      "titulo": "Cuestionario — Magnanimidad y humildad",
+      "visible": false,
+      "preguntas": [
+        {
+          "texto": "Según Aristóteles, la magnanimidad es…",
+          "opciones": [
+            "Sinónimo de misericordia",
+            "El ideal de grandeza",
+            "Sinónimo de generosidad",
+            "La capacidad de no preocuparse por las pérdidas"
+          ],
+          "correcta": 1
+        },
+        {
+          "texto": "La magnanimidad permite…",
+          "opciones": [
+            "Encontrar un propósito y un sentido en la vida",
+            "Superar dificultades en la práctica de las virtudes fundamentales",
+            "Ser una persona agradable y fácil de tratar",
+            "Todo lo anterior"
+          ],
+          "correcta": 0
+        },
+        {
+          "texto": "¿Dónde está principalmente arraigada la magnanimidad?",
+          "opciones": [
+            "En el corazón",
+            "En la razón",
+            "En la voluntad",
+            "En todo lo anterior"
+          ],
+          "correcta": 0
+        },
+        {
+          "texto": "¿Dónde están principalmente arraigadas las virtudes fundamentales?",
+          "opciones": [
+            "En el corazón",
+            "En el corazón, la razón y la voluntad",
+            "En la razón y la voluntad",
+            "En la razón"
+          ],
+          "correcta": 2
+        }
+      ],
+      "modulo": 0
+    },
+    {
+      "id": "m2-concl-1",
+      "tipo": "conclusion_modulo",
+      "visible": false,
+      "titulo": "Resumen: Practicando la magnanimidad",
+      "modulo_numero": 0,
+      "modulo_titulo": "Practicando la magnanimidad",
+      "aprendizajes": [
+        "Qué es la magnanimidad",
+        "La magnanimidad como primera virtud específica del líder",
+        "El lugar de la magnanimidad en la pirámide de Liderazgo Virtuoso",
+        "Relación entre magnanimidad y las demás virtudes"
+      ],
+      "ejercicios_evaluables": [
+        {
+          "id": "m2-03",
+          "label": "Reflexión pirámide"
+        },
+        {
+          "id": "m2-04",
+          "label": "Cuestionario"
+        }
+      ],
+      "modulo": 0
+    },
+    {
+      "id": "m2-05",
+      "num": 5,
+      "tipo": "video",
+      "titulo": "La magnanimidad es contemplación y acción",
+      "visible": true,
+      "leccion": 3,
+      "vimeoId": "924576268",
+      "modulo": 1
+    },
+    {
+      "id": "m2-06",
+      "caratula_desc": "Responde a cuatro preguntas sobre la magnanimidad como contemplación y acción para poner a prueba lo que has aprendido en este módulo.",
+      "num": 6,
+      "tipo": "quiz",
+      "titulo": "Cuestionario — Contemplación y acción",
+      "visible": false,
+      "preguntas": [
+        {
+          "texto": "¿Quién es el autor de la frase: «El magnánimo es aquel que se considera digno de grandes cosas»?",
+          "opciones": [
+            "Aristóteles",
+            "Tomás de Aquino",
+            "Platón",
+            "Dostoievski"
+          ],
+          "correcta": 0
+        },
+        {
+          "texto": "¿Quién es el autor de la frase: «El magnánimo es aquel que se considera digno de hacer grandes cosas»?",
+          "opciones": [
+            "Aristóteles",
+            "Tomás de Aquino",
+            "Platón",
+            "Dostoievski"
+          ],
+          "correcta": 1
+        },
+        {
+          "texto": "La magnanimidad es una virtud…",
+          "opciones": [
+            "De los filósofos activos",
+            "De los ermitaños contemplativos",
+            "De los funcionarios experimentados",
+            "De los benefactores y voluntarios"
+          ],
+          "correcta": 0
+        },
+        {
+          "texto": "¿Qué es esencial en la magnanimidad?",
+          "opciones": [
+            "La contemplación",
+            "La acción",
+            "La contemplación y la acción",
+            "La bondad"
+          ],
+          "correcta": 2
+        }
+      ],
+      "modulo": 1
+    },
+    {
+      "id": "m2-concl-2",
+      "tipo": "conclusion_modulo",
+      "visible": false,
+      "titulo": "Resumen: Contemplación y acción",
+      "modulo_numero": 1,
+      "modulo_titulo": "La magnanimidad es contemplación y acción",
+      "aprendizajes": [
+        "Aristóteles: dignos de grandes cosas (ser)",
+        "Tomás de Aquino: dignos de hacer grandes cosas (acción)",
+        "La magnanimidad requiere ambas: contemplación y acción"
+      ],
+      "ejercicios_evaluables": [
+        {
+          "id": "m2-06",
+          "label": "Cuestionario"
+        }
+      ],
+      "modulo": 1
+    },
+    {
+      "id": "m2-07",
+      "num": 7,
+      "tipo": "video",
+      "titulo": "Magnanimidad y prudencia",
+      "visible": true,
+      "leccion": 4,
+      "vimeoId": "924576301",
+      "modulo": 2
+    },
+    {
+      "id": "m2-08",
+      "ficha": [{"respuesta": 0, "titulo": "¿Buscas de verdad la magnanimidad o te mueves por la vanidad?"}],
+      "caratula_desc": "Reflexiona sobre la diferencia entre la magnanimidad y la soberbia, y sobre qué te mueve de verdad cuando aspiras a grandes cosas.",
+      "num": 8,
+      "tipo": "reflexion_piramide",
+      "titulo": "No confundo la magnanimidad con soberbia",
+      "visible": false,
+      "resumen_ficha": "¿Busco magnanimidad o me muevo por vanidad?",
+      "prioridad_ficha": 1,
+      "imagen": "soberbia-magnanimidad",
+      "enunciado": "No confundo la magnanimidad con soberbia",
+      "descripcion": "Sin la prudencia, la magnanimidad se convierte en soberbia.\n\nLa soberbia es una falsa magnanimidad. Se presenta como magnanimidad, pero no lo es.\n\n**__Solo la humildad metafísica puede evitar que caigamos en la soberbia.__**",
+      "preguntas": [
+        "Examina tus intenciones. ¿Buscas de verdad la magnanimidad, o te mueves, en mayor o menor medida, por la vanidad?"
+      ],
+      "ejemplos": [
+        "A veces me doy cuenta de que busco el reconocimiento de los demás más que hacer el bien por sí mismo. Por ejemplo, cuando ayudo a alguien en el trabajo, me descubro esperando que mi jefe se entere. Quiero trabajar en hacer el bien por convicción, no por aplauso."
+      ],
+      "modulo": 2
+    },
+    {
+      "id": "m2-09",
+      "caratula_desc": "Responde a cuatro preguntas sobre la magnanimidad y la prudencia para poner a prueba lo que has aprendido en este módulo.",
+      "num": 9,
+      "tipo": "quiz",
+      "titulo": "Cuestionario — Magnanimidad y prudencia",
+      "visible": false,
+      "preguntas": [
+        {
+          "texto": "La magnanimidad sin la virtud de la prudencia conduce a…",
+          "opciones": [
+            "La severidad",
+            "La soberbia",
+            "La insensibilidad",
+            "La temeridad"
+          ],
+          "correcta": 1
+        },
+        {
+          "texto": "La soberbia es…",
+          "opciones": [
+            "Una ceguera que impide a una persona comprender la verdad sobre sí misma",
+            "Una motivación que impulsa a lograr grandes cosas",
+            "El resultado merecido de logros alcanzados",
+            "Un concepto religioso anticuado"
+          ],
+          "correcta": 0
+        },
+        {
+          "texto": "La soberbia es…",
+          "opciones": [
+            "Una falsa magnanimidad",
+            "La ausencia de humildad",
+            "Un vicio tan grave como la pusilanimidad",
+            "Todo lo anterior"
+          ],
+          "correcta": 3
+        },
+        {
+          "texto": "La condición necesaria para crecer en las virtudes es…",
+          "opciones": [
+            "La sabiduría práctica",
+            "Un buen conocimiento de la filosofía",
+            "El respeto por uno mismo",
+            "Todo lo anterior"
+          ],
+          "correcta": 0
+        }
+      ],
+      "modulo": 2
+    },
+    {
+      "id": "m2-concl-3",
+      "tipo": "conclusion_modulo",
+      "visible": false,
+      "titulo": "Resumen: Magnanimidad y prudencia",
+      "modulo_numero": 2,
+      "modulo_titulo": "Magnanimidad y prudencia",
+      "aprendizajes": [
+        "Magnanimidad sin prudencia = soberbia",
+        "La soberbia es una falsa magnanimidad",
+        "La humildad metafísica protege contra la soberbia"
+      ],
+      "ejercicios_evaluables": [
+        {
+          "id": "m2-08",
+          "label": "Reflexión soberbia"
+        },
+        {
+          "id": "m2-09",
+          "label": "Cuestionario"
+        }
+      ],
+      "modulo": 2
+    },
+    {
+      "id": "m2-10",
+      "num": 10,
+      "tipo": "video",
+      "titulo": "Magnanimidad y los 4 temperamentos",
+      "visible": true,
+      "leccion": 5,
+      "vimeoId": "924577735",
+      "modulo": 3
+    },
+    {
+      "id": "m2-11",
+      "ficha": [{"campo": "textoFuerte", "titulo": "Puntos fuertes de mi temperamento"}, {"campo": "textoDebil", "titulo": "Puntos débiles de mi temperamento"}],
+      "caratula_desc": "Estudia el diagrama de la magnanimidad y descubre cómo tu temperamento puede ayudarte a practicarla.\n\nVerás tus fortalezas y debilidades, tanto en la contemplación como en la acción.",
+      "num": 11,
+      "tipo": "temperamento_magnanimidad",
+      "titulo": "¿Cómo puede mi temperamento ayudarme a practicar la magnanimidad?",
+      "visible": false,
+      "resumen_ficha": "Mis puntos fuertes y débiles en magnanimidad",
+      "prioridad_ficha": 2,
+      "imagen": "magnanimidad-temperamentos",
+      "enunciado": "¿Cómo puede mi temperamento ayudarme a practicar la magnanimidad?",
+      "descripcion": "Estudia el diagrama de la Magnanimidad. Observa las fortalezas y debilidades de cada temperamento en relación con la magnanimidad, tanto en la contemplación como en la acción.",
+      "pregunta_fuerte": "Puntos fuertes de mi temperamento dominante en términos de magnanimidad:",
+      "pregunta_debil": "Puntos débiles de mi temperamento dominante en términos de magnanimidad:",
+      "pregunta_fuerte_sec": "Puntos fuertes de mi temperamento secundario en términos de magnanimidad:",
+      "pregunta_debil_sec": "Puntos débiles de mi temperamento secundario en términos de magnanimidad:",
+      "ejemplos_fuerte": {
+        "COL": "Por ejemplo, como colérico tu fuerza magnánima está en la acción: emprendes proyectos ambiciosos con audacia, tomas decisiones rápidas y no te paraliza el miedo al fracaso.",
+        "MEL": "Por ejemplo, como melancólico tu fuerza magnánima está en la contemplación: sabes soñar en grande, reflexionas con profundidad sobre tus talentos y tienes una visión a largo plazo.",
+        "SAN": "Por ejemplo, como sanguíneo tu fuerza magnánima está en el entusiasmo: te lanzas a la aventura con energía, contagias a los demás con tu optimismo y no temes empezar cosas nuevas.",
+        "FLE": "Por ejemplo, como flemático la magnanimidad es tu virtud-desafío: el diagrama no te marca puntos fuertes en ella. Pero tienes un apoyo: cuando te comprometes con algo, perseveras con constancia y mantienes la calma bajo presión. Si te atreves a soñar algo grande, esa constancia te ayudará a llevarlo a término."
+      },
+      "ejemplos_debil": {
+        "COL": "Por ejemplo, como colérico tu debilidad ante la magnanimidad es el activismo ciego: actuar por actuar, sin un sueño profundo que guíe la acción, confundiendo hacer muchas cosas con hacer cosas grandes.",
+        "MEL": "Por ejemplo, como melancólico tu debilidad ante la magnanimidad es la inacción: puedes quedarte soñando sin pasar nunca a la acción, paralizado por el miedo al fracaso o al ridículo.",
+        "SAN": "Por ejemplo, como sanguíneo tu debilidad ante la magnanimidad es la inconstancia: empiezas muchas cosas pero abandonas cuando pierden novedad o aparecen dificultades, sin llegar a completar nada grande.",
+        "FLE": "Por ejemplo, como flemático tu debilidad ante la magnanimidad es la conformidad: te conformas con una vida cómoda sin aspirar a más, evitas los riesgos y no te propones metas ambiciosas."
+      },
+      "obstaculos": {
+        "COL": "Para los Coléricos, el obstáculo a la magnanimidad es el activismo (la acción por sí misma).",
+        "FLE": "Para los Flemáticos, es conformidad y apatía.",
+        "MEL": "Para los Melancólicos, es inacción.",
+        "SAN": "Para los Sanguíneos, es superficialidad en el pensamiento e inestabilidad en la acción."
+      },
+      "sinergias_secundario": {
+        "FLE-MEL": "Tu temperamento melancólico puede ayudarte a soñar.",
+        "FLE-SAN": "Tu temperamento sanguíneo puede empujarte a comenzar nuevos proyectos.",
+        "COL-MEL": "Tu temperamento melancólico puede provocar que vivas más profundamente, y evites el activismo vacío.",
+        "MEL-COL": "Tu temperamento colérico puede ayudarte a superar el miedo a asumir riesgos.",
+        "SAN-COL": "Tu temperamento colérico puede mejorar tu capacidad de perseverar.",
+        "SAN-FLE": "Tu temperamento flemático puede potenciar tu habilidad para resistir."
+      },
+      "reto_por_temperamento": {
+        "COL": "Si tu temperamento es colérico, la magnanimidad será una virtud natural para ti en la acción, pero tendrás que aprender a soñar más profundamente y a evitar el activismo ciego.",
+        "MEL": "Si tu temperamento es melancólico, la magnanimidad contemplativa será tu punto fuerte: sabes soñar. Tu reto será convertir ese sueño en acción, superando el miedo al riesgo.",
+        "SAN": "Si tu temperamento es sanguíneo, tu entusiasmo te empuja a la aventura. Tu reto será perseverar y no abandonar cuando las cosas se ponen difíciles.",
+        "FLE": "Si tu temperamento es flemático, la magnanimidad será la virtud-reto para ti. Tendrás que aprender a soñar (descubrir tus talentos, evitar el status quo y lo que eso provoca: el sentirse esclavo de la rutina). Entonces podrás empezar a transformar tu sueño en una misión."
+      },
+      "modulo": 3
+    },
+    {
+      "id": "m2-12",
+      "caratula_desc": "Responde a cuatro preguntas sobre la magnanimidad y los cuatro temperamentos para poner a prueba lo que has aprendido en este módulo.",
+      "num": 12,
+      "tipo": "quiz",
+      "titulo": "Cuestionario — Temperamentos",
+      "visible": false,
+      "preguntas": [
+        {
+          "texto": "¿Qué puede aprender un colérico de la magnanimidad?",
+          "opciones": [
+            "Superar el hábito del activismo ciego (actuar por actuar)",
+            "Convertir su sueño en acción",
+            "Vencer la superficialidad, fortalecer la perseverancia y la resistencia",
+            "Soñar en grande y actuar más"
+          ],
+          "correcta": 0
+        },
+        {
+          "texto": "¿Qué puede aprender un melancólico de la magnanimidad?",
+          "opciones": [
+            "Superar el hábito del activismo ciego (actuar por actuar)",
+            "Convertir su sueño en acción",
+            "Vencer la superficialidad, fortalecer la perseverancia y la resistencia",
+            "Soñar en grande y actuar más"
+          ],
+          "correcta": 1
+        },
+        {
+          "texto": "¿Qué puede aprender un sanguíneo de la magnanimidad?",
+          "opciones": [
+            "Superar el hábito del activismo ciego (actuar por actuar)",
+            "Convertir su sueño en acción",
+            "Vencer la superficialidad, fortalecer la perseverancia y la resistencia",
+            "Soñar en grande y actuar más"
+          ],
+          "correcta": 2
+        },
+        {
+          "texto": "¿Qué puede aprender un flemático de la magnanimidad?",
+          "opciones": [
+            "Superar el hábito del activismo ciego (actuar por actuar)",
+            "Convertir su sueño en acción",
+            "Vencer la superficialidad, fortalecer la perseverancia y la resistencia",
+            "Soñar en grande y actuar más"
+          ],
+          "correcta": 3
+        }
+      ],
+      "modulo": 3
+    },
+    {
+      "id": "m2-concl-4",
+      "tipo": "conclusion_modulo",
+      "visible": false,
+      "titulo": "Resumen: Temperamentos",
+      "modulo_numero": 3,
+      "modulo_titulo": "Magnanimidad y los 4 temperamentos",
+      "aprendizajes": [
+        "Cada temperamento tiene fortalezas y obstáculos propios para la magnanimidad",
+        "El temperamento secundario puede compensar las debilidades del dominante"
+      ],
+      "ejercicios_evaluables": [
+        {
+          "id": "m2-11",
+          "label": "Temperamento × magnanimidad"
+        },
+        {
+          "id": "m2-12",
+          "label": "Cuestionario"
+        }
+      ],
+      "modulo": 3
+    },
+    {
+      "id": "m2-13",
+      "num": 13,
+      "tipo": "video",
+      "titulo": "La práctica de la magnanimidad: la contemplación",
+      "visible": true,
+      "leccion": 6,
+      "vimeoId": "924578323",
+      "modulo": 4
+    },
+    {
+      "id": "m2-15",
+      "caratula_desc": "Responde a cuatro preguntas sobre la práctica contemplativa de la magnanimidad para poner a prueba lo que has aprendido en este módulo.",
+      "num": 15,
+      "tipo": "quiz",
+      "titulo": "Cuestionario — Magnanimidad contemplativa",
+      "visible": false,
+      "preguntas": [
+        {
+          "texto": "¿Qué ayuda en primer lugar a desarrollar la magnanimidad contemplativa?",
+          "opciones": [
+            "El sentido de la dignidad propia",
+            "La paz y la serenidad",
+            "La humildad y la autocrítica",
+            "La generosidad y la benevolencia"
+          ],
+          "correcta": 0
+        },
+        {
+          "texto": "¿Qué ayuda en segundo lugar a desarrollar la magnanimidad contemplativa?",
+          "opciones": [
+            "La toma de conciencia de los propios talentos",
+            "La conciencia de los intereses personales",
+            "La sanación de heridas emocionales",
+            "La mejora de las relaciones con los demás"
+          ],
+          "correcta": 0
+        },
+        {
+          "texto": "¿Qué ayuda en tercer lugar a desarrollar la magnanimidad contemplativa?",
+          "opciones": [
+            "La compañía de personas magnánimas",
+            "Elegir amigos que nos desafíen a mejorar",
+            "Crear un «entorno magnánimo» a nuestro alrededor",
+            "Todo lo anterior"
+          ],
+          "correcta": 3
+        },
+        {
+          "texto": "La mayor cosa que un ser humano puede lograr es…",
+          "opciones": [
+            "El crecimiento personal",
+            "La creación de nuevos proyectos y la realización de grandes descubrimientos",
+            "La obtención de resultados materiales excepcionales",
+            "Una carrera exitosa en una empresa prestigiosa"
+          ],
+          "correcta": 0
+        }
+      ],
+      "modulo": 4
+    },
+    {
+      "id": "m2-concl-5",
+      "tipo": "conclusion_modulo",
+      "visible": false,
+      "titulo": "Resumen: Contemplación",
+      "modulo_numero": 4,
+      "modulo_titulo": "La práctica de la magnanimidad: la contemplación",
+      "aprendizajes": [
+        "Conciencia de la propia dignidad y de los propios talentos",
+        "Dignidad, talentos y entorno magnánimo como pilares de la contemplación"
+      ],
+      "ejercicios_evaluables": [
+        {
+          "id": "m2-15",
+          "label": "Cuestionario"
+        }
+      ],
+      "modulo": 4
+    },
+    {
+      "id": "m2-16",
+      "num": 16,
+      "tipo": "video",
+      "titulo": "La práctica de la magnanimidad: la acción",
+      "visible": true,
+      "leccion": 7,
+      "vimeoId": "924578528",
+      "modulo": 5
+    },
+    {
+      "id": "m2-14",
+      "ficha": [{"respuesta": 1}, {"respuesta": 0}, {"respuesta": 8}],
+      "caratula_desc": "Busca un momento tranquilo: son 17 preguntas que requieren concentración.\n\nReflexiona con sinceridad. No hay respuestas correctas ni incorrectas: este autoexamen es una herramienta para tu crecimiento personal.",
+      "num": 14,
+      "tipo": "test_profundo",
+      "titulo": "Test de magnanimidad",
+      "visible": false,
+      "resumen_ficha": "¿Soy consciente de mi dignidad y libertad?",
+      "prioridad_ficha": 3,
+      "descripcion": "Busca un momento tranquilo para realizar este ejercicio, es un test de 17 preguntas que requiere estar concentrado y evitar posibles distracciones.\n\nReflexiona con sinceridad sobre cada pregunta.\n\nNo hay respuestas correctas ni incorrectas: este autoexamen es una herramienta para tu crecimiento personal.",
+      "preguntas": [
+        {
+          "texto": "Soy consciente de mi dignidad como ser humano, y del poder de mi mente, corazón y voluntad. Soy consciente de mi libertad personal.",
+          "placeholder": "¿Eres consciente de tu dignidad? ¿Cómo vives tu libertad personal?"
+        },
+        {
+          "texto": "He sido llamado a hacer grandes cosas; por encima de todo, a desarrollar mi personalidad y la de los que encuentro a mi alrededor.",
+          "placeholder": "¿Qué 'grandes cosas' sientes que podrías hacer? ¿A qué sientes que estás llamado?"
+        },
+        {
+          "texto": "Procuro la compañía de personas magnánimas que, a través de sus consejos y su ejemplo, me ayuden a ser magnánimo/a.",
+          "placeholder": "¿Quiénes son esas personas en tu vida? ¿Cómo te influyen?",
+          "placeholder_texto": "Ej: Martin Luther King, porque su valentía y visión me inspiran a pensar en grande...",
+          "circulo_oro": true,
+          "circulo_pregunta": "¿Por qué consideras a {nombre} magnánimo/a?"
+        },
+        {
+          "texto": "Establezco propósitos altos para mí mismo y para los demás. Lucho diariamente para mejorar mi carácter y mi comportamiento.",
+          "placeholder": "¿Cuál es tu propósito? ¿Cómo trabajas diariamente sobre tu carácter o tu comportamiento?"
+        },
+        {
+          "texto": "Sé en qué soy bueno. Pido a mis compañeros y amigos que me ayuden a descubrir y desarrollar mis talentos.",
+          "placeholder": "¿Cuáles son tus talentos principales? ¿En qué amigos sueles apoyarte para descubrir estos talentos?"
+        },
+        {
+          "texto": "Dedico mi energía a multiplicar mis talentos más que a luchar contra mis debilidades.",
+          "placeholder": "¿A qué dedicas más energía: talentos o debilidades? ¿Cómo trabajas tus talentos o debilidades?"
+        },
+        {
+          "texto": "Tengo confianza en mí mismo/a, en mis talentos y habilidades.",
+          "placeholder": "¿Confías en ti? ¿En qué situaciones confías más en ti? ¿En cuáles menos? ¿Cómo te sientes al confiar en ti?"
+        },
+        {
+          "texto": "Dedico el tiempo necesario a la consideración de mi misión vital.",
+          "placeholder": "¿Dedicas tiempo a pensar en tu misión? ¿Cuándo fue la última vez que lo hiciste?"
+        },
+        {
+          "texto": "Estoy centrado en cumplir mi misión, y no me distraigo en asuntos de menor importancia.",
+          "placeholder": "¿Estás concentrado en cumplir esa misión? ¿Qué es lo que más te focaliza o te distrae de tu misión?"
+        },
+        {
+          "texto": "Inspiro sentido de misión en mis amigos y colegas.",
+          "placeholder": "¿Cómo inspiras a las personas que te rodean? ¿Compartes tu misión con ellos?"
+        },
+        {
+          "texto": "Doy rienda suelta a mi imaginación. Encuentro formas de nutrirla, para que sea más productiva.",
+          "placeholder": "¿Cómo nutres tu imaginación? ¿Lees, viajas, observas, paseas?"
+        },
+        {
+          "texto": "No tengo miedo al fracaso.",
+          "placeholder": "¿Tienes miedo al fracaso? ¿Qué has dejado de hacer por miedo al fracaso?"
+        },
+        {
+          "texto": "Tomo decisiones audaces. No tengo miedo a asumir riesgos.",
+          "placeholder": "¿Cuál fue la última decisión audaz que tomaste? ¿Cómo te sentiste?"
+        },
+        {
+          "texto": "Soy consciente de que el mal no es el mal que hacen los demás, sino el bien que yo no hago.",
+          "placeholder": "¿Qué bien podrías estar haciendo y no haces? ¿Qué te frena?"
+        },
+        {
+          "texto": "Veo en los grandes problemas de la humanidad grandes oportunidades.",
+          "placeholder": "¿Qué problema a tu alrededor ves como una oportunidad? ¿Cómo podrías contribuir?"
+        },
+        {
+          "texto": "Escojo colaboradores que puedan retarme.",
+          "placeholder": "¿Quiénes te retan a ser mejor? ¿Buscas activamente ese tipo de personas?",
+          "placeholder_texto": "Ej: Steve Jobs, porque su exigencia y visión retaban a todos a dar lo mejor de sí...",
+          "circulo_oro": true,
+          "circulo_pregunta": "¿Por qué consideras que {nombre} te reta a ser mejor?"
+        },
+        {
+          "texto": "No me comparo con nadie.",
+          "placeholder": "¿Tiendes a compararte con otros? ¿Cómo te afecta? ¿Qué haces para evitarlo?"
+        }
+      ],
+      "modulo": 5
+    },
+    {
+      "id": "m2-18",
+      "caratula_desc": "Responde a cuatro preguntas sobre la práctica activa de la magnanimidad para poner a prueba lo que has aprendido en este módulo.",
+      "num": 18,
+      "tipo": "quiz",
+      "titulo": "Cuestionario — Magnanimidad activa",
+      "visible": false,
+      "preguntas": [
+        {
+          "texto": "¿Qué ayuda en primer lugar a desarrollar la magnanimidad activa?",
+          "opciones": [
+            "Una mejora en los ingresos",
+            "Una optimización de los procesos",
+            "La transformación del sueño en misión",
+            "Un aumento en el rendimiento"
+          ],
+          "correcta": 2
+        },
+        {
+          "texto": "¿Qué ayuda en segundo lugar a desarrollar la magnanimidad activa?",
+          "opciones": [
+            "Un aumento en la precaución",
+            "No temer al fracaso",
+            "La capacidad de hacer siempre las cosas bien",
+            "Una intuición excepcional"
+          ],
+          "correcta": 1
+        },
+        {
+          "texto": "Según Peter Drucker (fundador del management moderno), ¿qué pensar de las personas que nunca han cometido grandes errores?",
+          "opciones": [
+            "Son personas con suerte",
+            "Son personas exitosas",
+            "Son personas sabias",
+            "Son personas mediocres"
+          ],
+          "correcta": 3,
+          "contexto": "Peter Drucker (1909–2005), profesor y consultor austriaco-estadounidense, considerado el padre del management moderno. Su idea enlaza con lo que explica Havard en este vídeo: para practicar la magnanimidad activa hay que no temer al fracaso."
+        },
+        {
+          "texto": "¿Cómo enseña la magnanimidad activa a ver los obstáculos?",
+          "opciones": [
+            "Esquivándolos y evitándolos",
+            "Luchando contra ellos hasta la victoria total",
+            "Transformándolos en oportunidades",
+            "Todo lo anterior"
+          ],
+          "correcta": 2
+        }
+      ],
+      "modulo": 5
+    },
+    {
+      "id": "m2-concl-6",
+      "tipo": "conclusion_modulo",
+      "visible": false,
+      "titulo": "Resumen: Acción",
+      "modulo_numero": 5,
+      "modulo_titulo": "La práctica de la magnanimidad: la acción",
+      "aprendizajes": [
+        "Las 17 señales de la magnanimidad",
+        "Transformar el sueño en misión",
+        "No temer al fracaso",
+        "Convertir obstáculos en oportunidades"
+      ],
+      "ejercicios_evaluables": [
+        {
+          "id": "m2-14",
+          "label": "Test de magnanimidad"
+        },
+        {
+          "id": "m2-18",
+          "label": "Cuestionario"
+        }
+      ],
+      "modulo": 5
+    },
+    {
+      "id": "m2-17",
+      "num": 17,
+      "tipo": "plan_crecimiento",
+      "titulo": "Mi Plan de Crecimiento en Magnanimidad",
+      "visible": true,
+      "resumen_ficha": "Mi plan de crecimiento en magnanimidad",
+      "prioridad_ficha": 4,
+      "descripcion": "Vamos a desarrollar tu plan de crecimiento en magnanimidad para que puedas ir avanzando sobre él durante este año.",
+      "nota_anual": "Este plan debe realizarse todos los años. Vuelve al inicio y al final de cada año para ver en qué momento estás y el progreso que has conseguido.",
+      "pantallas": [
+        {
+          "id": "explicacion",
+          "tipo": "texto",
+          "titulo": "Mi Plan de Crecimiento en Magnanimidad",
+          "contenido": "Mi Plan de Crecimiento en Magnanimidad consiste en las cosas que haré este año, para crecer en Magnanimidad.\n\nEste plan te ayudará a concretar acciones específicas para tu desarrollo personal.\n\nEl **beneficio** de hacerlo es tener una hoja de ruta clara que te guíe en tu crecimiento."
+        },
+        {
+          "id": "entorno_intro",
+          "tipo": "texto",
+          "titulo": "¿Tengo un entorno magnánimo a mi alrededor?",
+          "contenido": "Mi entorno son los libros que leo, las películas que veo, la música que escucho. Es internet con toda su grandeza y toda su miseria.\n\nUn entorno magnánimo es aquel que te inspira a ser mejor, que alimenta tu deseo de grandeza y te acerca a modelos de vida noble. Construirlo es una decisión: elegir conscientemente con qué llenar tu mente y tu corazón.\n\nEl **beneficio** de crear ese entorno es que te rodeas de estímulos que refuerzan tu crecimiento, en lugar de frenarlo."
+        },
+        {
+          "id": "entorno_cuestionario",
+          "tipo": "texto",
+          "titulo": "¿Tengo un entorno magnánimo a mi alrededor?",
+          "contenido": "Vamos a trabajar juntos en la construcción de tu entorno magnánimo a través de una serie de cuestiones prácticas.\n\nEn los siguientes pasos reflexionarás sobre las personas que te inspiran, los libros que quieres leer, las películas que deseas ver, el arte y la música que quieres incorporar a tu vida. También revisarás tu ambiente digital y definirás tus objetivos para este año."
+        },
+        {
+          "id": "personas",
+          "tipo": "tabla_dinamica",
+          "titulo": "Personas magnánimas",
+          "explicacion": "Identifica personas magnánimas para estudiar y tratar de imitar. Puedes inspirarte en los modelos de liderazgo virtuoso presentados en la web.\n\nAdemás, te adjuntamos el PDF de los modelos de liderazgo de Alex para que los puedas tener de referencia.",
+          "columnas": [
+            {
+              "key": "nombre",
+              "label": "Modelo virtuoso",
+              "placeholder": "Ej: Martin Luther King"
+            },
+            {
+              "key": "motivo",
+              "label": "¿Por qué? ¿Qué te inspira?",
+              "placeholder": "Ej: Su valentía para defender sus convicciones"
+            }
+          ],
+          "recurso": {
+            "label": "Modelos de Liderazgo Virtuoso",
+            "url": "http://alexhavard.com/es/wp-content/uploads/sites/3/2025/07/Modelos-de-LV.pdf"
+          }
+        },
+        {
+          "id": "libros",
+          "tipo": "checklist",
+          "titulo": "¿Qué libros te quieres leer?",
+          "explicacion": "¿Qué libros quieres leerte para seguir mejorando ese entorno magnánimo al que estás aspirando?\n\nAdemás, te hemos añadido un PDF con algunas recomendaciones de libros que te pueden ayudar a alcanzar este objetivo.",
+          "placeholder": "Ej: Creados para la grandeza — Alexandre Havard",
+          "boton_anadir": "Añadir libro",
+          "recurso": {
+            "label": "Libros recomendados (PDF)",
+            "url": "https://alexhavard.com/es/wp-content/uploads/sites/3/2025/05/Favoritos.pdf"
+          }
+        },
+        {
+          "id": "peliculas",
+          "tipo": "checklist",
+          "titulo": "¿Qué películas quieres ver?",
+          "explicacion": "¿Qué películas tienes en mente ver para seguir creciendo?\n\nAdemás, te hemos añadido un PDF con una selección de películas que te pueden servir de inspiración.",
+          "placeholder": "Ej: La lista de Schindler",
+          "boton_anadir": "Añadir película",
+          "recurso": {
+            "label": "Películas recomendadas (PDF)",
+            "url": "https://alexhavard.com/es/wp-content/uploads/sites/3/2025/05/Favoritos.pdf"
+          }
+        },
+        {
+          "id": "arte",
+          "tipo": "checklist",
+          "titulo": "¿Qué obras maestras de arte te gustaría contemplar?",
+          "explicacion": "¿Qué obras de arte te gustaría contemplar este año?\n\nAdemás, te hemos añadido un PDF con una selección de obras de arte que te pueden inspirar.",
+          "placeholder": "Ej: La Piedad de Miguel Ángel",
+          "boton_anadir": "Añadir obra",
+          "recurso": {
+            "label": "Obras de arte recomendadas (PDF)",
+            "url": "https://alexhavard.com/es/wp-content/uploads/sites/3/2025/05/Favoritos.pdf"
+          }
+        },
+        {
+          "id": "musica",
+          "tipo": "checklist",
+          "titulo": "¿Qué piezas musicales quieres escuchar?",
+          "explicacion": "¿Qué piezas musicales quieres escuchar para enriquecer tu entorno?\n\nAdemás, te hemos añadido un PDF con una selección de piezas musicales que te pueden enriquecer.",
+          "placeholder": "Ej: Sinfonía n.º 9 de Beethoven",
+          "boton_anadir": "Añadir pieza",
+          "recurso": {
+            "label": "Música recomendada (PDF)",
+            "url": "https://alexhavard.com/es/wp-content/uploads/sites/3/2025/05/Favoritos.pdf"
+          }
+        },
+        {
+          "id": "ambiente",
+          "tipo": "reflexion_doble",
+          "titulo": "Mi ambiente",
+          "explicacion": "Es internet con toda su grandeza y toda su miseria. Soy selectivo: rechazo lo que es moralmente dudoso y lleno mi corazón y mi mente de cosas bellas y nobles.",
+          "preguntas": [
+            {
+              "key": "alejarme",
+              "label": "El ambiente del que me prometo alejarme:",
+              "placeholder": "Describe aquello de lo que quieres alejarte..."
+            }
+          ]
+        },
+        {
+          "id": "recursos_internet",
+          "tipo": "checklist",
+          "titulo": "¿Qué recursos de internet utilizaré?",
+          "explicacion": "¿Qué recursos de internet vas a utilizar para seguir creciendo? Piensa en aplicaciones de lectura, canales de YouTube, podcasts, la app de Alex Havard o cualquier otro recurso digital que te ayude en tu camino.",
+          "placeholder": "Ej: Canal de YouTube de Alex Havard",
+          "boton_anadir": "Añadir recurso"
+        },
+        {
+          "id": "objetivos",
+          "tipo": "checklist_categorias",
+          "titulo": "Mis objetivos para este año",
+          "explicacion": "Este año, me lanzaré a los siguientes objetivos:",
+          "placeholder": "Ej: Leer 12 libros de liderazgo",
+          "categorias": [
+            "Lectura",
+            "Viajes",
+            "Acciones",
+            "Películas",
+            "Entorno"
+          ]
+        },
+        {
+          "id": "test_debilidades",
+          "tipo": "reflexion_temperamento",
+          "titulo": "Mi temperamento y la magnanimidad",
+          "explicacion": "Identifico las debilidades de mi temperamento que me dificultan la práctica de la magnanimidad, y trato todos los días de superarlas.",
+          "debilidades": {
+            "COL": "Puedo caer en gestos vacíos y en un activismo sin dirección clara.",
+            "MEL": "Me resulta difícil pasar a la acción y asumir riesgos.",
+            "SAN": "Me cuesta terminar las cosas que empiezo y tiendo a dispersarme.",
+            "FLE": "Tiendo a seguir la corriente sin cuestionar la dirección."
+          },
+          "pregunta_refuerzo": "¿En qué puntos en particular centraré mi atención durante este año?"
+        },
+        {
+          "id": "proposito_final",
+          "tipo": "proposito",
+          "titulo": "Mi propósito para el año próximo",
+          "explicacion": "Mi propósito específico para el año próximo:",
+          "placeholder": "Escribe aquí tu propósito...",
+          "ejemplo": "Mi propósito para este año es buscar ayudar a los demás para conseguir que las personas de mi entorno crezcan en virtud junto a mí."
+        },
+        {
+          "id": "resumen",
+          "tipo": "resumen",
+          "titulo": "Tu Plan de Crecimiento"
+        }
+      ],
+      "modulo": 5
+    }
+  ]
+}

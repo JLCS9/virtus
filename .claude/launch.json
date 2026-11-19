@@ -4,7 +4,17 @@
     {
       "name": "virtus-web",
       "runtimeExecutable": "pnpm",
-      "runtimeArgs": ["--filter", "mobile", "exec", "expo", "start", "--web", "--port", "8081"],
+      "runtimeArgs": [
+        "--filter",
+        "mobile",
+        "exec",
+        "expo",
+        "start",
+        "--web",
+        "--port",
+        "8081",
+        "--clear"
+      ],
       "port": 8081
     }
   ]
