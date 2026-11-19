@@ -5,12 +5,11 @@ import { Redirect } from 'expo-router';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import Svg, { Circle, Line, Path } from 'react-native-svg';
 
-import { AccountError, hayCuentas, sendPasswordReset, signIn } from '@/portal/datos';
-import { useSession } from '@/portal/hooks';
-import { PAGINA_WEB, abrirWeb } from '@/portal/navegacion';
-import { t } from '@/portal/t';
-import { BEIGE, GOLD, INK, LINE, MUTED, NAVY, NAVY_SOFT, PAPER } from '@/portal/tema';
-import { Aviso } from '@/portal/ui';
+import { AccountError, hayCuentas, sendPasswordReset, signIn, useSession } from '@/nativo/cuenta';
+import { PAGINA_WEB, abrirWeb } from '@/nativo/navegacion';
+import { t } from '@/nativo/t';
+import { BEIGE, GOLD, INK, LINE, MUTED, NAVY, NAVY_SOFT, PAPER } from '@/nativo/tema';
+import { Aviso } from '@/nativo/ui';
 
 const EMAIL_RE = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 // Fuentes de las páginas públicas de la web: FONT_SERIF (Cormorant Garamond) y FONT_SANS (Inter).

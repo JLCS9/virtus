@@ -5,6 +5,7 @@ const expoConfig = require("eslint-config-expo/flat");
 module.exports = defineConfig([
   expoConfig,
   {
-    ignores: ["dist/*"],
+    // src/web/ es copia de la web (scripts/sync-web.mjs): se revisa en su propio repo.
+    ignores: ["dist/*", "src/web/*"],
   }
 ]);

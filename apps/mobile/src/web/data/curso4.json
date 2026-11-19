@@ -1,0 +1,1174 @@
+{
+  "id": "curso4",
+  "titulo": "Practicar las 4 virtudes fundamentales",
+  "ideas_clave": [
+    { "texto": "Quien practica las cuatro virtudes fundamentales —prudencia, fortaleza, dominio de sí y justicia— es una persona íntegra.", "paso": "m4-01" },
+    { "texto": "Una persona íntegra todavía no es un líder: para serlo hay que desarrollar la grandeza y el servicio.", "paso": "m4-02" },
+    { "texto": "La prudencia es la madre de todas las virtudes.", "paso": "m4-06" },
+    { "texto": "La fortaleza tiene dos caras: la resistencia, que es perseverar, y la audacia, que es asumir riesgos.", "paso": "m4-12" },
+    { "texto": "La virtud es una fuerza buena: está orientada al bien y utiliza medios buenos.", "paso": "m4-12" },
+    { "texto": "Las emociones no son malas en sí mismas: son buenas o malas según lo que nos empujan a hacer.", "paso": "m4-17" },
+    { "texto": "La justicia nos permite dar a cada uno lo que le corresponde.", "paso": "m4-22" }
+  ],
+  "curso": 4,
+  "meta_notas": "El cierre (m4-27) tiene diseño pendiente: cierre_pendiente=true. Actualmente usa el patrón por defecto (como curso 1), sin reflexion_cierre.",
+  "pasos": [
+    {
+      "id": "m4-01",
+      "num": 1,
+      "tipo": "video",
+      "titulo": "Practicando las 4 virtudes fundamentales",
+      "vimeoId": "924643429",
+      "visible": true,
+      "leccion": 1,
+      "intro": [
+        [
+          "Quien practica las cuatro virtudes fundamentales (prudencia, fortaleza, dominio de sí y justicia) es una persona íntegra.",
+          { "tarjetas_virtudes": true }
+        ]
+      ],
+      "modulo": 0
+    },
+    {
+      "id": "m4-02",
+      "num": 2,
+      "tipo": "video",
+      "titulo": "La pirámide de las virtudes",
+      "vimeoId": "924643470",
+      "visible": true,
+      "continua_modulo": true,
+      "leccion": 2,
+      "modulo": 0
+    },
+    {
+      "id": "m4-03",
+      "num": 3,
+      "tipo": "quiz",
+      "titulo": "Cuestionario 1",
+      "visible": false,
+      "preguntas": [
+        {
+          "texto": "¿En qué país se formuló por primera vez el concepto de las 4 virtudes fundamentales?",
+          "opciones": [
+            "La Antigua Roma",
+            "La Antigua China",
+            "La Antigua India",
+            "La Antigua Grecia"
+          ],
+          "correcta": 3
+        },
+        {
+          "texto": "¿Cuáles son los dos tipos fundamentales de ética?",
+          "opciones": [
+            "La ética de la virtud y la ética de las normas",
+            "La ética de los ricos y la ética de los pobres",
+            "La ética antigua y la ética moderna",
+            "La ética alta y la ética baja"
+          ],
+          "correcta": 0
+        },
+        {
+          "texto": "La ética de la virtud es una ética...",
+          "opciones": [
+            "Del interés",
+            "De la obediencia",
+            "De lo correcto y lo incorrecto",
+            "Del desarrollo personal"
+          ],
+          "correcta": 3
+        },
+        {
+          "texto": "¿Dónde están arraigadas las virtudes en el ser humano?",
+          "opciones": [
+            "En el corazón",
+            "En la mente",
+            "En la voluntad",
+            "Todas las respuestas son correctas"
+          ],
+          "correcta": 3
+        }
+      ],
+      "modulo": 0
+    },
+    {
+      "id": "m4-concl-0",
+      "tipo": "conclusion_modulo",
+      "visible": false,
+      "titulo": "Resumen: Introducción",
+      "modulo_numero": 0,
+      "modulo_titulo": "Practicando las 4 virtudes fundamentales",
+      "aprendizajes": [
+        "Las 4 virtudes fundamentales: prudencia, fortaleza, dominio de sí y justicia",
+        "Ética de la virtud vs ética de las reglas",
+        "La pirámide de las virtudes del liderazgo"
+      ],
+      "ejercicios_evaluables": [
+        {
+          "id": "m4-03",
+          "label": "Cuestionario"
+        }
+      ],
+      "modulo": 0
+    },
+    {
+      "id": "m4-04",
+      "num": 4,
+      "tipo": "video",
+      "titulo": "La prudencia es la madre de todas las virtudes",
+      "vimeoId": "924643498",
+      "visible": true,
+      "leccion": 3,
+      "modulo": 1
+    },
+    {
+      "id": "m4-05",
+      "num": 5,
+      "tipo": "video",
+      "titulo": "Practicar la prudencia",
+      "vimeoId": "924643536",
+      "visible": true,
+      "continua_modulo": true,
+      "modulo": 1
+    },
+    {
+      "id": "m4-06",
+      "num": 6,
+      "tipo": "quiz",
+      "titulo": "Cuestionario 2",
+      "visible": false,
+      "preguntas": [
+        {
+          "texto": "¿Cuál es la más fundamental de las 4 virtudes?",
+          "opciones": [
+            "La prudencia",
+            "El dominio de sí",
+            "La justicia",
+            "La fortaleza"
+          ],
+          "correcta": 0
+        },
+        {
+          "texto": "¿A qué falsa virtud conduce, en ausencia de prudencia, el intento de superar la cobardía y adquirir audacia?",
+          "opciones": [
+            "El orgullo",
+            "La severidad",
+            "La insensibilidad",
+            "La temeridad"
+          ],
+          "correcta": 3
+        },
+        {
+          "texto": "¿A qué falsa virtud conduce, en ausencia de prudencia, el intento de superar la intemperancia y adquirir dominio de sí?",
+          "opciones": [
+            "El orgullo",
+            "La severidad",
+            "La insensibilidad",
+            "La temeridad"
+          ],
+          "correcta": 2
+        },
+        {
+          "texto": "¿A qué falsa virtud conduce, en ausencia de prudencia, el intento de superar la injusticia y adquirir justicia?",
+          "opciones": [
+            "El orgullo",
+            "La severidad",
+            "La insensibilidad",
+            "La temeridad"
+          ],
+          "correcta": 1
+        }
+      ],
+      "modulo": 1
+    },
+    {
+      "id": "m4-07",
+      "num": 7,
+      "tipo": "quiz",
+      "titulo": "Cuestionario 3",
+      "visible": false,
+      "preguntas": [
+        {
+          "texto": "¿Cuál es la definición correcta de la prudencia?",
+          "opciones": [
+            "El hábito de tomar buenas decisiones",
+            "El hábito de asumir riesgos y mantener el rumbo",
+            "El hábito de gestionar las emociones",
+            "El hábito de dar a cada uno lo que le corresponde"
+          ],
+          "correcta": 0
+        },
+        {
+          "texto": "¿Qué pareja «aspecto activo + aspecto pasivo de la virtud» corresponde a la prudencia?",
+          "opciones": [
+            "Deliberación – Decisión",
+            "Resistencia – Audacia",
+            "Control de emociones destructoras – Estimulación de emociones creativas",
+            "Comunicación – Bien común"
+          ],
+          "correcta": 0
+        },
+        {
+          "texto": "Una persona prudente basa sus decisiones en:",
+          "opciones": [
+            "Sus intereses personales",
+            "Sus pasiones y emociones",
+            "Eslóganes ideológicos",
+            "La realidad de los hechos"
+          ],
+          "correcta": 3
+        },
+        {
+          "texto": "El principio fundamental de la prudencia es:",
+          "opciones": [
+            "Ser sincero consigo mismo",
+            "Ser obediente a las autoridades",
+            "Ser calculador y astuto",
+            "Ser instruido"
+          ],
+          "correcta": 0
+        }
+      ],
+      "modulo": 1
+    },
+    {
+      "id": "m4-concl-1",
+      "tipo": "conclusion_modulo",
+      "visible": false,
+      "titulo": "Resumen: Prudencia",
+      "modulo_numero": 1,
+      "modulo_titulo": "La prudencia: fundamentos",
+      "aprendizajes": [
+        "La prudencia es la madre de todas las virtudes",
+        "Deliberación y decisión: los dos aspectos de la prudencia",
+        "Sin prudencia las demás virtudes se convierten en falsos hábitos"
+      ],
+      "ejercicios_evaluables": [
+        {
+          "id": "m4-06",
+          "label": "Cuestionario 2"
+        },
+        {
+          "id": "m4-07",
+          "label": "Cuestionario 3"
+        }
+      ],
+      "modulo": 1
+    },
+    {
+      "id": "m4-08",
+      "num": 8,
+      "tipo": "video",
+      "titulo": "La prudencia y los 4 temperamentos",
+      "vimeoId": "924643575",
+      "visible": true,
+      "leccion": 4,
+      "modulo": 2
+    },
+    {
+      "id": "m4-10",
+      "num": 9,
+      "tipo": "test_profundo",
+      "titulo": "Reto: Prudencia",
+      "caratula_titulo": "Reto: Prudencia",
+      "visible": false,
+      "resumen_ficha": "¿Tomo decisiones basadas en la realidad?",
+      "prioridad_ficha": 4,
+      "descripcion": "Busca un momento tranquilo para realizar este ejercicio. Reflexiona con sinceridad sobre cada afirmación.\n\nNo hay respuestas correctas ni incorrectas: este autoexamen es una herramienta para tu crecimiento personal.",
+      "preguntas": [
+        {
+          "texto": "Hago distinciones entre hechos y opiniones.",
+          "placeholder": "¿Sueles separar los hechos objetivos de tus opiniones antes de tomar una decisión?"
+        },
+        {
+          "texto": "No distorsiono los hechos para adaptarlos a mis propios intereses y deseos.",
+          "placeholder": "¿Ves la realidad tal como es, o tiendes a verla como te gustaría que fuera?"
+        },
+        {
+          "texto": "No hago la vista gorda ante verdades que me cuesta aceptar.",
+          "placeholder": "¿Hay alguna verdad sobre ti o tu situación que estés evitando?"
+        },
+        {
+          "texto": "Reconozco mis prejuicios y los dejo a un lado.",
+          "placeholder": "¿Eres consciente de tus prejuicios? ¿Cómo afectan a tus decisiones?"
+        },
+        {
+          "texto": "Aprendo de la experiencia ajena.",
+          "placeholder": "¿A quién sueles observar para aprender? ¿Qué has aprendido de los errores o aciertos de otros?"
+        },
+        {
+          "texto": "Pido consejo a personas sabias y competentes.",
+          "placeholder": "¿A quién acudes cuando tienes que tomar una decisión importante?"
+        },
+        {
+          "texto": "No tengo miedo a cometer errores.",
+          "placeholder": "¿El miedo al error te paraliza o te impulsa a deliberar mejor?"
+        },
+        {
+          "texto": "Llevo a cabo mis decisiones sin demora. No doy marcha atrás, por difícil que sea.",
+          "placeholder": "¿Tiendes a postergar o a ejecutar tus decisiones con prontitud?"
+        },
+        {
+          "texto": "Asumo una responsabilidad personal por mis decisiones. Si las cosas van mal, no acuso a los demás.",
+          "placeholder": "¿Eres capaz de asumir las consecuencias de tus decisiones?"
+        }
+      ],
+      "modulo": 2
+    },
+    {
+      "id": "m4-09",
+      "num": 10,
+      "tipo": "quiz",
+      "titulo": "Cuestionario 4",
+      "visible": false,
+      "preguntas": [
+        {
+          "texto": "¿Qué puede aprender un colérico con la virtud de la prudencia?",
+          "opciones": [
+            "Reflexionar antes de tomar decisiones",
+            "Superar la indecisión causada por el perfeccionismo",
+            "Prever posibles problemas",
+            "Superar el miedo a equivocarse"
+          ],
+          "correcta": 0
+        },
+        {
+          "texto": "¿Qué puede aprender un melancólico con la virtud de la prudencia?",
+          "opciones": [
+            "Reflexionar antes de tomar decisiones",
+            "Superar la indecisión causada por el perfeccionismo",
+            "Prever posibles problemas",
+            "Superar el miedo a equivocarse"
+          ],
+          "correcta": 1
+        },
+        {
+          "texto": "¿Qué puede aprender un sanguíneo con la virtud de la prudencia?",
+          "opciones": [
+            "Reflexionar antes de tomar decisiones",
+            "Superar la indecisión causada por el perfeccionismo",
+            "Prever posibles problemas",
+            "Superar el miedo a equivocarse"
+          ],
+          "correcta": 2
+        },
+        {
+          "texto": "¿Qué puede aprender un flemático con la virtud de la prudencia?",
+          "opciones": [
+            "Reflexionar antes de tomar decisiones",
+            "Superar la indecisión causada por el perfeccionismo",
+            "Prever posibles problemas",
+            "Superar el miedo a equivocarse"
+          ],
+          "correcta": 3
+        }
+      ],
+      "modulo": 2
+    },
+    {
+      "id": "m4-concl-2",
+      "tipo": "conclusion_modulo",
+      "visible": false,
+      "titulo": "Resumen: Prudencia y temperamentos",
+      "modulo_numero": 2,
+      "modulo_titulo": "La prudencia y los 4 temperamentos",
+      "aprendizajes": [
+        "Cómo cada temperamento afronta la prudencia",
+        "Reto personal: autoevaluación de la prudencia en tu vida diaria"
+      ],
+      "ejercicios_evaluables": [
+        {
+          "id": "m4-09",
+          "label": "Cuestionario 4"
+        },
+        {
+          "id": "m4-10",
+          "label": "Reto: Prudencia"
+        }
+      ],
+      "modulo": 2
+    },
+    {
+      "id": "m4-11",
+      "num": 11,
+      "tipo": "video",
+      "titulo": "Practicar la fortaleza",
+      "vimeoId": "924643612",
+      "visible": true,
+      "leccion": 5,
+      "modulo": 3
+    },
+    {
+      "id": "m4-12",
+      "num": 12,
+      "tipo": "quiz",
+      "titulo": "Cuestionario 5",
+      "visible": false,
+      "preguntas": [
+        {
+          "texto": "¿Cuál es el aspecto más importante de la fortaleza?",
+          "opciones": [
+            "La audacia",
+            "La resistencia",
+            "La intransigencia",
+            "El sacrificio propio"
+          ],
+          "correcta": 1
+        },
+        {
+          "texto": "¿Qué requiere más energía?",
+          "opciones": [
+            "La resistencia",
+            "La audacia",
+            "La filantropía",
+            "El trabajo duro"
+          ],
+          "correcta": 0
+        },
+        {
+          "texto": "¿Qué virtud está arraigada en la resistencia?",
+          "opciones": [
+            "La paciencia",
+            "La fidelidad",
+            "La perseverancia",
+            "Todas las respuestas son correctas"
+          ],
+          "correcta": 3
+        },
+        {
+          "texto": "La «audacia» sin prudencia ni justicia no es audacia; es…",
+          "opciones": [
+            "Demencia",
+            "Odio",
+            "Venganza",
+            "Todo lo anterior"
+          ],
+          "correcta": 3
+        }
+      ],
+      "modulo": 3
+    },
+    {
+      "id": "m4-concl-3",
+      "tipo": "conclusion_modulo",
+      "visible": false,
+      "titulo": "Resumen: Fortaleza",
+      "modulo_numero": 3,
+      "modulo_titulo": "Practicar la fortaleza",
+      "aprendizajes": [
+        "Resistencia y audacia: los dos aspectos de la fortaleza",
+        "La audacia sin prudencia se convierte en temeridad",
+        "La paciencia, la fidelidad y la perseverancia nacen de la resistencia"
+      ],
+      "ejercicios_evaluables": [
+        {
+          "id": "m4-12",
+          "label": "Cuestionario 5"
+        }
+      ],
+      "modulo": 3
+    },
+    {
+      "id": "m4-13",
+      "num": 13,
+      "tipo": "video",
+      "titulo": "La fortaleza y los 4 temperamentos",
+      "vimeoId": "924643648",
+      "visible": true,
+      "leccion": 6,
+      "modulo": 4
+    },
+    {
+      "id": "m4-15",
+      "num": 14,
+      "tipo": "test_profundo",
+      "titulo": "Reto: Fortaleza",
+      "caratula_titulo": "Reto: Fortaleza",
+      "visible": false,
+      "resumen_ficha": "¿Mantengo el rumbo en la adversidad?",
+      "prioridad_ficha": 3,
+      "descripcion": "Busca un momento tranquilo para realizar este ejercicio. Reflexiona con sinceridad sobre cada afirmación.\n\nNo hay respuestas correctas ni incorrectas: este autoexamen es una herramienta para tu crecimiento personal.",
+      "preguntas": [
+        {
+          "texto": "Formo mi conciencia mediante una búsqueda sincera y sistemática de la verdad.",
+          "placeholder": "¿Dedicas tiempo a buscar la verdad de forma sistemática?"
+        },
+        {
+          "texto": "Soy coherente en mi comportamiento. No sucumbo a la tentación de lo «culturalmente correcto».",
+          "placeholder": "¿Actúas según tus principios o según lo que esperan de ti?"
+        },
+        {
+          "texto": "Mis colegas de trabajo tienen claro cuáles son los ideales que defiendo.",
+          "placeholder": "¿Las personas de tu entorno conocen tus convicciones?"
+        },
+        {
+          "texto": "No me preocupo de lo que los demás puedan pensar o decir de mí.",
+          "placeholder": "¿El qué dirán influye en tus decisiones?"
+        },
+        {
+          "texto": "Mantengo mi conciencia íntegra incluso bajo amenaza de muerte.",
+          "placeholder": "¿Hay algo por lo que no transigirías?"
+        },
+        {
+          "texto": "No actúo inmoralmente escudándome en la inmoralidad general.",
+          "placeholder": "¿Has justificado alguna vez una acción incorrecta con el argumento de que «todo el mundo lo hace»?"
+        },
+        {
+          "texto": "Asumo riesgos. Supero el miedo al posible fracaso.",
+          "placeholder": "¿El miedo al fracaso te frena o te motiva?"
+        },
+        {
+          "texto": "Mantengo el rumbo, también en las contradicciones.",
+          "placeholder": "¿Eres capaz de mantener tu rumbo cuando las circunstancias se ponen en contra?"
+        },
+        {
+          "texto": "Llevo a cabo todos mis proyectos cuidando de los detalles.",
+          "placeholder": "¿Eres constante en los detalles o tiendes a dejar las cosas a medias?"
+        },
+        {
+          "texto": "Mi perseverancia no es el resultado de una obstinación fuera de lugar, sino el fruto de una posición de principios ponderada.",
+          "placeholder": "¿Tu perseverancia nace de la convicción o de la terquedad?"
+        }
+      ],
+      "modulo": 4
+    },
+    {
+      "id": "m4-14",
+      "num": 15,
+      "tipo": "quiz",
+      "titulo": "Cuestionario 6",
+      "visible": false,
+      "preguntas": [
+        {
+          "texto": "¿Qué puede aprender un colérico de la virtud de la fortaleza?",
+          "opciones": [
+            "Mantenerse firme en su camino a pesar de la enfermedad y del cansancio",
+            "Superar el miedo a la incertidumbre sobre el futuro",
+            "Terminar lo que ha comenzado, superar la inconsistencia y la frivolidad",
+            "Superar la apatía y el miedo al fracaso, salir de su zona de confort y rutina"
+          ],
+          "correcta": 0
+        },
+        {
+          "texto": "¿Qué puede aprender un melancólico de la virtud de la fortaleza?",
+          "opciones": [
+            "Mantenerse firme en su camino a pesar de la enfermedad y del cansancio",
+            "Superar el miedo a la incertidumbre sobre el futuro",
+            "Terminar lo que ha comenzado, superar la inconsistencia y la frivolidad",
+            "Superar la apatía y el miedo al fracaso, salir de su zona de confort y rutina"
+          ],
+          "correcta": 1
+        },
+        {
+          "texto": "¿Qué puede aprender un sanguíneo de la virtud de la fortaleza?",
+          "opciones": [
+            "Mantenerse firme en su camino a pesar de la enfermedad y del cansancio",
+            "Superar el miedo a la incertidumbre sobre el futuro",
+            "Terminar lo que ha comenzado, superar la inconsistencia y la frivolidad",
+            "Superar la apatía y el miedo al fracaso, salir de su zona de confort y rutina"
+          ],
+          "correcta": 2
+        },
+        {
+          "texto": "¿Qué puede aprender un flemático de la virtud de la fortaleza?",
+          "opciones": [
+            "Mantenerse firme en su camino a pesar de la enfermedad y del cansancio",
+            "Superar el miedo a la incertidumbre sobre el futuro",
+            "Terminar lo que ha comenzado, superar la inconsistencia y la frivolidad",
+            "Superar la apatía y el miedo al fracaso, salir de su zona de confort y rutina"
+          ],
+          "correcta": 3
+        }
+      ],
+      "modulo": 4
+    },
+    {
+      "id": "m4-concl-4",
+      "tipo": "conclusion_modulo",
+      "visible": false,
+      "titulo": "Resumen: Fortaleza y temperamentos",
+      "modulo_numero": 4,
+      "modulo_titulo": "La fortaleza y los 4 temperamentos",
+      "aprendizajes": [
+        "Cómo cada temperamento afronta la fortaleza",
+        "Reto personal: resistencia y audacia en tu vida diaria"
+      ],
+      "ejercicios_evaluables": [
+        {
+          "id": "m4-14",
+          "label": "Cuestionario 6"
+        },
+        {
+          "id": "m4-15",
+          "label": "Reto: Fortaleza"
+        }
+      ],
+      "modulo": 4
+    },
+    {
+      "id": "m4-16",
+      "num": 16,
+      "tipo": "video",
+      "titulo": "Practicar el dominio de sí",
+      "vimeoId": "924643714",
+      "visible": true,
+      "leccion": 7,
+      "modulo": 5
+    },
+    {
+      "id": "m4-17",
+      "num": 17,
+      "tipo": "quiz",
+      "titulo": "Cuestionario 7",
+      "visible": false,
+      "preguntas": [
+        {
+          "texto": "El dominio de sí es el hábito de:",
+          "opciones": [
+            "Gestionar las emociones",
+            "Evitar las adicciones",
+            "No expresar la ira en público",
+            "Todas las respuestas son correctas"
+          ],
+          "correcta": 0
+        },
+        {
+          "texto": "Las emociones son buenas cuando:",
+          "opciones": [
+            "Generan placer",
+            "Nos impulsan a realizar acciones constructivas",
+            "Son apreciadas por los demás",
+            "Todas las respuestas son correctas"
+          ],
+          "correcta": 1
+        },
+        {
+          "texto": "¿Cómo se puede evaluar la calidad de una emoción?",
+          "opciones": [
+            "Con la razón",
+            "Mediante pruebas",
+            "Con la ayuda de un psicoterapeuta",
+            "Todas las respuestas son correctas"
+          ],
+          "correcta": 0
+        },
+        {
+          "texto": "¿Por qué son peligrosas las malas emociones?",
+          "opciones": [
+            "Pueden llevar a la autodestrucción",
+            "Transgreden las normas de decencia",
+            "Pueden provocar úlceras estomacales",
+            "Todas las respuestas son correctas"
+          ],
+          "correcta": 0
+        }
+      ],
+      "modulo": 5
+    },
+    {
+      "id": "m4-concl-5",
+      "tipo": "conclusion_modulo",
+      "visible": false,
+      "titulo": "Resumen: Dominio de sí",
+      "modulo_numero": 5,
+      "modulo_titulo": "Practicar el dominio de sí",
+      "aprendizajes": [
+        "El dominio de sí es gestionar las emociones, no reprimirlas",
+        "Las emociones son buenas cuando impulsan acciones constructivas",
+        "La razón es la guía para evaluar la calidad de las emociones"
+      ],
+      "ejercicios_evaluables": [
+        {
+          "id": "m4-17",
+          "label": "Cuestionario 7"
+        }
+      ],
+      "modulo": 5
+    },
+    {
+      "id": "m4-18",
+      "num": 18,
+      "tipo": "video",
+      "titulo": "El dominio de sí y los 4 temperamentos",
+      "vimeoId": "924643737",
+      "visible": true,
+      "leccion": 8,
+      "modulo": 6
+    },
+    {
+      "id": "m4-20",
+      "num": 19,
+      "tipo": "test_profundo",
+      "titulo": "Reto: Dominio de sí",
+      "caratula_titulo": "Reto: Dominio de sí",
+      "visible": false,
+      "resumen_ficha": "¿Gestiono mis emociones o ellas me gobiernan?",
+      "prioridad_ficha": 2,
+      "descripcion": "Busca un momento tranquilo para realizar este ejercicio. Reflexiona con sinceridad sobre cada afirmación.\n\nNo hay respuestas correctas ni incorrectas: este autoexamen es una herramienta para tu crecimiento personal.",
+      "preguntas": [
+        {
+          "texto": "Hago lo que debo hacer, no lo que me resulta agradable.",
+          "placeholder": "¿Cómo eliges entre lo cómodo y lo correcto en tu día a día?"
+        },
+        {
+          "texto": "Hago primero lo importante, no lo urgente.",
+          "placeholder": "¿Priorizas lo verdaderamente importante o te dejas llevar por lo urgente?"
+        },
+        {
+          "texto": "Dedico tiempo a lo que más importa: mi desarrollo personal, el desarrollo de los demás, la gestión a largo plazo.",
+          "placeholder": "¿A qué dedicas la mayor parte de tu tiempo y energía?"
+        },
+        {
+          "texto": "Mantengo la paz incluso en aquellas circunstancias que me ponen a prueba.",
+          "placeholder": "¿Cómo reaccionas cuando las circunstancias te presionan?"
+        },
+        {
+          "texto": "Reacciono con calma y cortesía a la crítica y la oposición, sin alzar la voz ni usar lenguaje vulgar.",
+          "placeholder": "¿Cómo respondes cuando te critican o se oponen a tus ideas?"
+        },
+        {
+          "texto": "No soy esclavo ni del dinero, ni del poder, ni de la fama, ni del placer.",
+          "placeholder": "¿Hay algo material o inmaterial que te tenga atado?"
+        },
+        {
+          "texto": "El desprendimiento de las cosas terrenas y la pureza de corazón, mente y cuerpo son las alas que me permiten alcanzar las alturas, como un águila.",
+          "placeholder": "¿Qué te impide volar más alto? ¿Qué necesitarías soltar?"
+        }
+      ],
+      "modulo": 6
+    },
+    {
+      "id": "m4-19",
+      "num": 20,
+      "tipo": "quiz",
+      "titulo": "Cuestionario 8",
+      "visible": false,
+      "preguntas": [
+        {
+          "texto": "¿Qué puede aprender un colérico de la virtud del dominio de sí?",
+          "opciones": [
+            "Superar la ira injusta y el orgullo",
+            "Superar el pesimismo, la ansiedad, la tristeza, el espíritu crítico, la susceptibilidad",
+            "Superar la hipersensibilidad a los estímulos y tentaciones externas",
+            "Superar la apatía y fortalecer sus emociones"
+          ],
+          "correcta": 0
+        },
+        {
+          "texto": "¿Qué puede aprender un melancólico de la virtud del dominio de sí?",
+          "opciones": [
+            "Superar la ira injusta y el orgullo",
+            "Superar el pesimismo, la ansiedad, la tristeza, el espíritu crítico, la susceptibilidad",
+            "Superar la hipersensibilidad a los estímulos y tentaciones externas",
+            "Superar la apatía y fortalecer sus emociones"
+          ],
+          "correcta": 1
+        },
+        {
+          "texto": "¿Qué puede aprender un sanguíneo de la virtud del dominio de sí?",
+          "opciones": [
+            "Superar la ira injusta y el orgullo",
+            "Superar el pesimismo, la ansiedad, la tristeza, el espíritu crítico, la susceptibilidad",
+            "Superar la hipersensibilidad a los estímulos y tentaciones externas",
+            "Superar la apatía y fortalecer sus emociones"
+          ],
+          "correcta": 2
+        },
+        {
+          "texto": "¿Qué puede aprender un flemático de la virtud del dominio de sí?",
+          "opciones": [
+            "Superar la ira injusta y el orgullo",
+            "Superar el pesimismo, la ansiedad, la tristeza, el espíritu crítico, la susceptibilidad",
+            "Superar la hipersensibilidad a los estímulos y tentaciones externas",
+            "Superar la apatía y fortalecer sus emociones"
+          ],
+          "correcta": 3
+        }
+      ],
+      "modulo": 6
+    },
+    {
+      "id": "m4-concl-6",
+      "tipo": "conclusion_modulo",
+      "visible": false,
+      "titulo": "Resumen: Dominio de sí y temperamentos",
+      "modulo_numero": 6,
+      "modulo_titulo": "El dominio de sí y los 4 temperamentos",
+      "aprendizajes": [
+        "Cómo cada temperamento afronta el dominio de sí",
+        "Reto personal: gestión emocional en tu vida diaria"
+      ],
+      "ejercicios_evaluables": [
+        {
+          "id": "m4-19",
+          "label": "Cuestionario 8"
+        },
+        {
+          "id": "m4-20",
+          "label": "Reto: Dominio de sí"
+        }
+      ],
+      "modulo": 6
+    },
+    {
+      "id": "m4-21",
+      "num": 21,
+      "tipo": "video",
+      "titulo": "Practicar la justicia",
+      "vimeoId": "924643766",
+      "visible": true,
+      "leccion": 9,
+      "modulo": 7
+    },
+    {
+      "id": "m4-22",
+      "num": 22,
+      "tipo": "quiz",
+      "titulo": "Cuestionario 9",
+      "visible": false,
+      "preguntas": [
+        {
+          "texto": "¿Cuál es la virtud social por excelencia?",
+          "opciones": [
+            "La prudencia",
+            "La fortaleza",
+            "La justicia",
+            "Todo lo anterior"
+          ],
+          "correcta": 2
+        },
+        {
+          "texto": "El aspecto pasivo de la justicia es…",
+          "opciones": [
+            "La veracidad, la simplicidad",
+            "La empatía, la amistad",
+            "El amor, la misericordia",
+            "Todas las respuestas son correctas"
+          ],
+          "correcta": 3
+        },
+        {
+          "texto": "El aspecto activo de la justicia es…",
+          "opciones": [
+            "La laboriosidad",
+            "El cuidado de la vida del hogar",
+            "La virtud de la ciudadanía",
+            "Todas las respuestas son correctas"
+          ],
+          "correcta": 3
+        },
+        {
+          "texto": "Una persona justa es una persona…",
+          "opciones": [
+            "Abierta y comunicativa",
+            "Misericordiosa",
+            "Que construye el bien común",
+            "Todas las respuestas son correctas"
+          ],
+          "correcta": 3
+        }
+      ],
+      "modulo": 7
+    },
+    {
+      "id": "m4-concl-7",
+      "tipo": "conclusion_modulo",
+      "visible": false,
+      "titulo": "Resumen: Justicia",
+      "modulo_numero": 7,
+      "modulo_titulo": "Practicar la justicia",
+      "aprendizajes": [
+        "La justicia es la virtud social por excelencia",
+        "Aspecto pasivo: veracidad, empatía, amor",
+        "Aspecto activo: laboriosidad, vida del hogar, ciudadanía"
+      ],
+      "ejercicios_evaluables": [
+        {
+          "id": "m4-22",
+          "label": "Cuestionario 9"
+        }
+      ],
+      "modulo": 7
+    },
+    {
+      "id": "m4-23",
+      "num": 23,
+      "tipo": "video",
+      "titulo": "La justicia y los 4 temperamentos",
+      "vimeoId": "924643798",
+      "visible": true,
+      "leccion": 10,
+      "modulo": 8
+    },
+    {
+      "id": "m4-25",
+      "num": 24,
+      "tipo": "test_profundo",
+      "titulo": "Reto: Justicia",
+      "caratula_titulo": "Reto: Justicia",
+      "visible": false,
+      "resumen_ficha": "¿Doy a cada uno lo que le corresponde?",
+      "prioridad_ficha": 2,
+      "descripcion": "Busca un momento tranquilo para realizar este ejercicio. Reflexiona con sinceridad sobre cada afirmación.\n\nNo hay respuestas correctas ni incorrectas: este autoexamen es una herramienta para tu crecimiento personal.",
+      "preguntas": [
+        {
+          "texto": "Busco la excelencia en mi trabajo profesional.",
+          "placeholder": "¿Pones tu mejor esfuerzo en tu trabajo?"
+        },
+        {
+          "texto": "Mi trabajo no es un medio de autoafirmación, sino un servicio a los otros.",
+          "placeholder": "¿Trabajas para servir o para destacar?"
+        },
+        {
+          "texto": "No soy adicto al trabajo.",
+          "placeholder": "¿Mantienes un equilibrio entre trabajo y vida personal?"
+        },
+        {
+          "texto": "Paso tiempo con la familia.",
+          "placeholder": "¿Dedicas tiempo de calidad a tu familia?"
+        },
+        {
+          "texto": "Digo la verdad. Soy sincero y sencillo.",
+          "placeholder": "¿Eres honesto en tus relaciones? ¿Evitas la doble cara?"
+        },
+        {
+          "texto": "Hago lo necesario para que la gente me conozca como realmente soy.",
+          "placeholder": "¿Permites que los demás vean tu verdadero yo?"
+        },
+        {
+          "texto": "Defiendo la verdad moral, incluso si ello implica contradecir lo políticamente correcto.",
+          "placeholder": "¿Tienes el valor de defender tus convicciones morales?"
+        },
+        {
+          "texto": "Perdono fácilmente y olvido rápidamente las ofensas.",
+          "placeholder": "¿Guardas rencor o logras perdonar con facilidad?"
+        }
+      ],
+      "modulo": 8
+    },
+    {
+      "id": "m4-24",
+      "num": 25,
+      "tipo": "quiz",
+      "titulo": "Cuestionario 10",
+      "visible": false,
+      "preguntas": [
+        {
+          "texto": "¿Qué puede aprender un colérico de la virtud de la justicia?",
+          "opciones": [
+            "Respetar a los demás (no pisarlos)",
+            "Vencer la autoabsorción y dedicar tiempo a los demás",
+            "Dominar la rutina de la vida profesional, familiar y social",
+            "Vencer su pasividad"
+          ],
+          "correcta": 0
+        },
+        {
+          "texto": "¿Qué puede aprender un melancólico de la virtud de la justicia?",
+          "opciones": [
+            "Respetar a los demás (no pisarlos)",
+            "Vencer la autoabsorción y dedicar tiempo a los demás",
+            "Dominar la rutina de la vida profesional, familiar y social",
+            "Vencer su pasividad"
+          ],
+          "correcta": 1
+        },
+        {
+          "texto": "¿Qué puede aprender un sanguíneo de la virtud de la justicia?",
+          "opciones": [
+            "Respetar a los demás (no pisarlos)",
+            "Vencer la autoabsorción y dedicar tiempo a los demás",
+            "Dominar la rutina de la vida profesional, familiar y social",
+            "Vencer su pasividad"
+          ],
+          "correcta": 2
+        },
+        {
+          "texto": "¿Qué puede aprender un flemático de la virtud de la justicia?",
+          "opciones": [
+            "Respetar a los demás (no pisarlos)",
+            "Vencer la autoabsorción y dedicar tiempo a los demás",
+            "Dominar la rutina de la vida profesional, familiar y social",
+            "Vencer su pasividad"
+          ],
+          "correcta": 3
+        }
+      ],
+      "modulo": 8
+    },
+    {
+      "id": "m4-concl-8",
+      "tipo": "conclusion_modulo",
+      "visible": false,
+      "titulo": "Resumen: Justicia y temperamentos",
+      "modulo_numero": 8,
+      "modulo_titulo": "La justicia y los 4 temperamentos",
+      "aprendizajes": [
+        "Cómo cada temperamento afronta la justicia",
+        "Reto personal: justicia en la vida profesional, familiar y social"
+      ],
+      "ejercicios_evaluables": [
+        {
+          "id": "m4-24",
+          "label": "Cuestionario 10"
+        },
+        {
+          "id": "m4-25",
+          "label": "Reto: Justicia"
+        }
+      ],
+      "modulo": 8
+    },
+    {
+      "id": "m4-26",
+      "num": 26,
+      "tipo": "test_profundo",
+      "titulo": "12 principios básicos del Liderazgo Virtuoso",
+      "caratula_titulo": "Revisión: 12 principios del Liderazgo Virtuoso",
+      "visible": true,
+      "leccion": 11,
+      "descripcion": "Repasa los 12 principios fundamentales del liderazgo virtuoso. Lee cada pregunta y respuesta con atención: son el catecismo del líder virtuoso.",
+      "titulo_lectura": "Los 12 principios básicos del Liderazgo Virtuoso",
+      "lecturas": [
+        [
+          {
+            "enfasis": "¿Por qué los líderes necesitan virtudes?"
+          },
+          "El liderazgo auténtico debe basarse en una antropología auténtica, que incluya la aretología, la ciencia de la virtud.",
+          "La virtud es un hábito de la mente, la voluntad y el corazón que nos permite alcanzar la excelencia y la eficacia personal. El liderazgo está intrínsecamente ligado a la virtud.",
+          "En primer lugar, porque la virtud genera confianza, una condición esencial del liderazgo.",
+          "En segundo lugar, el término «virtud», que procede del latín virtus que significa «fuerza» o «poder», es una energía dinámica que refuerza la capacidad de acción del líder.",
+          "La virtud permite al líder hacer lo que la gente espera de él."
+        ],
+        [
+          {
+            "enfasis": "¿Cuál es la esencia del liderazgo?"
+          },
+          "La magnanimidad y la humildad, que son ante todo virtudes del corazón, son la esencia del liderazgo.",
+          "La magnanimidad es el hábito de esforzarse por conseguir grandes cosas.",
+          "Los líderes son magnánimos en sus sueños, sus visiones, su sentido de la misión; en su confianza, su audacia, su esperanza; en su esfuerzo; en el uso de medios para alcanzar sus metas; en los objetivos que se fijan para sí mismos y para los demás.",
+          "La humildad es el hábito de vivir en el autoconocimiento. También es el hábito del servicio. Para un líder, practicar la humildad significa impulsar en lugar de presionar, inspirar en lugar de imponer, enseñar en lugar de recriminar.",
+          "La magnanimidad y la humildad son las virtudes específicas del líder: juntas constituyen la esencia del liderazgo."
+        ],
+        [
+          {
+            "enfasis": "¿Por qué el liderazgo es un ideal de vida?"
+          },
+          "El liderazgo es un ideal de vida, porque las virtudes específicas a las que apela —la magnanimidad y la humildad— son en sí mismas ideales de vida.",
+          "Magnanimidad y humildad son dos virtudes inseparables. Juntas constituyen un único ideal: el ideal de la dignidad y la grandeza humana.",
+          "La magnanimidad es una afirmación de nuestra dignidad y grandeza personal; la humildad es una afirmación de la dignidad y grandeza de los demás.",
+          "El liderazgo es un ideal de vida que reconoce, asimila y difunde la verdad sobre el hombre."
+        ],
+        [
+          {
+            "enfasis": "¿Cuáles son los fundamentos del liderazgo?"
+          },
+          "Las virtudes de la prudencia (sabiduría práctica), la fortaleza, el dominio de sí y la justicia, que son principalmente virtudes del intelecto y la voluntad, son los fundamentos del liderazgo.",
+          "La prudencia mejora la capacidad del líder para tomar las decisiones correctas.",
+          "La fortaleza le permite mantener el rumbo y resistir presiones de todo tipo.",
+          "El dominio de sí subordina las emociones a la razón y proyecta su energía vital en el cumplimiento de la misión.",
+          "La justicia les permite dar a cada uno lo que le corresponde.",
+          "Puede que estas cuatro virtudes cardinales no sean la esencia del liderazgo, pero son los cimientos sin los cuales éste se derrumba."
+        ],
+        [
+          {
+            "enfasis": "¿Qué es la humildad fundamental?"
+          },
+          "La humildad fundamental es el hábito de vivir en la verdad.",
+          "Vivir en la verdad es reconocer la propia condición de criatura (humildad metafísica), así como las debilidades naturales y los defectos personales (humildad espiritual).",
+          "También significa reconocer nuestra dignidad y grandeza (humildad ontológica), así como nuestro talento y virtud (humildad psicológica). Esta humildad fundamental nos da el conocimiento de nosotros mismos.",
+          "Si la humildad fraternal (el servicio) es la esencia y la cumbre del liderazgo, y la prudencia, la fortaleza, el dominio de sí y la justicia son sus cimientos, la humildad fundamental es su piedra angular."
+        ],
+        [
+          {
+            "enfasis": "No se nace líder, se llega a serlo. ¿Por qué?"
+          },
+          "La virtud es un hábito que se adquiere con la práctica.",
+          "El liderazgo es una cuestión de carácter (virtud, libertad, crecimiento), no de temperamento (biología, condicionamiento, estancamiento).",
+          "El temperamento puede favorecer el desarrollo de ciertas virtudes y frenar el de otras, pero llega un momento en la vida de un líder en que sus virtudes imprimen un carácter a su temperamento, de modo que éste deja de dominarle.",
+          "El temperamento no es un obstáculo para el liderazgo: el obstáculo para el liderazgo es la falta de carácter, la ausencia de energía moral que nos hace esclavos de nuestra constitución biológica."
+        ],
+        [
+          {
+            "enfasis": "¿Cuál es la diferencia entre Potestas y Auctoritas?"
+          },
+          "El líder no gobierna mediante la potestas, poder implícito en sus funciones.",
+          "Dirige mediante la auctoritas, la autoridad que proviene del carácter.",
+          "Los que dirigen mediante la potestas, al carecer de autoridad, son líderes sólo de fachada.",
+          "Es un círculo vicioso: los que carecen de autoridad (auctoritas) tienden a abusar de su poder (potestas), lo que provoca un mayor desgaste de su autoridad.",
+          "El liderazgo no es una cuestión de rango o posición. El liderazgo es una forma de ser. Cualquiera, sea cual sea su lugar en la sociedad o en una organización, puede ser un líder."
+        ],
+        [
+          {
+            "enfasis": "¿Qué papel desempeñan la razón, la voluntad y el corazón en la vida de un líder?"
+          },
+          "Para crecer en la virtud, deben entrar en juego la razón, la voluntad y el corazón:",
+          {
+            "lista": [
+              "Contemplar la virtud para percibir su belleza intrínseca y desearla ardientemente (papel del corazón).",
+              "Discernir en cada situación la acción virtuosa que se debe emprender (papel de la razón).",
+              "Actuar virtuosamente (papel de la voluntad)."
+            ]
+          }
+        ],
+        [
+          {
+            "enfasis": "Madurez de juicio, emociones y comportamiento"
+          },
+          "Al practicar las virtudes, los líderes llegan a poseer la madurez en todos sus aspectos: en sus juicios, sus emociones y su comportamiento.",
+          "Los signos de madurez son la confianza en uno mismo y la coherencia, la estabilidad psicológica, la alegría y el optimismo, la naturalidad, el sentido de la libertad, la responsabilidad y la paz interior.",
+          "Los líderes no son escépticos ni cínicos, son realistas. El realismo es la capacidad de alimentar las nobles aspiraciones del alma, incluso cuando nos acosan nuestras propias debilidades personales. Ser realista es no ceder ante la debilidad, sino dominarla practicando las virtudes."
+        ],
+        [
+          {
+            "enfasis": "El líder rechaza cualquier enfoque utilitarista de la virtud"
+          },
+          "La virtud no es algo que cultive principalmente para ser eficaz en lo que hace.",
+          "Cultiva la virtud ante todo para realizarse como ser humano.",
+          "La eficacia no es el objetivo del crecimiento espiritual, es simplemente uno de sus muchos resultados."
+        ],
+        [
+          {
+            "enfasis": "¿Cuál es la diferencia entre la ética de las virtudes y la ética de las reglas?"
+          },
+          "Los líderes practican una ética de la virtud, en lugar de una ética basada en reglas.",
+          "La ética de la virtud no niega la validez de las normas, pero afirma que éstas no son el fundamento último de la ética.",
+          "Las reglas deben estar al servicio de la virtud. La ética de la virtud promueve ampliamente la creatividad del líder, mientras que la ética de las reglas acaba con ella."
+        ],
+        [
+          {
+            "enfasis": "Virtudes humanas y virtudes cristianas"
+          },
+          "La práctica de las virtudes específicamente cristianas de la fe, la esperanza y la caridad es una baza importante para el líder virtuoso.",
+          "Estas virtudes sobrenaturales refuerzan las virtudes naturales de magnanimidad y humildad, que son la esencia del liderazgo, y las virtudes naturales de prudencia, fortaleza, dominio de sí y justicia, que son su fundamento.",
+          "Ningún estudio del liderazgo que no tuviera en cuenta las virtudes sobrenaturales estaría completo."
+        ]
+      ],
+      "preguntas": [
+        {
+          "texto": "Después de revisar los 12 principios, ¿cuál es el que más te interpela en este momento de tu vida? ¿Por qué?",
+          "placeholder": "Ej: El principio de que «no se nace líder, se llega a serlo» me interpela porque..."
+        }
+      ],
+      "modulo": 9
+    },
+    {
+      "id": "m4-concl-9",
+      "tipo": "conclusion_modulo",
+      "visible": false,
+      "titulo": "Resumen: 12 principios del LV",
+      "modulo_numero": 9,
+      "modulo_titulo": "12 principios básicos del Liderazgo Virtuoso",
+      "aprendizajes": [
+        "Los 12 principios básicos del liderazgo virtuoso",
+        "Síntesis de las virtudes del liderazgo"
+      ],
+      "ejercicios_evaluables": [
+        {
+          "id": "m4-26",
+          "label": "12 principios"
+        }
+      ],
+      "modulo": 9
+    }
+  ]
+}

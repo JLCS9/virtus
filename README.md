@@ -6,13 +6,24 @@ App móvil del sistema de Liderazgo Virtuoso® de Alexandre Havard. Submarca de 
 
 | Ruta | Contenido |
 |---|---|
-| `apps/mobile` | App Expo (SDK 57, Expo Router, TypeScript). Rutas en `src/app`. |
+| `apps/mobile` | App Expo (SDK 57, Expo Router, TypeScript). Rutas en `src/app`: login, sin acceso y el portal. |
+| `apps/mobile/src/web` | **Copia del portal /app de la web** (virtuous-leadership-web). No se edita a mano: `node scripts/sync-web.mjs ../virtuous-leadership-web`. |
+| `apps/mobile/src/portal` | `PortalWeb.tsx`: componente DOM de Expo que pinta ese portal tal cual dentro de la app. |
+| `apps/mobile/src/nativo` | Lado nativo: cuenta y sesión, y notificaciones push según `preferencias_notificaciones`. |
 | `packages/tokens` | Tokens de diseño del brandbook (color, tipografía, espaciado). |
 | `packages/method` | Lógica pura del método: motor de tests, 12 tipos, virtud-desafío, reglas de reto, validador, semana. |
 | `packages/content` | Contenido semilla por idioma (JSON). **Todo en BORRADOR** salvo los fragmentos del glosario. |
 | `supabase/` | Migración (RLS + cifrado de campo), Edge Functions y `seed.sql` generado. |
 
 ## Desarrollo
+
+La app es el portal de virtuousleadership.com/es/app: mismos bloques, textos, estilos y consultas, porque es el mismo código. Para traer los cambios de la web:
+
+```bash
+node scripts/sync-web.mjs ../virtuous-leadership-web
+```
+
+Los avisos (reto, reflexión y formación semanal) los programa el móvil a las horas de `preferencias_notificaciones` (lo que el usuario elige en «Tu día a día»), en su zona horaria. Se reprograman al abrir la app, al volver a ella y al salir de Horarios, Bienvenida o Perfil.
 
 ```bash
 pnpm install

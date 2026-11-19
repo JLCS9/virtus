@@ -1,0 +1,1118 @@
+{
+  "id": "curso3",
+  "titulo": "Practicar la humildad",
+  "ideas_clave": [
+    { "texto": "Una persona humilde tira en lugar de empujar, enseña en lugar de dar órdenes, inspira en lugar de amonestar.", "paso": "m3-02" },
+    { "texto": "La humildad es la consecuencia natural de la magnanimidad: un hombre que reconoce su grandeza y dignidad no necesita tratar mal a las personas para sentirse importante.", "paso": "m3-02" },
+    { "texto": "La humildad es el fundamento y la cumbre de todas las virtudes.", "paso": "m3-03" },
+    { "texto": "La humildad es la virtud de los que sirven.", "paso": "m3-04" },
+    { "texto": "La humildad es la verdad sobre ti mismo: la verdad sobre tu miseria y la verdad sobre tu grandeza.", "paso": "m3-08" },
+    { "texto": "La mejor manera de servir es hacer crecer a las personas: ayudarles a descubrir en sí mismas su talento, el diamante que se esconde.", "paso": "m3-20" },
+    { "texto": "Delegar poder es un acto de servicio: haces crecer a las personas que están maduras para el poder.", "paso": "m3-22" }
+  ],
+  "curso": 3,
+  "pasos": [
+    {
+      "id": "m3-02",
+      "num": 1,
+      "tipo": "video",
+      "titulo": "Practicando la humildad",
+      "visible": true,
+      "leccion": 1,
+      "vimeoId": "924591423",
+      "intro": [
+        [
+          "La humildad es la virtud de los que sirven. Una persona humilde:",
+          { "chips": ["Tira en lugar de empujar", "Enseña en lugar de dar órdenes", "Inspira en lugar de amonestar"] }
+        ],
+        "No impone su poder sobre la gente: **les otorga poder.**\n\nHace florecer la grandeza de los demás y les da la capacidad de descubrir su potencial humano. En este sentido, los líderes son siempre educadores, maestros, entrenadores.",
+        "La humildad es la consecuencia natural de la magnanimidad: un hombre que reconoce su grandeza y dignidad no necesita tratar mal a las personas para sentirse importante.\n\n**La humildad es la segunda virtud específica de los líderes.**",
+        "Cuando sirve a los demás con su corazón, mente y voluntad, el líder descubre el sentido de su vida, y experimenta el vínculo místico que le une con toda la humanidad."
+      ],
+      "modulo": 0
+    },
+    {
+      "id": "m3-03",
+      "num": 2,
+      "tipo": "video",
+      "titulo": "La humildad es el fundamento y la cumbre de todas las virtudes",
+      "visible": true,
+      "leccion": 2,
+      "vimeoId": "924591484",
+      "continua_modulo": true,
+      "modulo": 0
+    },
+    {
+      "id": "m3-05",
+      "num": 3,
+      "tipo": "reflexion_piramide",
+      "titulo": "Contempla la pirámide de la humildad",
+      "visible": false,
+      "resumen_ficha": "¿Mi autoconciencia influye en cómo sirvo?",
+      "prioridad_ficha": 4,
+      "imagen": "piramide-humildad",
+      "enunciado": "Contempla la pirámide de la humildad",
+      "descripcion": "Observa cómo la humildad sostiene toda la pirámide del liderazgo virtuoso: abajo, el conocimiento propio (humildad fundamental); en el centro, la integridad de las cuatro virtudes cardinales; arriba, el servicio al otro (humildad fraterna).",
+      "preguntas": [
+        "¿Cómo crees que tu nivel de autoconciencia influye en tu capacidad de servir a los demás?",
+        "¿Cómo ayudan la humildad ontológica y la humildad psicológica a la práctica de la magnanimidad?",
+        "¿Es posible la magnanimidad sin la humildad metafísica? ¿Por qué?",
+        "¿Es posible la magnanimidad sin la humildad espiritual? ¿Por qué?"
+      ],
+      "modulo": 0
+    },
+    {
+      "id": "m3-04",
+      "num": 4,
+      "tipo": "quiz",
+      "titulo": "Cuestionario — Humildad pasiva y activa",
+      "visible": false,
+      "preguntas": [
+        {
+          "texto": "¿Qué vicio se confunde erróneamente con la humildad?",
+          "opciones": [
+            "La pusilanimidad",
+            "La soberbia",
+            "La cobardía",
+            "La timidez"
+          ],
+          "correcta": 0
+        },
+        {
+          "texto": "¿Cuál es la definición correcta de la humildad pasiva?",
+          "opciones": [
+            "Una persona humilde se conforma con lo mínimo.",
+            "Una persona humilde rechaza todo reconocimiento.",
+            "Una persona humilde vive en la verdad sobre sí misma.",
+            "Una persona humilde nunca destaca."
+          ],
+          "correcta": 2
+        },
+        {
+          "texto": "¿Cuál es la definición correcta de la humildad activa?",
+          "opciones": [
+            "Una persona humilde se somete a los demás.",
+            "Una persona humilde sirve activamente a los demás.",
+            "Una persona humilde evita el conflicto.",
+            "Una persona humilde obedece siempre."
+          ],
+          "correcta": 1
+        },
+        {
+          "texto": "¿Qué virtud corresponde al servicio del líder?",
+          "opciones": [
+            "La magnanimidad",
+            "La humildad fraterna",
+            "La justicia",
+            "La prudencia"
+          ],
+          "correcta": 1
+        }
+      ],
+      "modulo": 0
+    },
+    {
+      "id": "m3-concl-0",
+      "tipo": "conclusion_modulo",
+      "visible": false,
+      "titulo": "Resumen: Practicando la humildad",
+      "modulo_numero": 0,
+      "modulo_titulo": "Practicando la humildad",
+      "aprendizajes": [
+        "La humildad tiene un aspecto pasivo (conocimiento propio) y uno activo (servicio)",
+        "La humildad NO es pusilanimidad",
+        "La pirámide de la humildad: metafísica → ontológica → espiritual → psicológica"
+      ],
+      "ejercicios_evaluables": [
+        {
+          "id": "m3-05",
+          "label": "Pirámide de la humildad"
+        },
+        {
+          "id": "m3-04",
+          "label": "Cuestionario"
+        }
+      ],
+      "modulo": 0
+    },
+    {
+      "id": "m3-06",
+      "num": 5,
+      "tipo": "video",
+      "titulo": "La humildad fundamental y su relación con la humildad fraterna",
+      "visible": true,
+      "leccion": 3,
+      "vimeoId": "924591517",
+      "modulo": 1
+    },
+    {
+      "id": "m3-07",
+      "num": 6,
+      "tipo": "quiz",
+      "titulo": "Cuestionario — Humildad fundamental y fraterna",
+      "visible": false,
+      "preguntas": [
+        {
+          "texto": "¿Cuál es la definición correcta de la humildad psicológica?",
+          "opciones": [
+            "El reconocimiento de mis talentos me permite desarrollarlos para servir a los demás con magnanimidad.",
+            "La toma de conciencia de mis debilidades me permite aceptar la necesidad de mejorar para servir a los demás eficazmente.",
+            "El reconocimiento de mi dignidad me permite ver en los demás su dignidad trascendente para servirlos con amor.",
+            "La toma de conciencia de mi condición de criatura me permite ver en los demás la presencia del Otro y servirlos con respeto."
+          ],
+          "correcta": 0
+        },
+        {
+          "texto": "¿Cuál es la definición correcta de la humildad espiritual?",
+          "opciones": [
+            "El reconocimiento de mis talentos me permite desarrollarlos para servir a los demás con magnanimidad.",
+            "La toma de conciencia de mis debilidades me permite aceptar la necesidad de mejorar para servir a los demás eficazmente.",
+            "El reconocimiento de mi dignidad me permite ver en los demás su dignidad trascendente para servirlos con amor.",
+            "La toma de conciencia de mi condición de criatura me permite ver en los demás la presencia del Otro y servirlos con respeto."
+          ],
+          "correcta": 1
+        },
+        {
+          "texto": "¿Cuál es la definición correcta de la humildad ontológica?",
+          "opciones": [
+            "El reconocimiento de mis talentos me permite desarrollarlos para servir a los demás con magnanimidad.",
+            "La toma de conciencia de mis debilidades me permite aceptar la necesidad de mejorar para servir a los demás eficazmente.",
+            "El reconocimiento de mi dignidad me permite ver en los demás su dignidad trascendente para servirlos con amor.",
+            "La toma de conciencia de mi condición de criatura me permite ver en los demás la presencia del Otro y servirlos con respeto."
+          ],
+          "correcta": 2
+        },
+        {
+          "texto": "¿Cuál es la definición correcta de la humildad metafísica?",
+          "opciones": [
+            "El reconocimiento de mis talentos me permite desarrollarlos para servir a los demás con magnanimidad.",
+            "La toma de conciencia de mis debilidades me permite aceptar la necesidad de mejorar para servir a los demás eficazmente.",
+            "El reconocimiento de mi dignidad me permite ver en los demás su dignidad trascendente para servirlos con amor.",
+            "La toma de conciencia de mi condición de criatura me permite ver en los demás la presencia del Otro y servirlos con respeto."
+          ],
+          "correcta": 3
+        }
+      ],
+      "modulo": 1
+    },
+    {
+      "id": "m3-concl-1",
+      "tipo": "conclusion_modulo",
+      "visible": false,
+      "titulo": "Resumen: Humildad fundamental y fraterna",
+      "modulo_numero": 1,
+      "modulo_titulo": "La humildad fundamental y su relación con la humildad fraterna",
+      "aprendizajes": [
+        "4 tipos de humildad fundamental: psicológica, espiritual, ontológica, metafísica",
+        "Cada tipo conecta con una forma de servicio fraterno"
+      ],
+      "ejercicios_evaluables": [
+        {
+          "id": "m3-07",
+          "label": "Cuestionario"
+        }
+      ],
+      "modulo": 1
+    },
+    {
+      "id": "m3-08",
+      "num": 7,
+      "tipo": "video",
+      "titulo": "Humildad fundamental y prudencia",
+      "visible": true,
+      "leccion": 4,
+      "vimeoId": "924591559",
+      "modulo": 2
+    },
+    {
+      "id": "m3-10",
+      "num": 8,
+      "tipo": "test_profundo",
+      "titulo": "Humildad fundamental y pusilanimidad",
+      "caratula_titulo": "Reflexión: Humildad y pusilanimidad",
+      "visible": false,
+      "resumen_ficha": "¿Caigo en pasividad o falsa modestia?",
+      "prioridad_ficha": 3,
+      "descripcion": "Reflexiona sobre tu proceso de crecimiento en la humildad. La pusilanimidad no es una virtud: es confundir la humildad con la falsa modestia o la pasividad.",
+      "titulo_lectura": "Reflexiona sobre la humildad fundamental y la prudencia",
+      "lecturas": [
+        [
+          { "enfasis": "__La humildad fundamental no es pusilanimidad.__", "grande": true },
+          "Si durante el proceso de crecimiento en humildad fallas en practicar la virtud de la prudencia, es probable que en lugar de volverte humilde caigas en la trampa de la pusilanimidad."
+        ],
+        [
+          "Desde el punto de vista de la magnanimidad, la pusilanimidad es falta de virtud, una falta de magnanimidad. En este caso, la pusilanimidad es el resultado de una falta de voluntad.",
+          {
+            "cita": "Soy pusilánime porque no tengo la suficiente fuerza de voluntad para ser magnánimo."
+          }
+        ],
+        [
+          "Desde el punto de vista de la humildad, la pusilanimidad es una falsa virtud, una falsa humildad, porque parece humildad. En este caso, la pusilanimidad es el resultado de una falta de sabiduría.",
+          {
+            "cita": "Soy pusilánime porque no tengo la suficiente sabiduría para conocerme a mí mismo."
+          }
+        ],
+        [
+          "Puedes luchar por la humildad y al mismo tiempo fallar por ser imprudente. Y en ese caso habrás logrado no tanto humildad, sino pusilanimidad."
+        ],
+        [
+          "La prudencia nos enseña que la humildad no es pusilanimidad, ni falta de noble ambición. La humildad es el hábito de vivir en la verdad sobre uno mismo. Y la verdad sobre uno mismo es que, además de limitaciones, tenemos talentos que hay que utilizar y desarrollar.",
+          {
+            "enfasis": "Si nos olvidamos de esta verdad básica, nos ponemos en riesgo de convertirnos no en humildes, sino en __pusilánimes__."
+          }
+        ],
+        [
+          "Una manifestación muy típica de pusilanimidad es la pasividad y la falsa modestia.",
+          {
+            "carrusel": [
+              {
+                "cita": "¿Quién soy yo para emprender una aventura tan audaz?",
+                "etiqueta": "Pasividad"
+              },
+              {
+                "cita": "Es mejor permanecer con un perfil bajo que llamar la atención y correr el riesgo de ser y parecer orgulloso.",
+                "etiqueta": "Falsa modestia"
+              }
+            ]
+          },
+          "La pasividad y la falsa modestia provienen de la falta de prudencia, la falta de sabiduría y verdad."
+        ]
+      ],
+      "preguntas": [
+        {
+          "texto": "En el proceso de crecimiento de la humildad, ¿caes a veces en la trampa de la pasividad o de la falsa modestia?",
+          "placeholder": "¿Te has encontrado alguna vez diciendo «no soy capaz» cuando en realidad sí lo eras?",
+          "ejemplo": "Por ejemplo: cuando te ofrecen liderar un proyecto y piensas «no soy la persona adecuada», o cuando minimizas tus logros diciendo «no fue para tanto». Eso no es humildad, es pusilanimidad."
+        },
+        {
+          "texto": "Si es así, escribe algunas metas concretas para el próximo mes para superar esa trampa.",
+          "placeholder": "Ej: Aceptar el próximo proyecto desafiante que me ofrezcan en lugar de rechazarlo por inseguridad...",
+          "ejemplo": "Por ejemplo: «Aceptaré la próxima oportunidad que se me presente en lugar de declinarla por inseguridad» o «Cuando alguien reconozca mi trabajo, responderé con un gracias sincero en lugar de minimizarlo»."
+        }
+      ],
+      "modulo": 2
+    },
+    {
+      "id": "m3-09",
+      "num": 9,
+      "tipo": "quiz",
+      "titulo": "Cuestionario — Humildad y prudencia",
+      "visible": false,
+      "preguntas": [
+        {
+          "texto": "Sin prudencia, ¿en qué se convierte la humildad?",
+          "opciones": [
+            "En pusilanimidad",
+            "En soberbia",
+            "En cobardía",
+            "En conformismo"
+          ],
+          "correcta": 0
+        },
+        {
+          "texto": "Sin prudencia, ¿qué puede perder una persona que intenta cultivar la humildad y vencer el orgullo?",
+          "opciones": [
+            "La conciencia de sus talentos y su responsabilidad hacia los demás",
+            "El sentido del humor",
+            "La capacidad de tomar decisiones",
+            "La relación con sus compañeros"
+          ],
+          "correcta": 0
+        },
+        {
+          "texto": "¿Cuál es la verdadera fuente de los talentos de una persona?",
+          "opciones": [
+            "Dios",
+            "La educación recibida",
+            "El esfuerzo personal",
+            "La genética"
+          ],
+          "correcta": 0
+        },
+        {
+          "texto": "¿Qué virtud, sin prudencia, se convierte en orgullo?",
+          "opciones": [
+            "La humildad",
+            "La magnanimidad",
+            "La fortaleza",
+            "La justicia"
+          ],
+          "correcta": 1
+        }
+      ],
+      "modulo": 2
+    },
+    {
+      "id": "m3-concl-2",
+      "tipo": "conclusion_modulo",
+      "visible": false,
+      "titulo": "Resumen: Humildad y prudencia",
+      "modulo_numero": 2,
+      "modulo_titulo": "Humildad fundamental y prudencia",
+      "aprendizajes": [
+        "Sin prudencia, la humildad se convierte en pusilanimidad",
+        "Sin prudencia, la magnanimidad se convierte en soberbia",
+        "Los talentos son dones que debemos reconocer, desarrollar y poner al servicio de los demás"
+      ],
+      "ejercicios_evaluables": [
+        {
+          "id": "m3-10",
+          "label": "Reflexión: pusilanimidad"
+        },
+        {
+          "id": "m3-09",
+          "label": "Cuestionario"
+        }
+      ],
+      "modulo": 2
+    },
+    {
+      "id": "m3-11",
+      "num": 10,
+      "tipo": "video",
+      "titulo": "Humildad fraterna y motivación",
+      "visible": true,
+      "leccion": 5,
+      "vimeoId": "924591617",
+      "intro": [
+        "La humildad fraterna es la virtud de quien percibe a los demás como hermanos y se entrega a su servicio.",
+        [
+          "Para practicarla necesitamos examinar la calidad de nuestras motivaciones:",
+          "¿Actuamos movidos por lo que obtenemos? — **Motivación inmanente**",
+          "¿O actuamos movidos por lo que damos? — **Motivación trascendente**"
+        ],
+        [
+          "El altruismo auténtico consiste en __servir al ser humano por sí mismo, no por el beneficio psicológico que podemos obtener al hacerlo__.",
+          "**La motivación trascendente es el corazón de la humildad fraterna.**"
+        ]
+      ],
+      "modulo": 3
+    },
+    {
+      "id": "m3-13",
+      "num": 11,
+      "tipo": "test_profundo",
+      "titulo": "Examina tus motivaciones",
+      "caratula_titulo": "Reflexión: Tus motivaciones",
+      "visible": false,
+      "resumen_ficha": "¿Sirvo para ganar o gano para servir?",
+      "prioridad_ficha": 2,
+      "descripcion": "Reflexiona sobre la calidad de tus motivaciones. La motivación trascendente — el don de uno mismo — es el corazón de la humildad fraterna.",
+      "titulo_lectura": "Reflexiona sobre la humildad fraterna y la motivación",
+      "lecturas": [
+        [
+          {
+            "columnas": {
+              "imagen": "diagrama-motivacion",
+              "textos": [
+                {
+                  "enfasis": "Contempla este diagrama"
+                },
+                "La **__motivación inmanente__** se refiere a lo que obtengo. La **__motivación trascendente__** se refiere a lo que doy."
+              ]
+            }
+          }
+        ],
+        [
+          "La motivación inmanente (lo que obtengo) es un componente necesario de la vida, pero no es suficiente. Somos seres sociales, somos personas.",
+          {
+            "enfasis": "Ser persona significa **hacer de ti mismo un regalo para los demás**."
+          },
+          "La motivación inmanente por sí misma no nos permite alcanzar la excelencia humana y realizarnos como personas."
+        ],
+        [
+          "La motivación trascendente (el don de uno mismo) es algo natural en el ser humano. Es el corazón de la humildad fraterna."
+        ],
+        [
+          "El altruismo consiste en servir al ser humano por sí mismo, no por el beneficio psicológico que puede obtener al hacerlo.",
+          "Si sirvo para lograr paz en mi conciencia, __eso no es altruismo__. Es más bien algo acerca de lo que obtengo, no de lo que doy."
+        ],
+        [
+          "Con el fin de practicar la humildad fraterna, debo percibir al otro (alter) como un hermano (frater) y no como un medio para lograr salud psicológica o realización personal."
+        ]
+      ],
+      "preguntas": [
+        {
+          "texto": "Examina tus intenciones y la «calidad motivacional» de tu servicio.",
+          "placeholder": "¿Son genuinas tus intenciones al servir? ¿Buscas reconocimiento o el bien del otro?",
+          "ejemplo": "Por ejemplo: ¿cuando ayudas a un compañero, lo haces esperando que te devuelva el favor, o porque ves una necesidad real?"
+        },
+        {
+          "texto": "Servir con el fin de ganar o ganar con el fin de servir. ¿Cuál es la diferencia? ¿Cuál de los dos principios te motiva en tus relaciones con los clientes?",
+          "placeholder": "¿Cuál es tu motivación principal cuando trabajas? ¿Sirves para ganar, o ganas para servir?",
+          "ejemplo": "Por ejemplo: ¿aceptas un proyecto difícil porque te hará crecer profesionalmente, o porque tu trabajo puede mejorar la vida de alguien?"
+        }
+      ],
+      "modulo": 3
+    },
+    {
+      "id": "m3-12",
+      "num": 12,
+      "tipo": "quiz",
+      "titulo": "Cuestionario — Motivación",
+      "visible": false,
+      "preguntas": [
+        {
+          "texto": "¿Qué motivación pertenece a la Motivación Trascendente?",
+          "opciones": [
+            "Motivación material",
+            "Motivación profesional",
+            "Motivación altruista",
+            "Motivación psicológica"
+          ],
+          "correcta": 2
+        },
+        {
+          "texto": "¿En qué consiste la Motivación Religiosa?",
+          "opciones": [
+            "Servir a Dios",
+            "Estudiar teología",
+            "Rezar más",
+            "Ir a la iglesia"
+          ],
+          "correcta": 0
+        },
+        {
+          "texto": "¿En qué consiste la Motivación Espiritual?",
+          "opciones": [
+            "Rezar y meditar",
+            "Desarrollar el carácter",
+            "Encontrar paz interior",
+            "Practicar la caridad"
+          ],
+          "correcta": 1
+        },
+        {
+          "texto": "¿En qué consiste la Motivación Profesional?",
+          "opciones": [
+            "Ganar más dinero",
+            "Conseguir un ascenso",
+            "Adquirir conocimientos y habilidades útiles",
+            "Tener prestigio social"
+          ],
+          "correcta": 2
+        }
+      ],
+      "modulo": 3
+    },
+    {
+      "id": "m3-concl-3",
+      "tipo": "conclusion_modulo",
+      "visible": false,
+      "titulo": "Resumen: Motivación",
+      "modulo_numero": 3,
+      "modulo_titulo": "Humildad fraterna y motivación",
+      "aprendizajes": [
+        "Motivación inmanente (lo que obtengo) vs. trascendente (lo que doy)",
+        "El altruismo es servir al ser humano por sí mismo",
+        "La motivación trascendente es el corazón de la humildad fraterna"
+      ],
+      "ejercicios_evaluables": [
+        {
+          "id": "m3-13",
+          "label": "Reflexión: motivaciones"
+        },
+        {
+          "id": "m3-12",
+          "label": "Cuestionario"
+        }
+      ],
+      "modulo": 3
+    },
+    {
+      "id": "m3-14",
+      "num": 13,
+      "tipo": "video",
+      "titulo": "La humildad y los 4 temperamentos",
+      "visible": true,
+      "leccion": 6,
+      "vimeoId": "924592417",
+      "modulo": 4
+    },
+    {
+      "id": "m3-16",
+      "num": 14,
+      "tipo": "temperamento_magnanimidad",
+      "titulo": "Mi temperamento y la humildad",
+      "visible": false,
+      "resumen_ficha": "Mis puntos fuertes y débiles en humildad",
+      "prioridad_ficha": 2,
+      "imagen": "humildad-temperamentos",
+      "enunciado": "¿Cómo puede mi temperamento ayudarme a practicar la humildad fraterna?",
+      "descripcion": "Estudia el diagrama de la Humildad fraterna. Observa las fortalezas y debilidades de cada temperamento en relación con el servicio a los demás.",
+      "pregunta_fuerte": "Puntos fuertes de mi temperamento dominante en términos de humildad fraterna:",
+      "pregunta_debil": "Puntos débiles de mi temperamento dominante en términos de humildad fraterna:",
+      "pregunta_fuerte_sec": "Puntos fuertes de mi temperamento secundario en términos de humildad fraterna:",
+      "pregunta_debil_sec": "Puntos débiles de mi temperamento secundario en términos de humildad fraterna:",
+      "ejemplos_fuerte": {
+        "COL": "Por ejemplo, como colérico reconoces con facilidad tus talentos y tienes mucha energía para la acción. Si pones esa energía al servicio de las personas, y no de tus metas, puede convertirse en una gran fuerza para hacerlas crecer.",
+        "MEL": "Por ejemplo, como melancólico tienes conciencia de tus talentos y sabes que son dones, no mérito tuyo. Esa verdad sobre ti mismo es la base sobre la que se construye el servicio a los demás.",
+        "SAN": "Por ejemplo, como sanguíneo quieres servir a los demás de buen corazón y te resulta fácil dar el primer paso: conectas con las personas y percibes lo que necesitan. Tu fuerza está en empezar; tu trabajo, en no dejarlo.",
+        "FLE": "Por ejemplo, como flemático sabes escuchar, eres respetuoso y tienes un profundo sentido del deber y del trabajo en equipo. Cuando descubres que tienes algo valioso que ofrecer, sirves con constancia y sin buscar protagonismo."
+      },
+      "ejemplos_debil": {
+        "COL": "Por ejemplo, como colérico tu debilidad ante la humildad es la instrumentalización: puedes usar a las personas como medios para tus fines en lugar de servirlas como un fin en sí mismas. Y te cuesta reconocer que tus talentos son dones, no solo fruto de tu esfuerzo.",
+        "MEL": "Por ejemplo, como melancólico tu debilidad ante la humildad es la auto-absorción: puedes estar tan centrado en tu mundo interior que no ves las necesidades de los demás.",
+        "SAN": "Por ejemplo, como sanguíneo tu debilidad ante la humildad es la inestabilidad en el servicio: sirves mientras te resulta atractivo, pero lo dejas cuando deja de ser novedoso o aparecen dificultades. Además, conoces mejor a los demás que a ti mismo.",
+        "FLE": "Por ejemplo, como flemático tu debilidad ante la humildad es la subestima de tus talentos: piensas «¿qué puedo ofrecer yo?» y no los pones al servicio de los demás por no creer que tengas algo valioso que dar."
+      },
+      "obstaculos": {
+        "COL": "Para los Coléricos, el obstáculo a la humildad fraterna es la instrumentalización de las personas. Las personas son instrumentos con los que puedo alcanzar mis objetivos.",
+        "MEL": "Para los Melancólicos, el obstáculo es la autoabsorción. No veo a los demás, solo me veo a mí mismo.",
+        "SAN": "Para los Sanguíneos, el obstáculo es la inestabilidad de servir a los demás. Sirve a los demás mientras le divierte, pero deja de hacerlo en cuanto le resulta aburrido.",
+        "FLE": "Para los Flemáticos, el obstáculo es la subestima de sus talentos. Me encantaría servir, pero ¿qué puedo ofrecer?"
+      },
+      "sinergias_secundario": {
+        "COL-MEL": "Tu temperamento melancólico puede ayudarte a percibir con más profundidad las necesidades de los demás.",
+        "COL-SAN": "Tu temperamento sanguíneo puede suavizar tu tendencia a instrumentalizar, acercándote genuinamente a las personas.",
+        "MEL-COL": "Tu temperamento colérico puede empujarte a salir de tu aislamiento y pasar a la acción al servicio de los demás.",
+        "MEL-FLE": "Tu temperamento flemático puede darte la constancia para servir sin buscar reconocimiento.",
+        "SAN-COL": "Tu temperamento colérico puede darte la perseverancia para servir hasta el final.",
+        "SAN-FLE": "Tu temperamento flemático puede aportar la estabilidad que necesitas para mantener tu servicio en el tiempo.",
+        "FLE-MEL": "Tu temperamento melancólico puede ayudarte a descubrir tus talentos profundos para ponerlos al servicio.",
+        "FLE-SAN": "Tu temperamento sanguíneo puede empujarte a dar el primer paso y acercarte a las personas."
+      },
+      "reto_por_temperamento": {
+        "COL": "Si tu temperamento es colérico, tu reto es aprender a servir a los demás en lugar de utilizarlos. Las personas no son instrumentos para tus fines: son un fin en sí mismas.",
+        "MEL": "Si tu temperamento es melancólico, tu reto es salir de tu mundo interior y estar con los demás. Tu tendencia a la auto-absorción te impide ver y atender las necesidades de quienes te rodean.",
+        "SAN": "Si tu temperamento es sanguíneo, tu reto es servir siempre y hasta el final. No solo cuando es divertido o fácil, sino también cuando requiere sacrificio y perseverancia.",
+        "FLE": "Si tu temperamento es flemático, tu reto es descubrir tus talentos y ponerlos al servicio de los demás. No subestimes lo que puedes ofrecer: tus talentos son dones."
+      },
+      "modulo": 4
+    },
+    {
+      "id": "m3-15",
+      "num": 15,
+      "tipo": "quiz",
+      "titulo": "Cuestionario — Temperamentos y humildad",
+      "visible": false,
+      "preguntas": [
+        {
+          "texto": "¿Qué significa «practicar la humildad fraterna» para un colérico?",
+          "opciones": [
+            "Servir a los demás en lugar de utilizarlos.",
+            "Salir del aislamiento y estar con los demás.",
+            "Servir no de manera ocasional, sino siempre y hasta el final.",
+            "Descubrir sus talentos para ponerlos al servicio de los demás."
+          ],
+          "correcta": 0
+        },
+        {
+          "texto": "¿Qué significa «practicar la humildad fraterna» para un melancólico?",
+          "opciones": [
+            "Servir a los demás en lugar de utilizarlos.",
+            "Salir del aislamiento y estar con los demás.",
+            "Servir no de manera ocasional, sino siempre y hasta el final.",
+            "Descubrir sus talentos para ponerlos al servicio de los demás."
+          ],
+          "correcta": 1
+        },
+        {
+          "texto": "¿Qué significa «practicar la humildad fraterna» para un sanguíneo?",
+          "opciones": [
+            "Servir a los demás en lugar de utilizarlos.",
+            "Salir del aislamiento y estar con los demás.",
+            "Servir no de manera ocasional, sino siempre y hasta el final.",
+            "Descubrir sus talentos para ponerlos al servicio de los demás."
+          ],
+          "correcta": 2
+        },
+        {
+          "texto": "¿Qué significa «practicar la humildad fraterna» para un flemático?",
+          "opciones": [
+            "Servir a los demás en lugar de utilizarlos.",
+            "Salir del aislamiento y estar con los demás.",
+            "Servir no de manera ocasional, sino siempre y hasta el final.",
+            "Descubrir sus talentos para ponerlos al servicio de los demás."
+          ],
+          "correcta": 3
+        }
+      ],
+      "modulo": 4
+    },
+    {
+      "id": "m3-concl-4",
+      "tipo": "conclusion_modulo",
+      "visible": false,
+      "titulo": "Resumen: Temperamentos y humildad",
+      "modulo_numero": 4,
+      "modulo_titulo": "La humildad y los 4 temperamentos",
+      "aprendizajes": [
+        "Cada temperamento tiene obstáculos propios para la humildad fraterna",
+        "El colérico corre el riesgo de usar a las personas como medios para sus fines, en lugar de servirlas",
+        "El melancólico puede estar tan centrado en su mundo interior que no ve las necesidades de los demás",
+        "El sanguíneo sirve mientras le resulta atractivo, pero lo deja cuando pierde la novedad o aparecen dificultades",
+        "El flemático tiende a subestimar sus talentos y no los pone al servicio de los demás"
+      ],
+      "ejercicios_evaluables": [
+        {
+          "id": "m3-16",
+          "label": "Temperamento × humildad"
+        },
+        {
+          "id": "m3-15",
+          "label": "Cuestionario"
+        }
+      ],
+      "modulo": 4
+    },
+    {
+      "id": "m3-17",
+      "num": 16,
+      "tipo": "video",
+      "titulo": "La práctica de la humildad fundamental",
+      "visible": true,
+      "leccion": 7,
+      "vimeoId": "924591867",
+      "modulo": 5
+    },
+    {
+      "id": "m3-25",
+      "num": 17,
+      "tipo": "test_profundo",
+      "titulo": "Test de humildad fundamental",
+      "caratula_titulo": "Señales de humildad fundamental",
+      "visible": false,
+      "resumen_ficha": "¿Valoro el punto de vista de los demás?",
+      "prioridad_ficha": 2,
+      "descripcion": "Este es un autoexamen profundo. Tómate tu tiempo: busca un momento tranquilo, sin ruido ni distracciones, con la cabeza limpia. Lee cada afirmación con calma y reflexiona honestamente sobre cómo la vives en tu día a día.",
+      "sub_enunciado": "Aquí tienes las señales de la humildad. Examínate, reflexiona y fija tus metas para el mes que empieza.",
+      "titulo_lectura": "Test de humildad fundamental",
+      "preguntas": [
+        {
+          "texto": "Valoro el punto de vista de los demás. No trato de imponer mis opiniones.",
+          "placeholder": "¿Cómo vives esto? ¿Qué meta te propones?"
+        },
+        {
+          "texto": "No discuto si no tengo la razón.",
+          "placeholder": "¿Cómo vives esto? ¿Qué meta te propones?"
+        },
+        {
+          "texto": "No insisto obstinadamente cuando creo que tengo razón.",
+          "placeholder": "¿Cómo vives esto? ¿Qué meta te propones?"
+        },
+        {
+          "texto": "Prefiero el diálogo a la confrontación.",
+          "placeholder": "¿Cómo vives esto? ¿Qué meta te propones?"
+        },
+        {
+          "texto": "Soy consciente de que mis talentos son dones.",
+          "placeholder": "¿Cómo vives esto? ¿Qué meta te propones?"
+        },
+        {
+          "texto": "No trato de justificarme cuando me reprenden.",
+          "placeholder": "¿Cómo vives esto? ¿Qué meta te propones?"
+        },
+        {
+          "texto": "No oculto mis fallos.",
+          "placeholder": "¿Cómo vives esto? ¿Qué meta te propones?"
+        },
+        {
+          "texto": "Comparto la alegría de los demás cuando son recompensados.",
+          "placeholder": "¿Cómo vives esto? ¿Qué meta te propones?"
+        },
+        {
+          "texto": "Me gusta reírme cuando la gente hace bromas sobre mí.",
+          "placeholder": "¿Cómo vives esto? ¿Qué meta te propones?"
+        }
+      ],
+      "modulo": 5
+    },
+    {
+      "id": "m3-18",
+      "num": 18,
+      "tipo": "quiz",
+      "titulo": "Cuestionario — Humildad fundamental",
+      "visible": false,
+      "preguntas": [
+        {
+          "texto": "¿Qué cualidad positiva no corresponde al melancólico?",
+          "opciones": [
+            "Le gusta el poder y prospera en la competencia",
+            "Busca la perfección en todo",
+            "Capacidad de reflexión profunda",
+            "Independencia y autonomía"
+          ],
+          "correcta": 0
+        },
+        {
+          "texto": "¿Qué defecto no corresponde al melancólico?",
+          "opciones": [
+            "Absorto en sus pensamientos",
+            "Teme la acción",
+            "Tiende a la confrontación y al autoritarismo",
+            "Perfeccionismo paralizante"
+          ],
+          "correcta": 2
+        },
+        {
+          "texto": "¿Por qué el perfeccionismo es peligroso?",
+          "opciones": [
+            "No acepta el fracaso",
+            "No perdona las debilidades",
+            "Refuerza el orgullo",
+            "Todas las respuestas son correctas"
+          ],
+          "correcta": 3
+        }
+      ],
+      "modulo": 5
+    },
+    {
+      "id": "m3-concl-5",
+      "tipo": "conclusion_modulo",
+      "visible": false,
+      "titulo": "Resumen: Humildad fundamental",
+      "modulo_numero": 5,
+      "modulo_titulo": "La práctica de la humildad fundamental",
+      "aprendizajes": [
+        "Las 9 señales de la humildad fundamental",
+        "El perfeccionismo como enemigo de la humildad"
+      ],
+      "ejercicios_evaluables": [
+        {
+          "id": "m3-25",
+          "label": "Test de humildad fundamental"
+        },
+        {
+          "id": "m3-18",
+          "label": "Cuestionario"
+        }
+      ],
+      "modulo": 5
+    },
+    {
+      "id": "m3-19",
+      "num": 18,
+      "tipo": "video",
+      "titulo": "La práctica de la humildad fraterna",
+      "visible": true,
+      "leccion": 8,
+      "vimeoId": "924592567",
+      "modulo": 6
+    },
+    {
+      "id": "m3-26",
+      "num": 19,
+      "tipo": "test_profundo",
+      "titulo": "Test de humildad fraterna",
+      "caratula_titulo": "Señales de humildad fraterna",
+      "visible": false,
+      "resumen_ficha": "¿Me agrada servir con motivos altruistas?",
+      "prioridad_ficha": 2,
+      "descripcion": "Examínate sobre cómo practicas la humildad fraterna en tu vida cotidiana. Reflexiona con honestidad sobre cada afirmación y fija metas concretas.",
+      "sub_enunciado": "Aquí tienes las señales de la humildad. Examínate, reflexiona y fija tus metas para el mes que empieza.",
+      "titulo_lectura": "Test de humildad fraterna",
+      "preguntas": [
+        {
+          "texto": "Me agrada servir y cultivar motivos altruistas.",
+          "placeholder": "¿Cómo practicas el servicio desinteresado?"
+        },
+        {
+          "texto": "Ayudo a las personas cercanas a mí a reconocer su dignidad, comprender el núcleo más íntimo de su personalidad, ejercer su libertad personal, asumir responsabilidades, descubrir y aumentar sus talentos.",
+          "placeholder": "¿Cómo ayudas a las personas a crecer?"
+        },
+        {
+          "texto": "Arrastro, en lugar de empujar.",
+          "placeholder": "¿Cómo lideras: inspirando o imponiendo?"
+        },
+        {
+          "texto": "Inspiro en lugar de mandar.",
+          "placeholder": "¿Cómo motivas a los demás?"
+        },
+        {
+          "texto": "Enseño en lugar de regañar.",
+          "placeholder": "¿Cómo corriges a los demás?"
+        },
+        {
+          "texto": "En lugar de ejercer poder sobre los demás, empodero a los demás para que se realicen.",
+          "placeholder": "¿Cómo usas tu influencia?"
+        }
+      ],
+      "modulo": 6
+    },
+    {
+      "id": "m3-20",
+      "num": 20,
+      "tipo": "quiz",
+      "titulo": "Cuestionario — Humildad fraterna",
+      "visible": false,
+      "preguntas": [
+        {
+          "texto": "¿Qué principio de la humildad fraterna es correcto?",
+          "opciones": [
+            "Hago crecer a los demás.",
+            "Obedezco a los demás.",
+            "Evito conflictos con los demás.",
+            "Cedo siempre ante los demás."
+          ],
+          "correcta": 0
+        },
+        {
+          "texto": "¿Cuál es el propósito de la educación?",
+          "opciones": [
+            "Transmitir conocimientos teóricos",
+            "Descubrir y desarrollar los talentos y habilidades de una persona.",
+            "Preparar para el mercado laboral",
+            "Formar ciudadanos obedientes"
+          ],
+          "correcta": 1
+        },
+        {
+          "texto": "¿Quién dijo: «Hay que romper la piedra para descubrir el diamante que se esconde dentro»?",
+          "opciones": [
+            "Édouard Michelin",
+            "Tomás de Aquino",
+            "Aristóteles",
+            "Alexandre Havard"
+          ],
+          "correcta": 0
+        }
+      ],
+      "modulo": 6
+    },
+    {
+      "id": "m3-concl-6",
+      "tipo": "conclusion_modulo",
+      "visible": false,
+      "titulo": "Resumen: Humildad fraterna",
+      "modulo_numero": 6,
+      "modulo_titulo": "La práctica de la humildad fraterna",
+      "aprendizajes": [
+        "Servir es hacer crecer a las personas",
+        "Educar = sacar lo mejor de cada persona (educare)",
+        "Combinaciones de temperamento imposibles: opuestos no se combinan"
+      ],
+      "ejercicios_evaluables": [
+        {
+          "id": "m3-26",
+          "label": "Test de humildad fraterna"
+        },
+        {
+          "id": "m3-20",
+          "label": "Cuestionario"
+        }
+      ],
+      "modulo": 6
+    },
+    {
+      "id": "m3-21",
+      "num": 20,
+      "tipo": "video",
+      "titulo": "La humildad fraterna en las organizaciones",
+      "visible": true,
+      "leccion": 9,
+      "vimeoId": "924592610",
+      "modulo": 7
+    },
+    {
+      "id": "m3-23",
+      "num": 21,
+      "tipo": "test_profundo",
+      "titulo": "Test de humildad fraterna en las organizaciones",
+      "caratula_titulo": "Señales de humildad en organizaciones",
+      "visible": false,
+      "resumen_ficha": "¿Practico la inclusión en mi organización?",
+      "prioridad_ficha": 2,
+      "descripcion": "Examina cómo practicas la humildad fraterna en el contexto de tu organización: inclusión, colegialidad, delegación de poder y servicio al equipo.",
+      "sub_enunciado": "Aquí tienes las señales de la humildad. Examínate, reflexiona y fija tus metas para el mes que empieza.",
+      "titulo_lectura": "Test de humildad fraterna en las organizaciones",
+      "preguntas": [
+        {
+          "texto": "Practico la «inclusión». Animo a todos los miembros de mi organización a contribuir al proceso de toma de decisiones.",
+          "placeholder": "¿Cómo promueves la participación?"
+        },
+        {
+          "texto": "Animo a mis colegas a expresar sus opiniones, sobre todo si son críticas.",
+          "placeholder": "¿Facilitas la crítica constructiva?"
+        },
+        {
+          "texto": "Hago todo lo posible para fortalecer el compromiso de los miembros del equipo con la misión que tenemos en común.",
+          "placeholder": "¿Cómo alineas al equipo con la misión?"
+        },
+        {
+          "texto": "En nuestras reuniones de trabajo cuestiono las opiniones recibidas de la mayoría, modero a los locuaces, animo a los personajes dominantes a ceder aquí y allá, aliento a los pesimistas a ver el lado positivo de las cosas.",
+          "placeholder": "¿Cómo facilitas las reuniones?"
+        },
+        {
+          "texto": "Participo con entusiasmo en la implementación de todas las decisiones, incluso aquellas a las que me opuse en un principio.",
+          "placeholder": "¿Cómo reaccionas cuando la decisión no fue la tuya?"
+        },
+        {
+          "texto": "Si una decisión tomada en contra de mi consejo resulta errónea, evito decir: «Esto no habría pasado si me hubieras escuchado».",
+          "placeholder": "¿Resistes la tentación del «te lo dije»?"
+        },
+        {
+          "texto": "Practico la «colegialidad». Desarrollo en cada miembro del equipo un sentido de libertad, y un sentido de responsabilidad personal.",
+          "placeholder": "¿Cómo fomentas la responsabilidad compartida?"
+        },
+        {
+          "texto": "Delego poder, no porque no tengo tiempo para hacer todo por mí mismo, sino porque quiero que los miembros del equipo crezcan, experimentando libertad, poder, creatividad y responsabilidad.",
+          "placeholder": "¿Por qué delegas: por necesidad o por crecimiento de los demás?"
+        },
+        {
+          "texto": "Promuevo mi organización antes que a mí mismo.",
+          "placeholder": "¿Antepones la organización a tu imagen personal?"
+        },
+        {
+          "texto": "No me hago imprescindible. Comparto la información, y creo las condiciones para que otros puedan concluir satisfactoriamente mi trabajo.",
+          "placeholder": "¿Preparas a otros para continuar sin ti?"
+        },
+        {
+          "texto": "Escojo bien a mis colaboradores cercanos. Identifico y desarrollo a los futuros líderes de nuestra organización.",
+          "placeholder": "¿Cómo identificas y formas a futuros líderes?"
+        }
+      ],
+      "modulo": 7
+    },
+    {
+      "id": "m3-22",
+      "num": 22,
+      "tipo": "quiz",
+      "titulo": "Cuestionario — Humildad en organizaciones",
+      "visible": false,
+      "preguntas": [
+        {
+          "texto": "¿Qué principio es contrario a la humildad fraterna?",
+          "opciones": [
+            "Animo a todos a contribuir al proceso de toma de decisiones.",
+            "Tomo todas las decisiones solo.",
+            "Delego poder para que los miembros del equipo crezcan.",
+            "Promuevo mi organización antes que a mí mismo."
+          ],
+          "correcta": 1
+        },
+        {
+          "texto": "¿Qué principio es correcto?",
+          "opciones": [
+            "El poder corrompe a todas las personas.",
+            "El poder ayuda a las personas maduras a crecer.",
+            "El poder solo beneficia a los líderes.",
+            "El poder siempre genera conflicto."
+          ],
+          "correcta": 1
+        },
+        {
+          "texto": "¿Qué afirmación es correcta?",
+          "opciones": [
+            "El colérico necesita la humildad para no instrumentalizar a las personas.",
+            "El melancólico necesita valentía para salir del aislamiento.",
+            "El sanguíneo necesita perseverancia para servir hasta el final.",
+            "Todas son correctas"
+          ],
+          "correcta": 3
+        },
+        {
+          "texto": "¿En qué acción se manifiesta principalmente la justicia?",
+          "opciones": [
+            "En cumplir las leyes",
+            "En la apertura al otro",
+            "En el castigo justo",
+            "En la igualdad material"
+          ],
+          "correcta": 1
+        }
+      ],
+      "modulo": 7
+    },
+    {
+      "id": "m3-concl-7",
+      "tipo": "conclusion_modulo",
+      "visible": false,
+      "titulo": "Resumen: Humildad en organizaciones",
+      "modulo_numero": 7,
+      "modulo_titulo": "La humildad fraterna en las organizaciones",
+      "aprendizajes": [
+        "Inclusión, colegialidad y delegación de poder",
+        "El poder no corrompe a los maduros: los hace crecer",
+        "Humildad fraterna aplicada al trabajo en equipo"
+      ],
+      "ejercicios_evaluables": [
+        {
+          "id": "m3-23",
+          "label": "Test: humildad en organizaciones"
+        },
+        {
+          "id": "m3-22",
+          "label": "Cuestionario"
+        }
+      ],
+      "modulo": 7
+    },
+    {
+      "id": "m3-24",
+      "num": 23,
+      "tipo": "cierre",
+      "titulo": "Conclusiones del Curso 3",
+      "visible": true,
+      "resumen_ficha": "Mi compromiso de humildad",
+      "prioridad_ficha": 1,
+      "modulo": 8,
+      "reflexion_cierre": {
+        "paginas": [
+          [
+            "Tu nivel de autoconciencia influye radicalmente en tu nivel de servicio.",
+            "Has aprendido que la humildad tiene dos caras:",
+            {
+              "lista": [
+                "La fundamental: vivir en la verdad sobre ti mismo.",
+                "La fraterna: servir activamente a los demás."
+              ]
+            },
+            "**Sin la primera, la segunda es imposible.**"
+          ],
+          [
+            {
+              "por_temperamento": {
+                "COL": "Para ti, {nombre}, que eres colérico, el mayor obstáculo a la humildad fraterna es la instrumentalización.\n\nLas personas no son herramientas para alcanzar tus objetivos.\n\nTu reto: servir a los demás en lugar de utilizarlos. Recuerda que tus talentos son dones, no son tuyos del todo.",
+                "MEL": "Para ti, {nombre}, que eres melancólico, el mayor obstáculo a la humildad fraterna es la auto-absorción.\n\nNo ves a los demás porque solo te ves a ti mismo.\n\nTu reto: salir del aislamiento y estar con los demás. Y cuidado con el perfeccionismo: si no aceptas el fracaso, ni perdonas la debilidad, refuerzas el orgullo.",
+                "SAN": "Para ti, {nombre}, que eres sanguíneo, el mayor obstáculo a la humildad fraterna es la inestabilidad en el servicio.\n\nSirves mientras te divierte, pero dejas de hacerlo cuando te aburre.\n\nTu reto: servir no de manera ocasional, sino siempre y hasta el final.",
+                "FLE": "Para ti, {nombre}, que eres flemático, el mayor obstáculo a la humildad fraterna es la subestima de tus talentos.\n\n«Me encantaría servir pero, ¿qué puedo ofrecer?»\n\nTu reto: descubrir que tienes talentos, más de los que crees, y ponerlos al servicio de los demás."
+              }
+            }
+          ],
+          [
+            "Recuerda: la humildad no es pusilanimidad.",
+            "No es pasividad ni falsa modestia.",
+            "Un líder humilde tira en lugar de empujar, inspira en lugar de mandar, enseña en lugar de regañar.",
+            "**No impone su poder sobre los demás: les otorga poder.**"
+          ]
+        ],
+        "pregunta_choice": {
+          "enunciado": "Piensa en tu vida diaria. ¿En cuál de estas áreas sientes que necesitas crecer más?",
+          "opciones": [
+            {
+              "texto": "Conocer mejor mis talentos y limitaciones",
+              "key": "fundamental"
+            },
+            {
+              "texto": "Servir a los demás de forma constante y desinteresada",
+              "key": "fraterna"
+            },
+            {
+              "texto": "No confundir humildad con pasividad o falsa modestia",
+              "key": "prudencia"
+            },
+            {
+              "texto": "Examinar si mi motivación es realmente trascendente",
+              "key": "motivacion"
+            }
+          ]
+        },
+        "pregunta_compromiso": {
+          "fundamental": "Has elegido crecer en el conocimiento de ti mismo. ¿Qué acción concreta puedes empezar esta semana para conocer mejor tus talentos y tus limitaciones?",
+          "fraterna": "Has elegido crecer en el servicio a los demás. ¿Qué acción concreta puedes empezar esta semana para servir de forma más constante y desinteresada en tu entorno?",
+          "prudencia": "Has elegido trabajar la diferencia entre humildad y pusilanimidad. ¿En qué situación concreta de tu vida caes en la pasividad o la falsa modestia, y qué puedes hacer esta semana para actuar con verdadera humildad?",
+          "motivacion": "Has elegido examinar la calidad de tu motivación. Piensa en tu trabajo o tus relaciones: ¿sirves con el fin de ganar, o ganas con el fin de servir? Escribe una acción concreta para esta semana."
+        },
+        "ejemplo_compromiso": {
+          "fundamental": "Yo, {nombre}, me comprometo a pedir feedback sincero a una persona de confianza esta semana sobre una limitación mía que yo no veo.",
+          "fraterna": "Yo, {nombre}, me comprometo a servir a los demás esta semana dedicando 15 minutos cada día a ayudar a alguien sin que me lo pida.",
+          "prudencia": "Yo, {nombre}, me comprometo a identificar una situación concreta esta semana donde normalmente callo por falsa modestia, y a actuar con determinación.",
+          "motivacion": "Yo, {nombre}, me comprometo a examinar cada noche de esta semana si mis acciones del día han sido por servir a los demás o por ganar algo para mí."
+        },
+        "felicitacion": "¡Felicidades, {nombre}! Has completado el curso «Practicar la humildad»."
+      }
+    }
+  ]
+}

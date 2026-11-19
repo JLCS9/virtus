@@ -1,0 +1,2794 @@
+{
+  "meta": {
+    "version": "0.3",
+    "fuente": "Virtus_biblioteca_retos_v0.3.xlsx"
+  },
+  "retos": [
+    {
+      "id": "C01",
+      "temperamento": "COL",
+      "virtud": "Humildad",
+      "consigna": "Pedir opinión antes de decidir",
+      "fuente": "1. ¿Suelo pedir opinión a los demás o me aferro obstinadamente a mis propias ideas?",
+      "opciones": {
+        "persona": "Hoy pido a {persona_trabajo} su opinión sobre {decision_pendiente} antes de decidir.",
+        "habito": "Hoy, antes de cada decisión que afecte a otros, pregunto a alguien qué haría.",
+        "situacion": "Hoy, en {reunion}, hablo el último."
+      },
+      "noche": {
+        "reflexion": "¿Qué opinión ajena mejoró hoy la tuya?",
+        "nutrir": "¿Qué decisión tienes entre manos esta semana?",
+        "variable": "decision_pendiente"
+      },
+      "citas": [
+        "Q25",
+        "Q29",
+        "Q30",
+        "Q37",
+        "Q38"
+      ],
+      "validacion": "aprobado"
+    },
+    {
+      "id": "C02",
+      "temperamento": "COL",
+      "virtud": "Humildad",
+      "consigna": "Aceptar la crítica",
+      "fuente": "2. ¿Estoy abierto a la crítica sana y constructiva?",
+      "opciones": {
+        "persona": "Hoy pido a {persona_dificil} que me diga una cosa que hago mal, y solo doy las gracias.",
+        "habito": "Hoy, cada vez que me corrijan, digo «gracias» antes que nada.",
+        "situacion": "Hoy, en {reunion}, pregunto qué mejorarían de mi propuesta."
+      },
+      "noche": {
+        "reflexion": "¿Qué crítica de hoy tenía razón?",
+        "nutrir": "¿Quién te dice las cosas claras, aunque te moleste?",
+        "variable": "persona_dificil"
+      },
+      "citas": [
+        "Q28",
+        "Q30",
+        "Q39",
+        "Q40",
+        "Q41",
+        "Q53",
+        "Q68",
+        "Q69"
+      ],
+      "validacion": "aprobado"
+    },
+    {
+      "id": "C03",
+      "temperamento": "COL",
+      "virtud": "Humildad",
+      "consigna": "Trabajar para servir",
+      "fuente": "3. ¿Veo mi trabajo como una oportunidad para servir o sólo persigo mi propio interés?",
+      "opciones": {
+        "persona": "Hoy pregunto a {persona_trabajo} en qué puedo ayudarle, y lo hago.",
+        "habito": "Hoy empiezo la jornada preguntándome a quién sirve mi trabajo de hoy.",
+        "situacion": "Hoy, al hacer {tarea_ingrata}, pienso en la persona concreta que se beneficia."
+      },
+      "noche": {
+        "reflexion": "¿A quién ha servido hoy tu trabajo?",
+        "nutrir": "¿Quién depende más de tu trabajo?",
+        "variable": "persona_trabajo"
+      },
+      "citas": [
+        "Q14",
+        "Q23",
+        "Q24",
+        "Q27",
+        "Q62",
+        "Q78"
+      ],
+      "validacion": "aprobado"
+    },
+    {
+      "id": "C04",
+      "temperamento": "COL",
+      "virtud": "Humildad",
+      "consigna": "Escuchar hasta el final",
+      "fuente": "5. ¿Interrumpo fácilmente a los demás cuando hablan?",
+      "opciones": {
+        "persona": "Hoy dejo que {persona_cercana} termine de hablar antes de responder, todas las veces.",
+        "habito": "Hoy cuento hasta tres antes de responder a cualquiera.",
+        "situacion": "Hoy, en {reunion}, no interrumpo a nadie."
+      },
+      "noche": {
+        "reflexion": "¿A quién interrumpiste hoy?",
+        "nutrir": "¿En qué reunión o conversación habitual hablas más que los demás?",
+        "variable": "reunion"
+      },
+      "citas": [
+        "Q25",
+        "Q77"
+      ],
+      "validacion": "aprobado"
+    },
+    {
+      "id": "C05",
+      "temperamento": "COL",
+      "virtud": "Humildad",
+      "consigna": "Pedir perdón sin justificarme",
+      "fuente": "7. ¿Soy capaz de pedir perdón con humildad y sencillez, sin justificarme?",
+      "opciones": {
+        "persona": "Hoy pido perdón a {persona_cercana} por algo concreto, sin añadir «pero».",
+        "habito": "Hoy, si me equivoco, lo digo en el momento: «me he equivocado».",
+        "situacion": "Hoy reconozco en {reunion} un error mío reciente."
+      },
+      "noche": {
+        "reflexion": "¿A quién debes todavía una disculpa?",
+        "nutrir": "¿Quién de tu familia sufre más tu carácter?",
+        "variable": "persona_cercana"
+      },
+      "citas": [
+        "Q39",
+        "Q53",
+        "Q61",
+        "Q68",
+        "Q69"
+      ],
+      "validacion": "aprobado"
+    },
+    {
+      "id": "C06",
+      "temperamento": "COL",
+      "virtud": "Humildad",
+      "consigna": "Mirar a quién afecta mi prisa",
+      "fuente": "8. Cuando me apresuro a cumplir algunos objetivos, ¿me importan las consecuencias para los demás?",
+      "opciones": {
+        "persona": "Hoy, antes de pedir algo urgente a {persona_trabajo}, le pregunto qué tiene entre manos.",
+        "habito": "Hoy, antes de cada encargo, pregunto «¿cómo te viene?».",
+        "situacion": "Hoy reviso a quién estoy cargando de más en {proyecto}."
+      },
+      "noche": {
+        "reflexion": "¿Quién pagó hoy el precio de tu prisa?",
+        "nutrir": "¿Qué proyecto estás empujando con más fuerza ahora?",
+        "variable": "proyecto"
+      },
+      "citas": [
+        "Q24",
+        "Q26",
+        "Q42",
+        "Q43",
+        "Q47",
+        "Q54",
+        "Q57",
+        "Q58",
+        "Q60",
+        "Q77",
+        "Q85"
+      ],
+      "validacion": "aprobado"
+    },
+    {
+      "id": "C07",
+      "temperamento": "COL",
+      "virtud": "Humildad",
+      "consigna": "Cambiar mis planes por otros",
+      "fuente": "9. ¿Soy capaz de cambiar mis planes personales cuando las necesidades de los demás lo requieren?",
+      "opciones": {
+        "persona": "Hoy cambio un plan mío para atender algo que necesita {persona_cercana}.",
+        "habito": "Hoy, {momento_libre}, dejo media hora sin planificar para quien la necesite.",
+        "situacion": "Hoy, si surge un imprevisto en {proyecto}, me adapto sin quejarme."
+      },
+      "noche": {
+        "reflexion": "¿Qué plan cambiaste hoy por alguien?",
+        "nutrir": "¿En qué momento del día tienes media hora libre?",
+        "variable": "momento_libre"
+      },
+      "citas": [
+        "Q23",
+        "Q24",
+        "Q29"
+      ],
+      "validacion": "aprobado"
+    },
+    {
+      "id": "C08",
+      "temperamento": "COL",
+      "virtud": "Humildad",
+      "consigna": "Soltar el control",
+      "fuente": "10. ¿Soy autoritario en lugar de buscar la cooperación de los demás? (y 13: ¿Tengo tendencia a querer controlarlo todo?)",
+      "opciones": {
+        "persona": "Hoy confío {tarea_delegable} a {persona_trabajo} y no lo reviso hasta que termine.",
+        "habito": "Hoy, en vez de dar una orden, pregunto «¿cómo lo harías tú?».",
+        "situacion": "Hoy, en {reunion}, propongo y dejo que decida el grupo."
+      },
+      "noche": {
+        "reflexion": "¿Qué quisiste controlar hoy sin que hiciera falta?",
+        "nutrir": "¿Qué tarea haces siempre tú y podría hacer otro?",
+        "variable": "tarea_delegable"
+      },
+      "citas": [
+        "Q26",
+        "Q37",
+        "Q38",
+        "Q55",
+        "Q57",
+        "Q85"
+      ],
+      "validacion": "aprobado"
+    },
+    {
+      "id": "C09",
+      "temperamento": "COL",
+      "virtud": "Humildad",
+      "consigna": "Poner a la familia en su sitio",
+      "fuente": "11. ¿Soy tan ambicioso en mi vida profesional que me olvido de mi vida familiar?",
+      "opciones": {
+        "persona": "Hoy dedico a {persona_cercana} una hora entera, sin móvil.",
+        "habito": "Hoy salgo del trabajo a la hora que he dicho en casa.",
+        "situacion": "Hoy no hablo de {proyecto} en la cena."
+      },
+      "noche": {
+        "reflexion": "¿Quién tuvo hoy tu mejor atención?",
+        "nutrir": "¿Quién de tu familia te ve menos de lo que debería?",
+        "variable": "persona_cercana"
+      },
+      "citas": [
+        "Q10",
+        "Q12",
+        "Q60",
+        "Q62",
+        "Q63",
+        "Q67",
+        "Q77"
+      ],
+      "validacion": "aprobado"
+    },
+    {
+      "id": "C10",
+      "temperamento": "COL",
+      "virtud": "Humildad",
+      "consigna": "Reconocer lo recibido",
+      "fuente": "14. ¿Soy consciente de que mis talentos son dones y no el producto de mi propia actividad?",
+      "opciones": {
+        "persona": "Hoy agradezco a {persona_admiro} algo concreto que me enseñó.",
+        "habito": "Hoy, al acabar el día, apunto una cosa que he recibido y no he hecho yo.",
+        "situacion": "Hoy, cuando me feliciten por algo, nombro a quien me ayudó a conseguirlo."
+      },
+      "noche": {
+        "reflexion": "¿Qué has recibido hoy que no has hecho tú?",
+        "nutrir": "¿De quién aprendiste lo que mejor sabes hacer?",
+        "variable": "persona_admiro"
+      },
+      "citas": [
+        "Q28",
+        "Q31",
+        "Q32",
+        "Q34"
+      ],
+      "validacion": "aprobado"
+    },
+    {
+      "id": "M01",
+      "temperamento": "MEL",
+      "virtud": "Audacia",
+      "consigna": "Convertir el sueño en acción",
+      "fuente": "1. ¿Me esfuerzo cada día por convertir mis sueños en acciones concretas?",
+      "opciones": {
+        "persona": "Hoy cuento a {persona_cercana} que quiero {sueno}, y cuál es mi primer paso.",
+        "habito": "Hoy, {momento_libre}, dedico quince minutos a {sueno}.",
+        "situacion": "Hoy doy un paso para {sueno} que pueda terminar antes de comer."
+      },
+      "noche": {
+        "reflexion": "¿Qué hiciste hoy, y no solo pensaste?",
+        "nutrir": "¿Qué te gustaría haber logrado dentro de cinco años?",
+        "variable": "sueno"
+      },
+      "citas": [
+        "Q01",
+        "Q05",
+        "Q06",
+        "Q09",
+        "Q15",
+        "Q17",
+        "Q19"
+      ],
+      "validacion": "aprobado"
+    },
+    {
+      "id": "M02",
+      "temperamento": "MEL",
+      "virtud": "Audacia",
+      "consigna": "Decidir y ejecutar",
+      "fuente": "2. ¿Cumplo mis decisiones con diligencia?",
+      "opciones": {
+        "persona": "Hoy digo a {persona_trabajo} qué voy a hacer con {decision_pendiente} y para cuándo.",
+        "habito": "Hoy, lo que decido por la mañana lo empiezo antes de mediodía.",
+        "situacion": "Hoy tomo una decisión sobre {decision_pendiente}, sin pedir más datos."
+      },
+      "noche": {
+        "reflexion": "¿Qué decidiste hoy y qué aplazaste?",
+        "nutrir": "¿Qué decisión llevas tiempo aplazando?",
+        "variable": "decision_pendiente"
+      },
+      "citas": [
+        "Q04",
+        "Q08",
+        "Q15",
+        "Q42",
+        "Q44",
+        "Q45",
+        "Q48",
+        "Q52",
+        "Q79",
+        "Q83"
+      ],
+      "validacion": "aprobado"
+    },
+    {
+      "id": "M03",
+      "temperamento": "MEL",
+      "virtud": "Audacia",
+      "consigna": "Salir de mí mismo",
+      "fuente": "3. ¿Intento salir de mí mismo y conocer gente nueva? (y 4: ¿Mi preferencia por la soledad me lleva a aislarme?)",
+      "opciones": {
+        "persona": "Hoy propongo a {persona_descuidada} quedar esta semana.",
+        "habito": "Hoy inicio yo una conversación con alguien con quien no suelo hablar.",
+        "situacion": "Hoy, al acabar {reunion}, me quedo cinco minutos para hablar con alguien."
+      },
+      "noche": {
+        "reflexion": "¿Con quién hablaste hoy que no esperabas?",
+        "nutrir": "¿A qué amigo tienes abandonado?",
+        "variable": "persona_descuidada"
+      },
+      "citas": [
+        "Q11",
+        "Q12",
+        "Q78",
+        "Q80"
+      ],
+      "validacion": "aprobado"
+    },
+    {
+      "id": "M04",
+      "temperamento": "MEL",
+      "virtud": "Audacia",
+      "consigna": "Perdonar pronto",
+      "fuente": "5. ¿Guardo rencor a alguien? ¿Soy rápido para perdonar?",
+      "opciones": {
+        "persona": "Hoy tengo un gesto amable con {persona_dificil}, sin esperar nada.",
+        "habito": "Hoy, cuando recuerde una ofensa, pienso una cosa buena de esa persona.",
+        "situacion": "Hoy saludo primero a quien me cuesta saludar."
+      },
+      "noche": {
+        "reflexion": "¿A quién te cuesta perdonar todavía?",
+        "nutrir": "¿Con quién tienes una conversación pendiente?",
+        "variable": "persona_dificil"
+      },
+      "citas": [
+        "Q41",
+        "Q61"
+      ],
+      "validacion": "aprobado"
+    },
+    {
+      "id": "M05",
+      "temperamento": "MEL",
+      "virtud": "Audacia",
+      "consigna": "Animar a otros",
+      "fuente": "7. ¿Trato de ser positivo, animando a los demás?",
+      "opciones": {
+        "persona": "Hoy digo a {persona_trabajo} algo concreto que ha hecho bien.",
+        "habito": "Hoy, por cada problema que señale, propongo una solución.",
+        "situacion": "Hoy, en {reunion}, mi primera intervención destaca algo que funciona."
+      },
+      "noche": {
+        "reflexion": "¿A quién animaste hoy?",
+        "nutrir": "¿Quién de tu equipo necesita más ánimo ahora?",
+        "variable": "persona_trabajo"
+      },
+      "citas": [
+        "Q14",
+        "Q26",
+        "Q27",
+        "Q33",
+        "Q59"
+      ],
+      "validacion": "aprobado"
+    },
+    {
+      "id": "M06",
+      "temperamento": "MEL",
+      "virtud": "Audacia",
+      "consigna": "Pasar del problema a la acción",
+      "fuente": "8. ¿Paso demasiado tiempo insistiendo en los problemas?",
+      "opciones": {
+        "persona": "Hoy hablo de {preocupacion} con {persona_cercana} una sola vez, y le pido consejo.",
+        "habito": "Hoy doy a cada preocupación diez minutos y después paso a la acción.",
+        "situacion": "Hoy, cuando vuelva a pensar en {preocupacion}, hago lo siguiente que toca."
+      },
+      "noche": {
+        "reflexion": "¿Cuánto tiempo diste hoy a un problema sin resolverlo?",
+        "nutrir": "¿Qué preocupación te ronda más estos días?",
+        "variable": "preocupacion"
+      },
+      "citas": [
+        "Q45",
+        "Q84"
+      ],
+      "validacion": "aprobado"
+    },
+    {
+      "id": "M07",
+      "temperamento": "MEL",
+      "virtud": "Audacia",
+      "consigna": "Resistir el desánimo",
+      "fuente": "10. ¿Dejo que los acontecimientos del día me desanimen? (y 11: ¿Lucho decididamente contra la tristeza?)",
+      "opciones": {
+        "persona": "Hoy, si me desanimo, llamo a {persona_cercana} en vez de encerrarme.",
+        "habito": "Hoy termino el día apuntando tres cosas que han salido bien.",
+        "situacion": "Hoy, si algo sale mal en {proyecto}, busco qué puedo aprender antes de lamentarlo."
+      },
+      "noche": {
+        "reflexion": "¿Qué salió bien hoy?",
+        "nutrir": "¿Quién consigue levantarte el ánimo?",
+        "variable": "persona_cercana"
+      },
+      "citas": [
+        "Q33",
+        "Q54",
+        "Q58",
+        "Q59",
+        "Q84"
+      ],
+      "validacion": "aprobado"
+    },
+    {
+      "id": "M08",
+      "temperamento": "MEL",
+      "virtud": "Audacia",
+      "consigna": "Entregar sin esperar a la perfección",
+      "fuente": "15. ¿Supero la tentación del «perfeccionismo»?",
+      "opciones": {
+        "persona": "Hoy enseño {tarea_pendiente} a {persona_trabajo} tal como está, sin pulirlo más.",
+        "habito": "Hoy pongo hora de cierre a cada tarea, y la respeto.",
+        "situacion": "Hoy entrego {tarea_pendiente} aunque no esté perfecto."
+      },
+      "noche": {
+        "reflexion": "¿Qué diste hoy por terminado sin estar perfecto?",
+        "nutrir": "¿Qué trabajo tienes guardado porque aún no está perfecto?",
+        "variable": "tarea_pendiente"
+      },
+      "citas": [
+        "Q02",
+        "Q08",
+        "Q09",
+        "Q36",
+        "Q44",
+        "Q45",
+        "Q83"
+      ],
+      "validacion": "aprobado"
+    },
+    {
+      "id": "M09",
+      "temperamento": "MEL",
+      "virtud": "Audacia",
+      "consigna": "Pensar bien de los demás",
+      "fuente": "13. ¿Tiendo a dudar de las intenciones de las personas? (y 14: ¿Permito que las imperfecciones creen distancia con los demás?)",
+      "opciones": {
+        "persona": "Hoy doy por buena la intención de {persona_dificil} en lo que diga.",
+        "habito": "Hoy, antes de juzgar a alguien, busco otra explicación posible.",
+        "situacion": "Hoy, en {reunion}, paso por alto un fallo ajeno sin comentarlo."
+      },
+      "noche": {
+        "reflexion": "¿A quién juzgaste hoy demasiado rápido?",
+        "nutrir": "¿En quién te cuesta más confiar?",
+        "variable": "persona_dificil"
+      },
+      "citas": [
+        "Q39",
+        "Q40",
+        "Q46",
+        "Q53"
+      ],
+      "validacion": "aprobado"
+    },
+    {
+      "id": "M10",
+      "temperamento": "MEL",
+      "virtud": "Audacia",
+      "consigna": "Dejar el trabajo fuera de casa",
+      "fuente": "16. ¿Dejo que mis preocupaciones profesionales invadan mi vida familiar?",
+      "opciones": {
+        "persona": "Hoy, al llegar a casa, pregunto a {persona_cercana} por su día antes de contar el mío.",
+        "habito": "Hoy dejo el móvil del trabajo fuera de la mesa.",
+        "situacion": "Hoy no hablo de {preocupacion} en casa."
+      },
+      "noche": {
+        "reflexion": "¿Estuviste hoy en casa con la cabeza en el trabajo?",
+        "nutrir": "¿En qué momento del día tienes media hora para ti?",
+        "variable": "momento_libre"
+      },
+      "citas": [
+        "Q47",
+        "Q63",
+        "Q67"
+      ],
+      "validacion": "aprobado"
+    },
+    {
+      "id": "S01",
+      "temperamento": "SAN",
+      "virtud": "Resistencia y persistencia",
+      "consigna": "Cuidar los detalles",
+      "fuente": "1. ¿Suelo realizar todas las tareas al detalle?",
+      "opciones": {
+        "persona": "Hoy pido a {persona_trabajo} que revise {tarea_pendiente} antes de darlo por terminado.",
+        "habito": "Hoy repaso cada trabajo una vez más antes de entregarlo.",
+        "situacion": "Hoy termino {tarea_pendiente} hasta el último detalle."
+      },
+      "noche": {
+        "reflexion": "¿Qué dejaste hoy a medias?",
+        "nutrir": "¿Qué tarea tienes a medio hacer?",
+        "variable": "tarea_pendiente"
+      },
+      "citas": [
+        "Q02",
+        "Q03",
+        "Q16"
+      ],
+      "validacion": "aprobado"
+    },
+    {
+      "id": "S02",
+      "temperamento": "SAN",
+      "virtud": "Resistencia y persistencia",
+      "consigna": "Vencer las distracciones",
+      "fuente": "2. ¿Lucho contra las distracciones en mi trabajo? (y 9: ¿Hay momentos en mi día en los que dejo de lado mi smartphone?)",
+      "opciones": {
+        "persona": "Hoy, cuando esté con {persona_cercana}, guardo el móvil.",
+        "habito": "Hoy trabajo una hora con el móvil en otra habitación.",
+        "situacion": "Hoy no abro {distraccion} hasta haber terminado {tarea_pendiente}."
+      },
+      "noche": {
+        "reflexion": "¿Qué te distrajo más hoy?",
+        "nutrir": "¿Qué es lo que más te distrae cuando trabajas?",
+        "variable": "distraccion"
+      },
+      "citas": [
+        "Q22",
+        "Q55",
+        "Q57",
+        "Q58",
+        "Q85"
+      ],
+      "validacion": "aprobado"
+    },
+    {
+      "id": "S03",
+      "temperamento": "SAN",
+      "virtud": "Resistencia y persistencia",
+      "consigna": "Decir las cosas como son",
+      "fuente": "4. ¿Soy sincero o exagero algunas cosas para impresionar?",
+      "opciones": {
+        "persona": "Hoy cuento algo a {persona_cercana} tal como fue, sin adornarlo.",
+        "habito": "Hoy, antes de contar una historia, quito el detalle que no es exacto.",
+        "situacion": "Hoy, en {reunion}, doy los datos como son, aunque luzcan menos."
+      },
+      "noche": {
+        "reflexion": "¿Exageraste algo hoy para quedar bien?",
+        "nutrir": "¿En qué reunión o grupo te gusta más lucirte?",
+        "variable": "reunion"
+      },
+      "citas": [
+        "Q28",
+        "Q46",
+        "Q48",
+        "Q69"
+      ],
+      "validacion": "aprobado"
+    },
+    {
+      "id": "S04",
+      "temperamento": "SAN",
+      "virtud": "Resistencia y persistencia",
+      "consigna": "Conocer a fondo a las personas",
+      "fuente": "6. ¿Busco conocer bien a las personas que trato? (y 7: ¿Son auténticas mis amistades?)",
+      "opciones": {
+        "persona": "Hoy pregunto a {persona_descuidada} por algo que le preocupa, y escucho sin cambiar de tema.",
+        "habito": "Hoy, en cada conversación, hago una segunda pregunta antes de hablar de mí.",
+        "situacion": "Hoy, en {reunion}, me intereso por una sola persona en vez de por todas."
+      },
+      "noche": {
+        "reflexion": "¿Qué sabes hoy de alguien que ayer no sabías?",
+        "nutrir": "¿A qué amigo conoces menos de lo que crees?",
+        "variable": "persona_descuidada"
+      },
+      "citas": [
+        "Q25",
+        "Q34",
+        "Q35",
+        "Q60"
+      ],
+      "validacion": "aprobado"
+    },
+    {
+      "id": "S05",
+      "temperamento": "SAN",
+      "virtud": "Resistencia y persistencia",
+      "consigna": "Concentrarme en una sola cosa",
+      "fuente": "8. ¿Intento centrarme en una tarea durante varias horas al día?",
+      "opciones": {
+        "persona": "Hoy pido a {persona_trabajo} que no me interrumpa durante una hora, y la dedico a {proyecto}.",
+        "habito": "Hoy trabajo en bloques de cuarenta y cinco minutos sin cambiar de tarea.",
+        "situacion": "Hoy, {momento_libre}, dedico una hora seguida a {proyecto}."
+      },
+      "noche": {
+        "reflexion": "¿Cuánto tiempo seguido trabajaste hoy en una sola cosa?",
+        "nutrir": "¿Qué proyecto necesita más horas seguidas de tu atención?",
+        "variable": "proyecto"
+      },
+      "citas": [
+        "Q21",
+        "Q22",
+        "Q58"
+      ],
+      "validacion": "aprobado"
+    },
+    {
+      "id": "S06",
+      "temperamento": "SAN",
+      "virtud": "Resistencia y persistencia",
+      "consigna": "Ir al fondo",
+      "fuente": "10. ¿Me conformo con un conocimiento superficial de las cosas? (y 11: ¿Intento asimilar lo que leo?)",
+      "opciones": {
+        "persona": "Hoy explico a {persona_cercana} algo que he leído, para comprobar que lo he entendido.",
+        "habito": "Hoy leo veinte minutos sin saltarme párrafos.",
+        "situacion": "Hoy, antes de opinar en {reunion}, compruebo un dato."
+      },
+      "noche": {
+        "reflexion": "¿Qué aprendiste hoy a fondo?",
+        "nutrir": "¿En qué momento del día tienes media hora para ti?",
+        "variable": "momento_libre"
+      },
+      "citas": [
+        "Q49",
+        "Q82"
+      ],
+      "validacion": "aprobado"
+    },
+    {
+      "id": "S07",
+      "temperamento": "SAN",
+      "virtud": "Resistencia y persistencia",
+      "consigna": "Ordenar el día",
+      "fuente": "12. ¿Suelo hacer una lista de tareas para el día?",
+      "opciones": {
+        "persona": "Hoy enseño mi lista del día a {persona_trabajo} y por la tarde le cuento qué he cumplido.",
+        "habito": "Hoy empiezo el día escribiendo tres tareas, y no añado más hasta acabarlas.",
+        "situacion": "Hoy pongo {tarea_ingrata} en el primer lugar de la lista."
+      },
+      "noche": {
+        "reflexion": "¿Cuántas de tus tres tareas terminaste?",
+        "nutrir": "¿Qué tarea te da más pereza cada día?",
+        "variable": "tarea_ingrata"
+      },
+      "citas": [
+        "Q75",
+        "Q85"
+      ],
+      "validacion": "aprobado"
+    },
+    {
+      "id": "S08",
+      "temperamento": "SAN",
+      "virtud": "Resistencia y persistencia",
+      "consigna": "Hacerlo hoy",
+      "fuente": "13. ¿Hago mi trabajo a tiempo o tiendo a dejarlo para más tarde?",
+      "opciones": {
+        "persona": "Hoy cumplo lo que prometí a {persona_trabajo}: {promesa}.",
+        "habito": "Hoy hago en el momento todo lo que lleve menos de cinco minutos.",
+        "situacion": "Hoy empiezo por {tarea_ingrata}, antes de abrir el correo."
+      },
+      "noche": {
+        "reflexion": "¿Qué dejaste hoy para mañana?",
+        "nutrir": "¿Qué has prometido a alguien y aún no has cumplido?",
+        "variable": "promesa"
+      },
+      "citas": [
+        "Q02",
+        "Q03",
+        "Q10",
+        "Q16",
+        "Q51",
+        "Q65"
+      ],
+      "validacion": "aprobado"
+    },
+    {
+      "id": "S09",
+      "temperamento": "SAN",
+      "virtud": "Resistencia y persistencia",
+      "consigna": "Seguir cuando ya no es nuevo",
+      "fuente": "14. ¿Persevero en mis planes una vez pasado el entusiasmo inicial?",
+      "opciones": {
+        "persona": "Hoy pido a {persona_cercana} que me pregunte esta noche si he avanzado en {proyecto}.",
+        "habito": "Hoy hago lo que me propuse, tenga ganas o no.",
+        "situacion": "Hoy avanzo en {proyecto} antes de empezar nada nuevo."
+      },
+      "noche": {
+        "reflexion": "¿Qué te costó más hoy: empezar o seguir?",
+        "nutrir": "¿Qué empezaste con ganas y has ido dejando?",
+        "variable": "proyecto"
+      },
+      "citas": [
+        "Q03",
+        "Q04",
+        "Q16",
+        "Q50",
+        "Q51",
+        "Q55",
+        "Q65",
+        "Q67",
+        "Q83",
+        "Q84"
+      ],
+      "validacion": "aprobado"
+    },
+    {
+      "id": "S10",
+      "temperamento": "SAN",
+      "virtud": "Resistencia y persistencia",
+      "consigna": "Medir antes de lanzarme",
+      "fuente": "5. ¿Respeto el espacio personal y la intimidad de los demás? (y 3: ¿Intento controlar mis sentidos externos, mi imaginación y mis emociones?)",
+      "opciones": {
+        "persona": "Hoy pregunto a {persona_trabajo} si le viene bien antes de entrar a hablar.",
+        "habito": "Hoy, antes de decir que sí a un plan, miro mi agenda.",
+        "situacion": "Hoy, en {reunion}, digo que no a algo que no podré cumplir."
+      },
+      "noche": {
+        "reflexion": "¿A qué dijiste hoy que sí sin pensarlo?",
+        "nutrir": "¿A quién sueles interrumpir en su trabajo?",
+        "variable": "persona_trabajo"
+      },
+      "citas": [
+        "Q42",
+        "Q43",
+        "Q44",
+        "Q47",
+        "Q48",
+        "Q52"
+      ],
+      "validacion": "aprobado"
+    },
+    {
+      "id": "F01",
+      "temperamento": "FLE",
+      "virtud": "Magnanimidad",
+      "consigna": "Buscar a quien me exige",
+      "fuente": "1. ¿Suelo buscar la compañía de personas magnánimas?",
+      "opciones": {
+        "persona": "Hoy busco una conversación con {persona_admiro} y le pregunto qué le mueve.",
+        "habito": "Hoy leo diez minutos sobre alguien a quien admiro.",
+        "situacion": "Hoy, en {reunion}, me siento junto a quien más exige."
+      },
+      "noche": {
+        "reflexion": "¿Quién te hizo hoy querer ser mejor?",
+        "nutrir": "¿A quién admiras de tu entorno?",
+        "variable": "persona_admiro"
+      },
+      "citas": [
+        "Q11",
+        "Q80",
+        "Q81",
+        "Q82"
+      ],
+      "validacion": "aprobado"
+    },
+    {
+      "id": "F02",
+      "temperamento": "FLE",
+      "virtud": "Magnanimidad",
+      "consigna": "Elevar mi entorno",
+      "fuente": "2. ¿Me esfuerzo por crear un «entorno magnánimo» a mi alrededor?",
+      "opciones": {
+        "persona": "Hoy animo a {persona_cercana} a intentar algo que cree que no puede.",
+        "habito": "Hoy cambio media hora de pantalla por un libro o una música que me eleve.",
+        "situacion": "Hoy, en {reunion}, propongo un objetivo más alto."
+      },
+      "noche": {
+        "reflexion": "¿A quién elevaste hoy?",
+        "nutrir": "¿Quién de tu familia necesita que creas más en él o en ella?",
+        "variable": "persona_cercana"
+      },
+      "citas": [
+        "Q11",
+        "Q13",
+        "Q14",
+        "Q80",
+        "Q81"
+      ],
+      "validacion": "aprobado"
+    },
+    {
+      "id": "F03",
+      "temperamento": "FLE",
+      "virtud": "Magnanimidad",
+      "consigna": "Imaginar en grande",
+      "fuente": "3. ¿Procuro cultivar mi imaginación?",
+      "opciones": {
+        "persona": "Hoy pregunto a {persona_cercana} cómo imagina nuestra vida dentro de cinco años.",
+        "habito": "Hoy, {momento_libre}, dedico diez minutos a imaginar cómo sería {proyecto} si no tuviera miedo.",
+        "situacion": "Hoy, ante un problema, pienso tres soluciones antes de elegir la más fácil."
+      },
+      "noche": {
+        "reflexion": "¿Qué imaginaste hoy que no existía?",
+        "nutrir": "¿En qué momento del día tienes media hora para ti?",
+        "variable": "momento_libre"
+      },
+      "citas": [
+        "Q01",
+        "Q06",
+        "Q82"
+      ],
+      "validacion": "aprobado"
+    },
+    {
+      "id": "F04",
+      "temperamento": "FLE",
+      "virtud": "Magnanimidad",
+      "consigna": "Desarrollar mis talentos",
+      "fuente": "4. ¿Me esfuerzo por desarrollar mis talentos o me limito a luchar contra mis defectos?",
+      "opciones": {
+        "persona": "Hoy ofrezco a {persona_trabajo} mi ayuda en lo que mejor sé hacer: {talento}.",
+        "habito": "Hoy, {momento_libre}, dedico media hora a {talento}.",
+        "situacion": "Hoy busco en {reunion} una ocasión de aportar lo que mejor sé hacer: {talento}."
+      },
+      "noche": {
+        "reflexion": "¿Usaste hoy tu mejor talento?",
+        "nutrir": "¿Qué sabes hacer mejor que la mayoría?",
+        "variable": "talento"
+      },
+      "citas": [
+        "Q07",
+        "Q18",
+        "Q20"
+      ],
+      "validacion": "aprobado"
+    },
+    {
+      "id": "F05",
+      "temperamento": "FLE",
+      "virtud": "Magnanimidad",
+      "consigna": "Buscar mi misión",
+      "fuente": "5. ¿Intento descubrir mi misión en la vida?",
+      "opciones": {
+        "persona": "Hoy pregunto a {persona_admiro} qué cree que debería estar haciendo con mi vida.",
+        "habito": "Hoy escribo una frase que responda a: ¿para qué estoy aquí?",
+        "situacion": "Hoy doy un paso para {sueno}, por pequeño que sea."
+      },
+      "noche": {
+        "reflexion": "¿Qué hiciste hoy que merezca recordarse?",
+        "nutrir": "¿Qué te gustaría haber logrado dentro de cinco años?",
+        "variable": "sueno"
+      },
+      "citas": [
+        "Q01",
+        "Q06",
+        "Q07",
+        "Q17",
+        "Q18",
+        "Q19",
+        "Q20",
+        "Q21"
+      ],
+      "validacion": "aprobado"
+    },
+    {
+      "id": "F06",
+      "temperamento": "FLE",
+      "virtud": "Magnanimidad",
+      "consigna": "No dejar pasar la ocasión",
+      "fuente": "6. ¿Dejo pasar las oportunidades de actuar por miedo o pereza?",
+      "opciones": {
+        "persona": "Hoy digo que sí a lo que me proponga {persona_trabajo}, aunque me saque de mi rutina.",
+        "habito": "Hoy, cuando piense «ya lo haré», lo hago en ese momento.",
+        "situacion": "Hoy hago {tarea_pendiente}, que llevo tiempo aplazando."
+      },
+      "noche": {
+        "reflexion": "¿Qué oportunidad dejaste pasar hoy?",
+        "nutrir": "¿Qué llevas tiempo aplazando?",
+        "variable": "tarea_pendiente"
+      },
+      "citas": [
+        "Q02",
+        "Q08",
+        "Q10",
+        "Q15",
+        "Q36",
+        "Q83"
+      ],
+      "validacion": "aprobado"
+    },
+    {
+      "id": "F07",
+      "temperamento": "FLE",
+      "virtud": "Magnanimidad",
+      "consigna": "Tomar la iniciativa",
+      "fuente": "7. ¿Cuántas veces soy yo quien propone una solución sin que nadie me lo pida?",
+      "opciones": {
+        "persona": "Hoy propongo a {persona_trabajo} una mejora sin que me la pida.",
+        "habito": "Hoy, ante cada problema que vea, propongo una solución en voz alta.",
+        "situacion": "Hoy, en {reunion}, soy el primero en proponer algo."
+      },
+      "noche": {
+        "reflexion": "¿Qué propusiste hoy sin que te lo pidieran?",
+        "nutrir": "¿En qué reunión sueles quedarte callado?",
+        "variable": "reunion"
+      },
+      "citas": [
+        "Q04",
+        "Q05",
+        "Q79"
+      ],
+      "validacion": "aprobado"
+    },
+    {
+      "id": "F08",
+      "temperamento": "FLE",
+      "virtud": "Magnanimidad",
+      "consigna": "Implicarme con los demás",
+      "fuente": "9. ¿Intento comprender las necesidades reales de mis amigos? (y 8: ¿Pienso que involucrarme en los «problemas» de los demás no lleva a ninguna parte?)",
+      "opciones": {
+        "persona": "Hoy pregunto a {persona_descuidada} qué necesita de verdad, y hago algo al respecto.",
+        "habito": "Hoy, cuando alguien me cuente un problema, pregunto «¿qué puedo hacer yo?».",
+        "situacion": "Hoy me ofrezco para algo que nadie quiere hacer."
+      },
+      "noche": {
+        "reflexion": "¿En el problema de quién te implicaste hoy?",
+        "nutrir": "¿Qué amigo lo está pasando mal y no has llamado?",
+        "variable": "persona_descuidada"
+      },
+      "citas": [
+        "Q12",
+        "Q25",
+        "Q27",
+        "Q30",
+        "Q35",
+        "Q60",
+        "Q62",
+        "Q78"
+      ],
+      "validacion": "aprobado"
+    },
+    {
+      "id": "F09",
+      "temperamento": "FLE",
+      "virtud": "Magnanimidad",
+      "consigna": "Afrontar la conversación incómoda",
+      "fuente": "10. ¿Evito conversaciones incómodas por miedo al conflicto?",
+      "opciones": {
+        "persona": "Hoy tengo con {persona_dificil} la conversación que llevo evitando.",
+        "habito": "Hoy, cuando no esté de acuerdo, lo digo con calma en vez de callar.",
+        "situacion": "Hoy, en {reunion}, expreso mi desacuerdo en un punto."
+      },
+      "noche": {
+        "reflexion": "¿Qué callaste hoy por evitar el conflicto?",
+        "nutrir": "¿Con quién tienes una conversación pendiente?",
+        "variable": "persona_dificil"
+      },
+      "citas": [
+        "Q41",
+        "Q50",
+        "Q53",
+        "Q61"
+      ],
+      "validacion": "aprobado"
+    },
+    {
+      "id": "F10",
+      "temperamento": "FLE",
+      "virtud": "Magnanimidad",
+      "consigna": "Salir de la zona de confort",
+      "fuente": "11. ¿Intento salir de mi «zona de confort»?",
+      "opciones": {
+        "persona": "Hoy pido a {persona_admiro} que me proponga un reto.",
+        "habito": "Hoy hago una cosa que me incomoda antes de las diez de la mañana.",
+        "situacion": "Hoy asumo la parte más difícil de {proyecto}."
+      },
+      "noche": {
+        "reflexion": "¿Qué hiciste hoy que te incomodaba?",
+        "nutrir": "¿En qué proyecto podrías asumir más?",
+        "variable": "proyecto"
+      },
+      "citas": [
+        "Q09",
+        "Q13",
+        "Q36"
+      ],
+      "validacion": "aprobado"
+    }
+  ],
+  "citas": [
+    {
+      "id": "Q01",
+      "tema": "Magnanimidad",
+      "texto": "Lo importante es la grandeza del proyecto.",
+      "autor": "Joseph Brodski, Premio Nobel de Literatura",
+      "origen": "citado",
+      "fuente": "Liderazgo virtuoso, cap. «Magnanimidad: el sentido de misión» (epígrafe)",
+      "retos": [
+        "F03",
+        "F05",
+        "M01"
+      ],
+      "libre": false,
+      "momento": "manana",
+      "literal": true,
+      "nota": "",
+      "validacion": "aprobado"
+    },
+    {
+      "id": "Q02",
+      "tema": "Magnanimidad",
+      "texto": "Las almas grandes tienen muy en cuenta las cosas pequeñas.",
+      "autor": "Josemaría Escrivá",
+      "origen": "citado",
+      "fuente": "Liderazgo virtuoso, cap. «Magnanimidad: el sentido de misión»",
+      "retos": [
+        "S01",
+        "S08",
+        "F06",
+        "M08"
+      ],
+      "libre": false,
+      "momento": "manana",
+      "literal": true,
+      "nota": "Falta la obra y el número",
+      "validacion": "aprobado"
+    },
+    {
+      "id": "Q03",
+      "tema": "Magnanimidad",
+      "texto": "¿Has visto cómo levantaron aquel edificio de grandeza imponente? —Un ladrillo, y otro. Miles. Pero, uno a uno.",
+      "autor": "Josemaría Escrivá",
+      "origen": "citado",
+      "fuente": "Liderazgo virtuoso, cap. «Magnanimidad: el sentido de misión»",
+      "retos": [
+        "S08",
+        "S09",
+        "S01"
+      ],
+      "libre": false,
+      "momento": "manana",
+      "literal": true,
+      "nota": "Falta la obra y el número",
+      "validacion": "aprobado"
+    },
+    {
+      "id": "Q04",
+      "tema": "Magnanimidad",
+      "texto": "No se conforma con ponerse en marcha, llega hasta el final; no se conforma con aspirar a la grandeza, sino que la logra.",
+      "autor": "Alexandre Havard",
+      "origen": "alex",
+      "fuente": "Creados para la grandeza, cap. 1, El ideal de magnanimidad",
+      "retos": [
+        "S09",
+        "M02",
+        "F07"
+      ],
+      "libre": false,
+      "momento": "manana",
+      "literal": true,
+      "nota": "",
+      "validacion": "aprobado"
+    },
+    {
+      "id": "Q05",
+      "tema": "Magnanimidad",
+      "texto": "La magnanimidad es la virtud de la acción; hay más energía en ella de la que hay en la mera audacia.",
+      "autor": "Alexandre Havard",
+      "origen": "alex",
+      "fuente": "Creados para la grandeza, cap. 1, El ideal de magnanimidad",
+      "retos": [
+        "M01",
+        "F07"
+      ],
+      "libre": false,
+      "momento": "manana",
+      "literal": true,
+      "nota": "",
+      "validacion": "aprobado"
+    },
+    {
+      "id": "Q06",
+      "tema": "Magnanimidad",
+      "texto": "La magnanimidad es un deseo de grandeza; un deseo ardiente, una búsqueda sagrada, una aspiración.",
+      "autor": "Alexandre Havard",
+      "origen": "alex",
+      "fuente": "Creados para la grandeza, cap. 1, El ideal de magnanimidad",
+      "retos": [
+        "F03",
+        "F05",
+        "M01"
+      ],
+      "libre": false,
+      "momento": "manana",
+      "literal": true,
+      "nota": "",
+      "validacion": "aprobado"
+    },
+    {
+      "id": "Q07",
+      "tema": "Magnanimidad",
+      "texto": "La magnanimidad es algo que eres, pero la autoestima es algo que tienes.",
+      "autor": "Alexandre Havard",
+      "origen": "alex",
+      "fuente": "Creados para la grandeza, cap. 1, El ideal de magnanimidad",
+      "retos": [
+        "F04",
+        "F05"
+      ],
+      "libre": false,
+      "momento": "manana",
+      "literal": true,
+      "nota": "",
+      "validacion": "aprobado"
+    },
+    {
+      "id": "Q08",
+      "tema": "Magnanimidad",
+      "texto": "Dejar pasar la oportunidad, no aprovecharla por miedo o por pereza, es lo que hace que el alma magnánima sufra más que con ninguna otra cosa.",
+      "autor": "Alexandre Havard",
+      "origen": "alex",
+      "fuente": "Creados para la grandeza, cap. 4, El desarrollo de la magnanimidad",
+      "retos": [
+        "F06",
+        "M02",
+        "M08"
+      ],
+      "libre": false,
+      "momento": "manana",
+      "literal": true,
+      "nota": "",
+      "validacion": "aprobado"
+    },
+    {
+      "id": "Q09",
+      "tema": "Magnanimidad",
+      "texto": "Lo opuesto a la magnanimidad es la pusilanimidad, la creencia errónea de que somos incapaces de hacer cosas grandes.",
+      "autor": "Alexandre Havard",
+      "origen": "alex",
+      "fuente": "Creados para la grandeza, cap. 4, El desarrollo de la magnanimidad",
+      "retos": [
+        "M01",
+        "M08",
+        "F10"
+      ],
+      "libre": false,
+      "momento": "manana",
+      "literal": true,
+      "nota": "",
+      "validacion": "aprobado"
+    },
+    {
+      "id": "Q10",
+      "tema": "Magnanimidad",
+      "texto": "Muy a menudo buscamos la grandeza en hazañas extraordinarias y sueños imposibles.",
+      "autor": "Alexandre Havard",
+      "origen": "alex",
+      "fuente": "Creados para la grandeza, cap. 4, El desarrollo de la magnanimidad",
+      "retos": [
+        "C09",
+        "F06",
+        "S08"
+      ],
+      "libre": false,
+      "momento": "manana",
+      "literal": true,
+      "nota": "",
+      "validacion": "aprobado"
+    },
+    {
+      "id": "Q11",
+      "tema": "Magnanimidad",
+      "texto": "Para crecer en magnanimidad deberíamos buscar la compañía de personas magnánimas que sean conscientes de su dignidad y la manifiesten en su modo de vivir.",
+      "autor": "Alexandre Havard",
+      "origen": "alex",
+      "fuente": "Creados para la grandeza, cap. 4, El desarrollo de la magnanimidad",
+      "retos": [
+        "F01",
+        "F02",
+        "M03"
+      ],
+      "libre": false,
+      "momento": "manana",
+      "literal": true,
+      "nota": "",
+      "validacion": "aprobado"
+    },
+    {
+      "id": "Q12",
+      "tema": "Magnanimidad",
+      "texto": "Encontramos la grandeza entre nuestros seres queridos y nuestros amigos.",
+      "autor": "Alexandre Havard",
+      "origen": "alex",
+      "fuente": "Creados para la grandeza, cap. 4, El desarrollo de la magnanimidad",
+      "retos": [
+        "M03",
+        "F08",
+        "C09"
+      ],
+      "libre": false,
+      "momento": "manana",
+      "literal": true,
+      "nota": "",
+      "validacion": "aprobado"
+    },
+    {
+      "id": "Q13",
+      "tema": "Magnanimidad",
+      "texto": "El liderazgo es la elevación de la mirada del hombre hacia un horizonte más elevado, la elevación de la actuación humana a niveles más altos, la formación de la personalidad del hombre más allá de sus límites habituales.",
+      "autor": "Peter Drucker",
+      "origen": "citado",
+      "fuente": "Liderazgo virtuoso, cap. «Magnanimidad: el sentido de misión»",
+      "retos": [
+        "F02",
+        "F10"
+      ],
+      "libre": false,
+      "momento": "manana",
+      "literal": true,
+      "nota": "Cita larga; valorar acortarla",
+      "validacion": "aprobado"
+    },
+    {
+      "id": "Q14",
+      "tema": "Magnanimidad",
+      "texto": "Si tratamos a la gente como es la haremos peor, si la tratamos como debería ser, la guiaremos allá donde debería estar.",
+      "autor": "Goethe",
+      "origen": "citado",
+      "fuente": "Liderazgo virtuoso, cap. «Magnanimidad: el sentido de misión»",
+      "retos": [
+        "F02",
+        "C03",
+        "M05"
+      ],
+      "libre": false,
+      "momento": "manana",
+      "literal": true,
+      "nota": "",
+      "validacion": "aprobado"
+    },
+    {
+      "id": "Q15",
+      "tema": "Magnanimidad",
+      "texto": "La prudencia que tiene por principio “no hacer nada” es la de los cobardes.",
+      "autor": "Réginald Garrigou-Lagrange",
+      "origen": "citado",
+      "fuente": "Liderazgo virtuoso, cap. «Magnanimidad: el sentido de misión»",
+      "retos": [
+        "M02",
+        "F06",
+        "M01"
+      ],
+      "libre": false,
+      "momento": "manana",
+      "literal": true,
+      "nota": "",
+      "validacion": "aprobado"
+    },
+    {
+      "id": "Q16",
+      "tema": "Magnanimidad",
+      "texto": "Nunca dejé de hacer los esfuerzos necesarios para estar a la altura de mi tarea.",
+      "autor": "Darwin Smith, presidente de Kimberly-Clark",
+      "origen": "citado",
+      "fuente": "Liderazgo virtuoso, cap. «Magnanimidad: el sentido de misión»",
+      "retos": [
+        "S08",
+        "S09",
+        "S01"
+      ],
+      "libre": false,
+      "momento": "manana",
+      "literal": true,
+      "nota": "",
+      "validacion": "aprobado"
+    },
+    {
+      "id": "Q17",
+      "tema": "Misión y talento",
+      "texto": "¡He nacido para esto!",
+      "autor": "Juana de Arco",
+      "origen": "citado",
+      "fuente": "Creados para la grandeza, cap. 1, El ideal de magnanimidad",
+      "retos": [
+        "F05",
+        "M01"
+      ],
+      "libre": false,
+      "momento": "manana",
+      "literal": true,
+      "nota": "",
+      "validacion": "aprobado"
+    },
+    {
+      "id": "Q18",
+      "tema": "Misión y talento",
+      "texto": "Creo que Dios me ha creado con un propósito, pero además me ha hecho veloz.",
+      "autor": "Eric Liddell",
+      "origen": "citado",
+      "fuente": "Creados para la grandeza, cap. 4, El desarrollo de la magnanimidad",
+      "retos": [
+        "F04",
+        "F05"
+      ],
+      "libre": false,
+      "momento": "manana",
+      "literal": true,
+      "nota": "",
+      "validacion": "aprobado"
+    },
+    {
+      "id": "Q19",
+      "tema": "Misión y talento",
+      "texto": "La vocación es una llamada a «ser», mientras que la misión es una llamada a «hacer».",
+      "autor": "Alexandre Havard",
+      "origen": "alex",
+      "fuente": "Creados para la grandeza, cap. 4, El desarrollo de la magnanimidad",
+      "retos": [
+        "F05",
+        "M01"
+      ],
+      "libre": false,
+      "momento": "manana",
+      "literal": true,
+      "nota": "",
+      "validacion": "aprobado"
+    },
+    {
+      "id": "Q20",
+      "tema": "Misión y talento",
+      "texto": "Todo el mundo tiene una misión particular que descubre cuando es consciente de su talento.",
+      "autor": "Alexandre Havard",
+      "origen": "alex",
+      "fuente": "Creados para la grandeza, cap. 4, El desarrollo de la magnanimidad",
+      "retos": [
+        "F04",
+        "F05"
+      ],
+      "libre": false,
+      "momento": "manana",
+      "literal": true,
+      "nota": "",
+      "validacion": "aprobado"
+    },
+    {
+      "id": "Q21",
+      "tema": "Misión y talento",
+      "texto": "Una vez identificamos nuestra misión, debemos dedicar todas nuestras energías a llevarla a cabo.",
+      "autor": "Alexandre Havard",
+      "origen": "alex",
+      "fuente": "Creados para la grandeza, cap. 4, El desarrollo de la magnanimidad",
+      "retos": [
+        "S05",
+        "F05"
+      ],
+      "libre": false,
+      "momento": "manana",
+      "literal": true,
+      "nota": "",
+      "validacion": "aprobado"
+    },
+    {
+      "id": "Q22",
+      "tema": "Misión y talento",
+      "texto": "¿Me centro en llevar a cabo mi misión o me distraigo pensando en cuestiones secundarias?",
+      "autor": "Alexandre Havard",
+      "origen": "alex",
+      "fuente": "Creados para la grandeza, examen de conciencia, magnanimidad",
+      "retos": [
+        "S02",
+        "S05"
+      ],
+      "libre": false,
+      "momento": "noche",
+      "literal": true,
+      "nota": "Es una pregunta de examen, no una afirmación",
+      "validacion": "aprobado"
+    },
+    {
+      "id": "Q23",
+      "tema": "Humildad",
+      "texto": "El que entre vosotros quiera llegar a ser grande, sea vuestro servidor.",
+      "autor": "Mateo 20,26",
+      "origen": "citado",
+      "fuente": "Liderazgo virtuoso, cap. «Humildad: la ambición de servir» (epígrafe)",
+      "retos": [
+        "C03",
+        "C07"
+      ],
+      "libre": false,
+      "momento": "manana",
+      "literal": true,
+      "nota": "",
+      "validacion": "aprobado"
+    },
+    {
+      "id": "Q24",
+      "tema": "Humildad",
+      "texto": "El hecho es que uno no puede llegar a ser grande si no está preparado para servir a los demás.",
+      "autor": "Alexandre Havard",
+      "origen": "alex",
+      "fuente": "Creados para la grandeza, cap. 2, El ideal de humildad",
+      "retos": [
+        "C03",
+        "C07",
+        "C06"
+      ],
+      "libre": false,
+      "momento": "manana",
+      "literal": true,
+      "nota": "",
+      "validacion": "aprobado"
+    },
+    {
+      "id": "Q25",
+      "tema": "Humildad",
+      "texto": "Para servir a los demás, antes tienes que saber cómo escucharles.",
+      "autor": "Alexandre Havard",
+      "origen": "alex",
+      "fuente": "Creados para la grandeza, cap. 2, El ideal de humildad",
+      "retos": [
+        "C04",
+        "C01",
+        "F08",
+        "S04"
+      ],
+      "libre": false,
+      "momento": "manana",
+      "literal": true,
+      "nota": "",
+      "validacion": "aprobado"
+    },
+    {
+      "id": "Q26",
+      "tema": "Humildad",
+      "texto": "La humildad es el hábito de servir a los demás, e implica más tirar de ellos que empujarles, enseñar más que ordenar e inspirar más que reprender.",
+      "autor": "Alexandre Havard",
+      "origen": "alex",
+      "fuente": "Creados para la grandeza, Introducción",
+      "retos": [
+        "C08",
+        "C06",
+        "M05"
+      ],
+      "libre": false,
+      "momento": "manana",
+      "literal": true,
+      "nota": "",
+      "validacion": "aprobado"
+    },
+    {
+      "id": "Q27",
+      "tema": "Humildad",
+      "texto": "Practicar la humildad es conseguir acentuar la grandeza que hay en otras personas y darles la capacidad de descubrir su potencial humano.",
+      "autor": "Alexandre Havard",
+      "origen": "alex",
+      "fuente": "Creados para la grandeza, Introducción",
+      "retos": [
+        "M05",
+        "C03",
+        "F08"
+      ],
+      "libre": false,
+      "momento": "manana",
+      "literal": true,
+      "nota": "",
+      "validacion": "aprobado"
+    },
+    {
+      "id": "Q28",
+      "tema": "Humildad",
+      "texto": "En sentido estricto, la humildad es el hábito de vivir en la verdad.",
+      "autor": "Alexandre Havard",
+      "origen": "alex",
+      "fuente": "Creados para la grandeza, cap. 5, Crecer en humildad",
+      "retos": [
+        "S03",
+        "C10",
+        "C02"
+      ],
+      "libre": false,
+      "momento": "manana",
+      "literal": true,
+      "nota": "",
+      "validacion": "aprobado"
+    },
+    {
+      "id": "Q29",
+      "tema": "Humildad",
+      "texto": "Practicar la humildad es servir a otros y permitir que otros te sirvan.",
+      "autor": "Alexandre Havard",
+      "origen": "alex",
+      "fuente": "Creados para la grandeza, cap. 5, Crecer en humildad",
+      "retos": [
+        "C01",
+        "C07"
+      ],
+      "libre": false,
+      "momento": "manana",
+      "literal": true,
+      "nota": "",
+      "validacion": "aprobado"
+    },
+    {
+      "id": "Q30",
+      "tema": "Humildad",
+      "texto": "Practicar la humildad no es solamente vivir para los demás: exige también aceptar con alegría que los otros existen para servirte a ti, y que tienen algo que ofrecerte, algo íntimo y personal.",
+      "autor": "Alexandre Havard",
+      "origen": "alex",
+      "fuente": "Creados para la grandeza, cap. 5, Crecer en humildad",
+      "retos": [
+        "C01",
+        "C02",
+        "F08"
+      ],
+      "libre": false,
+      "momento": "manana",
+      "literal": true,
+      "nota": "",
+      "validacion": "aprobado"
+    },
+    {
+      "id": "Q31",
+      "tema": "Humildad",
+      "texto": "La humildad reconoce la fuerza y la grandeza del hombre, y las considera un regalo de Dios.",
+      "autor": "Alexandre Havard",
+      "origen": "alex",
+      "fuente": "Creados para la grandeza, cap. 1, El ideal de magnanimidad",
+      "retos": [
+        "C10"
+      ],
+      "libre": false,
+      "momento": "manana",
+      "literal": true,
+      "nota": "",
+      "validacion": "aprobado"
+    },
+    {
+      "id": "Q32",
+      "tema": "Humildad",
+      "texto": "Cuanto más nos concienciemos de nuestra grandeza personal, más necesitaremos comprender que la grandeza es un don de Dios.",
+      "autor": "Alexandre Havard",
+      "origen": "alex",
+      "fuente": "Creados para la grandeza, cap. 1, El ideal de magnanimidad",
+      "retos": [
+        "C10"
+      ],
+      "libre": false,
+      "momento": "manana",
+      "literal": true,
+      "nota": "",
+      "validacion": "aprobado"
+    },
+    {
+      "id": "Q33",
+      "tema": "Humildad",
+      "texto": "La humildad, como la magnanimidad, es una fuente de alegría.",
+      "autor": "Alexandre Havard",
+      "origen": "alex",
+      "fuente": "Creados para la grandeza, cap. 2, El ideal de humildad",
+      "retos": [
+        "M07",
+        "M05"
+      ],
+      "libre": false,
+      "momento": "manana",
+      "literal": true,
+      "nota": "",
+      "validacion": "aprobado"
+    },
+    {
+      "id": "Q34",
+      "tema": "Humildad",
+      "texto": "Por tanto, la humildad es fruto del conocimiento de Dios, de uno mismo y de los otros.",
+      "autor": "Alexandre Havard",
+      "origen": "alex",
+      "fuente": "Creados para la grandeza, cap. 5, Crecer en humildad",
+      "retos": [
+        "S04",
+        "C10"
+      ],
+      "libre": false,
+      "momento": "manana",
+      "literal": true,
+      "nota": "",
+      "validacion": "aprobado"
+    },
+    {
+      "id": "Q35",
+      "tema": "Humildad",
+      "texto": "No podemos servir al hombre si no lo conocemos, y solo podemos conocerlo a la luz de la verdad de Dios sobre él.",
+      "autor": "Alexandre Havard",
+      "origen": "alex",
+      "fuente": "Creados para la grandeza, cap. 5, Crecer en humildad",
+      "retos": [
+        "S04",
+        "F08"
+      ],
+      "libre": false,
+      "momento": "manana",
+      "literal": true,
+      "nota": "",
+      "validacion": "aprobado"
+    },
+    {
+      "id": "Q36",
+      "tema": "Humildad",
+      "texto": "Esa falsa humildad es comodidad: así, tan humildico, vas haciendo dejación de derechos... que son deberes.",
+      "autor": "Josemaría Escrivá",
+      "origen": "citado",
+      "fuente": "Liderazgo virtuoso, cap. «Humildad: la ambición de servir»",
+      "retos": [
+        "F06",
+        "M08",
+        "F10"
+      ],
+      "libre": false,
+      "momento": "manana",
+      "literal": true,
+      "nota": "Falta la obra y el número",
+      "validacion": "aprobado"
+    },
+    {
+      "id": "Q37",
+      "tema": "Humildad",
+      "texto": "Poder dar la propia opinión no es lo mismo que tener derecho de voto.",
+      "autor": "Max De Pree",
+      "origen": "citado",
+      "fuente": "Liderazgo virtuoso, cap. «Humildad: la ambición de servir»",
+      "retos": [
+        "C01",
+        "C08"
+      ],
+      "libre": false,
+      "momento": "manana",
+      "literal": true,
+      "nota": "",
+      "validacion": "aprobado"
+    },
+    {
+      "id": "Q38",
+      "tema": "Humildad",
+      "texto": "Los líderes son responsables del liderazgo futuro; deben identificar y preparar nuevos líderes.",
+      "autor": "Max De Pree",
+      "origen": "citado",
+      "fuente": "Liderazgo virtuoso, cap. «Humildad: la ambición de servir»",
+      "retos": [
+        "C08",
+        "C01"
+      ],
+      "libre": false,
+      "momento": "manana",
+      "literal": true,
+      "nota": "",
+      "validacion": "aprobado"
+    },
+    {
+      "id": "Q39",
+      "tema": "Humildad",
+      "texto": "Una de las características de los auténticos líderes es su humildad para quitarse las gafas y examinar con objetividad sus cristales.",
+      "autor": "Stephen Covey",
+      "origen": "citado",
+      "fuente": "Liderazgo virtuoso, cap. «Prudencia: tomar la decisión correcta»",
+      "retos": [
+        "C02",
+        "M09",
+        "C05"
+      ],
+      "libre": false,
+      "momento": "manana",
+      "literal": true,
+      "nota": "",
+      "validacion": "aprobado"
+    },
+    {
+      "id": "Q40",
+      "tema": "Humildad",
+      "texto": "Procurad adquirir las virtudes que creéis que faltan en vuestros hermanos, y ya no veréis sus defectos, porque no los tendréis vosotros.",
+      "autor": "San Agustín",
+      "origen": "citado",
+      "fuente": "Liderazgo virtuoso, cap. «Prudencia: tomar la decisión correcta»",
+      "retos": [
+        "M09",
+        "C02"
+      ],
+      "libre": false,
+      "momento": "manana",
+      "literal": true,
+      "nota": "",
+      "validacion": "aprobado"
+    },
+    {
+      "id": "Q41",
+      "tema": "Humildad",
+      "texto": "Sin esos choques que se producen al tratar al prójimo, ¿cómo irías perdiendo las puntas, aristas y salientes —imperfecciones, defectos— de tu genio para adquirir la forma reglada, bruñida y reciamente suave de la caridad, de la perfección?",
+      "autor": "Josemaría Escrivá",
+      "origen": "citado",
+      "fuente": "Liderazgo virtuoso, cap. «Humildad: la ambición de servir» / final del libro",
+      "retos": [
+        "C02",
+        "M04",
+        "F09"
+      ],
+      "libre": false,
+      "momento": "manana",
+      "literal": true,
+      "nota": "Falta la obra y el número; cita larga",
+      "validacion": "aprobado"
+    },
+    {
+      "id": "Q42",
+      "tema": "Prudencia",
+      "texto": "El lugar preferente que ocupa la prudencia indica que las buenas intenciones no bastan.",
+      "autor": "Alexandre Havard",
+      "origen": "alex",
+      "fuente": "Liderazgo virtuoso, cap. «Prudencia: tomar la decisión correcta»",
+      "retos": [
+        "M02",
+        "S10",
+        "C06"
+      ],
+      "libre": false,
+      "momento": "manana",
+      "literal": true,
+      "nota": "",
+      "validacion": "aprobado"
+    },
+    {
+      "id": "Q43",
+      "tema": "Prudencia",
+      "texto": "La prudencia es causa, raíz, madre, medida, precepto, guía y prototipo de todas las virtudes éticas.",
+      "autor": "Josef Pieper",
+      "origen": "citado",
+      "fuente": "Liderazgo virtuoso, cap. «La unidad de todas las virtudes»",
+      "retos": [
+        "S10",
+        "C06"
+      ],
+      "libre": false,
+      "momento": "manana",
+      "literal": true,
+      "nota": "",
+      "validacion": "aprobado"
+    },
+    {
+      "id": "Q44",
+      "tema": "Prudencia",
+      "texto": "El hombre prudente no espera certeza allí donde no la puede haber, ni, por otro lado, se engaña a sí mismo con falsas certezas.",
+      "autor": "Josef Pieper",
+      "origen": "citado",
+      "fuente": "Liderazgo virtuoso, cap. «Prudencia: tomar la decisión correcta»",
+      "retos": [
+        "M02",
+        "M08",
+        "S10"
+      ],
+      "libre": false,
+      "momento": "manana",
+      "literal": true,
+      "nota": "",
+      "validacion": "aprobado"
+    },
+    {
+      "id": "Q45",
+      "tema": "Prudencia",
+      "texto": "El deseo de certeza absoluta es imprudente, porque tiende a paralizar nuestra capacidad para decidir y actuar.",
+      "autor": "Alexandre Havard",
+      "origen": "alex",
+      "fuente": "Creados para la grandeza, examen de conciencia, prudencia",
+      "retos": [
+        "M02",
+        "M06",
+        "M08"
+      ],
+      "libre": false,
+      "momento": "manana",
+      "literal": true,
+      "nota": "",
+      "validacion": "aprobado"
+    },
+    {
+      "id": "Q46",
+      "tema": "Prudencia",
+      "texto": "El hombre bueno juzga cada cosa con rectitud, y percibe en cada cosa la verdad.",
+      "autor": "Aristóteles",
+      "origen": "citado",
+      "fuente": "Liderazgo virtuoso, cap. «Prudencia: tomar la decisión correcta»",
+      "retos": [
+        "S03",
+        "M09"
+      ],
+      "libre": false,
+      "momento": "manana",
+      "literal": true,
+      "nota": "",
+      "validacion": "aprobado"
+    },
+    {
+      "id": "Q47",
+      "tema": "Prudencia",
+      "texto": "Por la prudencia el hombre es audaz, sin insensatez (...) La templanza del prudente no es insensibilidad ni misantropía; su justicia no es dureza; su paciencia no es servilismo.",
+      "autor": "Josemaría Escrivá, Amigos de Dios, n.º 87",
+      "origen": "citado",
+      "fuente": "Liderazgo virtuoso, cap. «La unidad de todas las virtudes»",
+      "retos": [
+        "C06",
+        "S10",
+        "M10"
+      ],
+      "libre": false,
+      "momento": "manana",
+      "literal": true,
+      "nota": "",
+      "validacion": "aprobado"
+    },
+    {
+      "id": "Q48",
+      "tema": "Prudencia",
+      "texto": "Sólo puede hacer el bien el que sabe cómo son las cosas y en qué situación se encuentran.",
+      "autor": "Josef Pieper",
+      "origen": "citado",
+      "fuente": "Liderazgo virtuoso, cap. «Corazón, voluntad e inteligencia»",
+      "retos": [
+        "S03",
+        "S10",
+        "M02"
+      ],
+      "libre": false,
+      "momento": "manana",
+      "literal": true,
+      "nota": "Nota probable: Pieper, Prudence, p. 25. Confirmar",
+      "validacion": "aprobado"
+    },
+    {
+      "id": "Q49",
+      "tema": "Prudencia",
+      "texto": "La realidad es un premio exclusivo de la más alta forma de conocimiento, que es la visión, la intuición, la contemplación.",
+      "autor": "Josef Pieper",
+      "origen": "citado",
+      "fuente": "Liderazgo virtuoso, cap. «Corazón, voluntad e inteligencia»",
+      "retos": [
+        "S06"
+      ],
+      "libre": false,
+      "momento": "manana",
+      "literal": true,
+      "nota": "",
+      "validacion": "aprobado"
+    },
+    {
+      "id": "Q50",
+      "tema": "Fortaleza",
+      "texto": "Es posible que mantener el rumbo, perseguir con constancia un objetivo y ser previsible en cuanto a lo que creemos no nos garantice el afecto de los demás, pero nos llevará hacia un liderazgo efectivo mediante la confianza.",
+      "autor": "Warren Bennis",
+      "origen": "citado",
+      "fuente": "Liderazgo virtuoso, cap. «Fortaleza: mantener el rumbo» (epígrafe)",
+      "retos": [
+        "S09",
+        "F09"
+      ],
+      "libre": false,
+      "momento": "manana",
+      "literal": true,
+      "nota": "Cita larga; valorar acortarla",
+      "validacion": "aprobado"
+    },
+    {
+      "id": "Q51",
+      "tema": "Fortaleza",
+      "texto": "Ni la dificultad ni el esfuerzo producen la virtud sino sólo el bien.",
+      "autor": "Josef Pieper",
+      "origen": "citado",
+      "fuente": "Liderazgo virtuoso, cap. «Fortaleza: mantener el rumbo»",
+      "retos": [
+        "S09",
+        "S08"
+      ],
+      "libre": false,
+      "momento": "manana",
+      "literal": true,
+      "nota": "",
+      "validacion": "aprobado"
+    },
+    {
+      "id": "Q52",
+      "tema": "Fortaleza",
+      "texto": "Sólo el que es justo y prudente puede ser también valiente.",
+      "autor": "Josef Pieper",
+      "origen": "citado",
+      "fuente": "Liderazgo virtuoso, cap. «Fortaleza: mantener el rumbo»",
+      "retos": [
+        "S10",
+        "M02"
+      ],
+      "libre": false,
+      "momento": "manana",
+      "literal": true,
+      "nota": "",
+      "validacion": "aprobado"
+    },
+    {
+      "id": "Q53",
+      "tema": "Fortaleza",
+      "texto": "No me enfrento a los hombres; yo me enfrento a ideas falsas.",
+      "autor": "Jérôme Lejeune",
+      "origen": "citado",
+      "fuente": "Liderazgo virtuoso, cap. «Fortaleza: mantener el rumbo»",
+      "retos": [
+        "F09",
+        "C02",
+        "M09",
+        "C05"
+      ],
+      "libre": false,
+      "momento": "manana",
+      "literal": true,
+      "nota": "",
+      "validacion": "aprobado"
+    },
+    {
+      "id": "Q54",
+      "tema": "Fortaleza",
+      "texto": "Su buen humor no era simplemente una cuestión de temperamento. Su calma extraordinaria era fruto de la atención habitual que prestaba a su conciencia, lo que le permitió evaluar las exigencias particulares de cada situación a la vez que tenía puestos los ojos en la eternidad.",
+      "autor": "Gerard Wegemer, sobre Tomás Moro",
+      "origen": "citado",
+      "fuente": "Liderazgo virtuoso, cap. «Fortaleza: mantener el rumbo»",
+      "retos": [
+        "M07",
+        "C06"
+      ],
+      "libre": false,
+      "momento": "noche",
+      "literal": true,
+      "nota": "",
+      "validacion": "aprobado"
+    },
+    {
+      "id": "Q55",
+      "tema": "Fortaleza",
+      "texto": "Tu mayor enemigo eres tú mismo.",
+      "autor": "Josemaría Escrivá, Camino, n.º 225",
+      "origen": "citado",
+      "fuente": "Liderazgo virtuoso, cap. «Un programa para ganar» (epígrafe)",
+      "retos": [
+        "S09",
+        "C08",
+        "S02"
+      ],
+      "libre": false,
+      "momento": "manana",
+      "literal": true,
+      "nota": "",
+      "validacion": "aprobado"
+    },
+    {
+      "id": "Q56",
+      "tema": "Fortaleza",
+      "texto": "Todas las mañanas, al despertar, ofrezco una oración y pienso que el día que voy a vivir es el último de mi vida (...) Por la tarde, doy gracias a Dios por haberme concedido un día más de vida.",
+      "autor": "Piotr Stolypin",
+      "origen": "citado",
+      "fuente": "Liderazgo virtuoso, cap. «La influencia de la vida cristiana»",
+      "retos": [],
+      "libre": true,
+      "momento": "noche",
+      "literal": true,
+      "nota": "Útil para el ritmo mañana y noche",
+      "validacion": "aprobado"
+    },
+    {
+      "id": "Q57",
+      "tema": "Dominio de sí",
+      "texto": "Ya no enseño a dirigir a personas en el trabajo (...) Sobre todo enseño a dominarse a uno mismo.",
+      "autor": "Peter Drucker",
+      "origen": "citado",
+      "fuente": "Liderazgo virtuoso, cap. «Dominio de sí: el triunfo del corazón y del espíritu» (epígrafe)",
+      "retos": [
+        "C06",
+        "S02",
+        "C08"
+      ],
+      "libre": false,
+      "momento": "manana",
+      "literal": true,
+      "nota": "",
+      "validacion": "aprobado"
+    },
+    {
+      "id": "Q58",
+      "tema": "Dominio de sí",
+      "texto": "[El dominio de sí es como] la orilla, las márgenes de un río, cuya solidez proporciona a la corriente el don de un curso recto, sin obstáculos, vigoroso, con pendiente y velocidad.",
+      "autor": "Josef Pieper",
+      "origen": "citado",
+      "fuente": "Liderazgo virtuoso, cap. «Dominio de sí: el triunfo del corazón y del espíritu»",
+      "retos": [
+        "C06",
+        "S02",
+        "S05",
+        "M07"
+      ],
+      "libre": false,
+      "momento": "manana",
+      "literal": true,
+      "nota": "Es una imagen del dominio de sí; ver la frase completa en el libro",
+      "validacion": "aprobado"
+    },
+    {
+      "id": "Q59",
+      "tema": "Dominio de sí",
+      "texto": "Alegría no es alborozo de cascabeles o de baile popular. La verdadera alegría es algo más íntimo: algo que nos hace estar serenos, rebosantes de gozo, aunque a veces el rostro permanezca severo.",
+      "autor": "Josemaría Escrivá",
+      "origen": "citado",
+      "fuente": "Liderazgo virtuoso, cap. «Justicia: comunión y comunicación»",
+      "retos": [
+        "M07",
+        "M05"
+      ],
+      "libre": false,
+      "momento": "manana",
+      "literal": true,
+      "nota": "Falta la obra y el número",
+      "validacion": "aprobado"
+    },
+    {
+      "id": "Q60",
+      "tema": "Justicia",
+      "texto": "La justicia es una piadosa atención a todas las cosas.",
+      "autor": "Viacheslav Ivanov",
+      "origen": "citado",
+      "fuente": "Liderazgo virtuoso, cap. «Justicia: comunión y comunicación» (epígrafe)",
+      "retos": [
+        "C06",
+        "S04",
+        "F08",
+        "C09"
+      ],
+      "libre": false,
+      "momento": "manana",
+      "literal": true,
+      "nota": "",
+      "validacion": "aprobado"
+    },
+    {
+      "id": "Q61",
+      "tema": "Justicia",
+      "texto": "La justicia sin misericordia es crueldad, la misericordia sin justicia es la madre de la disolución.",
+      "autor": "Santo Tomás de Aquino",
+      "origen": "citado",
+      "fuente": "Liderazgo virtuoso, cap. «Justicia: comunión y comunicación»",
+      "retos": [
+        "C05",
+        "M04",
+        "F09"
+      ],
+      "libre": false,
+      "momento": "manana",
+      "literal": true,
+      "nota": "",
+      "validacion": "aprobado"
+    },
+    {
+      "id": "Q62",
+      "tema": "Justicia",
+      "texto": "Precisamente porque el hombre es un ser personal no se pueden cumplir las obligaciones para con él [darle lo suyo] si no es amándolo.",
+      "autor": "Juan Pablo II",
+      "origen": "citado",
+      "fuente": "Liderazgo virtuoso, cap. «Justicia: comunión y comunicación»",
+      "retos": [
+        "C03",
+        "F08",
+        "C09"
+      ],
+      "libre": false,
+      "momento": "manana",
+      "literal": true,
+      "nota": "",
+      "validacion": "aprobado"
+    },
+    {
+      "id": "Q63",
+      "tema": "Justicia",
+      "texto": "Queridos amigos, tengo que marcharme, mi mujer y mis hijos me esperan. Puedo cambiar de trabajo si es necesario, pero no puedo cambiar de mujer y de hijos.",
+      "autor": "Un empresario amigo de Alex",
+      "origen": "citado",
+      "fuente": "Liderazgo virtuoso, cap. «Justicia: comunión y comunicación»",
+      "retos": [
+        "C09",
+        "M10"
+      ],
+      "libre": false,
+      "momento": "noche",
+      "literal": true,
+      "nota": "",
+      "validacion": "aprobado"
+    },
+    {
+      "id": "Q64",
+      "tema": "Justicia",
+      "texto": "Si no soy prudente, fuerte y templado, es poco probable que sea justo.",
+      "autor": "Alexandre Havard",
+      "origen": "alex",
+      "fuente": "Liderazgo virtuoso, cap. «La unidad de todas las virtudes»",
+      "retos": [],
+      "libre": true,
+      "momento": "noche",
+      "literal": true,
+      "nota": "",
+      "validacion": "aprobado"
+    },
+    {
+      "id": "Q65",
+      "tema": "Hábito y carácter",
+      "texto": "La virtud es el resultado de un hábito.",
+      "autor": "Aristóteles",
+      "origen": "citado",
+      "fuente": "Liderazgo virtuoso, cap. «Somos lo que hacemos habitualmente» (epígrafe)",
+      "retos": [
+        "S09",
+        "S08"
+      ],
+      "libre": true,
+      "momento": "manana",
+      "literal": true,
+      "nota": "",
+      "validacion": "aprobado"
+    },
+    {
+      "id": "Q66",
+      "tema": "Hábito y carácter",
+      "texto": "Las virtudes crecen como los cinco dedos de la mano.",
+      "autor": "Santo Tomás de Aquino",
+      "origen": "citado",
+      "fuente": "Liderazgo virtuoso, cap. «La unidad de todas las virtudes» (epígrafe)",
+      "retos": [],
+      "libre": true,
+      "momento": "manana",
+      "literal": true,
+      "nota": "",
+      "validacion": "aprobado"
+    },
+    {
+      "id": "Q67",
+      "tema": "Hábito y carácter",
+      "texto": "¡Esa desigualdad de tu carácter! —Tienes el teclado estropeado: das muy bien las notas altas y las bajas…, pero no suenan las de en medio, las de la vida corriente, las que habitualmente escuchan los demás.",
+      "autor": "Josemaría Escrivá, Surco, n.º 440",
+      "origen": "citado",
+      "fuente": "Liderazgo virtuoso, cap. «Somos lo que hacemos habitualmente»",
+      "retos": [
+        "C09",
+        "M10",
+        "S09"
+      ],
+      "libre": false,
+      "momento": "manana",
+      "literal": true,
+      "nota": "",
+      "validacion": "aprobado"
+    },
+    {
+      "id": "Q68",
+      "tema": "Hábito y carácter",
+      "texto": "No digas: “Es mi genio así..., son cosas de mi carácter”. Son cosas de tu falta de carácter.",
+      "autor": "Josemaría Escrivá",
+      "origen": "citado",
+      "fuente": "Liderazgo virtuoso, cap. «Somos lo que hacemos habitualmente»",
+      "retos": [
+        "C02",
+        "C05"
+      ],
+      "libre": true,
+      "momento": "manana",
+      "literal": true,
+      "nota": "Falta la obra y el número",
+      "validacion": "aprobado"
+    },
+    {
+      "id": "Q69",
+      "tema": "Hábito y carácter",
+      "texto": "Escuchar para obedecer, porque si no vivimos como pensamos, acabaremos pensando como vivimos; acabaremos justificando hasta las acciones más viles.",
+      "autor": "Alexandre Havard",
+      "origen": "alex",
+      "fuente": "Creados para la grandeza, cap. 3, El desarrollo de un sentido moral",
+      "retos": [
+        "C05",
+        "S03",
+        "C02"
+      ],
+      "libre": false,
+      "momento": "manana",
+      "literal": true,
+      "nota": "",
+      "validacion": "aprobado"
+    },
+    {
+      "id": "Q70",
+      "tema": "Hábito y carácter",
+      "texto": "La virtud no es algo que se adopte con el fin de convertirse en una persona eficaz en lo que hace.",
+      "autor": "Alexandre Havard",
+      "origen": "alex",
+      "fuente": "Creados para la grandeza, Introducción",
+      "retos": [],
+      "libre": true,
+      "momento": "manana",
+      "literal": true,
+      "nota": "",
+      "validacion": "aprobado"
+    },
+    {
+      "id": "Q71",
+      "tema": "Autoconocimiento",
+      "texto": "Es a través del carácter como se ejercita el liderazgo.",
+      "autor": "Peter Drucker",
+      "origen": "citado",
+      "fuente": "Liderazgo virtuoso, cap. «Introducción»",
+      "retos": [],
+      "libre": true,
+      "momento": "manana",
+      "literal": true,
+      "nota": "",
+      "validacion": "aprobado"
+    },
+    {
+      "id": "Q72",
+      "tema": "Autoconocimiento",
+      "texto": "Liderazgo es otra palabra para expresar la coherencia, la constancia y el equilibrio en la propia vida.",
+      "autor": "Warren Bennis",
+      "origen": "citado",
+      "fuente": "Liderazgo virtuoso, cap. «Introducción»",
+      "retos": [],
+      "libre": true,
+      "momento": "manana",
+      "literal": true,
+      "nota": "",
+      "validacion": "aprobado"
+    },
+    {
+      "id": "Q73",
+      "tema": "Autoconocimiento",
+      "texto": "El liderazgo sólo puede ser una cuestión de carácter.",
+      "autor": "Alexandre Havard",
+      "origen": "alex",
+      "fuente": "Liderazgo virtuoso, cap. «Introducción»",
+      "retos": [],
+      "libre": true,
+      "momento": "manana",
+      "literal": true,
+      "nota": "",
+      "validacion": "aprobado"
+    },
+    {
+      "id": "Q74",
+      "tema": "Autoconocimiento",
+      "texto": "El temperamento puede favorecer el desarrollo de algunas virtudes e impedir el de otras, pero llega un momento en el que el líder impone tanto su carácter a su temperamento que éste deja de dominarle.",
+      "autor": "Alexandre Havard",
+      "origen": "alex",
+      "fuente": "Creados para la grandeza, Introducción",
+      "retos": [],
+      "libre": true,
+      "momento": "manana",
+      "literal": true,
+      "nota": "",
+      "validacion": "aprobado"
+    },
+    {
+      "id": "Q75",
+      "tema": "Examen de conciencia",
+      "texto": "Es imposible alcanzar la excelencia personal sin recurrir frecuentemente (preferiblemente a diario) al examen de conciencia.",
+      "autor": "Alexandre Havard",
+      "origen": "alex",
+      "fuente": "Creados para la grandeza, conclusión",
+      "retos": [
+        "S07"
+      ],
+      "libre": true,
+      "momento": "noche",
+      "literal": true,
+      "nota": "",
+      "validacion": "aprobado"
+    },
+    {
+      "id": "Q76",
+      "tema": "Examen de conciencia",
+      "texto": "Además de este examen diario, también es buena idea revisar varias veces al año, de un modo más profundo, cómo hemos ido viviendo las virtudes del liderazgo.",
+      "autor": "Alexandre Havard",
+      "origen": "alex",
+      "fuente": "Creados para la grandeza, conclusión",
+      "retos": [],
+      "libre": true,
+      "momento": "noche",
+      "literal": true,
+      "nota": "",
+      "validacion": "aprobado"
+    },
+    {
+      "id": "Q77",
+      "tema": "Humildad",
+      "texto": "En François Michelin uno es capaz de observar el autodominio, la serenidad y, por encima de todo, el respeto por los demás, por cada persona única e irremplazable, así como un gran deseo de servir.",
+      "autor": "Alexandre Havard",
+      "origen": "alex",
+      "fuente": "Creados para la grandeza, cap. 2, El ideal de humildad",
+      "retos": [
+        "C04",
+        "C09",
+        "C06"
+      ],
+      "libre": false,
+      "momento": "manana",
+      "literal": true,
+      "nota": "",
+      "validacion": "aprobado"
+    },
+    {
+      "id": "Q78",
+      "tema": "Magnanimidad",
+      "texto": "Al considerar nuestra propia grandeza y dignidad también debemos reconocer las de los demás y servirles.",
+      "autor": "Alexandre Havard",
+      "origen": "alex",
+      "fuente": "Creados para la grandeza, cap. 2, El ideal de humildad",
+      "retos": [
+        "M03",
+        "F08",
+        "C03"
+      ],
+      "libre": false,
+      "momento": "manana",
+      "literal": true,
+      "nota": "",
+      "validacion": "aprobado"
+    },
+    {
+      "id": "Q79",
+      "tema": "Magnanimidad",
+      "texto": "Los líderes siempre emprenden acciones, pero nunca hacen las cosas solo por hacerlas; su acción es siempre una extensión de su ser, una consecuencia de contemplar su propia dignidad y su grandeza.",
+      "autor": "Alexandre Havard",
+      "origen": "alex",
+      "fuente": "Creados para la grandeza, cap. 1, El ideal de magnanimidad",
+      "retos": [
+        "F07",
+        "M02"
+      ],
+      "libre": false,
+      "momento": "manana",
+      "literal": true,
+      "nota": "",
+      "validacion": "aprobado"
+    },
+    {
+      "id": "Q80",
+      "tema": "Magnanimidad",
+      "texto": "Establecer amistades con gente que nos inspire gracias a sus radiantes cualidades personales, y sobre todo a su magnanimidad.",
+      "autor": "Alexandre Havard",
+      "origen": "alex",
+      "fuente": "Creados para la grandeza, cap. 4, El desarrollo de la magnanimidad",
+      "retos": [
+        "F01",
+        "F02",
+        "M03"
+      ],
+      "libre": false,
+      "momento": "manana",
+      "literal": true,
+      "nota": "Fragmento de una frase más larga",
+      "validacion": "aprobado"
+    },
+    {
+      "id": "Q81",
+      "tema": "Magnanimidad",
+      "texto": "Deberíamos contemplarlos, estudiarlos, admirar sus virtudes y tratar de imitarlos.",
+      "autor": "Alexandre Havard",
+      "origen": "alex",
+      "fuente": "Creados para la grandeza, cap. 4, El desarrollo de la magnanimidad",
+      "retos": [
+        "F01",
+        "F02"
+      ],
+      "libre": false,
+      "momento": "manana",
+      "literal": true,
+      "nota": "Habla de los seres queridos y amigos admirables",
+      "validacion": "aprobado"
+    },
+    {
+      "id": "Q82",
+      "tema": "Prudencia",
+      "texto": "La nobleza inherente al bien, su belleza intrínseca, toca el corazón del hombre humilde, y lo hechiza.",
+      "autor": "Dietrich von Hildebrand",
+      "origen": "citado",
+      "fuente": "Liderazgo virtuoso, cap. «Corazón, voluntad e inteligencia»",
+      "retos": [
+        "S06",
+        "F03",
+        "F01"
+      ],
+      "libre": false,
+      "momento": "manana",
+      "literal": true,
+      "nota": "",
+      "validacion": "aprobado"
+    },
+    {
+      "id": "Q83",
+      "tema": "Fortaleza",
+      "texto": "Los líderes evitan las racionalizaciones, vencen su temor a cometer errores, toman decisiones con prontitud y las ejecutan contra viento y marea.",
+      "autor": "Alexandre Havard",
+      "origen": "alex",
+      "fuente": "Liderazgo virtuoso, cap. «Fortaleza: mantener el rumbo»",
+      "retos": [
+        "M02",
+        "M08",
+        "S09",
+        "F06"
+      ],
+      "libre": false,
+      "momento": "manana",
+      "literal": true,
+      "nota": "Fragmento de una frase más larga: «gracias a ella [la fortaleza] los líderes…»",
+      "validacion": "aprobado"
+    },
+    {
+      "id": "Q84",
+      "tema": "Fortaleza",
+      "texto": "El auténtico liderazgo se basa, no en los sentimientos y en los estímulos externos, sino en las virtudes que suponen hábitos estables de la personalidad.",
+      "autor": "Alexandre Havard",
+      "origen": "alex",
+      "fuente": "Creados para la grandeza, cap. 4, El desarrollo de la magnanimidad",
+      "retos": [
+        "M06",
+        "M07",
+        "S09"
+      ],
+      "libre": false,
+      "momento": "manana",
+      "literal": true,
+      "nota": "",
+      "validacion": "aprobado"
+    },
+    {
+      "id": "Q85",
+      "tema": "Dominio de sí",
+      "texto": "Antes de dirigir a otros, hay que aprender a dirigirse a uno mismo.",
+      "autor": "Alexandre Havard",
+      "origen": "alex",
+      "fuente": "Liderazgo virtuoso, cap. «Dominio de sí: el triunfo del corazón y del espíritu»",
+      "retos": [
+        "C06",
+        "C08",
+        "S02",
+        "S07"
+      ],
+      "libre": false,
+      "momento": "manana",
+      "literal": true,
+      "nota": "",
+      "validacion": "aprobado"
+    }
+  ],
+  "variables": [
+    {
+      "id": "persona_cercana",
+      "descripcion": "Una persona de la familia o muy cercana",
+      "origen": "Tu entorno (grupo familia)",
+      "grupo": "familia",
+      "persona": true,
+      "forma": "Nombre o parentesco",
+      "ejemplo": "Ana",
+      "defecto": "alguien de tu familia"
+    },
+    {
+      "id": "persona_trabajo",
+      "descripcion": "Una persona con la que trabaja a diario",
+      "origen": "Tu entorno (grupo trabajo)",
+      "grupo": "trabajo",
+      "persona": true,
+      "forma": "Nombre o cargo",
+      "ejemplo": "Pedro",
+      "defecto": "alguien de tu equipo"
+    },
+    {
+      "id": "persona_dificil",
+      "descripcion": "Una persona con la que choca o tiene algo pendiente",
+      "origen": "Pregunta de la noche",
+      "grupo": null,
+      "persona": true,
+      "forma": "Nombre",
+      "ejemplo": "Luis",
+      "defecto": "esa persona con la que te cuesta hablar"
+    },
+    {
+      "id": "persona_admiro",
+      "descripcion": "Una persona a la que admira y que le exige",
+      "origen": "Tu entorno o pregunta de la noche",
+      "grupo": null,
+      "persona": true,
+      "forma": "Nombre",
+      "ejemplo": "Marta",
+      "defecto": "alguien a quien admiras"
+    },
+    {
+      "id": "persona_descuidada",
+      "descripcion": "Un amigo al que tiene abandonado",
+      "origen": "Tu entorno (grupo amigos)",
+      "grupo": "amigos",
+      "persona": true,
+      "forma": "Nombre",
+      "ejemplo": "Javier",
+      "defecto": "un amigo al que hace tiempo que no llamas"
+    },
+    {
+      "id": "reunion",
+      "descripcion": "Una reunión o conversación habitual de grupo",
+      "origen": "Preguntas iniciales",
+      "grupo": null,
+      "persona": false,
+      "forma": "Sustantivo con artículo",
+      "ejemplo": "la reunión de equipo",
+      "defecto": "tu próxima reunión"
+    },
+    {
+      "id": "proyecto",
+      "descripcion": "El proyecto principal que tiene entre manos",
+      "origen": "Preguntas iniciales",
+      "grupo": null,
+      "persona": false,
+      "forma": "Sustantivo con artículo",
+      "ejemplo": "el informe trimestral",
+      "defecto": "tu proyecto principal"
+    },
+    {
+      "id": "decision_pendiente",
+      "descripcion": "Una decisión que lleva tiempo aplazando",
+      "origen": "Preguntas iniciales o de la noche",
+      "grupo": null,
+      "persona": false,
+      "forma": "Sustantivo con artículo",
+      "ejemplo": "el cambio de proveedor",
+      "defecto": "esa decisión que tienes pendiente"
+    },
+    {
+      "id": "tarea_pendiente",
+      "descripcion": "Un trabajo a medio hacer o aplazado",
+      "origen": "Preguntas iniciales o de la noche",
+      "grupo": null,
+      "persona": false,
+      "forma": "Sustantivo con artículo",
+      "ejemplo": "el presupuesto del cliente",
+      "defecto": "esa tarea que tienes a medias"
+    },
+    {
+      "id": "tarea_ingrata",
+      "descripcion": "La tarea que más pereza le da",
+      "origen": "Pregunta de la noche",
+      "grupo": null,
+      "persona": false,
+      "forma": "Sustantivo con artículo",
+      "ejemplo": "la contabilidad",
+      "defecto": "lo que menos te apetece"
+    },
+    {
+      "id": "tarea_delegable",
+      "descripcion": "Una tarea que hace siempre él y podría hacer otro",
+      "origen": "Pregunta de la noche",
+      "grupo": null,
+      "persona": false,
+      "forma": "Sustantivo con artículo",
+      "ejemplo": "el informe semanal",
+      "defecto": "una tarea que sueles hacer tú"
+    },
+    {
+      "id": "momento_libre",
+      "descripcion": "El momento del día en que tiene media hora",
+      "origen": "Pregunta de la noche",
+      "grupo": null,
+      "persona": false,
+      "forma": "Expresión de tiempo",
+      "ejemplo": "después de cenar",
+      "defecto": "en un rato libre"
+    },
+    {
+      "id": "talento",
+      "descripcion": "Lo que mejor sabe hacer",
+      "origen": "Preguntas iniciales",
+      "grupo": null,
+      "persona": false,
+      "forma": "Verbo en infinitivo",
+      "ejemplo": "explicar cosas difíciles",
+      "defecto": "lo que mejor sabes hacer"
+    },
+    {
+      "id": "sueno",
+      "descripcion": "Lo que querría haber logrado en cinco años",
+      "origen": "Preguntas iniciales",
+      "grupo": null,
+      "persona": false,
+      "forma": "Verbo en infinitivo",
+      "ejemplo": "dirigir mi propio proyecto",
+      "defecto": "acercarte a tu sueño"
+    },
+    {
+      "id": "distraccion",
+      "descripcion": "Lo que más le distrae al trabajar",
+      "origen": "Preguntas iniciales",
+      "grupo": null,
+      "persona": false,
+      "forma": "Sustantivo",
+      "ejemplo": "Instagram",
+      "defecto": "lo que más te distrae"
+    },
+    {
+      "id": "promesa",
+      "descripcion": "Algo prometido a alguien y sin cumplir",
+      "origen": "Pregunta de la noche",
+      "grupo": null,
+      "persona": false,
+      "forma": "Verbo en infinitivo",
+      "ejemplo": "enviarle el presupuesto",
+      "defecto": "lo que le prometiste"
+    },
+    {
+      "id": "preocupacion",
+      "descripcion": "La preocupación que más le ronda",
+      "origen": "Preguntas iniciales",
+      "grupo": null,
+      "persona": false,
+      "forma": "Sustantivo con artículo",
+      "ejemplo": "la venta de la casa",
+      "defecto": "eso que te preocupa"
+    }
+  ],
+  "preguntas_iniciales": [
+    {
+      "temperamento": "COL",
+      "orden": 1,
+      "pregunta": "¿Con quién trabajas más de cerca cada día?",
+      "variable": "persona_trabajo",
+      "validacion": "aprobado"
+    },
+    {
+      "temperamento": "COL",
+      "orden": 2,
+      "pregunta": "¿Quién de tu familia sufre más tu carácter?",
+      "variable": "persona_cercana",
+      "validacion": "aprobado"
+    },
+    {
+      "temperamento": "COL",
+      "orden": 3,
+      "pregunta": "¿En qué reunión o conversación habitual hablas más que los demás?",
+      "variable": "reunion",
+      "validacion": "aprobado"
+    },
+    {
+      "temperamento": "COL",
+      "orden": 4,
+      "pregunta": "¿Qué proyecto estás empujando con más fuerza ahora?",
+      "variable": "proyecto",
+      "validacion": "aprobado"
+    },
+    {
+      "temperamento": "COL",
+      "orden": 5,
+      "pregunta": "¿Qué decisión tienes entre manos esta semana?",
+      "variable": "decision_pendiente",
+      "validacion": "aprobado"
+    },
+    {
+      "temperamento": "MEL",
+      "orden": 1,
+      "pregunta": "¿Qué te gustaría haber logrado dentro de cinco años?",
+      "variable": "sueno",
+      "validacion": "aprobado"
+    },
+    {
+      "temperamento": "MEL",
+      "orden": 2,
+      "pregunta": "¿Qué decisión llevas tiempo aplazando?",
+      "variable": "decision_pendiente",
+      "validacion": "aprobado"
+    },
+    {
+      "temperamento": "MEL",
+      "orden": 3,
+      "pregunta": "¿Qué preocupación te ronda más estos días?",
+      "variable": "preocupacion",
+      "validacion": "aprobado"
+    },
+    {
+      "temperamento": "MEL",
+      "orden": 4,
+      "pregunta": "¿Quién consigue levantarte el ánimo?",
+      "variable": "persona_cercana",
+      "validacion": "aprobado"
+    },
+    {
+      "temperamento": "MEL",
+      "orden": 5,
+      "pregunta": "¿Con quién trabajas más de cerca cada día?",
+      "variable": "persona_trabajo",
+      "validacion": "aprobado"
+    },
+    {
+      "temperamento": "SAN",
+      "orden": 1,
+      "pregunta": "¿Qué empezaste con ganas y has ido dejando?",
+      "variable": "proyecto",
+      "validacion": "aprobado"
+    },
+    {
+      "temperamento": "SAN",
+      "orden": 2,
+      "pregunta": "¿Qué tarea tienes a medio hacer?",
+      "variable": "tarea_pendiente",
+      "validacion": "aprobado"
+    },
+    {
+      "temperamento": "SAN",
+      "orden": 3,
+      "pregunta": "¿Qué es lo que más te distrae cuando trabajas?",
+      "variable": "distraccion",
+      "validacion": "aprobado"
+    },
+    {
+      "temperamento": "SAN",
+      "orden": 4,
+      "pregunta": "¿Con quién trabajas más de cerca cada día?",
+      "variable": "persona_trabajo",
+      "validacion": "aprobado"
+    },
+    {
+      "temperamento": "SAN",
+      "orden": 5,
+      "pregunta": "¿Quién de tu familia te conoce mejor?",
+      "variable": "persona_cercana",
+      "validacion": "aprobado"
+    },
+    {
+      "temperamento": "FLE",
+      "orden": 1,
+      "pregunta": "¿A quién admiras de tu entorno?",
+      "variable": "persona_admiro",
+      "validacion": "aprobado"
+    },
+    {
+      "temperamento": "FLE",
+      "orden": 2,
+      "pregunta": "¿Qué sabes hacer mejor que la mayoría?",
+      "variable": "talento",
+      "validacion": "aprobado"
+    },
+    {
+      "temperamento": "FLE",
+      "orden": 3,
+      "pregunta": "¿Qué te gustaría haber logrado dentro de cinco años?",
+      "variable": "sueno",
+      "validacion": "aprobado"
+    },
+    {
+      "temperamento": "FLE",
+      "orden": 4,
+      "pregunta": "¿En qué reunión sueles quedarte callado?",
+      "variable": "reunion",
+      "validacion": "aprobado"
+    },
+    {
+      "temperamento": "FLE",
+      "orden": 5,
+      "pregunta": "¿Con quién trabajas más de cerca cada día?",
+      "variable": "persona_trabajo",
+      "validacion": "aprobado"
+    }
+  ],
+  "habitos": {
+    "max_activos": 5,
+    "dias_prueba": 7,
+    "dias_ventana": 30,
+    "dias_consolidar": 24,
+    "min_semana": 3,
+    "semanas_bajo": 2
+  }
+}

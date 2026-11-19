@@ -1,0 +1,87 @@
+{
+  "id": "curso7",
+  "titulo": "La educación del corazón",
+  "curso": 7,
+  "pasos": [
+    {
+      "id": "m7-01",
+      "num": 1,
+      "tipo": "video",
+      "titulo": "Introducción: la educación del corazón",
+      "vimeoId": "924692308",
+      "visible": true,
+      "leccion": 1,
+      "modulo": 0
+    },
+    {
+      "id": "m7-02",
+      "num": 2,
+      "tipo": "video",
+      "titulo": "El amor, un corazón en paz",
+      "vimeoId": "924692379",
+      "visible": true,
+      "leccion": 2,
+      "modulo": 1
+    },
+    {
+      "id": "m7-03",
+      "num": 3,
+      "tipo": "video",
+      "titulo": "La belleza, un corazón alegre",
+      "vimeoId": "924692610",
+      "visible": true,
+      "leccion": 3,
+      "modulo": 2
+    },
+    {
+      "id": "m7-04",
+      "num": 4,
+      "tipo": "video",
+      "titulo": "La grandeza, un corazón magnánimo",
+      "vimeoId": "924692820",
+      "visible": true,
+      "leccion": 4,
+      "modulo": 3
+    },
+    {
+      "id": "m7-05",
+      "num": 5,
+      "tipo": "video",
+      "titulo": "La libertad, un corazón noble",
+      "vimeoId": "924693044",
+      "visible": true,
+      "leccion": 5,
+      "modulo": 4
+    },
+    {
+      "id": "m7-06",
+      "num": 6,
+      "tipo": "video",
+      "titulo": "La misericordia, un corazón purificado",
+      "vimeoId": "924693282",
+      "visible": true,
+      "leccion": 6,
+      "modulo": 5
+    },
+    {
+      "id": "m7-07",
+      "num": 7,
+      "tipo": "video",
+      "titulo": "El sufrimiento, un corazón divinizado",
+      "vimeoId": "924693464",
+      "visible": true,
+      "leccion": 7,
+      "modulo": 6
+    },
+    {
+      "id": "m7-08",
+      "num": 8,
+      "tipo": "video",
+      "titulo": "La humildad nos hace receptivos",
+      "vimeoId": "924693609",
+      "visible": true,
+      "leccion": 8,
+      "modulo": 7
+    }
+  ]
+}

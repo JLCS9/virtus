@@ -4,11 +4,10 @@ import { ScrollView, View } from 'react-native';
 import { router } from 'expo-router';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 
-import { salir } from '@/portal/datos';
-import { olvidarAcceso } from '@/portal/hooks';
-import { PAGINA_WEB, abrirWeb } from '@/portal/navegacion';
-import { BEIGE } from '@/portal/tema';
-import { Boton, Eyebrow, Parrafo, Tarjeta, Titulo } from '@/portal/ui';
+import { olvidarAcceso, salir } from '@/nativo/cuenta';
+import { PAGINA_WEB, abrirWeb } from '@/nativo/navegacion';
+import { BEIGE } from '@/nativo/tema';
+import { Boton, Eyebrow, Parrafo, Tarjeta, Titulo } from '@/nativo/ui';
 
 export default function SinAcceso() {
   const insets = useSafeAreaInsets();

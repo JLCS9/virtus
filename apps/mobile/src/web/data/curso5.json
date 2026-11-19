@@ -1,0 +1,912 @@
+{
+  "id": "curso5",
+  "titulo": "Corazón, intelecto y voluntad",
+  "ideas_clave": [
+    {
+      "texto": "El ser humano tiene tres facultades espirituales: el corazón, el intelecto y la voluntad.",
+      "paso": "m5-01"
+    },
+    {
+      "texto": "Estas tres facultades solo pueden desarrollarse juntas: si una se aísla de las otras, se corrompe y corrompe a toda la persona.",
+      "paso": "m5-01"
+    },
+    {
+      "texto": "El racionalismo, el voluntarismo y el sentimentalismo paralizan a las personas y las hacen infelices.",
+      "paso": "m5-01"
+    },
+    {
+      "texto": "El corazón es el centro de la personalidad y el fundamento de la razón y de la voluntad.",
+      "paso": "m5-04"
+    },
+    {
+      "texto": "En una persona equilibrada, el corazón, la razón y la voluntad cooperan en armonía: es el triángulo blanco.",
+      "paso": "m5-07"
+    },
+    {
+      "texto": "La sensibilidad no es debilidad: es una parte muy importante de la excelencia humana.",
+      "paso": "m5-11"
+    }
+  ],
+  "curso": 5,
+  "pasos": [
+    {
+      "id": "m5-01",
+      "num": 1,
+      "tipo": "video",
+      "titulo": "Corazón, intelecto y voluntad",
+      "vimeoId": "924670798",
+      "visible": true,
+      "leccion": 1,
+      "modulo": 0,
+      "intro": [
+        [
+          "Hay en el hombre tres ámbitos de libertad y responsabilidad, tres facultades espirituales:",
+          {
+            "chips": [
+              "El corazón",
+              "La razón",
+              "La voluntad"
+            ]
+          },
+          "Estas tres facultades no son independientes. Solo se pueden desarrollar de forma integrada.",
+          "Si una de ellas se aísla, **se corrompe y corrompe a todo el organismo humano**."
+        ],
+        [
+          {
+            "titulo_pagina": "Tendencias del hombre"
+          },
+          "Los desequilibrios que paralizan al hombre y le hacen infeliz son:",
+          {
+            "checks": [
+              "El racionalismo: el acento exclusivo en la razón.",
+              "El voluntarismo: el acento exclusivo en la voluntad.",
+              "El sentimentalismo: el acento exclusivo en el corazón."
+            ]
+          },
+          "Estos desequilibrios o tendencias están muy relacionados con los temperamentos del ser.",
+          "En una persona equilibrada el corazón, la razón y la voluntad **__interactúan y cooperan armónicamente__**."
+        ]
+      ]
+    },
+    {
+      "id": "m5-02",
+      "num": 2,
+      "tipo": "video",
+      "titulo": "Cuerpo, alma y espíritu",
+      "vimeoId": "924671065",
+      "visible": true,
+      "leccion": 2,
+      "modulo": 0,
+      "continua_modulo": true
+    },
+    {
+      "id": "m5-03",
+      "num": 3,
+      "tipo": "lectura",
+      "titulo": "Cuerpo, alma y espíritu",
+      "visible": false,
+      "modulo": 0,
+      "lecturas": [
+        [
+          {
+            "columnas": {
+              "imagen": "c5-cuerpo-alma-espiritu",
+              "textos": [
+                {
+                  "enfasis": "Contempla este diagrama"
+                },
+                "1. El corazón, la razón (intelecto, inteligencia) y la voluntad son facultades del espíritu humano.",
+                "2. La razón y la voluntad son facultades exclusivamente espirituales.",
+                "3. El corazón es a la vez una potencia espiritual y corporal. **Es el centro de la personalidad.** Es también el fundamento de la razón y de la voluntad."
+              ]
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "id": "m5-04",
+      "num": 4,
+      "tipo": "quiz",
+      "titulo": "Cuestionario 1",
+      "visible": false,
+      "modulo": 0,
+      "preguntas": [
+        {
+          "texto": "El voluntarismo es…",
+          "opciones": [
+            "Cuando la razón absorbe el corazón y la voluntad",
+            "Cuando la voluntad absorbe el corazón y la razón",
+            "Cuando el corazón absorbe la razón y la voluntad",
+            "Cuando la razón, el corazón y la voluntad están en armonía"
+          ],
+          "correcta": 1
+        },
+        {
+          "texto": "El racionalismo es…",
+          "opciones": [
+            "Cuando la razón absorbe el corazón y la voluntad",
+            "Cuando la voluntad absorbe el corazón y la razón",
+            "Cuando el corazón absorbe la razón y la voluntad",
+            "Cuando la razón, el corazón y la voluntad están en armonía"
+          ],
+          "correcta": 0
+        },
+        {
+          "texto": "El sentimentalismo es…",
+          "opciones": [
+            "Cuando la razón absorbe el corazón y la voluntad",
+            "Cuando la voluntad absorbe el corazón y la razón",
+            "Cuando el corazón absorbe la razón y la voluntad",
+            "Cuando la razón, el corazón y la voluntad están en armonía"
+          ],
+          "correcta": 2
+        },
+        {
+          "texto": "¿Cuál es el centro de la personalidad humana?",
+          "opciones": [
+            "Su razón",
+            "Su voluntad",
+            "Su alma",
+            "Su corazón"
+          ],
+          "correcta": 3
+        }
+      ]
+    },
+    {
+      "id": "m5-concl-1",
+      "tipo": "conclusion_modulo",
+      "visible": false,
+      "titulo": "Resumen: Corazón, intelecto y voluntad",
+      "modulo_numero": 0,
+      "modulo_titulo": "Corazón, intelecto y voluntad",
+      "modulo": 0,
+      "aprendizajes": [
+        "El corazón, la razón y la voluntad son las tres facultades espirituales del ser humano",
+        "Si una de ellas se aísla, aparecen el racionalismo, el voluntarismo o el sentimentalismo",
+        "Una persona equilibrada integra las tres",
+        "El ser humano es cuerpo, alma y espíritu",
+        "La razón y la voluntad son facultades exclusivamente espirituales",
+        "El corazón está en los tres niveles: es el centro de la personalidad y el fundamento de la razón y de la voluntad"
+      ],
+      "ejercicios_evaluables": [
+        {
+          "id": "m5-04",
+          "label": "Cuestionario"
+        }
+      ],
+      "modulo_completado": "Módulo 1 completado"
+    },
+    {
+      "id": "m5-05",
+      "num": 5,
+      "tipo": "video",
+      "titulo": "El triángulo blanco",
+      "vimeoId": "924671113",
+      "visible": true,
+      "leccion": 3,
+      "modulo": 1
+    },
+    {
+      "id": "m5-05b",
+      "num": 5,
+      "tipo": "lectura",
+      "titulo": "El triángulo blanco",
+      "visible": false,
+      "modulo": 1,
+      "lecturas": [
+        [
+          {
+            "columnas": {
+              "imagen": "c5-triangulo-blanco",
+              "textos": [
+                {
+                  "enfasis": "Contempla este diagrama"
+                },
+                "El triángulo blanco es el lugar de encuentro de mis facultades espirituales. Mientras permanezco en el triángulo blanco, mis facultades espirituales interactúan entre ellas."
+              ]
+            }
+          }
+        ],
+        [
+          "No tengo que estar necesariamente en el centro mismo del triángulo blanco.",
+          "Puede ser que mi razón (si estoy cerca del ángulo superior izquierdo), mi voluntad (si estoy cerca del ángulo superior derecho) o mi corazón (si estoy cerca del ángulo inferior) desempeñe el papel más importante, pero esta prioridad no afecta a la armonía de mi ser."
+        ],
+        [
+          {
+            "enfasis": "La diversidad espiritual, como la biológica (los temperamentos),\nes algo excelente y necesario.",
+            "grande": true
+          },
+          "Si salgo del triángulo blanco, **mi facultad dominante queda aislada y corrompida**: deja de interactuar con las otras dos facultades o, al menos, con una de ellas."
+        ]
+      ]
+    },
+    {
+      "id": "m5-06",
+      "num": 6,
+      "tipo": "armonia_temperamento",
+      "titulo": "Armonía espiritual y temperamento",
+      "visible": false,
+      "modulo": 1,
+      "resumen_ficha": "Mi temperamento y mi facultad dominante",
+      "prioridad_ficha": 1,
+      "rueda": "c5-rueda-temperamentos",
+      "texto_inicial": [
+        "Existen cuatro temperamentos: colérico, melancólico, sanguíneo y flemático.",
+        "Los temperamentos colérico y flemático son más bien racionales y voluntariosos; los temperamentos melancólico y sanguíneo son más bien intuitivos y receptivos."
+      ],
+      "instruccion_rueda": "Pasa el ratón o toca cada temperamento.",
+      "temperamentos": {
+        "COL": {
+          "nombre": "Colérico",
+          "frase": "Si soy colérico de temperamento dominante, no debería sorprenderme descubrir que soy principalmente una criatura de voluntad.",
+          "criatura": "Criatura de voluntad",
+          "tendencia": "Voluntarismo"
+        },
+        "MEL": {
+          "nombre": "Melancólico",
+          "frase": "Si soy melancólico, no debería sorprenderme descubrir que soy principalmente una criatura de corazón (profunda sensibilidad).",
+          "criatura": "Criatura de corazón (profunda sensibilidad)",
+          "tendencia": "Sentimentalismo"
+        },
+        "SAN": {
+          "nombre": "Sanguíneo",
+          "frase": "Si soy sanguíneo, no debería sorprenderme descubrir que soy principalmente una criatura de corazón (emociones).",
+          "criatura": "Criatura de corazón (emociones)",
+          "tendencia": "Sentimentalismo"
+        },
+        "FLE": {
+          "nombre": "Flemático",
+          "frase": "Si soy flemático, no debería sorprenderme descubrir que soy principalmente una criatura de razón.",
+          "criatura": "Criatura de razón",
+          "tendencia": "Racionalismo"
+        }
+      },
+      "cita_tendencia": "No es necesario, pero no sería sorprendente.",
+      "texto_cultura": "El papel de la cultura y de la educación puede ser más fuerte que el de la biología. No me sorprendería descubrir, por ejemplo, que la voluntad ocupa el primer lugar en mi vida, aunque soy sanguíneo por temperamento; que el corazón prevalece, aunque soy flemático; que la mente domina, aunque soy melancólico.",
+      "pregunta": "¿Cuál de las 3 facultades prevalece en mi vida?",
+      "opciones": [
+        {
+          "valor": "razon",
+          "texto": "La razón"
+        },
+        {
+          "valor": "voluntad",
+          "texto": "La voluntad"
+        },
+        {
+          "valor": "corazon",
+          "texto": "El corazón"
+        },
+        {
+          "valor": "iguales",
+          "texto": "Las 3 trabajan por igual"
+        }
+      ]
+    },
+    {
+      "id": "m5-07",
+      "num": 7,
+      "tipo": "quiz",
+      "titulo": "Cuestionario 2",
+      "visible": false,
+      "modulo": 1,
+      "preguntas": [
+        {
+          "texto": "¿Qué enfermedad espiritual representa la mayor amenaza para los coléricos?",
+          "opciones": [
+            "El voluntarismo",
+            "El sentimentalismo",
+            "El racionalismo",
+            "Todas las respuestas son correctas"
+          ],
+          "correcta": 0
+        },
+        {
+          "texto": "¿Qué enfermedad espiritual representa la mayor amenaza para los flemáticos?",
+          "opciones": [
+            "El voluntarismo",
+            "El sentimentalismo",
+            "El racionalismo",
+            "Todas las respuestas son correctas"
+          ],
+          "correcta": 2
+        },
+        {
+          "texto": "¿Qué enfermedad espiritual representa la mayor amenaza para los sanguíneos y melancólicos?",
+          "opciones": [
+            "El voluntarismo",
+            "El sentimentalismo",
+            "El racionalismo",
+            "Todas las respuestas son correctas"
+          ],
+          "correcta": 1
+        },
+        {
+          "texto": "¿Hacia qué debe aspirar el ser humano en su vida?",
+          "opciones": [
+            "Desarrollar cualidades que coincidan con su temperamento",
+            "Desarrollar cualidades opuestas a su temperamento",
+            "Desarrollar las cualidades más valoradas por su entorno",
+            "Aspirar a estar dentro del «Triángulo Blanco», que surge de la cooperación armoniosa entre la Razón, el Corazón y la Voluntad"
+          ],
+          "correcta": 3
+        }
+      ]
+    },
+    {
+      "id": "m5-concl-2",
+      "tipo": "conclusion_modulo",
+      "visible": false,
+      "titulo": "Resumen: El triángulo blanco",
+      "modulo_numero": 1,
+      "modulo_titulo": "El triángulo blanco",
+      "modulo": 1,
+      "aprendizajes": [
+        "El triángulo blanco es el lugar de encuentro del corazón, la razón y la voluntad",
+        "Puedes estar más cerca de una facultad, pero sin salir del triángulo",
+        "Tu temperamento puede inclinarte hacia una facultad, pero la cultura y la educación pueden pesar más"
+      ],
+      "ejercicios_evaluables": [
+        {
+          "id": "m5-07",
+          "label": "Cuestionario"
+        }
+      ],
+      "modulo_completado": "Módulo 2 completado"
+    },
+    {
+      "id": "m5-08",
+      "num": 8,
+      "tipo": "video",
+      "titulo": "El racionalista",
+      "vimeoId": "924671239",
+      "visible": true,
+      "leccion": 4,
+      "modulo": 2,
+      "tendencia_temperamentos": [
+        "FLE"
+      ]
+    },
+    {
+      "id": "m5-09",
+      "num": 9,
+      "tipo": "lectura",
+      "titulo": "El racionalista",
+      "visible": false,
+      "modulo": 2,
+      "aviso_temperamento": {
+        "FLE": "Tu temperamento es flemático. No sería sorprendente que un flemático, muy racional, tuviera cierta tendencia al racionalismo. No es necesario, pero presta atención a este módulo."
+      },
+      "lecturas": [
+        [
+          {
+            "imagen": "c5-R",
+            "pie": "Immanuel Kant"
+          },
+          "Al racionalista le interesa «el conocimiento del objeto, no el objeto del conocimiento»: quiere saber qué puede conocer del bien, de la verdad o de la belleza, pero no se deja tocar por ellos. Reduce toda la realidad a lo que su razón entiende; lo que no entiende, no existe. Es una falta de humildad: el orgullo de considerarse el centro de todas las verdades.",
+          {
+            "enfasis": "Síntoma"
+          },
+          {
+            "cita": "Nada me toca el corazón. Lo que me interesa es el conocimiento intelectual."
+          },
+          {
+            "enfasis": "Remedio"
+          },
+          "**Déjate invadir, abrazar, transportar por lo que es más grande que tú.**"
+        ]
+      ]
+    },
+    {
+      "id": "m5-10",
+      "num": 10,
+      "tipo": "quiz",
+      "titulo": "Cuestionario 3",
+      "visible": false,
+      "modulo": 2,
+      "preguntas": [
+        {
+          "texto": "¿El pensamiento de qué autor puede resumirse en esta frase: «Nada toca mi corazón. Solo me interesa el conocimiento intelectual»?",
+          "opciones": [
+            "Immanuel Kant",
+            "Jean-Jacques Rousseau",
+            "León Tolstói",
+            "Blaise Pascal"
+          ],
+          "correcta": 0
+        },
+        {
+          "texto": "¿Cuál es la característica de los racionalistas?",
+          "opciones": [
+            "Un conocimiento puramente intelectual de la realidad",
+            "Una visión del mundo en la que «lo que mi razón no puede comprender, no existe»",
+            "Una tendencia a considerarse el centro del mundo",
+            "Todas las respuestas son correctas"
+          ],
+          "correcta": 3
+        },
+        {
+          "texto": "¿A quién va dirigido este consejo: «Déjate asombrar por aquello que es más grande que tú»?",
+          "opciones": [
+            "Al racionalista",
+            "Al voluntarista",
+            "Al sentimentalista",
+            "Todas las respuestas son correctas"
+          ],
+          "correcta": 0
+        },
+        {
+          "texto": "¿Cuál es el principal pecado del racionalista?",
+          "opciones": [
+            "El orgullo",
+            "La envidia",
+            "La pereza",
+            "La lujuria"
+          ],
+          "correcta": 0
+        }
+      ]
+    },
+    {
+      "id": "m5-concl-3",
+      "tipo": "conclusion_modulo",
+      "visible": false,
+      "titulo": "Resumen: El racionalista",
+      "modulo_numero": 2,
+      "modulo_titulo": "El racionalista",
+      "modulo": 2,
+      "aprendizajes": [
+        "Al racionalista le interesa el conocimiento del objeto, no el objeto del conocimiento",
+        "Reduce la realidad a lo que su razón entiende: es una forma de orgullo",
+        "Remedio: déjate invadir, abrazar, transportar por lo que es más grande que tú"
+      ],
+      "ejercicios_evaluables": [
+        {
+          "id": "m5-10",
+          "label": "Cuestionario"
+        }
+      ],
+      "modulo_completado": "Módulo 3 completado"
+    },
+    {
+      "id": "m5-11",
+      "num": 11,
+      "tipo": "video",
+      "titulo": "Los voluntaristas",
+      "vimeoId": "924671495",
+      "visible": true,
+      "leccion": 5,
+      "modulo": 3,
+      "tendencia_temperamentos": [
+        "COL"
+      ]
+    },
+    {
+      "id": "m5-12",
+      "num": 12,
+      "tipo": "lectura",
+      "titulo": "Los voluntaristas",
+      "visible": false,
+      "modulo": 3,
+      "aviso_temperamento": {
+        "COL": "Tu temperamento es colérico. No sería sorprendente que un colérico, gente de la acción, tuviera cierta tendencia al voluntarismo. No es necesario, pero presta atención a este módulo."
+      },
+      "lecturas": [
+        [
+          {
+            "imagen": "c5-VR",
+            "pie": "St. John Rivers, en «Jane Eyre», de Charlotte Brontë"
+          },
+          "Está convencido de que el corazón es malo y de que ir contra él le hace mejor: todo el mérito está en la voluntad. Rivers quiere casarse con Jane sin amarla, porque sería una buena esposa de misionero. A veces hay que dejar el corazón de lado, pero no toda una vida: una voluntad que va siempre contra el corazón es una voluntad infeliz.",
+          {
+            "enfasis": "Síntoma"
+          },
+          {
+            "cita": "Silencio mi corazón para aumentar el valor de mi voluntad."
+          },
+          {
+            "enfasis": "Remedio"
+          },
+          "**Aprende a escuchar tu corazón.**"
+        ],
+        [
+          {
+            "imagen": "c5-VM",
+            "pie": "Clint Eastwood"
+          },
+          "Tiene miedo de sus sentimientos: los esconde y ve la sensibilidad de los demás como debilidad. Confunde sensibilidad con sensiblería. Muchos son coléricos, pero no es sencillamente un problema de temperamento: tiene mucho que ver con la cultura en la que uno se ha educado. La sensibilidad es una parte muy importante de la excelencia humana.",
+          {
+            "enfasis": "Síntoma"
+          },
+          {
+            "cita": "Experimento vergüenza de tener sentimientos."
+          },
+          {
+            "enfasis": "Remedio"
+          },
+          "**Deja de confundir la sensibilidad con el sentimentalismo.**"
+        ],
+        [
+          {
+            "imagen": "c5-VI",
+            "pie": "«El obrero y la koljosiana», estatua soviética para la Exposición Universal de París"
+          },
+          "Es pura voluntad que no acepta la razón ni la naturaleza humana: «me reinvento cada día». Tiene mucho que ver con Nietzsche. La ideología le lleva a destrozar su inteligencia y su corazón, y le hace infeliz.",
+          {
+            "enfasis": "Síntoma"
+          },
+          {
+            "cita": "¡Viva la voluntad! ¡Abajo la razón! ¡Viva la humanidad progresista! ¡Abajo la naturaleza humana!"
+          },
+          {
+            "enfasis": "Remedio"
+          },
+          "**Renuncia a la ideología. Respeta los principios inmutables de la naturaleza humana.**"
+        ],
+        [
+          {
+            "imagen": "c5-VC",
+            "pie": "El fariseo"
+          },
+          "Vive de lo correcto y lo incorrecto: lo política, religiosa o culturalmente correcto. Para él las reglas son un fin en sí mismas, cuando deberían estar al servicio de la virtud. No reflexiona, y juzga a quien no las cumple. Las personas son más importantes que las reglas.",
+          {
+            "enfasis": "Síntoma"
+          },
+          {
+            "cita": "El cumplimiento de reglas y rituales es la norma suprema de moralidad."
+          },
+          {
+            "enfasis": "Remedio"
+          },
+          "**Aprende a querer a los hombres más que a lo religiosa, cultural o socialmente correcto.**"
+        ]
+      ]
+    },
+    {
+      "id": "m5-13",
+      "num": 13,
+      "tipo": "quiz",
+      "titulo": "Cuestionario 4",
+      "visible": false,
+      "modulo": 3,
+      "preguntas": [
+        {
+          "texto": "¿Qué tipo de voluntarista corresponde a esta cita: «Cuanto más silencio impongo a mi corazón, más me acerco a la perfección moral»?",
+          "opciones": [
+            "El voluntarista religioso",
+            "El voluntarista machista",
+            "El voluntarista ideológico",
+            "El voluntarista conformista"
+          ],
+          "correcta": 0
+        },
+        {
+          "texto": "¿Qué tipo de voluntarista corresponde a esta cita: «Me avergüenzo de mis emociones»?",
+          "opciones": [
+            "El voluntarista religioso",
+            "El voluntarista machista",
+            "El voluntarista ideológico",
+            "El voluntarista conformista"
+          ],
+          "correcta": 1
+        },
+        {
+          "texto": "¿Qué tipo de voluntarista corresponde a esta cita: «¡Viva la humanidad progresista! ¡Abajo las cadenas de la naturaleza humana!»?",
+          "opciones": [
+            "El voluntarista religioso",
+            "El voluntarista machista",
+            "El voluntarista ideológico",
+            "El voluntarista conformista"
+          ],
+          "correcta": 2
+        },
+        {
+          "texto": "¿Qué tipo de voluntarista corresponde a esta cita: «La observancia de reglas y ritos es la norma suprema de la moralidad»?",
+          "opciones": [
+            "El voluntarista religioso",
+            "El voluntarista machista",
+            "El voluntarista ideológico",
+            "El voluntarista conformista"
+          ],
+          "correcta": 3
+        }
+      ]
+    },
+    {
+      "id": "m5-concl-4",
+      "tipo": "conclusion_modulo",
+      "visible": false,
+      "titulo": "Resumen: Los voluntaristas",
+      "modulo_numero": 3,
+      "modulo_titulo": "Los voluntaristas",
+      "modulo": 3,
+      "aprendizajes": [
+        "En el voluntarista, la voluntad absorbe el corazón y la razón",
+        "Hay cuatro tipos: religioso, machista, ideológico y conformista",
+        "Cada uno tiene su remedio: escuchar el corazón, aceptar la sensibilidad, respetar la naturaleza humana, querer a las personas más que a las reglas"
+      ],
+      "ejercicios_evaluables": [
+        {
+          "id": "m5-13",
+          "label": "Cuestionario"
+        }
+      ],
+      "modulo_completado": "Módulo 4 completado"
+    },
+    {
+      "id": "m5-14",
+      "num": 14,
+      "tipo": "video",
+      "titulo": "Los sentimentalistas",
+      "vimeoId": "924672224",
+      "visible": true,
+      "leccion": 6,
+      "modulo": 4,
+      "tendencia_temperamentos": [
+        "MEL",
+        "SAN"
+      ]
+    },
+    {
+      "id": "m5-15",
+      "num": 15,
+      "tipo": "lectura",
+      "titulo": "Los sentimentalistas",
+      "visible": false,
+      "modulo": 4,
+      "aviso_temperamento": {
+        "MEL": "Tu temperamento es melancólico. No sería sorprendente que un melancólico, gente del corazón (corazón interior), tuviera cierta tendencia al sentimentalismo. No es necesario, pero presta atención a este módulo.",
+        "SAN": "Tu temperamento es sanguíneo. No sería sorprendente que un sanguíneo, gente del corazón (corazón exterior), tuviera cierta tendencia al sentimentalismo. No es necesario, pero presta atención a este módulo."
+      },
+      "lecturas": [
+        [
+          {
+            "imagen": "c5-SV",
+            "pie": "«Desconocida», de Iván Kramskói, que muchos asocian con Ana Karénina"
+          },
+          "Hace el bien por lo bien que le hace sentir: no busca el bien por sí mismo, sino el placer o la paz que le da. Una prueba: si hacer el bien deja de darte satisfacción y sigues haciéndolo, es que buscabas el bien por el bien.",
+          {
+            "enfasis": "Síntoma"
+          },
+          {
+            "cita": "Amo el bien por el placer que me da."
+          },
+          {
+            "enfasis": "Remedio"
+          },
+          "**Aprende a amar el bien por sí mismo.**"
+        ],
+        [
+          {
+            "imagen": "c5-SI",
+            "pie": "Jean-Jacques Rousseau"
+          },
+          "Confunde la conciencia con el corazón: lo que siente es, para él, siempre bueno. Rousseau entregó a sus hijos al Estado convencido de que hacía bien, porque su corazón se lo decía. La conciencia es la voz de Dios en nosotros y está por encima del corazón.",
+          {
+            "enfasis": "Síntoma"
+          },
+          {
+            "cita": "La verdad es lo que siente mi corazón."
+          },
+          {
+            "enfasis": "Remedio"
+          },
+          "**Escucha tu conciencia antes de escuchar tu corazón.**"
+        ],
+        [
+          {
+            "imagen": "c5-SC",
+            "pie": "Rudin, personaje de Iván Turguénev"
+          },
+          "Sabe lo que tiene que hacer, pero renuncia en cuanto aparece un conflicto. Rudin, enamorado de Natalia, se echa atrás al saber que la madre de ella se opone. Frente a él está Juana de Arco, que siguió su misión aunque sus padres sufrieran.",
+          {
+            "enfasis": "Síntoma"
+          },
+          {
+            "cita": "Renuncio a lo bueno tan pronto como se convierte en una fuente de conflictos."
+          },
+          {
+            "enfasis": "Remedio"
+          },
+          "**Aprende a gestionar las contradicciones con sinceridad y firmeza.**"
+        ]
+      ]
+    },
+    {
+      "id": "m5-16",
+      "num": 16,
+      "tipo": "quiz",
+      "titulo": "Cuestionario 5",
+      "visible": false,
+      "modulo": 4,
+      "preguntas": [
+        {
+          "texto": "¿Qué tipo de sentimentalista corresponde a esta cita: «Hago el bien por el placer que me proporciona»?",
+          "opciones": [
+            "El sentimentalista voluptuoso",
+            "El sentimentalista demente",
+            "El sentimentalista cobarde",
+            "Todas las respuestas son correctas"
+          ],
+          "correcta": 0
+        },
+        {
+          "texto": "¿Qué tipo de sentimentalista corresponde a esta cita: «La verdad es lo que siente mi corazón»?",
+          "opciones": [
+            "El sentimentalista voluptuoso",
+            "El sentimentalista demente",
+            "El sentimentalista cobarde",
+            "Todas las respuestas son correctas"
+          ],
+          "correcta": 1
+        },
+        {
+          "texto": "¿Qué tipo de sentimentalista corresponde a esta cita: «Renuncio al bien cuando se convierte en una fuente de conflicto»?",
+          "opciones": [
+            "El sentimentalista voluptuoso",
+            "El sentimentalista demente",
+            "El sentimentalista cobarde",
+            "Todas las respuestas son correctas"
+          ],
+          "correcta": 2
+        },
+        {
+          "texto": "¿Qué consejo se le puede dar a un sentimentalista voluptuoso?",
+          "opciones": [
+            "Escucha tu conciencia antes de escuchar tu corazón",
+            "Aprende a amar el bien por sí mismo",
+            "Aprende a afrontar los conflictos de manera abierta y valiente",
+            "Deja de creer que sensibilidad y sentimentalismo son lo mismo"
+          ],
+          "correcta": 1
+        }
+      ]
+    },
+    {
+      "id": "m5-concl-5",
+      "tipo": "conclusion_modulo",
+      "visible": false,
+      "titulo": "Resumen: Los sentimentalistas",
+      "modulo_numero": 4,
+      "modulo_titulo": "Los sentimentalistas",
+      "modulo": 4,
+      "aprendizajes": [
+        "En el sentimentalista, el corazón absorbe la razón y la voluntad",
+        "Hay tres tipos: voluptuoso, demente y cobarde",
+        "Con el Test del corazón has identificado tus tendencias y fijado tus objetivos prácticos"
+      ],
+      "ejercicios_evaluables": [
+        {
+          "id": "m5-16",
+          "label": "Cuestionario"
+        }
+      ],
+      "modulo_completado": "Módulo 5 completado"
+    },
+    {
+      "id": "m5-18",
+      "num": 18,
+      "tipo": "objetivos_corazon",
+      "titulo": "Tu perfil del corazón",
+      "visible": false,
+      "modulo": "final",
+      "resumen_ficha": "Mis objetivos prácticos",
+      "prioridad_ficha": 2,
+      "cuantas": 2,
+      "texto_intro": "Según tu Test del corazón, estas son las dos enfermedades espirituales en las que más puntúas. Para cada una vas a fijar tus objetivos prácticos: acciones concretas que puedes hacer en tu vida diaria para aplicar el remedio.",
+      "placeholder": "Reflexiona…",
+      "fichas": {
+        "R": {
+          "nombre": "El racionalista",
+          "nombre_test": "Racionalismo",
+          "imagen": "c5-R",
+          "pie": "Immanuel Kant",
+          "havard": "Al racionalista le interesa «el conocimiento del objeto, no el objeto del conocimiento»: quiere saber qué puede conocer del bien, de la verdad o de la belleza, pero no se deja tocar por ellos. Reduce toda la realidad a lo que su razón entiende; lo que no entiende, no existe. Es una falta de humildad: el orgullo de considerarse el centro de todas las verdades.",
+          "sintoma": "Nada me toca el corazón. Lo que me interesa es el conocimiento intelectual.",
+          "remedio": "Déjate invadir, abrazar, transportar por lo que es más grande que tú.",
+          "ejemplos": [
+            "Cada día voy a dedicar diez minutos a contemplar algo bello (un cuadro, una pieza de música, la naturaleza) sin analizarlo, solo dejándome tocar por ello.",
+            "Cuando alguien me cuente algo que le preocupa, voy a escucharle hasta el final antes de dar mi opinión o buscar una solución."
+          ]
+        },
+        "VR": {
+          "nombre": "El voluntarista religioso",
+          "nombre_test": "Voluntarismo religioso",
+          "imagen": "c5-VR",
+          "pie": "St. John Rivers, en «Jane Eyre», de Charlotte Brontë",
+          "havard": "Está convencido de que el corazón es malo y de que ir contra él le hace mejor: todo el mérito está en la voluntad. Rivers quiere casarse con Jane sin amarla, porque sería una buena esposa de misionero. A veces hay que dejar el corazón de lado, pero no toda una vida: una voluntad que va siempre contra el corazón es una voluntad infeliz.",
+          "sintoma": "Silencio mi corazón para aumentar el valor de mi voluntad.",
+          "remedio": "Aprende a escuchar tu corazón.",
+          "ejemplos": [
+            "Cada noche voy a dedicar cinco minutos a preguntarme qué he sentido durante el día y por qué, sin juzgarlo.",
+            "Antes de tomar una decisión importante, voy a preguntarme también qué me dice el corazón, no solo lo que «debo» hacer."
+          ]
+        },
+        "VM": {
+          "nombre": "El voluntarista machista",
+          "nombre_test": "Voluntarismo machista",
+          "imagen": "c5-VM",
+          "pie": "Clint Eastwood",
+          "havard": "Tiene miedo de sus sentimientos: los esconde y ve la sensibilidad de los demás como debilidad. Confunde sensibilidad con sensiblería. Muchos son coléricos, pero no es sencillamente un problema de temperamento: tiene mucho que ver con la cultura en la que uno se ha educado. La sensibilidad es una parte muy importante de la excelencia humana.",
+          "sintoma": "Experimento vergüenza de tener sentimientos.",
+          "remedio": "Deja de confundir la sensibilidad con el sentimentalismo.",
+          "ejemplos": [
+            "Esta semana voy a decirle a una persona cercana lo que siento por ella, sin esperar a una ocasión especial.",
+            "Cuando alguien muestre sus sentimientos delante de mí, no voy a tomarlo como debilidad: voy a escucharle con respeto."
+          ]
+        },
+        "VI": {
+          "nombre": "El voluntarista ideológico",
+          "nombre_test": "Voluntarismo ideológico",
+          "imagen": "c5-VI",
+          "pie": "«El obrero y la koljosiana», estatua soviética para la Exposición Universal de París",
+          "havard": "Es pura voluntad que no acepta la razón ni la naturaleza humana: «me reinvento cada día». Tiene mucho que ver con Nietzsche. La ideología le lleva a destrozar su inteligencia y su corazón, y le hace infeliz.",
+          "sintoma": "¡Viva la voluntad! ¡Abajo la razón! ¡Viva la humanidad progresista! ¡Abajo la naturaleza humana!",
+          "remedio": "Renuncia a la ideología. Respeta los principios inmutables de la naturaleza humana.",
+          "ejemplos": [
+            "Antes de defender una idea, voy a preguntarme si respeta la naturaleza humana y no solo si es «progresista» o «moderna».",
+            "Voy a leer a un autor que piense distinto de mí y quedarme con lo verdadero que haya en lo que dice."
+          ]
+        },
+        "VC": {
+          "nombre": "El voluntarista conformista",
+          "nombre_test": "Voluntarismo conformista",
+          "imagen": "c5-VC",
+          "pie": "El fariseo",
+          "havard": "Vive de lo correcto y lo incorrecto: lo política, religiosa o culturalmente correcto. Para él las reglas son un fin en sí mismas, cuando deberían estar al servicio de la virtud. No reflexiona, y juzga a quien no las cumple. Las personas son más importantes que las reglas.",
+          "sintoma": "El cumplimiento de reglas y rituales es la norma suprema de moralidad.",
+          "remedio": "Aprende a querer a los hombres más que a lo religiosa, cultural o socialmente correcto.",
+          "ejemplos": [
+            "Cuando alguien no cumpla una norma, antes de juzgarle voy a preguntarme qué le pasa y cómo puedo ayudarle.",
+            "Esta semana voy a hacer algo bueno por alguien aunque no sea lo que «se espera» de mí."
+          ]
+        },
+        "SV": {
+          "nombre": "El sentimentalista voluptuoso",
+          "nombre_test": "Sentimentalismo voluptuoso",
+          "imagen": "c5-SV",
+          "pie": "«Desconocida», de Iván Kramskói, que muchos asocian con Ana Karénina",
+          "havard": "Hace el bien por lo bien que le hace sentir: no busca el bien por sí mismo, sino el placer o la paz que le da. Una prueba: si hacer el bien deja de darte satisfacción y sigues haciéndolo, es que buscabas el bien por el bien.",
+          "sintoma": "Amo el bien por el placer que me da.",
+          "remedio": "Aprende a amar el bien por sí mismo.",
+          "ejemplos": [
+            "Voy a mantener un compromiso que hoy me cuesta (una visita, una tarea, una llamada) aunque ya no me dé ninguna satisfacción.",
+            "Cuando haga algo bueno, no voy a contarlo ni buscar reconocimiento: lo haré porque es bueno."
+          ]
+        },
+        "SI": {
+          "nombre": "El sentimentalista demente",
+          "nombre_test": "Sentimentalismo demente",
+          "imagen": "c5-SI",
+          "pie": "Jean-Jacques Rousseau",
+          "havard": "Confunde la conciencia con el corazón: lo que siente es, para él, siempre bueno. Rousseau entregó a sus hijos al Estado convencido de que hacía bien, porque su corazón se lo decía. La conciencia es la voz de Dios en nosotros y está por encima del corazón.",
+          "sintoma": "La verdad es lo que siente mi corazón.",
+          "remedio": "Escucha tu conciencia antes de escuchar tu corazón.",
+          "ejemplos": [
+            "Antes de actuar por un impulso fuerte, voy a esperar un día y preguntarme qué me dice mi conciencia.",
+            "Cuando tenga una duda moral, voy a pedir consejo a alguien sabio en lugar de seguir solo lo que siento."
+          ]
+        },
+        "SC": {
+          "nombre": "El sentimentalista cobarde",
+          "nombre_test": "Sentimentalismo cobarde",
+          "imagen": "c5-SC",
+          "pie": "Rudin, personaje de Iván Turguénev",
+          "havard": "Sabe lo que tiene que hacer, pero renuncia en cuanto aparece un conflicto. Rudin, enamorado de Natalia, se echa atrás al saber que la madre de ella se opone. Frente a él está Juana de Arco, que siguió su misión aunque sus padres sufrieran.",
+          "sintoma": "Renuncio a lo bueno tan pronto como se convierte en una fuente de conflictos.",
+          "remedio": "Aprende a gestionar las contradicciones con sinceridad y firmeza.",
+          "ejemplos": [
+            "Voy a tener esta semana la conversación difícil que llevo tiempo evitando, con sinceridad y con respeto.",
+            "Cuando alguien se oponga a algo bueno que he decidido hacer, voy a mantener mi decisión con firmeza y explicar mis razones con calma."
+          ]
+        }
+      },
+      "proyecto_final": true,
+      "requiere_test_corazon": true,
+      "subtitulo_proyecto": "Proyecto final del curso · Mis objetivos prácticos",
+      "ayuda_objetivos": "Un objetivo práctico es algo pequeño y concreto que puedes hacer esta semana: qué vas a hacer, cuándo y en qué situación. No escribas buenos deseos («ser más sensible»), sino acciones («esta semana voy a…»)."
+    }
+  ]
+}

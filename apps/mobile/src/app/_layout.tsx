@@ -13,7 +13,7 @@ import { CormorantGaramond_600SemiBold } from '@expo-google-fonts/cormorant-gara
 import { Inter_400Regular } from '@expo-google-fonts/inter/400Regular';
 import { Inter_600SemiBold } from '@expo-google-fonts/inter/600SemiBold';
 
-import { BEIGE } from '@/portal/tema';
+import { BEIGE } from '@/nativo/tema';
 
 SplashScreen.preventAutoHideAsync();
 SplashScreen.setOptions({ duration: 400, fade: true });
